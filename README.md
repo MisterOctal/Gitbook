@@ -3,20 +3,20 @@ description: >-
   Welcome to the official documentation for my homelab. This site serves as a
   live portfolio, technical repository, and struggle log for my journey through
   the cyber industry.
-icon: house
+icon: triangle-exclamation
 cover: >-
   https://images.unsplash.com/photo-1558494949-ef010cbdcc31?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxzZXJ2ZXJ8ZW58MHx8fHwxNzY5OTI0NDAyfDA&ixlib=rb-4.1.0&q=85
 coverY: 0
 ---
 
-# Home
+# Notice
 
-## About Me
+Hello, I'm Wai Yan, aka MisterOctal!
 
-I am Wai Yan Lin Khant, also known as **MisterOctal**. Based in Myanmar, I am currently a **Network Engineering student (HND)** and a part-time tutor with a deep focus on **defensive security**.
+I'm currently extremely busy with my coursework and plan on restructuring my lab and documentation to be more professional. Therefore, most of the pages have been taken offline as I try to figure out the reorganization process.
 
-My journey is currently centered on building a professional foundation in cybersecurity. I am actively preparing for my **CompTIA Security+** certification (scheduled for November 2026) while documenting my hands-on lab experiments. Looking ahead, I aim to pursue a top-up degree at University College Birmingham (UCB) in the UK in 2027 to further specialize in defensive security.
+In the mean time, feel free to contact me for a quick chat or look at my GitHub!
 
-## The Mission
+Best regards,
 
-The purpose of this homelab is to bridge the gap between theoretical security and practical security. This lab serves as a dedicated environment for stress-testing configurations, providing hands-on experience for Security+ domains, and developing my skillset to be able to defend modern digital infrastructure.
+MisterOctal
