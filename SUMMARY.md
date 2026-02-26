@@ -1,5 +1,12 @@
 # Table of contents
 
 * [Notice](README.md)
-* [Contact](contact.md)
 * [GitHub](https://github.com/MisterOctal/)
+
+## General
+
+* [THM Fresh Start](general/thm-fresh-start.md)
+
+## THM Pre Security
+
+* [Offensive Security Intro](thm-pre-security/offensive-security-intro.md)

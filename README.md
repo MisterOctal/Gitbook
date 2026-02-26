@@ -1,12 +1,9 @@
 ---
-description: >-
-  Welcome to the official documentation for my homelab. This site serves as a
-  live portfolio, technical repository, and struggle log for my journey through
-  the cyber industry.
 icon: triangle-exclamation
 cover: >-
   https://images.unsplash.com/photo-1558494949-ef010cbdcc31?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxzZXJ2ZXJ8ZW58MHx8fHwxNzY5OTI0NDAyfDA&ixlib=rb-4.1.0&q=85
 coverY: 0
+coverHeight: 138
 ---
 
 # Notice
