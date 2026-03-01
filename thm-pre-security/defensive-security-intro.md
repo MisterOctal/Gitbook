@@ -41,7 +41,7 @@ Question: An attack has been detected on an organisation's network. What is the 
 
 ## Task 3: Defensive Security in Practice
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt="" width="375"><figcaption></figcaption></figure>
 
 In practice, organizations never rely on a single tool or method to remain secure. They utilize layers of defensive, using various tools and policies to ensure security. This is called 'Defense in Depth', meaning that even if one security measure fails, various others exist to ensure security.
 
@@ -61,11 +61,11 @@ Question: What is the abbreviation for the term "Security Operations Centre"?
 
 In this question, we will join FakeBank's defensive security team and resolve a security event using their SIEM. The attack we have to investigate seems to be a similar attack to the one we conducted previously in the Offensive Security Intro room. It's a web discovery attack, meaning the attacker attempted to enumerate and discover the pages on FakeBank.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Upon clicking 'Investigate' we discover that the attack was conducted by an IP address - 32.122.195.63. Further discovery indicates they attempted to locate the administrator page, although the attack found the administrator page, the attacker received a 403 status code, meaning they weren't able to access it.
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Lastly, we also found out that the IP has a malicious reputation and originates from Moscow. Yikes.
 
