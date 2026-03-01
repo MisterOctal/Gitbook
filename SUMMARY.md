@@ -15,3 +15,5 @@
 * [What is Networking?](thm-pre-security/what-is-networking.md)
 * [Introduction to LAN](thm-pre-security/introduction-to-lan.md)
 * [OSI Model](thm-pre-security/osi-model.md)
+* [Packets & Frames](thm-pre-security/packets-and-frames.md)
+* [Extending Your Network](thm-pre-security/extending-your-network.md)

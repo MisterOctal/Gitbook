@@ -34,15 +34,15 @@ Question: What device is used to centrally connect multiple devices on the local
 
 In this task, we also learn about the different ways a network can be physically or logically arranged, which is called a topology. The room covers a few main ones:
 
-<figure><img src="../.gitbook/assets/image (11).png" alt="" width="425"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt="" width="425"><figcaption></figcaption></figure>
 
 * **Star Topology:** The most common one. All devices connect to a central switch. It's robust because if one cable breaks, only that device goes offline.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Bus Topology:** All devices share a single backbone cable. It's cheap but if the main cable breaks, the whole network goes down.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Ring Topology:** Devices are connected in a circle. Data travels in one direction, but it's pretty outdated nowadays.
 
@@ -68,7 +68,7 @@ Subnetting is basically taking a massive network and carving it up into smaller,
 
 Subnetting was also a huge part of my HNC networking syllabus, we had to ensure that all the departments in the given scenario were given dedicated subnets.
 
-<figure><img src="../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What is the technical term for dividing a network up into smaller pieces?
 
@@ -100,7 +100,7 @@ Question: What is the name used to identify the device responsible for sending d
 
 ARP stands for Address Resolution Protocol. It's the technology that allows a device to link an IP address to a physical MAC address. Devices need MAC addresses to communicate on a local network, so if a computer only knows the target's IP, it sends out an "ARP Request" broadcasting to everyone asking, "Who has this IP?" and the owner replies with their MAC address.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: What does ARP stand for?
 
@@ -124,7 +124,7 @@ Question: What address is used as a logical identifier for a device on a network
 
 DHCP is a lifesaver. Instead of manually typing in an IP address, subnet mask, and gateway for every single phone and computer connecting to a network, DHCP does it automatically. When a device joins, it sends a DHCP Discover packet to find the DHCP server, which then offers it an available IP address to use.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt="" width="477"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt="" width="477"><figcaption></figcaption></figure>
 
 Question: What type of DHCP packet is used by a device to retrieve an IP address?
 
