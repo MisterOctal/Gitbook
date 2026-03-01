@@ -13,3 +13,5 @@
 * [Defensive Security Intro](thm-pre-security/defensive-security-intro.md)
 * [Careers in Cyber](thm-pre-security/careers-in-cyber.md)
 * [What is Networking?](thm-pre-security/what-is-networking.md)
+* [Introduction to LAN](thm-pre-security/introduction-to-lan.md)
+* [OSI Model](thm-pre-security/osi-model.md)
