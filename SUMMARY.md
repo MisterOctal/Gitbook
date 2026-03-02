@@ -19,3 +19,5 @@
 * [Extending Your Network](thm-pre-security/extending-your-network.md)
 * [DNS in Detail](thm-pre-security/dns-in-detail.md)
 * [HTTP in Detail](thm-pre-security/http-in-detail.md)
+* [How Websites Work](thm-pre-security/how-websites-work.md)
+* [Putting it all together](thm-pre-security/putting-it-all-together.md)
