@@ -32,7 +32,7 @@ Question: What is the name for a piece of data when it does not have IP addressi
 
 TCP is the workhorse of the internet. It is a "connection-oriented" protocol, which means it guarantees that your data will actually reach its destination intact. It establishes this reliable connection using the famous Three-Way Handshake. It also includes a checksum in the header to verify that the data wasn't corrupted or tampered with in transit. From a SOC perspective, knowing what a normal handshake looks like is crucial so we can spot anomalies like SYN floods!
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What is the header in a TCP packet that ensures the integrity of data?
 
@@ -58,7 +58,7 @@ Question: What is the value of the flag given at the end of the conversation?
 
 UDP is basically the wild west compared to TCP. It is "connectionless", meaning it just fires data at the target server and doesn't bother checking if it actually arrived. Because it completely skips the handshake and reliability checks, it is significantly faster. This makes it perfect for applications where speed is more critical than 100% accuracy, like video calls, streaming, or DNS requests.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What does the term "UDP" stand for?
 
