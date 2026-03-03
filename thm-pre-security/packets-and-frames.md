@@ -58,7 +58,7 @@ Question: What is the value of the flag given at the end of the conversation?
 
 UDP is basically the wild west compared to TCP. It is "connectionless", meaning it just fires data at the target server and doesn't bother checking if it actually arrived. Because it completely skips the handshake and reliability checks, it is significantly faster. This makes it perfect for applications where speed is more critical than 100% accuracy, like video calls, streaming, or DNS requests.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What does the term "UDP" stand for?
 

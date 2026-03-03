@@ -40,7 +40,7 @@ We've all used URLs (Uniform Resource Locators) before. When we try to access a 
 
 Every interaction on the web is a conversation. Your browser sends a "Request" (saying "give me this page"), and the server replies with a "Response" (which includes status codes and the actual HTML). Knowing how to manually read these raw requests is crucial for finding anomalies.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: What HTTP protocol is being used in the above example?
 
