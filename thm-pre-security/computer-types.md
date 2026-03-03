@@ -26,7 +26,7 @@ Question: Read the introduction.
 
 ## Task 2: Sophia’s Summer of Hidden Computers – Month 1
 
-Here we look at the heavy hitters. Servers are the backbone of any network—they run without dedicated screens or keyboards and just serve data or host applications over the network. Workstations are the beefed-up machines used for precision tasks like CAD, video editing, or even heavy digital forensics and malware analysis (which I'm super excited to do!).
+Here we look at the heavy hitters. Servers are the backbone of any network - they run without dedicated screens or keyboards and just serve data or host applications over the network. Workstations are the beefed-up machines used for precision tasks like CAD, video editing, or even heavy digital forensics and malware analysis (which I'm super excited to do!).
 
 Question: Which computer type usually runs without a dedicated screen and keyboard?
 
@@ -40,7 +40,7 @@ Question: What kind of computer with specialized components would one buy to car
 
 ## Task 3: Sophia’s Summer of Hidden Computers – Month 2
 
-This month is all about the smaller, embedded devices. Smartphones are literal pocket-sized computers that hold massive amounts of sensitive personal and corporate data, making them huge targets for threat actors. Then there are microcontrollers—tiny computers embedded in everyday objects like coffee machines, fridges, or smart thermostats. In a SOC, monitoring IoT (Internet of Things) devices is becoming increasingly critical because they are notoriously easy to hack and are often used in botnets.
+This month is all about the smaller, embedded devices. Smartphones are literal pocket-sized computers that hold massive amounts of sensitive personal and corporate data, making them huge targets for threat actors. Then there are microcontrollers - tiny computers embedded in everyday objects like coffee machines, fridges, or smart thermostats. In a SOC, monitoring IoT (Internet of Things) devices is becoming increasingly critical because they are notoriously easy to hack and are often used in botnets.
 
 Question: What is the currently most popular pocket-sized computer?
 
