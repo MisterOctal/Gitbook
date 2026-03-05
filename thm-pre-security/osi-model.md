@@ -18,7 +18,7 @@ I completely agree that writing these out manually is a fast track to burnout, e
 
 The OSI (Open Systems Interconnection) model breaks network communication down into seven distinct layers. A really good mnemonic to remember them from bottom to top (Layer 1 to 7) is: **P**lease **D**o **N**ot **T**hrow **S**panish **P**izza **A**way (Physical, Data Link, Network, Transport, Session, Presentation, Application).
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: What does "OSI" in "OSI Model" stand for?
 

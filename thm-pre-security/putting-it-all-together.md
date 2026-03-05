@@ -18,7 +18,7 @@ This is the final room of the web fundamentals module! Tying all these concepts 
 
 This task is just a brief introduction to the room. We've learned about how a user requests a website, but enterprise networks have a lot of stuff sitting between the user and the actual web server. Time to learn about the "middlemen"!
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 
@@ -26,12 +26,12 @@ This task is just a brief introduction to the room. We've learned about how a us
 
 This task introduces the heavy lifters of a modern network:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Load Balancers:** When a site gets too much traffic, a load balancer distributes the requests across multiple servers. It uses "Health Checks" to make sure a server is actually alive before sending traffic to it.
 * **CDNs (Content Delivery Networks):** These host static files (like images or CSS) on servers all around the world, drastically speeding up load times for users.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **WAFs (Web Application Firewalls):** This is a SOC analyst's best friend. It sits in front of the web server and inspects HTTP traffic to block common web attacks like XSS or SQL Injection.
 

@@ -60,7 +60,7 @@ Question: Dirb should have found 2 hidden URLs. One of them is `http://fakebank.
 
 We simply navigate to the bank-deposit page and give our account (8881) a bunch of money in this step. I'm gonna deposit myself $6767, should be enough to buy myself a good gaming setup and a couple certifications!
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Looks like we got the money, let's return to our account to go claim the flag!
 

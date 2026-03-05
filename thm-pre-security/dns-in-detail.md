@@ -68,7 +68,7 @@ Question: What type of record handles IPv6 addresses?
 
 The actual journey of a DNS request is pretty wild. First, your computer checks its local cache. If it doesn't know the IP, it asks a Recursive DNS server (usually your ISP). If _they_ don't know it, they ask the Root servers, which point to the TLD servers, which finally point to the Authoritative server that actually holds the record. It then gets cached locally for a specific amount of time, known as the TTL (Time To Live), so we don't have to repeat the whole process again right away.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What field specifies how long a DNS record should be cached for?
 
@@ -88,7 +88,7 @@ Question: What type of server holds all the records for a domain?
 
 For this task, we use an in-browser terminal to make actual DNS queries and hunt down specific record types for a dummy website.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What is the CNAME of shop.website.thm?
 

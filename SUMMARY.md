@@ -24,3 +24,4 @@
 * [Inside a Computer System](thm-pre-security/inside-a-computer-system.md)
 * [Computer Types](thm-pre-security/computer-types.md)
 * [Client-Server Basics](thm-pre-security/client-server-basics.md)
+* [Virtualisation Basics](thm-pre-security/virtualisation-basics.md)
