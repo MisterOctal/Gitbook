@@ -23,3 +23,4 @@
 * [Putting it all together](thm-pre-security/putting-it-all-together.md)
 * [Inside a Computer System](thm-pre-security/inside-a-computer-system.md)
 * [Computer Types](thm-pre-security/computer-types.md)
+* [Client-Server Basics](thm-pre-security/client-server-basics.md)
