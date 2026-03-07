@@ -26,3 +26,4 @@
 * [Client-Server Basics](thm-pre-security/client-server-basics.md)
 * [Virtualisation Basics](thm-pre-security/virtualisation-basics.md)
 * [Cloud Computing Fundamentals](thm-pre-security/cloud-computing-fundamentals.md)
+* [Operating Systems: Introduction](thm-pre-security/operating-systems-introduction.md)
