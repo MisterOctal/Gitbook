@@ -3,9 +3,10 @@
 * [Notice](README.md)
 * [GitHub](https://github.com/MisterOctal/)
 
-## General
+## General & Personal
 
-* [THM Fresh Start](general/thm-fresh-start.md)
+* [THM Fresh Start](general-and-personal/thm-fresh-start.md)
+* [Change of Plans](general-and-personal/change-of-plans.md)
 
 ## THM Pre Security
 

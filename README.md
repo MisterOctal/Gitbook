@@ -10,7 +10,7 @@ coverHeight: 138
 
 Hello, I'm Wai Yan, aka MisterOctal!
 
-I'm currently extremely busy with my coursework and plan on restructuring my lab and documentation to be more professional. Therefore, most of the pages have been taken offline as I try to figure out the reorganization process.
+I'm currently extremely busy with my coursework and plan on restructuring my lab and documentation to be more professional yet personal. Therefore, most of the pages have been taken offline as I try to figure out the reorganization process.
 
 In the mean time, feel free to contact me for a quick chat or look at my GitHub!
 
