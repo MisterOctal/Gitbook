@@ -78,7 +78,7 @@ Question: What is the syntax to ping 10.10.10.10?
 
 For the final question, we have to deploy the interactive terminal in the room and ping the Google DNS server (`8.8.8.8`). Doing so gives us a nice little flag to wrap up the room!
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What flag do you get when you ping 8.8.8.8?
 

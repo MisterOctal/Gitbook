@@ -18,7 +18,7 @@ Continuing with the web fundamentals! As I push to finish my HND by October this
 
 Every website interaction involves two main components. The "Front End" (Client-Side) is what your browser renders and what the user actually sees and interacts with. The "Back End" (Server-Side) is the dedicated computer sitting in a data center somewhere processing your requests, querying databases, and sending the data back.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What term refers to the way your browser renders a website?
 
@@ -141,7 +141,7 @@ Question: View the website on [this link](https://static-labs.tryhackme.cloud/si
 
 If a website takes user input (like a name or a comment) and outputs it directly to the page without sanitizing it first, an attacker can inject their own HTML or JavaScript. For example, instead of entering my name as "Admin", I could enter `<h1>Admin</h1>`, and the website would render it as a giant header. This is the foundational concept behind XSS!
 
-<figure><img src="../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 In this task, we just have to insert this short HTML snippet into the username field:
 

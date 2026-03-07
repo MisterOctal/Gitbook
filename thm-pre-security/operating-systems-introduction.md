@@ -71,15 +71,17 @@ Additionally, there's a small practical task to get us navigating around the Ubu
 
 Although THM allows us to use the GUI for this task, I decided to use the CLI to solve the tasks as I need to get more familiar with the CLI for my college work and future job. I used `ls`, `cd`, and `cat` in this task to navigate the file directory and read the flag.
 
-Question: How much disk space is available?
+Question: Open the `File Systems` tab in `System Monitor`.\
+What `Type` is listed for the `/dev/root` device?
 
 > Answer: ext4
 
-Question: After opening the home directory on the desktop, how many user directories exist?
+Question: After opening the `Home` directory on the Desktop, how many user directories exist?
 
 > Answer: 3
 
-Question: Navigate to Alex's home directory and read the note.txt.
+Question: Navigate to Alex's home directory and explore the `Documents` folder.\
+What is the flag value contained in `note.txt`?
 
 > Answer: THM{new\_pc\_for\_free!}
 
