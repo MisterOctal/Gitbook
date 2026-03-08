@@ -31,3 +31,4 @@
 * [Windows Basics](thm-pre-security/windows-basics.md)
 * [Linux CLI Basics](thm-pre-security/linux-cli-basics.md)
 * [Windows CLI Basics](thm-pre-security/windows-cli-basics.md)
+* [Operating System Security](thm-pre-security/operating-system-security.md)
