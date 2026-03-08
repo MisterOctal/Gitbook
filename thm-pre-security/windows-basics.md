@@ -6,11 +6,11 @@ icon: windows
 
 Date: 07.03.2026
 
-Room Category: Theory
+Room Category: Practical
 
 Core Concept: Navigating the Windows interface, File Explorer, and essential system tools.
 
-It is time to look at the most common operating system in the corporate world. While Linux is more prevelant in security systems, as a future SOC analyst, most of the endpoints I will be defending or investigating are going to be running Windows. Getting a solid grasp on how it manages files, handles permissions, and monitors processes is a mandatory skill.&#x20;
+It is time to look at the most common operating system in the corporate world. While Linux is more prevalent in security systems, as a future SOC analyst, most of the endpoints I will be defending or investigating are going to be running Windows. Getting a solid grasp on how it manages files, handles permissions, and monitors processes is a mandatory skill.&#x20;
 
 ***
 

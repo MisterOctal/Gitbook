@@ -29,3 +29,5 @@
 * [Cloud Computing Fundamentals](thm-pre-security/cloud-computing-fundamentals.md)
 * [Operating Systems: Introduction](thm-pre-security/operating-systems-introduction.md)
 * [Windows Basics](thm-pre-security/windows-basics.md)
+* [Linux CLI Basics](thm-pre-security/linux-cli-basics.md)
+* [Windows CLI Basics](thm-pre-security/windows-cli-basics.md)
