@@ -8,6 +8,10 @@
 * [THM Fresh Start](general-and-personal/thm-fresh-start.md)
 * [Change of Plans](general-and-personal/change-of-plans.md)
 
+## THM Standalone
+
+* [Shodan.io](thm-standalone/shodan.io.md)
+
 ## THM Pre Security
 
 * [Offensive Security Intro](thm-pre-security/offensive-security-intro.md)
