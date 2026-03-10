@@ -6,7 +6,7 @@ icon: layer-group
 
 Date: 01.03.2026
 
-Room Category: Theory
+Room Category: Walkthrough
 
 Core Concept: The 7 layers of network communication.
 

@@ -6,7 +6,7 @@ icon: briefcase-blank
 
 Date: 26.02.2026
 
-Room Category: Theory
+Room Category: Walkthrough
 
 Core Concept: Career options in cyber.
 

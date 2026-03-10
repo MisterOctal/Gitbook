@@ -15,6 +15,7 @@
 ## THM DevSecOps
 
 * [Introduction to DevSecOps](thm-devsecops/introduction-to-devsecops.md)
+* [SDLC](thm-devsecops/sdlc.md)
 
 ## THM Pre Security
 

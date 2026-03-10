@@ -6,7 +6,7 @@ icon: chart-network
 
 Date: 28.02.2026
 
-Room Category: Theory
+Room Category: Walkthrough
 
 Core Concept: Basics of computer networks and device communication.
 

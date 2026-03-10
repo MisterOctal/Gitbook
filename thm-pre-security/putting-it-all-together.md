@@ -6,7 +6,7 @@ icon: server
 
 Date: 02.03.2026
 
-Room Category: Theory / Web
+Room Category: Walkthrough
 
 Core Concept: Combining DNS, HTTP, Web Servers, and Edge components.
 

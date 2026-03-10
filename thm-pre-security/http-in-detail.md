@@ -6,7 +6,7 @@ icon: server
 
 Date: 02.03.2026
 
-Room Category: Theory
+Room Category: Walkthrough
 
 Core Concept: How web clients and servers communicate using HTTP/HTTPS.
 

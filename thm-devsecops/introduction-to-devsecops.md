@@ -6,7 +6,7 @@ icon: hammer
 
 Date: 10.03.2026
 
-Room Category: Theory
+Room Category: Walkthrough
 
 Core Concept: DevSecOps as a culture and discipline.
 

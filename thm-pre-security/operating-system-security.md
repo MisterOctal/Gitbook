@@ -6,7 +6,7 @@ icon: shield
 
 Date: 08.03.2026
 
-Room Category: Theory / Practical
+Room Category: Walkthrough
 
 Core Concept: Principles of OS security, the CIA triad, and practical password/privilege escalation.
 

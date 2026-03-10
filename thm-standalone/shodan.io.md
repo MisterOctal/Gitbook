@@ -6,7 +6,7 @@ icon: nfc-magnifying-glass
 
 Date: 09.03.2026
 
-Room Category: Theory
+Room Category: Walkthrough
 
 Core Concept: Using Shodan.io and its benefits
 

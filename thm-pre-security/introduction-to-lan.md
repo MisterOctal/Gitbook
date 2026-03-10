@@ -6,7 +6,7 @@ icon: chart-network
 
 Date: 01.03.2026
 
-Room Category: Theory
+Room Category: Walkthrough
 
 Core Concept: Local Area Networks and core network protocols.
 

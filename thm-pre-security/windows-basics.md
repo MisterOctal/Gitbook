@@ -6,7 +6,7 @@ icon: windows
 
 Date: 07.03.2026
 
-Room Category: Practical
+Room Category: Walkthrough
 
 Core Concept: Navigating the Windows interface, File Explorer, and essential system tools.
 

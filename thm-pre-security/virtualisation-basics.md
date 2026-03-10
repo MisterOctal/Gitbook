@@ -6,7 +6,7 @@ icon: display
 
 Date: 05.03.2026
 
-Room Category: Theory
+Room Category: Walkthrough
 
 Core Concept: How virtualization optimizes hardware and isolates environments.
 

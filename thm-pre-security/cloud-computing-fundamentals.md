@@ -6,7 +6,7 @@ icon: cloud
 
 Date: 05.03.2026
 
-Room Category: Theory
+Room Category: Walkthrough
 
 Core Concept: Cloud deployment models, service types, and cost management.
 

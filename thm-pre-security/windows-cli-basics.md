@@ -6,7 +6,7 @@ icon: windows
 
 Date: 08.03.2026
 
-Room Category: Practical
+Room Category: Walkthrough
 
 Core Concept: Navigating the Windows file system and gathering system info via the Command Prompt (CMD).
 

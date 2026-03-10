@@ -6,7 +6,7 @@ icon: linux
 
 Date: 08.03.2026
 
-Room Category: Practical
+Room Category: Walkthrough
 
 Core Concept: Navigating the Linux file system and gathering system information via the terminal.
 

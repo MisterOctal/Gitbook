@@ -7,7 +7,7 @@ icon: swords
 
 Date: 26.02.2026
 
-Room Category: Theory
+Room Category: Walkthrough
 
 Core Concept: Understanding the offensive mindset.
 

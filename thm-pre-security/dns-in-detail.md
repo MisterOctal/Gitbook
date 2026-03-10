@@ -6,7 +6,7 @@ icon: server
 
 Date: 02.03.2026
 
-Room Category: Theory
+Room Category: Walkthrough
 
 Core Concept: The Domain Name System (DNS) and how it translates human-readable domains to IP addresses.
 

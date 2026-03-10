@@ -6,7 +6,7 @@ icon: display
 
 Date: 07.03.2026
 
-Room Category: Theory
+Room Category: Walkthrough
 
 Core Concept: Basic operating system components, kernel vs user space, and OS interfaces.
 

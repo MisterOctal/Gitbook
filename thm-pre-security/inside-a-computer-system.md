@@ -6,7 +6,7 @@ icon: display
 
 Date: 03.03.2026
 
-Room Category: Theory
+Room Category: Walkthrough
 
 Core Concept: Understanding components of a computer and their purpose.
 
