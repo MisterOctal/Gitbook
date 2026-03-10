@@ -9,7 +9,7 @@ Date: 26.02.2026
 
 Room Category: Theory
 
-Core Concept: Understanding the offensive mindset
+Core Concept: Understanding the offensive mindset.
 
 We can't outsmart something we don't understand, this is why its important to understand offensive security. We need to learn what can break or be exploited to know how to defend them. I don't have much to say for this room because its a fairly simple one.
 

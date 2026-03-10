@@ -8,7 +8,7 @@ Date: 01.03.2026
 
 Room Category: Theory
 
-Core Concept: Firewalls, VPNs, and advanced networking devices
+Core Concept: Firewalls, VPNs, and advanced networking devices.
 
 We're moving beyond the basics of a simple LAN and looking at how networks are extended and protected. Knowing how firewalls filter traffic, how VPNs secure data across public networks, and the difference between routing and switching is huge for my Security+ exam. From a SOC perspective, firewalls and routers are going to be my primary sources for logs and alerts, so understanding their core functions is essential!
 

@@ -8,7 +8,7 @@ Date: 01.03.2026
 
 Room Category: Theory
 
-Core Concept: Data encapsulation and transport protocols
+Core Concept: Data encapsulation and transport protocols.
 
 Continuing the network theory grind! This room builds right on top of the OSI Model and LAN concepts we just went through. As someone aiming to be a SOC Analyst, I know I'll be staring at packet captures (PCAPs) constantly. Understanding the difference between a packet and a frame, and knowing how TCP and UDP work under the hood is absolutely essential for spotting malicious traffic. Plus, this is prime Security+ exam material.
 

@@ -8,7 +8,7 @@ Date: 03.03.2026
 
 Room Category: Theory
 
-Core Concept: Understanding different types of computers, their form factors, and uses.
+Core Concept: Understanding components of a computer and their purpose.
 
 Taking a step back to look at the physical hardware! It's easy to get lost in network protocols and software, but as a future SOC analyst, I have to know what's actually under the hood of the endpoints I'm defending. Understanding how RAM works versus storage, or how a system boots up, is foundational for digital forensics and malware analysis. Plus, this hardware and boot process theory is definitely going to show up on my Security+ exam this November!
 

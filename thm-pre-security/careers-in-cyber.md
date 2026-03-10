@@ -8,7 +8,7 @@ Date: 26.02.2026
 
 Room Category: Theory
 
-Core Concept: Career options in cyber
+Core Concept: Career options in cyber.
 
 There are many careers in cybersecurity, the demand is high but so is the competition!
 

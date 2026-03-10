@@ -8,7 +8,7 @@ Date: 05.03.2026
 
 Room Category: Theory
 
-Core Concept: Understanding basics of client-server computing
+Core Concept: Understanding basics of client-server computing.
 
 We are keeping the networking momentum going! This room is the perfect bridge between the hardware concepts we learned in "Inside a Computer" and the web protocols from "HTTP in Detail." As someone aiming to become a SOC analyst, almost every piece of network traffic I will ever look at is going to be a conversation between a client and a server. Having this mental model locked down is absolutely crucial for my Security+ exam in November, and it'll give me a huge leg up when I start at BCIT next year!
 

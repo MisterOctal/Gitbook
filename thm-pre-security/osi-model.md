@@ -8,7 +8,7 @@ Date: 01.03.2026
 
 Room Category: Theory
 
-Core Concept: The 7 layers of network communication
+Core Concept: The 7 layers of network communication.
 
 I completely agree that writing these out manually is a fast track to burnout, especially when I just want to get to the real analysis and challenge rooms. This room is pure memorization, but it's guaranteed to be on my Security+ exam this November, so having these notes handy will be a lifesaver. The OSI model is a conceptual framework that explains how data moves from an application on one computer to an application on another.
 

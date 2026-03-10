@@ -8,7 +8,7 @@ Date: 26.02.2026
 
 Room Category: Theory
 
-Core Concept: Blue teaming
+Core Concept: Blue teaming.
 
 Every month or so when we check the headlines, we can see cases where defensive security fails. Whether is be large-scale data breaches involving millions of records, or ransomware attacks compromising entire networks, the impact of poor defensive security can greatly affect an organization.
 

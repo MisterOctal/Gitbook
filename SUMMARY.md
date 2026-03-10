@@ -12,6 +12,10 @@
 
 * [Shodan.io](thm-standalone/shodan.io.md)
 
+## THM DevSecOps
+
+* [Introduction to DevSecOps](thm-devsecops/introduction-to-devsecops.md)
+
 ## THM Pre Security
 
 * [Offensive Security Intro](thm-pre-security/offensive-security-intro.md)
@@ -32,7 +36,7 @@
 * [Virtualisation Basics](thm-pre-security/virtualisation-basics.md)
 * [Cloud Computing Fundamentals](thm-pre-security/cloud-computing-fundamentals.md)
 * [Operating Systems: Introduction](thm-pre-security/operating-systems-introduction.md)
-* [Windows Basics](thm-pre-security/windows-basics.md)
 * [Linux CLI Basics](thm-pre-security/linux-cli-basics.md)
+* [Windows Basics](thm-pre-security/windows-basics.md)
 * [Windows CLI Basics](thm-pre-security/windows-cli-basics.md)
 * [Operating System Security](thm-pre-security/operating-system-security.md)

@@ -8,7 +8,7 @@ Date: 01.03.2026
 
 Room Category: Theory
 
-Core Concept: Local Area Networks and core network protocols
+Core Concept: Local Area Networks and core network protocols.
 
 Understanding how networks operate at a fundamental level is super important. Before we start attacking or defending networks, we need to know how devices actually talk to each other in the same room or building! This room is heavily theory-based but covers essential concepts like topologies, subnetting, and core protocols.
 

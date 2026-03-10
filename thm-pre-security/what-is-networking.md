@@ -8,7 +8,7 @@ Date: 28.02.2026
 
 Room Category: Theory
 
-Core Concept: Basics of computer networks and device communication
+Core Concept: Basics of computer networks and device communication.
 
 Networking is absolutely foundational in cybersecurity. As someone aiming to be a SOC analyst and currently preparing for my Security+ later this year, I know I need to have this stuff locked down! You can't secure or analyze traffic if you don't know how computers actually talk to each other. This room is a great refresher on the basics.
 
