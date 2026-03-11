@@ -17,6 +17,7 @@
 * [Introduction to DevSecOps](thm-devsecops/introduction-to-devsecops.md)
 * [SDLC](thm-devsecops/sdlc.md)
 * [SSDLC](thm-devsecops/ssdlc.md)
+* [Intro to Pipeline Automation](thm-devsecops/intro-to-pipeline-automation.md)
 
 ## THM Pre Security
 

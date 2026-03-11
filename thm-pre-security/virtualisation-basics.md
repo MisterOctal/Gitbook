@@ -51,7 +51,7 @@ There are two main types of hypervisors:
 * Type 1 (Bare Metal): Installed directly onto the physical hardware (like VMware ESXi). This is what massive data centers use.
 * Type 2 (Hosted): Installed on top of an existing Operating System (like VirtualBox running on my Windows machine). This is perfect for setting up study labs or safely analyzing malicious files.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="548"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="548"><figcaption></figcaption></figure>
 
 We also touched on Containers, which are even more lightweight than VMs. Instead of booting up an entire virtual operating system, containers just bundle up a single application and its dependencies.
 

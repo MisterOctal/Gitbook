@@ -60,15 +60,15 @@ Question: Dirb should have found 2 hidden URLs. One of them is `http://fakebank.
 
 We simply navigate to the bank-deposit page and give our account (8881) a bunch of money in this step. I'm gonna deposit myself $6767, should be enough to buy myself a good gaming setup and a couple certifications!
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Looks like we got the money, let's return to our account to go claim the flag!
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Upon returning to my account, I was greeted with this flag:
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: If your balance is now positive, a pop-up should appear with some green words in it. Input the green words as the answer to this question (all in uppercase).
 
@@ -82,6 +82,6 @@ This room was a fairly simple one, we learned the basics of dirb and 'hacked int
 
 I also decided to investigate the common.txt file on the desktop that THM mentioned, and I guess it makes sense to me. The common.txt file contains a bunch of potential webpage names that dirb will attempt to check:
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 That's all for this room, see you!
