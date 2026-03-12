@@ -1,7 +1,9 @@
 # Table of contents
 
-* [Notice](README.md)
+* [Welcome](README.md)
+* [About Me](about-me.md)
 * [GitHub](https://github.com/MisterOctal/)
+* [TryHackMe](https://tryhackme.com/p/MisterOctal)
 
 ## General & Personal
 

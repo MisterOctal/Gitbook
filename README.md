@@ -1,19 +1,35 @@
 ---
-icon: triangle-exclamation
+icon: door-open
 cover: >-
   https://images.unsplash.com/photo-1558494949-ef010cbdcc31?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxzZXJ2ZXJ8ZW58MHx8fHwxNzY5OTI0NDAyfDA&ixlib=rb-4.1.0&q=85
 coverY: 0
 coverHeight: 138
 ---
 
-# Notice
+# Welcome
 
-Hello, I'm Wai Yan, aka MisterOctal!
+Welcome to my Homelab Documentation Hub!\
+\
+My name is Wai Yan, aka MisterOctal, This GitBook serves as my active brain-dump, THM notebook, and portfolio as I dive deeper into both offensive and defensive security.
 
-I'm currently extremely busy with my coursework and plan on restructuring my lab and documentation to be more professional yet personal. Therefore, most of the pages have been taken offline as I try to figure out the reorganization process.
+Here is what you will find inside:
 
-In the mean time, feel free to contact me for a quick chat or look at my GitHub!
+#### 🎯 The 100-Day SOC Lab Project (Current Focus)
 
-Best regards,
+I am currently documenting a 100-day journey to build and operate a custom Security Operations Center (SOC) lab. The goal here is hands-on muscle memory.
 
-MisterOctal
+#### 📖 TryHackMe Writeups (The Foundation)
+
+Before building the lab, I spent time tackling various TryHackMe rooms. However, I've decided to restart my THM progress and redo various rooms with proper documentation this time. You can explore my detailed writeups and walkthroughs in this section. This section is the backbone of my knowledge and practical skills.
+
+{% hint style="info" icon="phone" %}
+## Contact Information
+
+You can also directly reach out to me if you want to discuss cybersecurity, want to know more about my portfolio, or just want a quick chat!\
+\
+Discord: theoctal
+
+Email: lucaslinwin@gmail.com
+
+Linkedin: [https://www.linkedin.com/in/wai-yan-lin-khant-26b3872a7/](https://www.linkedin.com/in/wai-yan-lin-khant-26b3872a7/)
+{% endhint %}
