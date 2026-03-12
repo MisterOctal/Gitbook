@@ -5,6 +5,10 @@
 * [GitHub](https://github.com/MisterOctal/)
 * [TryHackMe](https://tryhackme.com/p/MisterOctal)
 
+## Homelab
+
+* [Day 1 - Initial Architecture](homelab/day-1-initial-architecture.md)
+
 ## General & Personal
 
 * [THM Fresh Start](general-and-personal/thm-fresh-start.md)
