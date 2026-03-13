@@ -28,7 +28,7 @@ Question: I'm ready to learn about pipeline automation and how to make it secure
 
 A pipeline is essentially an automated assembly line for software. Before learning about pipeline security, we have to define what the pipeline actually looks like. It typically starts with Source Code Storage, moves into Continuous Integration where dependencies are managed, runs through Automated Testing, and finally deploys the end product into specific Environments.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Where in the pipeline is our end product deployed?
 
@@ -40,7 +40,7 @@ Question: Where in the pipeline is our end product deployed?
 
 The pipeline starts where the code is stored. Version control systems like Git allow multiple developers to work on the same project simultaneously. GitHub is the largest public host, while GitLab is frequently used by organizations that want to host their own private repositories. A huge security risk here is developers accidentally hardcoding passwords or API keys into their source code. Tools like GittyLeaks are used to automatically scan commit histories to find and eliminate these exposed secrets before they reach production.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: Who is the largest online provider of Git?
 
@@ -60,7 +60,7 @@ Question: What tool can be used to scan the commits of a repo for sensitive info
 
 Modern applications rarely write everything from scratch. They rely heavily on dependencies, which are pre-written libraries of code. Internal dependencies are created by the organization itself, while external dependencies are pulled from public repositories like PyPI (for Python) or npm (for Node.js). If an external dependency contains a vulnerability, every application using it becomes vulnerable as well. The Log4Shell vulnerability in 2021 was a prime example of how a single flawed logging dependency could compromise servers worldwide.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: What do we call the type of dependency that was created by our organisation? (Internal/External)
 
@@ -84,7 +84,7 @@ Question: What dependency 0-day vulnerability set the world ablaze in 2021?
 
 Testing is fully integrated into the automated pipeline to catch issues early. We have SAST (Static Application Security Testing), which reads the raw source code to find insecure configurations without executing the program. We also have DAST (Dynamic Application Security Testing), which actively interacts with the running application to find runtime flaws. While these automated tools are fantastic for catching low hanging fruit, they completely lack human logic and cannot replace a proper manual penetration test.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: What type of tool scans code to look for potential vulnerabilities?
 

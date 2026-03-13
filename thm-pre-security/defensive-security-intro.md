@@ -4,17 +4,19 @@ icon: shield
 
 # Defensive Security Intro
 
-Date: 26.02.2026
+Date: 13.03.2026
 
 Room Category: Walkthrough
 
 Core Concept: Blue teaming.
 
-Every month or so when we check the headlines, we can see cases where defensive security fails. Whether is be large-scale data breaches involving millions of records, or ransomware attacks compromising entire networks, the impact of poor defensive security can greatly affect an organization.
+I was about to continue down the pre-security path today but I noticed my progress in the Defensive Security Intro room was gone. Upon examination, I found out that they revamped this room so I decided to make a new writeup for the room!
 
 ***
 
 ## Task 1: Introduction to Defensive Security
+
+This task remained the same, it gives us a brief introduction on the concept of blue teaming.
 
 Question: What is defensive security also known as?
 
@@ -22,61 +24,60 @@ Question: What is defensive security also known as?
 
 ***
 
-## Task 2: Responsibilities of Defensive Security
+## Task 2: Exploring the SOC
 
-Some of the key areas of defensive security are: monitoring and detecting, incident response, threat intelligence, vulnerability management, and investigation and analysis. It is also important to note that defensive security teams are made up of a mixture of roles and responsibilities, such as: SOC analysts, incident responders, security engineers, and digital forensics experts.
+This task tells us the key responsibilities of a SOC team. The key duties of a SOC team are: keeping up to date with the latest trends and threats, monitoring for policy violations, establishing acceptable usage policies and normal behaviors, and detecting and responding to breaches.
 
-In the example provided by THM, we have four team members:
+Question: What would you call a team of cyber security professionals that monitors a network and its systems for malicious events?
 
-* Bob, a SOC Analyst
-* Aaliyah, an Incident Responder
-* Zoe, a Security Engineer
-* Bill, a Digital Forensics Expert
-
-Question: An attack has been detected on an organisation's network. What is the name of the person above who would be responsible for responding to the attack?
-
-> Answer: Aaliyah
+> Answer: Security Operations Centre
 
 ***
 
-## Task 3: Defensive Security in Practice
+## Task 3: Digital Forensics
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+Digital Forensics is the application of traditional forensics techniques onto the digitla medium. This involves investigating information found on digital media to help solve a crime. The key areas of digital forensics are file systems, system memory, system logs, and, network logs.&#x20;
 
-In practice, organizations never rely on a single tool or method to remain secure. They utilize layers of defensive, using various tools and policies to ensure security. This is called 'Defense in Depth', meaning that even if one security measure fails, various others exist to ensure security.
+Question: An attacker deploys a piece of malicious code that does not save to the disk. What digital forensics technique would we use in this instance?
 
-Some common defensive SOC tools and policies are: intrusion detection systems (IDS), firewalls, employee training, and security policies.
-
-A Security Operation Center (SOC) is a defensive security center for an organization's technology. This is the frontline against the threats to an organization and operate 24/7. A typical day in SOC involves reviewing alerts triggered by the security tools, investigating anomalies, and responding to incidents.
-
-A SIEM (Security Information and Event Management) system is a platform that aggregates various data and information from security devices, work stations, servers and more.
-
-Question: What is the abbreviation for the term "Security Operations Centre"?
-
-> Answer: SOC
+> Answer: System Memory
 
 ***
 
-## Task 4: Practical: Defend Fakebank
+## Task 4: Incident Response
 
-In this question, we will join FakeBank's defensive security team and resolve a security event using their SIEM. The attack we have to investigate seems to be a similar attack to the one we conducted previously in the Offensive Security Intro room. It's a web discovery attack, meaning the attacker attempted to enumerate and discover the pages on FakeBank.
+Incident response is how organizations resolve and handle cybersecurity breaches. The process of incident response often looks like this:
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Upon clicking 'Investigate' we discover that the attack was conducted by an IP address - 32.122.195.63. Further discovery indicates they attempted to locate the administrator page, although the attack found the administrator page, the attacker received a 403 status code, meaning they weren't able to access it.
+Preparation is the phase where necessary frameworks and resources for incident response are created, detection and analysis is where tools and processes are used to assess the incident's impact. The next phase is where the impact of the incident is reduced and contained, and lastly, post-incident activity is where the incident is reviewed and lessons learned are documented.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+Question: What phase of the incident response process involves providing "cyber awareness" training to employees?
 
-Lastly, we also found out that the IP has a malicious reputation and originates from Moscow. Yikes.
+> Answer: Preparation
 
-After concluding our investigation, I blocked the IP address for 72 hours, set a rate limit for admin endpoints, and updated our WAF rules to block suspicious enumeration attempts. After tuning our security tools, we received a flag - THM{FAKEBANK-SECURED}.
+***
+
+## Task 5: Practical Example of Defensive Security
+
+In this scenario, a simulated SIEM is used to resolve a possible incident. I'm going to solve this task as if this were a genuine SOC report.
+
+> Report Title: Unauthorized SSH attempt
+>
+> Date/Time: 13.03.2026 12:36 AM
+>
+> Summary: Malicious IP address attempted to brute-force SSH and was blocked.
+
+Around 11:23 AM, a SIEM log indicated that an IP address attempted to perform an unauthorized connection to port 22, which is the port used by SSH (Secure Shell). Additional logs indicate that the IP eventually managed to successfully connect to SSH. Likely indicating a SSH brute-force.
+
+Further investigation revealed that the IP address originates from China and has a malicious reputation. The case was then escalated to SOC-Lead, Will Griffin for incident response. Afterwards, permission was granted to block the IP address on the company's firewall so the IP was blocked.
 
 Question: What is the flag that you obtained by following along?
 
-> Answer: THM{FAKEBANK-SECURED}
+> THREAT-BLOCKED
 
 ***
 
 ## Conclusion
 
-In conclusion, we learned the basics of defensive security in this room and tuned our security tools to handle directory enumeration attacks better. This room was fairly simple but effective. That's all for this room, goodbye!
+In conclusion, we learned the basics of defensive security in this room and also experienced a small incident faced by a SOC team. It's funny that this room got revamped... again. But that's all for this room!

@@ -35,7 +35,7 @@ I chose VMware as my hypervisor for this project for two main reasons. First, it
 
 Below is a diagram of **Percentage of Hypervisors By Manufacturer** ([source](https://www.controlup.com/resources/blog/hypervisor-market-share-controlup-perspective/))
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### The Machines
 
