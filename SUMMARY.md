@@ -7,6 +7,7 @@
 
 ## Homelab
 
+* [Lab Summary](homelab/lab-summary.md)
 * [Day 1 - Initial Architecture](homelab/day-1-initial-architecture.md)
 
 ## General & Personal
@@ -51,3 +52,4 @@
 * [Windows Basics](thm-pre-security/windows-basics.md)
 * [Windows CLI Basics](thm-pre-security/windows-cli-basics.md)
 * [Operating System Security](thm-pre-security/operating-system-security.md)
+* [Data Representation](thm-pre-security/data-representation.md)

@@ -40,7 +40,7 @@ Question: Where in the pipeline is our end product deployed?
 
 The pipeline starts where the code is stored. Version control systems like Git allow multiple developers to work on the same project simultaneously. GitHub is the largest public host, while GitLab is frequently used by organizations that want to host their own private repositories. A huge security risk here is developers accidentally hardcoding passwords or API keys into their source code. Tools like GittyLeaks are used to automatically scan commit histories to find and eliminate these exposed secrets before they reach production.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: Who is the largest online provider of Git?
 
