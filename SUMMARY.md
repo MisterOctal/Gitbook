@@ -53,3 +53,4 @@
 * [Windows CLI Basics](thm-pre-security/windows-cli-basics.md)
 * [Operating System Security](thm-pre-security/operating-system-security.md)
 * [Data Representation](thm-pre-security/data-representation.md)
+* [Data Encoding](thm-pre-security/data-encoding.md)
