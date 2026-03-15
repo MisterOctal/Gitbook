@@ -54,3 +54,4 @@
 * [Operating System Security](thm-pre-security/operating-system-security.md)
 * [Data Representation](thm-pre-security/data-representation.md)
 * [Data Encoding](thm-pre-security/data-encoding.md)
+* [Python: Simple Demo](thm-pre-security/python-simple-demo.md)
