@@ -4,7 +4,7 @@ icon: python
 
 # Python: Simple Demo
 
-Written on: 15.03.2026
+Date: 15.03.2026
 
 Room Category: Walkthrough
 

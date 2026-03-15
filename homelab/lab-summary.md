@@ -4,7 +4,7 @@ icon: info
 
 # Lab Summary
 
-Written on: 14.03.2026
+Date: 14.03.2026
 
 ## Section 1: Project Goals
 

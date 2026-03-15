@@ -27,7 +27,7 @@ layout:
 
 # Change of Plans
 
-Written on: 07.03.2026
+Date: 07.03.2026
 
 Unfortunately, a few days ago, it was announced that the UK government has decided to suspend student visa applications for all Myanmar citizens. This means that my future has been turned around, I wanted to apply for UCB (University College Birmingham) because of their extensive industry-alignments and hands-on lab work but that dream is off the table.
 

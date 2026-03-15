@@ -55,3 +55,5 @@
 * [Data Representation](thm-pre-security/data-representation.md)
 * [Data Encoding](thm-pre-security/data-encoding.md)
 * [Python: Simple Demo](thm-pre-security/python-simple-demo.md)
+* [JavaScript: Simple Demo](thm-pre-security/javascript-simple-demo.md)
+* [Database SQL Basics](thm-pre-security/database-sql-basics.md)
