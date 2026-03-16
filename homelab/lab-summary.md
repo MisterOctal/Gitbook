@@ -28,7 +28,7 @@ At present, the lab is entirely virtualized and hosted locally, all VMs are stor
 * **Virtual Machines:**
   * **Attacker:** Kali Linux
   * **Target:** Metasploitable 2
-* **Networking:** Both virtual machines are strictly isolated to a "Host-Only" network configuration. This ensures safety by preventing any malicious traffic or vulnerable exposures from leaking onto my physical local area network or the public internet.
+* **Networking:** Both virtual machines are strictly isolated to a host-only network configuration. This ensures safety by preventing any malicious traffic or vulnerable exposures from leaking onto my physical local area network or the public internet.
 
 ### Why VMware?
 

@@ -8,7 +8,7 @@
 ## Homelab
 
 * [Lab Summary](homelab/lab-summary.md)
-* [Day 1 - Initial Architecture](homelab/day-1-initial-architecture.md)
+* [Day 1 - Kali Configuration](homelab/day-1-kali-configuration.md)
 
 ## General & Personal
 
