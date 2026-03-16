@@ -57,3 +57,7 @@
 * [Python: Simple Demo](thm-pre-security/python-simple-demo.md)
 * [JavaScript: Simple Demo](thm-pre-security/javascript-simple-demo.md)
 * [Database SQL Basics](thm-pre-security/database-sql-basics.md)
+* [The CIA Triad](thm-pre-security/the-cia-triad.md)
+* [Cryptography Concepts](thm-pre-security/cryptography-concepts.md)
+* [Become a Hacker](thm-pre-security/become-a-hacker.md)
+* [Become a Defender](thm-pre-security/become-a-defender.md)
