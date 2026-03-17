@@ -5,19 +5,22 @@
 * [GitHub](https://github.com/MisterOctal/)
 * [TryHackMe](https://tryhackme.com/p/MisterOctal)
 
+## General & Personal
+
+* [Change of Plans](general-and-personal/change-of-plans.md)
+* [THM Fresh Start](general-and-personal/thm-fresh-start.md)
+
 ## Homelab
 
 * [Lab Summary](homelab/lab-summary.md)
 * [Day 1 - Kali Configuration](homelab/day-1-kali-configuration.md)
 
-## General & Personal
+## THM CYBERSECURITY 101
 
-* [THM Fresh Start](general-and-personal/thm-fresh-start.md)
-* [Change of Plans](general-and-personal/change-of-plans.md)
-
-## THM Standalone
-
-* [Shodan.io](thm-standalone/shodan.io.md)
+* [Search Skills](thm-cybersecurity-101/search-skills.md)
+* [Linux Fundamentals Part 1](thm-cybersecurity-101/linux-fundamentals-part-1.md)
+* [Linux Fundamentals Part 2](thm-cybersecurity-101/linux-fundamentals-part-2.md)
+* [Linux Fundamentals Part 3](thm-cybersecurity-101/linux-fundamentals-part-3.md)
 
 ## THM DevSecOps
 
@@ -27,9 +30,9 @@
 * [Intro to Pipeline Automation](thm-devsecops/intro-to-pipeline-automation.md)
 * [Source Code Security](thm-devsecops/source-code-security.md)
 
-## THM CYBERSECURITY 101
+## THM Standalone
 
-* [Search Skills](thm-cybersecurity-101/search-skills.md)
+* [Shodan.io](thm-standalone/shodan.io.md)
 
 ## THM Pre Security
 
