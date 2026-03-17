@@ -27,6 +27,10 @@
 * [Intro to Pipeline Automation](thm-devsecops/intro-to-pipeline-automation.md)
 * [Source Code Security](thm-devsecops/source-code-security.md)
 
+## THM CYBERSECURITY 101
+
+* [Search Skills](thm-cybersecurity-101/search-skills.md)
+
 ## THM Pre Security
 
 * [Offensive Security Intro](thm-pre-security/offensive-security-intro.md)
