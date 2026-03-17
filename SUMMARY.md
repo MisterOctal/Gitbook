@@ -12,8 +12,9 @@
 
 ## Homelab
 
-* [Lab Summary](homelab/lab-summary.md)
-* [Day 1 - Kali Configuration](homelab/day-1-kali-configuration.md)
+* [Day 0 - Lab Summary](homelab/day-0-lab-summary.md)
+* [Day 1 - Kali Config](homelab/day-1-kali-config.md)
+* [Day 2 - Metasploitable Config](homelab/day-2-metasploitable-config.md)
 
 ## THM CYBERSECURITY 101
 
