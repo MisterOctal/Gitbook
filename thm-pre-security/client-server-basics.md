@@ -28,7 +28,7 @@ Question: Read the introduction.
 
 TryHackMe uses a really great pizza delivery analogy to explain this concept. If Alice orders a pizza from Linguini's, Alice is the Client (like a web browser), the pizza is the Resource (like a web page), and the restaurant is the Server.
 
-<figure><img src="../.gitbook/assets/image (25).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 The analogy maps out other network concepts perfectly too: the GPS used to find the restaurant is like DNS (translating a name to an address), the language they speak to place the order is the Protocol (like HTTP), and the specific takeaway counter at the restaurant is the Port.
 

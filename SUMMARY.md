@@ -22,6 +22,9 @@
 * [Linux Fundamentals Part 1](thm-cybersecurity-101/linux-fundamentals-part-1.md)
 * [Linux Fundamentals Part 2](thm-cybersecurity-101/linux-fundamentals-part-2.md)
 * [Linux Fundamentals Part 3](thm-cybersecurity-101/linux-fundamentals-part-3.md)
+* [Windows Fundamentals 1](thm-cybersecurity-101/windows-fundamentals-1.md)
+* [Windows Fundamentals 2](thm-cybersecurity-101/windows-fundamentals-2.md)
+* [Windows Fundamentals 3](thm-cybersecurity-101/windows-fundamentals-3.md)
 
 ## THM DevSecOps
 
