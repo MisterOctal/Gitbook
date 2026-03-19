@@ -25,6 +25,7 @@
 * [Windows Fundamentals 1](thm-cybersecurity-101/windows-fundamentals-1.md)
 * [Windows Fundamentals 2](thm-cybersecurity-101/windows-fundamentals-2.md)
 * [Windows Fundamentals 3](thm-cybersecurity-101/windows-fundamentals-3.md)
+* [Active Directory Basics](thm-cybersecurity-101/active-directory-basics.md)
 
 ## THM DevSecOps
 
