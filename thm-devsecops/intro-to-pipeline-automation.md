@@ -4,11 +4,11 @@ icon: gear-complex-code
 
 # Intro to Pipeline Automation
 
-Date: 11.03.2026
+**Date:** 11.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Understanding pipeline automation and how to secure it.
+**Core Concept:** Understanding pipeline automation and how to secure it.
 
 Happy 17th birthday to me! Starting the morning off right by looking into pipeline automation. Understanding how code travels from a developer's laptop to a live production server is a massive part of modern security. If an attacker manages to compromise the deployment pipeline itself, they can push malicious code directly into the final product without having to hack the actual web application. Knowing the architecture of these pipelines helps defenders identify where the weak links are.
 
@@ -20,7 +20,7 @@ This task gives a brief welcome to the room and outlines the learning objectives
 
 Question: I'm ready to learn about pipeline automation and how to make it secure!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -32,7 +32,7 @@ A pipeline is essentially an automated assembly line for software. Before learni
 
 Question: Where in the pipeline is our end product deployed?
 
-> Answer: environments
+> **Answer:** environments
 
 ***
 
@@ -44,15 +44,15 @@ The pipeline starts where the code is stored. Version control systems like Git a
 
 Question: Who is the largest online provider of Git?
 
-> Answer: Github
+> **Answer:** Github
 
 Question: What popular Git product is used to host your own Git server?
 
-> Answer: Gitlab
+> **Answer:** Gitlab
 
 Question: What tool can be used to scan the commits of a repo for sensitive information?
 
-> Answer: GittyLeaks
+> **Answer:** GittyLeaks
 
 ***
 
@@ -64,19 +64,19 @@ Modern applications rarely write everything from scratch. They rely heavily on d
 
 Question: What do we call the type of dependency that was created by our organisation? (Internal/External)
 
-> Answer: Internal
+> **Answer:** Internal
 
 Question: What type of dependency is Jquery? (Internal/External)
 
-> Answer: External
+> **Answer:** External
 
 Question: What is the name of Python's public dependency repo?
 
-> Answer: PyPI
+> **Answer:** PyPI
 
 Question: What dependency 0-day vulnerability set the world ablaze in 2021?
 
-> Answer: Log4j
+> **Answer:** Log4j
 
 ***
 
@@ -88,15 +88,15 @@ Testing is fully integrated into the automated pipeline to catch issues early. W
 
 Question: What type of tool scans code to look for potential vulnerabilities?
 
-> Answer: SAST
+> **Answer:** SAST
 
 Question: What type of tool runs code and injects test cases to look for potential vulnerabilities?
 
-> Answer: DAST
+> **Answer:** DAST
 
 Question: Can SAST and DAST be used as a replacement for penetration tests? (Yea,Nay)
 
-> Answer: Nay
+> **Answer:** Nay
 
 ***
 
@@ -108,19 +108,19 @@ This task breaks down CI/CD. Continuous Integration is the practice of constantl
 
 Question: What does CI in CI/CD stand for?
 
-> Answer: Continuous Integration
+> **Answer:** Continuous Integration
 
 Question: What does CD in CI/CD stand for?
 
-> Answer: Continuous Delivery
+> **Answer:** Continuous Delivery
 
 Question: What do we call the build infrastructure element that controls all builds?
 
-> Answer: build orchestrator
+> **Answer:** build orchestrator
 
 Question: What do we call the build infrastructure element that performs the build?
 
-> Answer: build agent
+> **Answer:** build agent
 
 ***
 
@@ -132,19 +132,19 @@ Software moves through different environments before it reaches the customer. Th
 
 Question: Which environment usually has the weakest security configuration?
 
-> Answer: DEV
+> **Answer:** DEV
 
 Question: Which environment is used to test the application?
 
-> Answer: UAT
+> **Answer:** UAT
 
 Question: Which environment is similar to PROD but is used to verify that everything is working before it is pushed to PROD?
 
-> Answer: PrePROD
+> **Answer:** PrePROD
 
 Question: What is a common class of vulnerabilities that is discovered in PROD due to insecure code creeping in from DEV?
 
-> Answer: Developer bypasses
+> **Answer:** Developer bypasses
 
 ***
 
@@ -154,7 +154,7 @@ The final challenge was an interactive drag and drop exercise where we had to ma
 
 Question: What is the flag received after successfully building your pipeline?
 
-> Answer: THM{Pipeline.Automation.Is.Fun}
+> **Answer:** THM{Pipeline.Automation.Is.Fun}
 
 ***
 

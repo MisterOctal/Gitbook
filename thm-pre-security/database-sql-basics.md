@@ -6,9 +6,9 @@ icon: database
 
 Written on: 15.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: An introduction to relational databases, tables, and basic SQL queries.
+**Core Concept:** An introduction to relational databases, tables, and basic SQL queries.
 
 Understanding how data is stored and retrieved is a fantastic skill to pick up. Most applications rely on a database backend to function, and knowing how to interact with that data directly gives you a much better grasp of how the application works as a whole. Getting comfortable with basic queries now will definitely be helpful when analyzing data or looking for injection vulnerabilities later on.
 
@@ -20,7 +20,7 @@ This room introduces the concept of databases, which are essentially organized c
 
 Question: I am ready to dive into the database!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -30,7 +30,7 @@ Relational databases store data in tables, which look very similar to standard s
 
 Question: Inside databases, what is the term for the "spreadsheets" that store the information?
 
-> Answer: table
+> **Answer:** table
 
 ***
 
@@ -86,15 +86,15 @@ SELECT * FROM Orders WHERE drink = 'Coffee' ORDER BY price DESC;
 
 Question: When you showed all orders, how many rows were returned?
 
-> Answer: 50
+> **Answer:** 50
 
 Question: When you sorted orders by price from cheapest to most expensive, which drink appeared first?
 
-> Answer: Tea
+> **Answer:** Tea
 
 Question: When you sorted the menu by price from most expensive to cheapest, which drink appeared first?
 
-> Answer: Latte
+> **Answer:** Latte
 
 ***
 

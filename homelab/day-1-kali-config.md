@@ -4,7 +4,7 @@ icon: debian
 
 # Day 1 - Kali Configuration
 
-**Date:** 16.03.2026
+****Date:**** 16.03.2026
 
 **Focus:** Base Image Hardening, Localization, and Initial Environment Setup
 

@@ -4,11 +4,11 @@ icon: chart-network
 
 # What is Networking?
 
-Date: 28.02.2026
+**Date:** 28.02.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Basics of computer networks and device communication.
+**Core Concept:** Basics of computer networks and device communication.
 
 Networking is absolutely foundational in cybersecurity. As someone aiming to be a SOC analyst and currently preparing for my Security+ later this year, I know I need to have this stuff locked down! You can't secure or analyze traffic if you don't know how computers actually talk to each other. This room is a great refresher on the basics.
 
@@ -20,7 +20,7 @@ This task explains the absolute basics. A network is simply a group of things co
 
 Question: What is the key term for devices that are connected together?
 
-> Answer: Network
+> **Answer:** Network
 
 ***
 
@@ -32,7 +32,7 @@ The Internet is basically one giant network consisting of millions of smaller ne
 
 Question: Who invented the World Wide Web?
 
-> Answer: Tim Berners-Lee
+> **Answer:** Tim Berners-Lee
 
 ***
 
@@ -42,25 +42,25 @@ Just like humans use names and fingerprints to identify each other, devices use 
 
 Question: What does the term "IP" stand for?
 
-> Answer: Internet Protocol
+> **Answer:** Internet Protocol
 
 Question: What is each section of an IP address called?
 
-> Answer: Octet
+> **Answer:** Octet
 
 Question: How many sections (in digits) does an IP address have?
 
-> Answer: 4
+> **Answer:** 4
 
 Question: What does the term "MAC" stand for?
 
-> Answer: Media Access Control
+> **Answer:** Media Access Control
 
 In this interactive lab, we get to spoof our MAC address. The scenario is a hotel Wi-Fi network where "Alice" has paid for the Wi-Fi but "Bob" hasn't. We just change Bob's MAC address to match Alice's so the router thinks we are her and lets our packets through.
 
 Question: Deploy the interactive lab using the "View Site" button and spoof your MAC address to access the site. What is the flag?
 
-> Answer: THM{YOU\_GOT\_ON\_TRYHACKME}
+> **Answer:** THM{YOU\_GOT\_ON\_TRYHACKME}
 
 ***
 
@@ -70,11 +70,11 @@ Ping is one of the most fundamental network troubleshooting tools out there. It'
 
 Question: What protocol does ping use?
 
-> Answer: ICMP
+> **Answer:** ICMP
 
 Question: What is the syntax to ping 10.10.10.10?
 
-> Answer: ping 10.10.10.10
+> **Answer:** ping 10.10.10.10
 
 For the final question, we have to deploy the interactive terminal in the room and ping the Google DNS server (`8.8.8.8`). Doing so gives us a nice little flag to wrap up the room!
 
@@ -82,7 +82,7 @@ For the final question, we have to deploy the interactive terminal in the room a
 
 Question: What flag do you get when you ping 8.8.8.8?
 
-> Answer: THM{I\_PINGED\_THE\_SERVER}
+> **Answer:** THM{I\_PINGED\_THE\_SERVER}
 
 ***
 

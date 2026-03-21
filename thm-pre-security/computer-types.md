@@ -4,11 +4,11 @@ icon: display
 
 # Computer Types
 
-Date: 03.03.2026
+**Date:** 03.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Understanding different types of computers, their form factors, and uses.
+**Core Concept:** Understanding different types of computers, their form factors, and uses.
 
 In a real enterprise environment, I'll be monitoring servers, workstations, and even IoT devices. Understanding what these devices do and how they operate helps me figure out their vulnerabilities and why an attacker might target them.
 
@@ -20,7 +20,7 @@ This task sets the stage. Computers are everywhere, not just on our desks. They 
 
 Question: Read the introduction.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -30,11 +30,11 @@ Here we look at the heavy hitters. Servers are the backbone of any network - the
 
 Question: Which computer type usually runs without a dedicated screen and keyboard?
 
-> Answer: Server
+> **Answer:** Server
 
 Question: What kind of computer with specialized components would one buy to carry out precision work?
 
-> Answer: Workstation
+> **Answer:** Workstation
 
 ***
 
@@ -44,11 +44,11 @@ This month is all about the smaller, embedded devices. Smartphones are literal p
 
 Question: What is the currently most popular pocket-sized computer?
 
-> Answer: Smartphone
+> **Answer:** Smartphone
 
 Question: What kind of computer would you expect to find in a coffee machine?
 
-> Answer: Embedded Computer
+> **Answer:** Embedded Computer
 
 ***
 
@@ -58,7 +58,7 @@ In this task, we have to interact with a static lab regarding various IoT device
 
 Question: Go through the attached static site and get the flag.
 
-> Answer: THM{8\_computer\_types}
+> **Answer:** THM{8\_computer\_types}
 
 ***
 

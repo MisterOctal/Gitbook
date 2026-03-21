@@ -4,11 +4,11 @@ icon: server
 
 # HTTP in Detail
 
-Date: 02.03.2026
+**Date:** 02.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: How web clients and servers communicate using HTTP/HTTPS.
+**Core Concept:** How web clients and servers communicate using HTTP/HTTPS.
 
 As someone whose turning 17 soon, getting ahead on these web fundamentals before my HND finishes up in October is going to put me way ahead of the curve. By the time I get to University College Birmingham in 2027, I'll know this stuff like the back of my hand. HTTP is the backbone of the web, and understanding requests, responses, headers, and status codes is absolute gold for log analysis and acing that Security+ exam on November 13th!
 
@@ -20,15 +20,15 @@ HTTP is a plaintext protocol used to transfer web pages, meaning anyone sniffing
 
 Question: What does HTTP stand for?
 
-> Answer: HyperText Transfer Protocol
+> **Answer:** HyperText Transfer Protocol
 
 Question: What does the S in HTTPS stand for?
 
-> Answer: Secure
+> **Answer:** Secure
 
 Question: On the mock webpage on the right there is an issue, once you've found it, click on it. What is the challenge flag?
 
-> Answer: THM{INVALID\_HTTP\_CERT}
+> **Answer:** THM{INVALID\_HTTP\_CERT}
 
 ***
 
@@ -44,11 +44,11 @@ Every interaction on the web is a conversation. Your browser sends a "Request" (
 
 Question: What HTTP protocol is being used in the above example?
 
-> Answer: HTTP/1.1
+> **Answer:** HTTP/1.1
 
 Question: What response header tells the browser how much data to expect?
 
-> Answer: Content-Length
+> **Answer:** Content-Length
 
 ***
 
@@ -58,19 +58,19 @@ Methods tell the server _what_ we want to do. GET is for reading, POST is for cr
 
 Question: What method would be used to create a new user account?
 
-> Answer: POST
+> **Answer:** POST
 
 Question: What method would be used to update your email address?
 
-> Answer: PUT
+> **Answer:** PUT
 
 Question: What method would be used to remove a picture you've uploaded to your account?
 
-> Answer: DELETE
+> **Answer:** DELETE
 
 Question: What method would be used to view a news article?
 
-> Answer: GET
+> **Answer:** GET
 
 ***
 
@@ -80,19 +80,19 @@ Status codes are grouped into blocks. 2xx means success, 3xx means redirect, 4xx
 
 Question: What response code might you receive if you've created a new user or blog post article?
 
-> Answer: 201
+> **Answer:** 201
 
 Question: What response code might you receive if you've tried to access a page that doesn't exist?
 
-> Answer: 404
+> **Answer:** 404
 
 Question: What response code might you receive if the web server cannot access its database and the application crashes?
 
-> Answer: 503
+> **Answer:** 503
 
 Question: What response code might you receive if you try to edit your profile without logging in first?
 
-> Answer: 401
+> **Answer:** 401
 
 ***
 
@@ -102,15 +102,15 @@ Headers are extra metadata sent with requests and responses. As a defender, the 
 
 Question: What header tells the web server what browser is being used?
 
-> Answer: User-Agent
+> **Answer:** User-Agent
 
 Question: What header tells the browser what type of data is being returned?
 
-> Answer: Content-Type
+> **Answer:** Content-Type
 
 Question: What header tells the web server which website is being requested?
 
-> Answer: Host
+> **Answer:** Host
 
 ***
 
@@ -122,7 +122,7 @@ Because HTTP is "stateless" (it forgets who you are immediately after every requ
 
 Question: Which header is used to save cookies to your computer?
 
-> Answer: Set-Cookie
+> **Answer:** Set-Cookie
 
 ***
 
@@ -132,23 +132,23 @@ This task is a great practical exercise using the in-browser emulator to manipul
 
 Question: Make a GET request to /room page.
 
-> Answer: THM{YOU'RE\_IN\_THE\_ROOM}
+> **Answer:** THM{YOU'RE\_IN\_THE\_ROOM}
 
 Question: Make a GET request to /blog page and set the id parameter to 1.
 
-> Answer: THM{YOU\_FOUND\_THE\_BLOG}
+> **Answer:** THM{YOU\_FOUND\_THE\_BLOG}
 
 Question: Make a DELETE request to /user/1 page.
 
-> Answer: THM{USER\_IS\_DELETED}
+> **Answer:** THM{USER\_IS\_DELETED}
 
 Question: Make a PUT request to /user/2 page with the username parameter set to admin.
 
-> Answer: THM{USER\_HAS\_UPDATED}
+> **Answer:** THM{USER\_HAS\_UPDATED}
 
 Question: Make a POST request to /login page with the username of thm and a password of letmein.
 
-> Answer: THM{HTTP\_REQUEST\_MASTER}
+> **Answer:** THM{HTTP\_REQUEST\_MASTER}
 
 ***
 

@@ -4,11 +4,11 @@ icon: nfc-magnifying-glass
 
 # Shodan.io
 
-Date: 09.03.2026
+**Date:** 09.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Using Shodan.io and its benefits
+**Core Concept:** Using Shodan.io and its benefits
 
 Tomorrow is the first day of my HND Computing Research Project, its very likely that I'll be using Shodan.io to gather research data during the project. I also have some experience with Shodan and I've used it before for local research. Fortunately, I also have the education membership so I won't be limited or constricted on here.
 
@@ -24,7 +24,7 @@ In this example, I used Shodan to see what's going on in my country (Myanmar), a
 
 Question: Go to Shodan.io
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -48,27 +48,27 @@ In this task, we will use Shodan and its filters to examine Google and it servic
 
 Question: What is the top operating system for MYSQL servers in Google's ASN?   &#x20;
 
-> Answer: 5.6.40-84.0-log
+> **Answer:** 5.6.40-84.0-log
 
 Question: What is the 2nd most popular country for MYSQL servers in Google's ASN?
 
-> Answer: Netherlands
+> **Answer:** Netherlands
 
 Question: Under Google's ASN, which is more popular for nginx, Hypertext Transfer Protocol or Hypertext Transfer Protocol with SSL?
 
-> Answer: Hypertext Transfer Protocol
+> **Answer:** Hypertext Transfer Protocol
 
 Question: Under Google's ASN, what is the most popular city?
 
-> Answer: Kansas City
+> **Answer:** Kansas City
 
 Question: Under Google's ASN in Los Angeles, what is the top operating system according to Shodan?
 
-> Answer: Debian
+> **Answer:** Debian
 
 Question: Using the top Webcam search from the explore page, does Google's ASN have any webcams? Yay / Nay.
 
-> Answer: Nay
+> **Answer:** Nay
 
 ***
 
@@ -80,7 +80,8 @@ I will likely have to use Shodan Monitor in my computing research project, but w
 
 Question: What URL takes you to Shodan Monitor?
 
-> Answer: [https://monitor.shodan.io/dashboard> ](https://monitor.shodan.io/dashboard)
+> **Answer:** [https://monitor.shodan.io/dashboard
+> ](https://monitor.shodan.io/dashboard)
 
 ***
 
@@ -90,7 +91,7 @@ Shodan Dorking allows you to find some interesting webpages. For instance, using
 
 Question: What dork lets us find PCs infected by Ransomware?
 
-> Answer: has\_screenshot:true encrypted attention
+> **Answer:** has\_screenshot:true encrypted attention
 
 ***
 
@@ -100,7 +101,7 @@ Shodan also has an extension, when installed it can tell you basic information a
 
 Question: This will be nice for bug bounties!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 

@@ -4,11 +4,11 @@ icon: windows
 
 # Windows Basics
 
-Date: 07.03.2026
+**Date:** 07.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Navigating the Windows interface, File Explorer, and essential system tools.
+**Core Concept:** Navigating the Windows interface, File Explorer, and essential system tools.
 
 It is time to look at the most common operating system in the corporate world. While Linux is more prevalent in security systems, as a future SOC analyst, most of the endpoints I will be defending or investigating are going to be running Windows. Getting a solid grasp on how it manages files, handles permissions, and monitors processes is a mandatory skill.&#x20;
 
@@ -20,7 +20,7 @@ This task gives a high level overview of the Windows operating system. Almost ev
 
 Question: I understand the learning objectives and am ready to learn about Windows!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -34,15 +34,15 @@ We are also given a windows 10 VM in this task and need to navigate around it to
 
 Question: What is the device name specified in About your PC?
 
-> Answer: TryHatMe
+> **Answer:** TryHatMe
 
 Question: How much RAM is installed in your new PC?
 
-> Answer: 4.00 GB
+> **Answer:** 4.00 GB
 
 Question: Which version of Windows Server 2019 Data Center is installed?
 
-> Answer: 1809
+> **Answer:** 1809
 
 Next, we have to navigate some folders, like in the previous room, I chose to the use the CLI instead of the GUI for this step. Upon navigating to the directory and reading the welcome file, we receive the flag needed for the last question in this task!
 
@@ -52,7 +52,7 @@ Question: Explore the `TryHatMe Onboarding` folder located on your computer's De
 
 What is the flag value found within `Welcome.txt`?
 
-> Answer: THM{welcome\_to\_tryhatme!}
+> **Answer:** THM{welcome\_to\_tryhatme!}
 
 ***
 
@@ -83,21 +83,21 @@ Finally, we looked at the built in security tools like Windows Security (formerl
 Question: Use the `TryHatMeWelcome` installer located within the `TryHatMe Onboarding` folder.\
 What is the flag value you receive after installing and running the application?
 
-> Answer: THM{your\_first\_day!}
+> **Answer:** THM{your\_first\_day!}
 
 <figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt="" width="290"><figcaption></figcaption></figure>
 
 Question: Investigate the Time & Language section of the Windows Settings app.\
 Which country or region is your computer currently set to?
 
-> Answer: United States
+> **Answer:** United States
 
 <figure><img src="../.gitbook/assets/image (7) (1).png" alt="" width="442"><figcaption></figcaption></figure>
 
 Question: Open the Task Manager on your workstation's Desktop and navigate to the Users tab.\
 Which account is currently logged in?
 
-> Answer: Administrator
+> **Answer:** Administrator
 
 <figure><img src="../.gitbook/assets/image (10) (1).png" alt="" width="440"><figcaption></figcaption></figure>
 
@@ -106,7 +106,7 @@ Which account is currently logged in?
 Question: After performing your custom scan, click `Virus:DOS/EICAR_Test_File` and select See details.\
 What is the file name shown in the Affected items section?
 
-> Answer: tryhatmemaldoc.txt
+> **Answer:** tryhatmemaldoc.txt
 
 <figure><img src="../.gitbook/assets/image (11) (1).png" alt="" width="491"><figcaption></figcaption></figure>
 

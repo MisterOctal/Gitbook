@@ -4,11 +4,11 @@ icon: layer-group
 
 # OSI Model
 
-Date: 01.03.2026
+**Date:** 01.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: The 7 layers of network communication.
+**Core Concept:** The 7 layers of network communication.
 
 I completely agree that writing these out manually is a fast track to burnout, especially when I just want to get to the real analysis and challenge rooms. This room is pure memorization, but it's guaranteed to be on my Security+ exam this November, so having these notes handy will be a lifesaver. The OSI model is a conceptual framework that explains how data moves from an application on one computer to an application on another.
 
@@ -22,15 +22,15 @@ The OSI (Open Systems Interconnection) model breaks network communication down i
 
 Question: What does "OSI" in "OSI Model" stand for?
 
-> Answer: Open Systems Interconnection
+> **Answer:** Open Systems Interconnection
 
 Question: How many layers (in digits) does the OSI model have?
 
-> Answer: 7
+> **Answer:** 7
 
 Question: What is the key term for when pieces of information get added to data?
 
-> Answer: Encapsulation
+> **Answer:** Encapsulation
 
 ***
 
@@ -42,15 +42,15 @@ The bottom of the barrel! The Physical layer is exactly what it sounds like - th
 
 Question: What is the name of this Layer?
 
-> Answer: Physical
+> **Answer:** Physical
 
 Question: What is the name of the number system that is both 0's and 1's?
 
-> Answer: Binary
+> **Answer:** Binary
 
 Question: What is the name of the cables that are used to connect devices?
 
-> Answer: Ethernet Cables
+> **Answer:** Ethernet Cables
 
 ***
 
@@ -62,11 +62,11 @@ While the Network layer routes data between different networks, the Data Link la
 
 Question: What is the name of this Layer?
 
-> Answer: Data Link
+> **Answer:** Data Link
 
 Question: What is the name of the piece of hardware that all networked devices come with?
 
-> Answer: Network Interface Card
+> **Answer:** Network Interface Card
 
 ***
 
@@ -82,23 +82,23 @@ It figures out the best path that data should take to reach a device by using OS
 
 Question: What is the name of this Layer?
 
-> Answer: Network
+> **Answer:** Network
 
 Question: Will packets take the most optimal route across a network? (Y/N)
 
-> Answer: Y
+> **Answer:** Y
 
 Question: What does the acronym "OSPF" stand for?
 
-> Answer: Open Shortest Path First
+> **Answer:** Open Shortest Path First
 
 Question: What doe sthe acronym "RIP" stand for?
 
-> Answer: Routing Information Protocol
+> **Answer:** Routing Information Protocol
 
 Question: What type of addresses are dealt with at this layer?/
 
-> Answer: IP Addresses
+> **Answer:** IP Addresses
 
 ***
 
@@ -110,35 +110,35 @@ The Transport layer is responsible for the actual transmission of data across th
 
 Question: What is the name of this Layer?
 
-> Answer: Transport
+> **Answer:** Transport
 
 Question: What does TCP stand for?
 
-> Answer: Transmission Control Protocol
+> **Answer:** Transmission Control Protocol
 
 Question: What does UDP stand for?
 
-> Answer: User Datagram Protocol
+> **Answer:** User Datagram Protocol
 
 Question: What protocol guarantees the accuracy of data?
 
-> Answer: TCP
+> **Answer:** TCP
 
 Question: What protocol doesn't care if data is received or not by the other device?
 
-> Answer: UDP
+> **Answer:** UDP
 
 Question: What protocol would an application such as an email client use?
 
-> Answer: TCP
+> **Answer:** TCP
 
 Question: What protocol would an application that downloads files use?
 
-> Answer: TCP
+> **Answer:** TCP
 
 Question: What protocol would an application that streams video use?
 
-> Answer: UDP
+> **Answer:** UDP
 
 ***
 
@@ -150,11 +150,11 @@ Whenever two devices need to talk to one another, a session needs to be created.
 
 Question: What is the name of this layer?
 
-> Answer: Session
+> **Answer:** Session
 
 Question: What is the technical term for when a connection is successfully established?
 
-> Answer: Session
+> **Answer:** Session
 
 ***
 
@@ -166,11 +166,11 @@ The Presentation layer makes sure that data is in a usable format and is where d
 
 Question: What is the name of this Layer?
 
-> Answer: Presentation
+> **Answer:** Presentation
 
 Question: What is the main purpose that this Layer acts as?
 
-> Answer: Translator
+> **Answer:** Translator
 
 ***
 
@@ -184,11 +184,11 @@ This is the very top layer and the only one that directly interacts with data fr
 
 Question: What is the name of this Layer?
 
-> Answer: Application
+> **Answer:** Application
 
 Question: What is the technical term that is given to the name of the software that users interact with?
 
-> Answer: Graphical User Interface
+> **Answer:** Graphical User Interface
 
 ***
 

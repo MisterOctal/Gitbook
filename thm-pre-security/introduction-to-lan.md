@@ -4,11 +4,11 @@ icon: chart-network
 
 # Introduction to LAN
 
-Date: 01.03.2026
+**Date:** 01.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Local Area Networks and core network protocols.
+**Core Concept:** Local Area Networks and core network protocols.
 
 Understanding how networks operate at a fundamental level is super important. Before we start attacking or defending networks, we need to know how devices actually talk to each other in the same room or building! This room is heavily theory-based but covers essential concepts like topologies, subnetting, and core protocols.
 
@@ -22,15 +22,15 @@ A LAN (Local Area Network) is a network found in a single geographical location,
 
 Question: What does LAN stand for?
 
-> Answer: Local Area Network
+> **Answer:** Local Area Network
 
 What is the verb given to the job that Routers perform?
 
-> Answer: Routing
+> **Answer:** Routing
 
 Question: What device is used to centrally connect multiple devices on the local network and transmit data to the correct location?
 
-> Answer: Switch
+> **Answer:** Switch
 
 In this task, we also learn about the different ways a network can be physically or logically arranged, which is called a topology. The room covers a few main ones:
 
@@ -48,17 +48,17 @@ In this task, we also learn about the different ways a network can be physically
 
 Question: What topology is cost-efficient to set up?
 
-> Answer: Bus Topology
+> **Answer:** Bus Topology
 
 Question: What topology is expensive to set up and maintain?
 
-> Answer: Star Topology
+> **Answer:** Star Topology
 
 Lastly, we can also access an interactive website to explore the flaws of topologies. The site is pretty straightforward and walks you through it. After going through all the flaws, you rceive a flag.
 
 Question:
 
-> Answer: THM{TOPOLOGY\_FLAWS}
+> **Answer:** THM{TOPOLOGY\_FLAWS}
 
 ***
 
@@ -72,27 +72,27 @@ Subnetting was also a huge part of my HNC networking syllabus, we had to ensure 
 
 Question: What is the technical term for dividing a network up into smaller pieces?
 
-> Answer: Subnetting
+> **Answer:** Subnetting
 
 Question: How many bits are in an IPv4 address?
 
-> Answer: 32
+> **Answer:** 32
 
 Question: What is the range of a section (octet) of a subnet mask?
 
-> Answer: 0-255
+> **Answer:** 0-255
 
 Question: What address is used to identify the start of a network?
 
-> Answer: Network Address
+> **Answer:** Network Address
 
 Question: What address is used to identify devices within a network?
 
-> Answer: Host Address
+> **Answer:** Host Address
 
 Question: What is the name used to identify the device responsible for sending data to another network?
 
-> Answer: Default Gateway
+> **Answer:** Default Gateway
 
 ***
 
@@ -104,19 +104,19 @@ ARP stands for Address Resolution Protocol. It's the technology that allows a de
 
 Question: What does ARP stand for?
 
-> Answer: Address Resolution Protocol
+> **Answer:** Address Resolution Protocol
 
 Question: What category of ARP Packet asks a device whether or not it has a specific IP address?
 
-> Answer: Request
+> **Answer:** Request
 
 Question: What address is used as a physical identifier for a device on a network?
 
-> Answer: MAC Address
+> **Answer:** MAC Address
 
 Question: What address is used as a logical identifier for a device on a network?
 
-> Answer: IP Address
+> **Answer:** IP Address
 
 ***
 
@@ -128,15 +128,15 @@ DHCP is a lifesaver. Instead of manually typing in an IP address, subnet mask, a
 
 Question: What type of DHCP packet is used by a device to retrieve an IP address?
 
-> Answer: DHCP Discover
+> **Answer:** DHCP Discover
 
 Question: What type of DHCP packet does a device send once it has been offered an IP address by the DHCP server?
 
-> Answer: DHCP Request
+> **Answer:** DHCP Request
 
 Question: Finally, what is the last DHCP packet that is sent to a device from a DHCP server?
 
-> Answer: DHCP ACK
+> **Answer:** DHCP ACK
 
 ***
 

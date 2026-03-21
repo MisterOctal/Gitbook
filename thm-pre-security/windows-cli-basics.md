@@ -4,11 +4,11 @@ icon: windows
 
 # Windows CLI Basics
 
-Date: 08.03.2026
+**Date:** 08.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Navigating the Windows file system and gathering system info via the Command Prompt (CMD).
+**Core Concept:** Navigating the Windows file system and gathering system info via the Command Prompt (CMD).
 
 Since I am moving toward a SOC analyst role, getting comfortable with the Windows Command Line is just as important as the Linux terminal. Most corporate environments run on Windows, so knowing how to hunt for files or check system configurations via the CLI is a mandatory skill. This room builds on what we learned in the Linux CLI module but adapts it for the Windows environment.
 
@@ -20,7 +20,7 @@ The Windows Command Prompt (CMD) is the classic text based interface for interac
 
 Question: Read the introduction.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -53,11 +53,11 @@ type "C:\Users\Administrator\Documents\Notes\research_yn6\exports_imv\screenshot
 
 Question: What is the full path of the task\_brief.txt?
 
-> Answer: C:\Users\Administrator\Documents\task\_brief.txt
+> **Answer:** C:\Users\Administrator\Documents\task\_brief.txt
 
 Question: What is the message inside the task\_brief.txt?
 
-> Answer: TASK-BRIEF-FOUND
+> **Answer:** TASK-BRIEF-FOUND
 
 ***
 
@@ -81,11 +81,11 @@ ipconfig
 
 Question: What is the computer host name?
 
-> Answer: thmlab
+> **Answer:** thmlab
 
 Question: What is the full Windows version listed in the system info?
 
-> Answer: 10.0.17763 N/A Build 17763
+> **Answer:** 10.0.17763 N/A Build 17763
 
 ***
 

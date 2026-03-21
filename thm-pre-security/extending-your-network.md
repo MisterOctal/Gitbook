@@ -4,11 +4,11 @@ icon: chart-network
 
 # Extending Your Network
 
-Date: 01.03.2026
+**Date:** 01.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Firewalls, VPNs, and advanced networking devices.
+**Core Concept:** Firewalls, VPNs, and advanced networking devices.
 
 We're moving beyond the basics of a simple LAN and looking at how networks are extended and protected. Knowing how firewalls filter traffic, how VPNs secure data across public networks, and the difference between routing and switching is huge for my Security+ exam. From a SOC perspective, firewalls and routers are going to be my primary sources for logs and alerts, so understanding their core functions is essential!
 
@@ -22,7 +22,7 @@ Building right off our previous knowledge of ports, port forwarding is how we al
 
 Question: What is the name of the device that is used to configure port forwarding?
 
-> Answer: Router
+> **Answer:** Router
 
 ***
 
@@ -34,15 +34,15 @@ Firewalls are the ultimate gatekeepers of a network, making them one of the most
 
 Question: What layers of the OSI model do firewalls operate at?
 
-> Answer: 3 & 4
+> **Answer:** 3 & 4
 
 Question: What category of firewall inspects the entire connection?
 
-> Answer: Stateful
+> **Answer:** Stateful
 
 Question: What category of firewall inspects individual packets?
 
-> Answer: Stateless
+> **Answer:** Stateless
 
 ***
 
@@ -52,7 +52,7 @@ In this question, we have to play a minigame where we have to block a specific I
 
 Question: What is the flag?
 
-> Answer: THM{FIREWALLS\_RULE}
+> **Answer:** THM{FIREWALLS\_RULE}
 
 ***
 
@@ -64,11 +64,11 @@ VPNs (Virtual Private Networks) are what allow employees to work remotely while 
 
 Question: What VPN technology only encrypts & provides the authentication of data?
 
-> Answer: PPP
+> **Answer:** PPP
 
 Question: What VPN technology uses the IP framework?
 
-> Answer: IPSec
+> **Answer:** IPSec
 
 ***
 
@@ -80,11 +80,11 @@ This task goes deeper into the hardware that makes a network function. Routers a
 
 Question: What is the verb for the action that a router does?
 
-> Answer: Routing
+> **Answer:** Routing
 
 Question: What are the two different layers of switches? Separate these by a comma I.e.: Layer X,Layer Y
 
-> Answer: Layer 2, Layer 3
+> **Answer:** Layer 2, Layer 3
 
 ***
 
@@ -94,11 +94,11 @@ In the last question, we have to deploy a static lab and make a message from com
 
 Question: What is the flag from the network simulator?
 
-> Answer: THM{YOU'VE\_GOT\_DATA}
+> **Answer:** THM{YOU'VE\_GOT\_DATA}
 
 Question: How many HANDSHAKE entries are there in the Network Log?
 
-> Answer: 5
+> **Answer:** 5
 
 ***
 

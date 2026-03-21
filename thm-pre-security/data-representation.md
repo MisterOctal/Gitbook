@@ -4,11 +4,11 @@ icon: circles-overlap
 
 # Data Representation
 
-Date: 14.03.2026
+**Date:** 14.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: How computers represent colors and numbers using binary, hexadecimal, and octal systems.
+**Core Concept:** How computers represent colors and numbers using binary, hexadecimal, and octal systems.
 
 As I keep grinding through these fundamentals before my HND wraps up in October, understanding how data actually lives inside a computer is super important. If I want to be a top-tier SOC analyst, I need to know how machines actually read data! Ironically, this room talks about... me? The octal number system haha.
 
@@ -20,7 +20,7 @@ This room kicks things off by explaining how computers view data. While humans f
 
 Question: It is time to dive into computer colors.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -32,15 +32,15 @@ Here we look at the basics of color representation by combining Red, Green, and 
 
 Question: Preview the color #3BC81E . In one word, what does this color appear to be?
 
-> Answer: green
+> **Answer:** green
 
 Question: What is the binary representation of the color #EB0037 ?
 
-> Answer: 11101011 00000000 00110111
+> **Answer:** 11101011 00000000 00110111
 
 Question: What is the decimal representation of the color #D4D8DF ?
 
-> Answer: 212 216 223
+> **Answer:** 212 216 223
 
 ***
 
@@ -50,15 +50,15 @@ This task is a deep dive into the math behind binary (base-2) numbers. On an ele
 
 Question: What is the hexadecimal FF in binary?
 
-> Answer: 1111 1111
+> **Answer:** 1111 1111
 
 Question: What is the hexadecimal AB in decimal?
 
-> Answer: 171
+> **Answer:** 171
 
 Question: Convert the hexadecimal FF FF FF to decimal. After you round up the decimal value to the nearest million, how many millions is that?
 
-> Answer: 17
+> **Answer:** 17
 
 ***
 

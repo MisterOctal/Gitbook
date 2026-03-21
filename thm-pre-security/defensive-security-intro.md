@@ -4,11 +4,11 @@ icon: shield
 
 # Defensive Security Intro
 
-Date: 13.03.2026
+**Date:** 13.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Blue teaming.
+**Core Concept:** Blue teaming.
 
 I was about to continue down the pre-security path today but I noticed my progress in the Defensive Security Intro room was gone. Upon examination, I found out that they revamped this room so I decided to make a new writeup for the room!
 
@@ -20,7 +20,7 @@ This task remained the same, it gives us a brief introduction on the concept of 
 
 Question: What is defensive security also known as?
 
-> Answer: Blue Teaming
+> **Answer:** Blue Teaming
 
 ***
 
@@ -30,7 +30,7 @@ This task tells us the key responsibilities of a SOC team. The key duties of a S
 
 Question: What would you call a team of cyber security professionals that monitors a network and its systems for malicious events?
 
-> Answer: Security Operations Centre
+> **Answer:** Security Operations Centre
 
 ***
 
@@ -40,7 +40,7 @@ Digital Forensics is the application of traditional forensics techniques onto th
 
 Question: An attacker deploys a piece of malicious code that does not save to the disk. What digital forensics technique would we use in this instance?
 
-> Answer: System Memory
+> **Answer:** System Memory
 
 ***
 
@@ -54,7 +54,7 @@ Preparation is the phase where necessary frameworks and resources for incident r
 
 Question: What phase of the incident response process involves providing "cyber awareness" training to employees?
 
-> Answer: Preparation
+> **Answer:** Preparation
 
 ***
 

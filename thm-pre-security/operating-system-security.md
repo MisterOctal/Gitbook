@@ -4,11 +4,11 @@ icon: shield
 
 # Operating System Security
 
-Date: 08.03.2026
+**Date:** 08.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Principles of OS security, the CIA triad, and practical password/privilege escalation.
+**Core Concept:** Principles of OS security, the CIA triad, and practical password/privilege escalation.
 
 This room is a solid follow up to the basics. As I work toward finishing my HND this October, understanding how an attacker moves from a low privileged user to root is vital. In a SOC environment, I will be looking for exactly these kinds of patterns: unauthorized SSH logins, suspicious use of the switch user command, and attempts to access sensitive system files.
 
@@ -20,7 +20,7 @@ Operating systems are the brains of our devices, sitting between the hardware an
 
 Question: Which of the following is not an operating system?
 
-> Answer: Thunderbird
+> **Answer:** Thunderbird
 
 ***
 
@@ -37,7 +37,7 @@ Question: Which of the following is a strong password?
 * LearnM00r
 * qwertyuiop
 
-> Answer: LearnM00r
+> **Answer:** LearnM00r
 
 ***
 
@@ -75,15 +75,15 @@ cat /root/flag.txt
 
 Question: Based on the top 7 passwords, let’s try to find Johnny’s password. What is the password for the user `johnny`?
 
-> Answer: abc123
+> **Answer:** abc123
 
 Question: Once you are logged in as Johnny, use the command `history` to check the commands that Johnny has typed. We expect Johnny to have mistakenly typed the `root` password instead of a command. What is the root password?
 
-> Answer: happyHack!NG
+> **Answer:** happyHack!NG
 
 Question: While logged in as Johnny, use the command `su - root` to switch to the `root` account. Display the contents of the file `flag.txt` in the `root` directory. What is the content of the file?
 
-> Answer: THM{YouGotRoot}
+> **Answer:** THM{YouGotRoot}
 
 ***
 

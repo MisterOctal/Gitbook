@@ -4,11 +4,11 @@ icon: linux
 
 # Linux Fundamentals Part 2
 
-Date: 17.03.2026
+**Date:** 17.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Advancing Linux command-line skills, including remote access via SSH, using command flags, managing files, understanding permissions, and exploring common system directories.
+**Core Concept:** Advancing Linux command-line skills, including remote access via SSH, using command flags, managing files, understanding permissions, and exploring common system directories.
 
 Building on the absolute basics, this section introduces how to remotely connect to a server and significantly expands your ability to manipulate the filesystem. Understanding how to manage permissions and knowing where critical log files and system configurations are stored are essential skills for navigating any compromised or audited system.
 
@@ -20,7 +20,7 @@ This room transitions from the in-browser terminal used in Part 1 to connecting 
 
 Question: Let's proceed!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -38,7 +38,7 @@ ssh tryhackme@IPADDRESS
 
 Question: I've logged into the Linux Fundamentals Part 2 machine using SSH!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -56,15 +56,15 @@ ls -a
 
 Question: Explore the manual page of the ls command.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 Question: What directional key will be used to navigate down the manual page?
 
-> Answer: down
+> **Answer:** down
 
 Question: What flag will be used to display the output in a human-readable format?
 
-> Answer: -h
+> **Answer:** -h
 
 ***
 
@@ -88,23 +88,23 @@ file unknown1
 
 Question: How would you create the file named "newnote"?
 
-> Answer: touch newnote
+> **Answer:** touch newnote
 
 Question: On the deployable machine, what is the file type of "unknown1" in "tryhackme's" home directory?
 
-> Answer: ASCII text
+> **Answer:** ASCII text
 
 Question: How would we move the file "myfile" to the directory "myfolder"?
 
-> Answer: mv myfile myfolder
+> **Answer:** mv myfile myfolder
 
 Question: What are the contents of this file?
 
-> Answer: THM{FILESYSTEM}
+> **Answer:** THM{FILESYSTEM}
 
 Question: Continue to apply your knowledge and practice the commands from this task.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -122,15 +122,15 @@ su user2
 
 Question: On the deployable machine, who is the owner of "important"?
 
-> Answer: user2
+> **Answer:** user2
 
 Question: What would the command be to switch to user 2?
 
-> Answer: su user2
+> **Answer:** su user2
 
 Question: Now switch to this user "user2" using the password "user2". Read "important". What is the flag?
 
-> Answer: THM{SU\_USER2}
+> **Answer:** THM{SU\_USER2}
 
 ***
 
@@ -153,15 +153,15 @@ ls /etc
 
 Question: What is the directory path that we would expect logs to be stored in?
 
-> Answer: /var/log
+> **Answer:** /var/log
 
 Question: What root directory is similar to how RAM on a computer works?
 
-> Answer: /tmp
+> **Answer:** /tmp
 
 Question: Name the home directory of the root user.
 
-> Answer: /root
+> **Answer:** /root
 
 ***
 

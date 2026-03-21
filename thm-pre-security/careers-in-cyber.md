@@ -4,11 +4,11 @@ icon: briefcase-blank
 
 # Careers in Cyber
 
-Date: 26.02.2026
+**Date:** 26.02.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Career options in cyber.
+**Core Concept:** Career options in cyber.
 
 There are many careers in cybersecurity, the demand is high but so is the competition!
 
@@ -18,7 +18,7 @@ There are many careers in cybersecurity, the demand is high but so is the compet
 
 Question: Let's start exploring the different roles in cybersecurity!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -30,7 +30,7 @@ This is also the role I want to work in cyber! I've always been a huge fan of an
 
 Question: Read about what a security analyst does.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -40,7 +40,7 @@ A security engineer develops and implements various security measures, using thr
 
 Question: Read about what a security engineer does.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -50,7 +50,7 @@ An incident responder responds and resolves security breaches. They also create 
 
 Question: Read about what an incident responder does
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -60,7 +60,7 @@ A digital forensics examiner is like a detective. They are focused on collecting
 
 Question: Read about what a digital forensics examiner does
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -70,7 +70,7 @@ A malware analyst analyzes suspicious programs, discovers their capabilities, an
 
 Question: Read about what a malware analyst does
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -82,7 +82,7 @@ Fun fact: my uncle is a penetration tester and the only cyber family member I ha
 
 Question: Read about what a penetration tester does.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -92,7 +92,7 @@ A red teamer shares similar responsibilities with pen testers, however red teame
 
 Question: Read about what a red teamer does.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -102,7 +102,7 @@ This question leads us to a cybersecurity career role quiz, it helps identify yo
 
 Question: Complete the careers quiz and share your chosen job!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 

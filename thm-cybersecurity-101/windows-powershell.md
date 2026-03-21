@@ -4,11 +4,11 @@ icon: terminal
 
 # Windows Powershell
 
-Date: 20.03.2026&#x20;
+**Date:** 20.03.2026&#x20;
 
-Room Category: Walkthrough&#x20;
+**Room Category:** Walkthrough&#x20;
 
-Core Concept: Transitioning from CMD to the object-oriented power of PowerShell for automation and security analysis.
+**Core Concept:** Transitioning from CMD to the object-oriented power of PowerShell for automation and security analysis.
 
 PowerShell is more than just a shell; it is a full scripting language and configuration management framework built on the .NET framework. Unlike CMD, which processes plain text, PowerShell deals with objects.
 
@@ -22,7 +22,7 @@ Ahoy there! This is the second room in the Command Line module. It is an introdu
 
 Question: Raise the anchor, hoist the sails—it's time to set sail!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -34,7 +34,7 @@ PowerShell is a cross-platform task automation solution made up of a command-lin
 
 Question: What do we call the advanced approach used to develop PowerShell?
 
-> Answer: object-oriented
+> **Answer:** object-oriented
 
 ***
 
@@ -44,15 +44,15 @@ PowerShell uses **cmdlets** (command-lets), which follow a consistent **Verb-Nou
 
 Question: How would you retrieve a list of commands that start with the verb Remove?
 
-> Answer: Get-Command -Name Remove\*
+> **Answer:** Get-Command -Name Remove\*
 
 Question: What cmdlet has its traditional counterpart echo as an alias?
 
-> Answer: Write-Output
+> **Answer:** Write-Output
 
 Question: What is the command to retrieve some example usage for the cmdlet New-LocalUser?
 
-> Answer: Get-Help New-LocalUser -examples
+> **Answer:** Get-Help New-LocalUser -examples
 
 ## Task 4: Navigating the File System and Working with Files
 
@@ -65,15 +65,15 @@ Get-ChildItem -Path C:\Users
 
 Question: What cmdlet can you use instead of the traditional Windows command type?
 
-> Answer: Get-Content
+> **Answer:** Get-Content
 
 Question: What PowerShell command would you use to display the content of the "C:\Users" directory?
 
-> Answer: Get-ChildItem -Path C:\Users
+> **Answer:** Get-ChildItem -Path C:\Users
 
 Question: How many items are displayed by the command described in the previous question?
 
-> Answer: 4
+> **Answer:** 4
 
 ***
 
@@ -83,7 +83,7 @@ PowerShell uses **piping (|)** to send objects from one cmdlet to another. We us
 
 Question: How would you retrieve the items in the current directory with size greater than 100? \[for the sake of this question, avoid the use of quotes (" or ') in your answer]
 
-> Answer: Get-ChildItem | Where-Object -Property Length -gt 100
+> **Answer:** Get-ChildItem | Where-Object -Property Length -gt 100
 
 ***
 
@@ -93,15 +93,15 @@ PowerShell can retrieve detailed system and network information in a structured 
 
 Question: Other than your current user and the default “Administrator” account, what other user is enabled on the target machine?
 
-> Answer: p1r4t3
+> **Answer:** p1r4t3
 
 Question: What is the motto he has so bluntly put as his account’s description?
 
-> Answer: A merry life and a short one.
+> **Answer:** A merry life and a short one.
 
 Question: Can you navigate the filesystem and find the hidden treasure inside this pirate’s home?
 
-> Answer: THM{p34rlInAsh3ll}
+> **Answer:** THM{p34rlInAsh3ll}
 
 ***
 
@@ -111,15 +111,15 @@ PowerShell provides advanced tools to analyze running processes, services, and a
 
 Question: What is the hash of the file that contains the treasure?
 
-> Answer: 71FC5EC11C2497A32F8F08E61399687D90ABE6E204D2964DF589543A613F3E08
+> **Answer:** 71FC5EC11C2497A32F8F08E61399687D90ABE6E204D2964DF589543A613F3E08
 
 Question: What property retrieved by default by Get-NetTCPConnection contains information about the process that has started the connection?
 
-> Answer: OwningProcess
+> **Answer:** OwningProcess
 
 Question: Can you find the service name that has been tampered with?
 
-> Answer: p1r4t3-s-compass
+> **Answer:** p1r4t3-s-compass
 
 ***
 
@@ -129,7 +129,7 @@ PowerShell is a powerful scripting language used for automating tasks across mul
 
 Question: What is the syntax to execute the command Get-Service on a remote computer named "RoyalFortune"?
 
-> Answer: Invoke-Command -ComputerName RoyalFortune -ScriptBlock {Get-Service}
+> **Answer:** Invoke-Command -ComputerName RoyalFortune -ScriptBlock {Get-Service}
 
 ***
 

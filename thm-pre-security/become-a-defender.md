@@ -4,11 +4,11 @@ icon: shield
 
 # Become a Defender
 
-Date: 16.03.2026
+**Date:** 16.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: An introduction to defensive security, threat monitoring, and the defender's mindset.
+**Core Concept:** An introduction to defensive security, threat monitoring, and the defender's mindset.
 
 Exploring the defensive side of cybersecurity helps build a stronger understanding of how attacks are detected and mitigated in real time. Learning to monitor networks, analyze suspicious activity, and respond to threats is a highly practical skill that forms the backbone of protecting any organization.
 
@@ -20,7 +20,7 @@ Defensive security focuses on understanding what needs to be protected and imple
 
 Question: I understand the learning objectives and am ready to learn about Defensive Security!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -30,15 +30,15 @@ Before you can protect something, you must first understand it. This task uses a
 
 Question: What is the goal when a defender puts security controls in place to stop threats before any damage occurs?
 
-> Answer: Prevention
+> **Answer:** Prevention
 
 Question: What process involves reviewing logs and evidence to understand how an incident happened and what was impacted?
 
-> Answer: Analysis
+> **Answer:** Analysis
 
 Question: What flag did you receive after successfully mapping your city infrastructure?
 
-> Answer: THM{mapping\_infrastructure!}
+> **Answer:** THM{mapping\_infrastructure!}
 
 ***
 
@@ -48,11 +48,11 @@ A successful defender must understand the attacker. Systems are not separate par
 
 Question: Which defender principle focuses on identifying the most critical systems to guide security efforts and focus?
 
-> Answer: Risk Prioritization
+> **Answer:** Risk Prioritization
 
 Question: What flag did you receive after successfully defending your city's infrastructure?
 
-> Answer: THM{defensive\_techniques!}
+> **Answer:** THM{defensive\_techniques!}
 
 ***
 

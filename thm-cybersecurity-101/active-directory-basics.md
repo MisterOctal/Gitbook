@@ -4,9 +4,9 @@ icon: windows
 
 # Active Directory Basics
 
-Date: 19.03.2026 Room Category:&#x20;
+**Date:** 19.03.2026 **Room Category:**&#x20;
 
-Walkthrough Core Concept: Centralized identity management, authentication protocols (Kerberos/NTLM), and the AD hierarchy (OUs, Trees, and Forests).
+Walkthrough **Core Concept:** Centralized identity management, authentication protocols (Kerberos/NTLM), and the AD hierarchy (OUs, Trees, and Forests).
 
 Active Directory (AD) is a sophisticated directory database and service that stores information about objects on a network such as users, groups, machines, and printers. In a large enterprise environment, it allows for centralized administration of thousands of endpoints from a single cluster of Domain Controllers (DCs).&#x20;
 
@@ -20,7 +20,7 @@ Active Directory is effectively the phonebook of the Windows network. It provide
 
 Question:Click and continue learning!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -32,11 +32,11 @@ A Windows Domain centralizes common components of a computer network into a sing
 
 Question: In a Windows domain, credentials are stored in a centralized repository called…
 
-> Answer: Active Directory
+> **Answer:** Active Directory
 
 Question: The server in charge of running the Active Directory services is called…
 
-> Answer: Domain Controller
+> **Answer:** Domain Controller
 
 ***
 
@@ -53,15 +53,15 @@ The core of any Windows Domain is the Active Directory Domain Service (AD DS). T
 
 Question: Which group normally administrates all computers and resources in a domain?
 
-> Answer: Domain Admin
+> **Answer:** Domain Admin
 
 Question: What would be the name of the machine account associated with a machine named TOM-PC?
 
-> Answer: TOM-PC$
+> **Answer:** TOM-PC$
 
 Question: Suppose our company creates a new department for Quality Assurance. What type of containers should we use to group all Quality Assurance users so that policies can be applied consistently to them?
 
-> Answer: Organizational Units
+> **Answer:** Organizational Units
 
 ***
 
@@ -80,11 +80,11 @@ Practical: Sophie's Password Reset
 
 Question: What was the flag found on Sophie’s desktop?
 
-> Answer: THM{thanks\_for\_contacting\_support}
+> **Answer:** THM{thanks\_for\_contacting\_support}
 
 Question: The process of granting privileges to a user over some OU or other AD Object is called…
 
-> Answer: delegation
+> **Answer:** delegation
 
 ***
 
@@ -96,11 +96,11 @@ Computers are treated as objects in the same way users are. Organizing them into
 
 Question: After organizing the available computers, how many ended up in the Workstations OU?
 
-> Answer: 7
+> **Answer:** 7
 
 Question: Is it recommendable to create separate OUs for Servers and Workstations? (yay/nay)
 
-> Answer: yay
+> **Answer:** yay
 
 ***
 
@@ -112,11 +112,11 @@ Group Policy Objects (GPOs) allow for the configuration of security settings, so
 
 Question: What is the name of the network share used to distribute GPOs to domain machines?
 
-> Answer: SYSVOL
+> **Answer:** SYSVOL
 
 Question: Can a GPO be used to apply settings to users and computers? (yay/nay)
 
-> Answer: Yay
+> **Answer:** Yay
 
 ## Task 7: Authentication Methods
 
@@ -134,15 +134,15 @@ Windows uses two primary protocols for network authentication, each with differe
 
 Question: Will a current version of Windows use NetNTLM as the preferred authentication protocol by default? (yay/nay)
 
-> Answer: nay
+> **Answer:** nay
 
 Question: When referring to Kerberos, what type of ticket allows us to request further tickets known as TGS?
 
-> Answer: Ticket Granting Ticket
+> **Answer:** Ticket Granting Ticket
 
 Question: When using NetNTLM, is a user’s password transmitted over the network at any point? (yay/nay)
 
-> Answer: nay
+> **Answer:** nay
 
 ***
 
@@ -164,11 +164,11 @@ Active Directory scales using a hierarchical structure.
 
 Question: What is a group of Windows domains that share the same namespace called?
 
-> Answer: tree
+> **Answer:** tree
 
 Question: What should be configured between two domains for a user in Domain A to access a resource in Domain B?
 
-> Answer: trust relationship
+> **Answer:** trust relationship
 
 ***
 

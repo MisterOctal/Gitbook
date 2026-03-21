@@ -4,11 +4,11 @@ icon: sigma
 
 # Data Encoding
 
-Date: 14.03.2026
+**Date:** 14.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: How computers encode characters, from ASCII to Unicode's UTF.
+**Core Concept:** How computers encode characters, from ASCII to Unicode's UTF.
 
 Following up on the Data Representation room, it is time to look at how numbers are actually translated into the text, punctuation, and emojis we use every day. If everything is just 1s and 0s to a computer, there has to be a universal agreement on what those numbers mean. Understanding character encoding is crucial because it explains why things sometimes look like gibberish and how data is fundamentally structured and stored.
 
@@ -20,7 +20,7 @@ This room builds on the concept that data lives as bits and numbers in memory. E
 
 Question: It is time to dive into encoding.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -30,15 +30,15 @@ ASCII (American Standard Code for Information Interchange) is one of the earlies
 
 Question: What is the ASCII code in decimal for the character @ ?
 
-> Answer: 64
+> **Answer:** 64
 
 Question: What is the character that has the ASCII code of 35 in decimal?
 
-> Answer: #
+> **Answer:** #
 
 Question: What is the name of the character that has the ASCII code of 7?
 
-> Answer: BEL
+> **Answer:** BEL
 
 ***
 
@@ -48,19 +48,19 @@ To solve the chaos of conflicting encoding standards, Unicode was created. It is
 
 Question: What is the UTF-32 encoding of 😌?
 
-> Answer: U+0001F60C
+> **Answer:** U+0001F60C
 
 Question: What is the UTF-16 encoding of シ? Note that ツ and シ are two different characters.
 
-> Answer: U+30B7
+> **Answer:** U+30B7
 
 Question: What is the character that has the following UTF-32 encoding U+0001F60E ?
 
-> Answer: 😎
+> **Answer:** 😎
 
 Question: What is the character that has the following UTF-16 encoding U+2658 ?
 
-> Answer: ♘
+> **Answer:** ♘
 
 ***
 

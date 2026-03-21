@@ -4,11 +4,11 @@ icon: terminal
 
 # Linux Shells
 
-Date: 21.03.2026&#x20;
+**Date:** 21.03.2026&#x20;
 
-Room Category: Walkthrough&#x20;
+**Room Category:** Walkthrough&#x20;
 
-Core Concept: Understanding the interface between the user and the Linux kernel, including different shell types and basic scripting.
+**Core Concept:** Understanding the interface between the user and the Linux kernel, including different shell types and basic scripting.
 
 A shell is a program that takes commands from the keyboard and gives them to the operating system to perform. In the early days of computing, it was the only user interface available on a Unix-like system. Today, it remains a powerful tool for systems administration, server management, and security auditing. Mastering the shell is a fundamental requirement for security professionals to interact with the underlying OS efficiently.
 
@@ -20,7 +20,7 @@ This task explores the relationship between the user and the operating system. I
 
 Question: Who is the facilitator between the user and the OS?
 
-> Answer: Shell
+> **Answer:** Shell
 
 ***
 
@@ -38,15 +38,15 @@ Common Commands for Analysis:
 
 Question: What is the default shell in most Linux distributions?
 
-> Answer: Bash
+> **Answer:** Bash
 
 Question: Which command utility is used to list down the contents of a directory?
 
-> Answer: ls
+> **Answer:** ls
 
 Question: Which command utility can help you search for anything in a file?
 
-> Answer: grep
+> **Answer:** grep
 
 ***
 
@@ -60,15 +60,15 @@ Linux distributions offer several shell environments. The current active shell c
 
 Question: Which shell comes with syntax highlighting as an out-of-the-box feature?
 
-> Answer: Fish
+> **Answer:** Fish
 
 Question: Which shell does not have auto spell correction?
 
-> Answer: Bash
+> **Answer:** Bash
 
 Question: Which command displays all the previously executed commands of the current session?
 
-> Answer: history
+> **Answer:** history
 
 ***
 
@@ -109,15 +109,15 @@ fi
 
 Question: What is the shebang used in a Bash script?
 
-> Answer: #!/bin/bash
+> **Answer:** #!/bin/bash
 
 Question: Which command gives executable permissions to a script?
 
-> Answer: chmod +x
+> **Answer:** chmod +x
 
 Question: Which scripting functionality helps us configure iterative tasks?
 
-> Answer: Loops
+> **Answer:** Loops
 
 ***
 
@@ -157,7 +157,7 @@ fi
 
 Question: What would be the correct PIN to authenticate in the locker script?
 
-> Answer: 7385
+> **Answer:** 7385
 
 ***
 
@@ -184,11 +184,11 @@ done
 
 Question: Which file has the keyword?
 
-> Answer: authentication.log
+> **Answer:** authentication.log
 
 Question: Where is the cat sleeping?
 
-> Answer: under the table
+> **Answer:** under the table
 
 ***
 

@@ -4,11 +4,11 @@ icon: shield
 
 # Defensive Security Intro (Old)
 
-Date: 26.02.2026
+**Date:** 26.02.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Blue teaming.
+**Core Concept:** Blue teaming.
 
 Every month or so when we check the headlines, we can see cases where defensive security fails. Whether is be large-scale data breaches involving millions of records, or ransomware attacks compromising entire networks, the impact of poor defensive security can greatly affect an organization.
 
@@ -18,7 +18,7 @@ Every month or so when we check the headlines, we can see cases where defensive 
 
 Question: What is defensive security also known as?
 
-> Answer: Blue Teaming
+> **Answer:** Blue Teaming
 
 ***
 
@@ -35,7 +35,7 @@ In the example provided by THM, we have four team members:
 
 Question: An attack has been detected on an organisation's network. What is the name of the person above who would be responsible for responding to the attack?
 
-> Answer: Aaliyah
+> **Answer:** Aaliyah
 
 ***
 
@@ -53,7 +53,7 @@ A SIEM (Security Information and Event Management) system is a platform that agg
 
 Question: What is the abbreviation for the term "Security Operations Centre"?
 
-> Answer: SOC
+> **Answer:** SOC
 
 ***
 
@@ -73,7 +73,7 @@ After concluding our investigation, I blocked the IP address for 72 hours, set a
 
 Question: What is the flag that you obtained by following along?
 
-> Answer: THM{FAKEBANK-SECURED}
+> **Answer:** THM{FAKEBANK-SECURED}
 
 ***
 

@@ -4,11 +4,11 @@ icon: hammer
 
 # SSDLC
 
-Date: 10.03.2026
+**Date:** 10.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Integrating security into every phase of the Software Development Lifecycle.
+**Core Concept:** Integrating security into every phase of the Software Development Lifecycle.
 
 A quick follow up to the standard SDLC room before my birthday tomorrow! We just looked at how software is built, but this room is about how to build it securely from the ground up. In a SOC, knowing how an engineering team handles threat modeling and risk assessments during development gives massive context when triaging vulnerabilities in production. The goal here is to understand the Secure Software Development Lifecycle (SSDLC) and the methodologies used to shift security left.
 
@@ -20,7 +20,7 @@ This task sets the stage for the room. Secure SDLC is all about bringing securit
 
 Question: Let's get this bread
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -34,7 +34,7 @@ A study conducted by IBM discovered that it can cost around six times more to fi
 
 Question: How much more does it cost to identify vulnerabilities during the testing phase?
 
-> Answer: 15
+> **Answer:** 15
 
 ***
 
@@ -46,15 +46,15 @@ Before diving into security tools, an organization has to understand its current
 
 Question: What should you understand before implementing Secure SDLC processes?
 
-> Answer: Security posture
+> **Answer:** Security posture
 
 Question: During which stages should you perform a Risk Assessment?
 
-> Answer: Planning and requirements
+> **Answer:** Planning and requirements
 
 Question: What should be carried out during the design phase?
 
-> Answer: Threat modelling
+> **Answer:** Threat modelling
 
 ***
 
@@ -66,11 +66,11 @@ This phase evaluates the likelihood of a threat being exploited and the potentia
 
 Question: What is a formula to assign a Qualitative Risk level?
 
-> Answer: Severity x likelihood
+> **Answer:** Severity x likelihood
 
 Question: Which type of Risk Assessment assigns numerical values to determine risk?
 
-> Answer: Quantitative risk assessment
+> **Answer:** Quantitative risk assessment
 
 ***
 
@@ -84,15 +84,15 @@ Threat modeling is a structured process of identifying potential vulnerabilities
 
 Question: What threat modelling methodology assigns a rating system based on risk probability?
 
-> Answer: DREAD
+> **Answer:** DREAD
 
 Question: What threat modelling methodology is built upon the CIA triad?
 
-> Answer: STRIDE
+> **Answer:** STRIDE
 
 Question: What threat modelling methodology helps align technical requirements with business objectives?
 
-> Answer: PASTA
+> **Answer:** PASTA
 
 ***
 
@@ -104,15 +104,15 @@ Once the developers start writing the actual application, automated code analysi
 
 Question: Is it recommended to use SAST analysis at the beginning of the SDLC? (y/n)
 
-> Answer: y
+> **Answer:** y
 
 Question: Which type of code analysis uses the black-box method?
 
-> Answer: DAST
+> **Answer:** DAST
 
 Question: Which type of code analysis uses the white-box method?
 
-> Answer: SAST
+> **Answer:** SAST
 
 ***
 
@@ -122,15 +122,15 @@ After development, the software must be thoroughly tested. Vulnerability Assessm
 
 Question: Which form of assessment is more budget-friendly and takes less time?
 
-> Answer: Vulnerability Assessment
+> **Answer:** Vulnerability Assessment
 
 Question: Which type of assessment identifies vulnerabilities and attempts to exploit them?
 
-> Answer: Penetration Testing
+> **Answer:** Penetration Testing
 
 Question: When do you typically carry out Vulnerability Assessments or Pentests?
 
-> Answer: Operations & Maintenance
+> **Answer:** Operations & Maintenance
 
 ***
 
@@ -140,15 +140,15 @@ This task covers the high level frameworks organizations use to guide their secu
 
 Question: What methodology follows a set of mandatory procedures embedded in the SDLC?
 
-> Answer: Microsoft SDL
+> **Answer:** Microsoft SDL
 
 Question: What Maturity Model helps you measure tailored risks facing your organisation?
 
-> Answer: SAMM
+> **Answer:** SAMM
 
 Question: What maturity model acts as a measuring stick to determine your security posture?
 
-> Answer: BSIMM
+> **Answer:** BSIMM
 
 ***
 
@@ -158,7 +158,7 @@ This was an interactive mini game where we had to pilot a spaceship and correctl
 
 Question: What is the flag?
 
-> Answer: THM{D0-A-Barr3l-R011}
+> **Answer:** THM{D0-A-Barr3l-R011}
 
 ## Conclusion
 

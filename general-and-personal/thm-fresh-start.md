@@ -27,7 +27,7 @@ layout:
 
 # THM Fresh Start
 
-Date: 26.02.2026
+**Date:** 26.02.2026
 
 Following a period of inconsistent activity on THM due to HNC requirements and professional commitments, I have reset my THM progress. The goal is to have a "re-run" of the rooms, starting with the revamped pre-security path. But this time, I'll make sure to properly document everything on Gitbook.
 

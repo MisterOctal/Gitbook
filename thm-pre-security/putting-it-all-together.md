@@ -4,11 +4,11 @@ icon: server
 
 # Putting it all together
 
-Date: 02.03.2026
+**Date:** 02.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Combining DNS, HTTP, Web Servers, and Edge components.
+**Core Concept:** Combining DNS, HTTP, Web Servers, and Edge components.
 
 This is the final room of the web fundamentals module! Tying all these concepts together is arguably the most important part of my studying. When I take my Security+ exam this November, they aren't just going to ask me about DNS in a vacuum; they'll want to know how a DNS request interacts with a Load Balancer or a WAF. For my future career as a SOC analyst, understanding this exact architecture is how I'll know exactly which logs to check when an attack occurs!
 
@@ -37,15 +37,15 @@ This task introduces the heavy lifters of a modern network:
 
 Question: What can be used to host static files and speed up a clients visit to a website?
 
-> Answer: CDN
+> **Answer:** CDN
 
 Question: What does a load balancer perform to make sure a host is still alive?
 
-> Answer: Health Check
+> **Answer:** Health Check
 
 Question: What can be used to help against the hacking of a website?
 
-> Answer: WAF
+> **Answer:** WAF
 
 ***
 
@@ -55,15 +55,15 @@ Web servers aren't just simple file hosts. Through the use of "Virtual Hosts", a
 
 Question: What does web server software use to host multiple sites?
 
-> Answer: Virtual Hosts
+> **Answer:** Virtual Hosts
 
 Question: What is the name for the type of content that can change?
 
-> Answer: Dynamic
+> **Answer:** Dynamic
 
 Question: Does the client see the backend code?
 
-> Answer: Nay
+> **Answer:** Nay
 
 ***
 
@@ -85,7 +85,7 @@ For this practical, we had to drag and drop the sequence of events into the corr
 
 Question: Drag and drop the tiles into the correct order of how a request to a website works to reveal the flag.
 
-> Answer: THM{YOU\_GOT\_THE\_ORDER}
+> **Answer:** THM{YOU\_GOT\_THE\_ORDER}
 
 ***
 

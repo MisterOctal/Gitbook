@@ -4,11 +4,11 @@ icon: hammer
 
 # Introduction to DevSecOps
 
-Date: 10.03.2026
+**Date:** 10.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: DevSecOps as a culture and discipline.
+**Core Concept:** DevSecOps as a culture and discipline.
 
 I decided to branch out into other paths to avoid fatigue, DevSecOps is a really interesting transition. Even as a future SOC analyst, I need to understand how the applications I am monitoring were actually built. In the past, security was a separate gate at the very end of development. DevSecOps changes that by making security a shared responsibility from day one. This knowledge helps me understand where vulnerabilities are likely to be introduced in the pipeline.
 
@@ -20,7 +20,7 @@ This task provides an overview of the room's learning objectives. We are looking
 
 Question: I'm ready to start!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -38,19 +38,19 @@ Finally, DevOps was born to unite both development and operations through heavy 
 
 Question: What methodology relies on self-organising teams that focus on constructive collaboration?
 
-> Answer: Agile
+> **Answer:** Agile
 
 Question: What methodology relies on automation and integration to drive cultural change and unite teams?
 
-> Answer: DevOps
+> **Answer:** DevOps
 
 Question: What traditional approach to project management led to mistrust and poor communication between development teams?
 
-> Answer: Waterfall
+> **Answer:** Waterfall
 
 Question: What does DevOps emphasize?
 
-> Answer: Building Trust
+> **Answer:** Building Trust
 
 ***
 
@@ -66,15 +66,15 @@ We also use IaC (Infrastructure as Code) to provision environments. Using tools 
 
 Question: What helps in adding tests in an automated manner and deals with the frequent merging of small code changes?
 
-> Answer: CI/CD
+> **Answer:** CI/CD
 
 Question: What process focuses on collecting data to analyse the performance and stability of services?
 
-> Answer: Monitoring
+> **Answer:** Monitoring
 
 Question: What is a way to provision infrastructure through reusable and consistent pieces of code?
 
-> Answer: IaC
+> **Answer:** IaC
 
 ***
 
@@ -88,11 +88,11 @@ Shifting left means moving security checks into the earliest planning and coding
 
 Question: What term is it used to describe accounting for security from the earliest stages in a development lifecycle?
 
-> Answer: Shift Left
+> **Answer:** Shift Left
 
 Question: What is the development approach where security is introduced from the early stages of a development lifecycle until the final stages?
 
-> Answer: DevSecOps
+> **Answer:** DevSecOps
 
 ***
 
@@ -104,15 +104,15 @@ Furthermore, stringent, manual security processes completely ruin the speed that
 
 Question: What DevSecOps challenge can lead to a siloed culture?
 
-> Answer: Security Silos
+> **Answer:** Security Silos
 
 Question: What DevSecOps challenge can affect not prioritizing the right risks at the right times?
 
-> Answer: Lack of Visibility
+> **Answer:** Lack of Visibility
 
 Question: What DevSecOps challenge stems from needlessly overcomplicated security processes?
 
-> Answer: Stringent Processes
+> **Answer:** Stringent Processes
 
 ***
 
@@ -124,15 +124,15 @@ To fix the organizational challenges from the previous task, security teams must
 
 Question: How can you make security scalable so it's not left behind when start ups face hypergrowth or in large corporations?
 
-> Answer: Promote autonomy of teams
+> **Answer:** Promote autonomy of teams
 
 Question: How can you support teams in understanding risk and educating on security flaws?
 
-> Answer: Visibility and Transparency
+> **Answer:** Visibility and Transparency
 
 Question: What are key factors to successfully instill security in the development process by accounting for flexibility?
 
-> Answer: Understanding and Empathy
+> **Answer:** Understanding and Empathy
 
 ***
 
@@ -156,19 +156,19 @@ This site perfectly highlights the rigid, slow planning of the Waterfall approac
 
 Question: What Software Development Model did the team in Comic 1 follow?
 
-> Answer: Waterfall
+> **Answer:** Waterfall
 
 Question: What Software Development Model did the team in Comic 2 follow?
 
-> Answer: Agile
+> **Answer:** Agile
 
 Question: What Software Development Model did the team in Comic 3 follow?
 
-> Answer: DevOps
+> **Answer:** DevOps
 
 Question: What is the flag?
 
-> Answer: THM{ONE\_TWO\_THREE}
+> **Answer:** THM{ONE\_TWO\_THREE}
 
 ***
 

@@ -4,11 +4,11 @@ icon: magnifying-glass
 
 # Search Skills
 
-Date: 17.03.2026
+**Date:** 17.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Learning how to efficiently find technical information, security documentation, and threat intelligence using various search engines and specialized online tools.
+**Core Concept:** Learning how to efficiently find technical information, security documentation, and threat intelligence using various search engines and specialized online tools.
 
 The ability to quickly and accurately find information online is arguably the most important skill in cybersecurity. Whether you are debugging an error message, researching a new vulnerability, or gathering open source intelligence (OSINT) on a target, knowing exactly which search engine to use and how to filter your queries saves a massive amount of time.
 
@@ -20,7 +20,7 @@ This room focuses on teaching you how to find the right information online effic
 
 Question: Check how many results you get when searching for **learn hacking**. At the time of writing, we got 1.5 billion results when searching on Google.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -32,11 +32,11 @@ Searching is easy, but finding exactly what you need requires properly evaluatin
 
 Question: What do you call a cryptographic method or product considered bogus or fraudulent?
 
-> Answer: snake oil
+> **Answer:** snake oil
 
 Question: What is the name of the command replacing netstat in Linux systems?
 
-> Answer: ss
+> **Answer:** ss
 
 ***
 
@@ -46,11 +46,11 @@ General search engines like Google or DuckDuckGo are the starting point for most
 
 Question: How would you limit your Google search to PDF files containing the terms "cyber warfare report"?
 
-> Answer: filetype:pdf cyber warfare report
+> **Answer:** filetype:pdf cyber warfare report
 
 Question: What phrase does the Linux command ss stand for?
 
-> Answer: socket statistics
+> **Answer:** socket statistics
 
 ***
 
@@ -60,11 +60,11 @@ While Google indexes standard web pages, specialized search engines index specif
 
 Question: What is the top country with Lighty servers?
 
-> Answer: United States
+> **Answer:** United States
 
 Question: What does BitDefender FKS detect the file with the hash provided in the room as?
 
-> Answer: Android.Riskware.Agent.LHH
+> **Answer:** Android.Riskware.Agent.LHH
 
 ***
 
@@ -74,7 +74,7 @@ When a new software flaw is discovered, it is assigned a Common Vulnerabilities 
 
 Question: What utility does the CVE mentioned in the task refer to?
 
-> Answer: xz
+> **Answer:** xz
 
 ***
 
@@ -84,11 +84,11 @@ No one memorizes every command or configuration setting. Reading technical docum
 
 Question: What does the Linux command cat stand for?
 
-> Answer: concatenate
+> **Answer:** concatenate
 
 Question: What is the netstat parameter in Microsoft Windows that displays the executable associated with each active connection and listening port?
 
-> Answer: -b
+> **Answer:** -b
 
 ***
 
@@ -98,11 +98,11 @@ Social media platforms are a goldmine for Open Source Intelligence (OSINT). Atta
 
 Question: You are hired to evaluate the security of a particular company. What is a popular social media website you would use to learn about the technical background of one of their employees?
 
-> Answer: LinkedIn
+> **Answer:** LinkedIn
 
 Question: Continuing with the previous scenario, you are trying to find the answer to the secret question: "Which school did you go to as a child?". What social media website would you consider checking to find the answer to such secret questions?
 
-> Answer: Facebook
+> **Answer:** Facebook
 
 ***
 

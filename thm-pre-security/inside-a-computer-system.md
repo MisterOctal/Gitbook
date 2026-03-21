@@ -4,11 +4,11 @@ icon: display
 
 # Inside a Computer System
 
-Date: 03.03.2026
+**Date:** 03.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Understanding components of a computer and their purpose.
+**Core Concept:** Understanding components of a computer and their purpose.
 
 Taking a step back to look at the physical hardware! It's easy to get lost in network protocols and software, but as a future SOC analyst, I have to know what's actually under the hood of the endpoints I'm defending. Understanding how RAM works versus storage, or how a system boots up, is foundational for digital forensics and malware analysis. Plus, this hardware and boot process theory is definitely going to show up on my Security+ exam this November!
 
@@ -20,7 +20,7 @@ This task gives a brief overview of what we're going to cover: the internal comp
 
 Question: Let's get started!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -44,7 +44,7 @@ Now, we just have to deploy a static lab and answer some McQ and drag and drops 
 
 Question: What is the flag that you received after completing the exercise?
 
-> Answer: THM{pc5ucce55fully5t4rt3d}
+> **Answer:** THM{pc5ucce55fully5t4rt3d}
 
 ***
 

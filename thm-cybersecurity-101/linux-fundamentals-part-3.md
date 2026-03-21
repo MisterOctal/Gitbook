@@ -4,11 +4,11 @@ icon: linux
 
 # Linux Fundamentals Part 3
 
-Date: 17.03.2026
+**Date:** 17.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Powering up Linux skills by learning terminal text editors, general utilities, process management, automation, package management, and system logging.
+**Core Concept:** Powering up Linux skills by learning terminal text editors, general utilities, process management, automation, package management, and system logging.
 
 This final installment of the Linux Fundamentals series moves beyond basic navigation and focuses on the day-to-day utilities used by system administrators and security professionals. Knowing how to edit files directly in the terminal, manage running processes, schedule automated tasks, and review system logs are mandatory skills for interacting with and securing any Linux environment.
 
@@ -20,7 +20,7 @@ This room concludes the fundamentals module by showcasing practical applications
 
 Question: Let's proceed!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -35,7 +35,7 @@ ssh tryhackme@IPADDRESS
 
 Question: I've logged into the Linux Fundamentals Part 3 machine using SSH and have deployed the AttackBox successfully!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -55,11 +55,11 @@ nano hello.txt
 
 Question: Create a file using Nano
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 Question: Edit "task3" located in tryhackme's home directory using nano. What is the flag?
 
-> Answer: THM{TEXT\_EDITORS}
+> **Answer:** THM{TEXT\_EDITORS}
 
 ***
 
@@ -80,19 +80,19 @@ scp important.txt tryhackme@10.10.10.10:/home/tryhackme/
 
 Question: Ensure you are connected to the deployed instance.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 Question: Now, use Python 3's "HTTPServer" module to start a web server in the home directory of the "tryhackme" user on the deployed instance.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 Question: Download the file onto the TryHackMe AttackBox. What is the flag?
 
-> Answer: THM{WGET\_WEBSERVER}
+> **Answer:** THM{WGET\_WEBSERVER}
 
 Question: Use Ctrl + C to stop the Python3 HTTPServer module once you are finished.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -120,31 +120,31 @@ fg
 
 Question: Read me!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 Question: If we were to launch a process where the previous ID was 300, what would the ID of this new process be?
 
-> Answer: 301
+> **Answer:** 301
 
 Question: If we wanted to cleanly kill a process, what signal would we send it?
 
-> Answer: SIGTERM
+> **Answer:** SIGTERM
 
 Question: Locate the process that is running on the deployed instance. What flag is given?
 
-> Answer: THM{PROCESSES}
+> **Answer:** THM{PROCESSES}
 
 Question: What command would we use to stop the service "myservice"?
 
-> Answer: systemctl stop myservice
+> **Answer:** systemctl stop myservice
 
 Question: What command would we use to start the same service on boot-up of the system?
 
-> Answer: systemctl enable myservice
+> **Answer:** systemctl enable myservice
 
 Question: What command would we use to bring a previously backgrounded process back to the foreground?
 
-> Answer: fg
+> **Answer:** fg
 
 ***
 
@@ -162,11 +162,11 @@ crontab -e
 
 Question: Ensure you are connected to the deployed instance and look at the running crontabs.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 Question: How frequently does this crontab run?
 
-> Answer: @reboot
+> **Answer:** @reboot
 
 ***
 
@@ -187,7 +187,7 @@ apt remove sublime-text
 
 Question: Since TryHackMe instances do not have an internet connection...this task only requires you to read through the material.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -205,15 +205,15 @@ less apache2/access.log
 
 Question: Look for the apache2 logs on the deployable Linux machine.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 Question: What is the IP address of the user who visited the site?
 
-> Answer: 10.9.232.111
+> **Answer:** 10.9.232.111
 
 Question: What file did they access?
 
-> Answer: catsanddogs.jpg
+> **Answer:** catsanddogs.jpg
 
 ***
 

@@ -4,11 +4,11 @@ icon: windows
 
 # Windows Fundamentals 2
 
-Date: 18.03.2026&#x20;
+**Date:** 18.03.2026&#x20;
 
-Room Category: Walkthrough&#x20;
+**Room Category:** Walkthrough&#x20;
 
-Core Concept: Exploring advanced Windows administrative tools, system configuration, and the Windows Registry.
+**Core Concept:** Exploring advanced Windows administrative tools, system configuration, and the Windows Registry.
 
 Building on the first module, Windows Fundamentals 2 moves from the basic GUI and file system into the actual management of the OS. For a security professional, knowing how to manipulate services, audit the registry for persistence, and manage system resources is critical. These tools are often the first place we look when investigating a suspicious process or a system that isn't behaving as expected.
 
@@ -20,7 +20,7 @@ This room is a deep dive into the internal management utilities of Windows. Whil
 
 Question: Read above and start the virtual machine.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -47,19 +47,19 @@ While MSConfig handles boot-level configurations, **Advanced System Settings** (
 
 Question: What is the name of the service that lists Systems Internals as the manufacturer?
 
-> Answer: PsShutdown
+> **Answer:** PsShutdown
 
 Question: Whom is the Windows license registered to?
 
-> Answer: Windows User
+> **Answer:** Windows User
 
 Question: What is the command for Windows Troubleshooting?
 
-> Answer: C:\Windows\System32\control.exe /name Microsoft.Troubleshooting
+> **Answer:** C:\Windows\System32\control.exe /name Microsoft.Troubleshooting
 
 Question: What command will open the Control Panel?
 
-> Answer: control.exe
+> **Answer:** control.exe
 
 ***
 
@@ -71,7 +71,7 @@ As we learned in Part 1, User Account Control (UAC) is the gatekeeper for admini
 
 Question: What is the command to open User Account Control Settings?
 
-> Answer: UserAccountControlSettings.exe
+> **Answer:** UserAccountControlSettings.exe
 
 ***
 
@@ -89,15 +89,15 @@ The Task Scheduler is also a critical area to audit, as attackers frequently use
 
 Question: What is the command to open Computer Management?
 
-> Answer: compmgmt.msc
+> **Answer:** compmgmt.msc
 
 Question: When is the npcapwatchdog scheduled task set to run at?
 
-> Answer: At system startup
+> **Answer:** At system startup
 
 Question: What is the name of the hidden folder that is shared?
 
-> Answer: sh4r3dF0Ld3r
+> **Answer:** sh4r3dF0Ld3r
 
 ***
 
@@ -107,15 +107,15 @@ The System Information tool (`msinfo32.exe`) provides a comprehensive summary of
 
 Question: What is the command to open System Information?
 
-> Answer: msinfo32.exe
+> **Answer:** msinfo32.exe
 
 Question: What is listed under System Name?
 
-> Answer: THM-WINFUN2
+> **Answer:** THM-WINFUN2
 
 Question: Under Environment Variables, what is the value for ComSpec?
 
-> Answer: %SystemRoot%\system32\cmd.exe
+> **Answer:** %SystemRoot%\system32\cmd.exe
 
 ***
 
@@ -127,7 +127,7 @@ Resource Monitor (`resmon.exe`) provides a much more granular view of system per
 
 Question: What is the command to open Resource Monitor?
 
-> Answer: resmon.exe
+> **Answer:** resmon.exe
 
 ***
 
@@ -137,11 +137,11 @@ While PowerShell is the modern standard, the classic Command Prompt (`cmd.exe`) 
 
 Question: In System Configuration, what is the full command for Internet Protocol Configuration?
 
-> Answer: C:\Windows\System32\cmd.exe /k %windir%\system32\ipconfig.exe
+> **Answer:** C:\Windows\System32\cmd.exe /k %windir%\system32\ipconfig.exe
 
 Question: For the ipconfig command, how do you show detailed information?
 
-> Answer: ipconfig /all
+> **Answer:** ipconfig /all
 
 ***
 
@@ -153,7 +153,7 @@ The Registry (`regedt32.exe`) is the central hierarchical database used to store
 
 Question: What is the command to open the Registry Editor?
 
-> Answer: regedt32.exe
+> **Answer:** regedt32.exe
 
 ***
 

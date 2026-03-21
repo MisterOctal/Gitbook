@@ -4,11 +4,11 @@ icon: server
 
 # DNS in Detail
 
-Date: 02.03.2026
+**Date:** 02.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: The Domain Name System (DNS) and how it translates human-readable domains to IP addresses.
+**Core Concept:** The Domain Name System (DNS) and how it translates human-readable domains to IP addresses.
 
 As I'm grinding through my HND and prepping for my Security+ this coming November, getting a solid grip on core web protocols is an absolute must. DNS is basically the internet's phonebook. Without it, we'd have to memorize the complex IP addresses of every single website we want to visit. For a future SOC analyst, understanding how DNS works is critical because malware constantly abuses it for command and control (C2) or data exfiltration.
 
@@ -20,7 +20,7 @@ This task just gives a high-level overview. Instead of typing `104.26.10.229` in
 
 Question: What does DNS stand for?
 
-> Answer: Domain Name System
+> **Answer:** Domain Name System
 
 ***
 
@@ -34,19 +34,19 @@ A domain name is actually split into a hierarchy, read from right to left. First
 
 Question: What is the maximum length of a subdomain?
 
-> Answer: 63
+> **Answer:** 63
 
 Question: Which of the following characters cannot be used in a subdomain ( 3 b \_ - )?
 
-> Answer: \_
+> **Answer:** \_
 
 Question: What is the maximum length of a domain name?
 
-> Answer: 253
+> **Answer:** 253
 
 Question: What type of TLD is .co.uk?
 
-> Answer: ccTLD
+> **Answer:** ccTLD
 
 ***
 
@@ -56,11 +56,11 @@ DNS isn't just for IP addresses; it holds various types of records that tell dev
 
 Question: What type of record would be used to advise where to send email?
 
-> Answer: MX
+> **Answer:** MX
 
 Question: What type of record handles IPv6 addresses?
 
-> Answer: AAAA
+> **Answer:** AAAA
 
 ***
 
@@ -72,15 +72,15 @@ The actual journey of a DNS request is pretty wild. First, your computer checks 
 
 Question: What field specifies how long a DNS record should be cached for?
 
-> Answer: TTL
+> **Answer:** TTL
 
 Question: What type of DNS Server is usually provided by your ISP?
 
-> Answer: Recursive
+> **Answer:** Recursive
 
 Question: What type of server holds all the records for a domain?
 
-> Answer: Authoritative
+> **Answer:** Authoritative
 
 ***
 
@@ -92,19 +92,19 @@ For this task, we use an in-browser terminal to make actual DNS queries and hunt
 
 Question: What is the CNAME of shop.website.thm?
 
-> Answer: shops.myshopify.com
+> **Answer:** shops.myshopify.com
 
 Question: What is the value of the TXT record of website.thm?
 
-> Answer: THM{7012BBA60997F35A9516C2E16D2944FF}
+> **Answer:** THM{7012BBA60997F35A9516C2E16D2944FF}
 
 Question: What is the numerical priority value for the MX record?
 
-> Answer: 30
+> **Answer:** 30
 
 Question: What is the IP address for the A record of www.website.thm?
 
-> Answer: 10.10.10.10
+> **Answer:** 10.10.10.10
 
 ***
 

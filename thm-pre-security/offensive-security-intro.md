@@ -5,11 +5,11 @@ icon: swords
 
 # Offensive Security Intro
 
-Date: 26.02.2026
+**Date:** 26.02.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Understanding the offensive mindset.
+**Core Concept:** Understanding the offensive mindset.
 
 We can't outsmart something we don't understand, this is why its important to understand offensive security. We need to learn what can break or be exploited to know how to defend them. I don't have much to say for this room because its a fairly simple one.
 
@@ -22,7 +22,7 @@ Question: Which of the following options better represents the process where you
 * Offensive Security
 * Defensive Security
 
-> Answer: Offensive Security
+> **Answer:** Offensive Security
 
 ***
 
@@ -32,7 +32,7 @@ In this task, we have to start a virtual machine to 'hack' a fake bank applicati
 
 Question: What is your bank account number in the FakeBank web application?
 
-> Answer: 8881
+> **Answer:** 8881
 
 Upon opening the VM, we can see a firefox browser tab open, logged into a bank account. The account's number is 8881 and its balance in the negative, yikes.
 
@@ -52,7 +52,7 @@ Looks like dirb found two pages, the bank-deposit page and the images page. The 
 
 Question: Dirb should have found 2 hidden URLs. One of them is `http://fakebank.thm/images`. What is the other one?
 
-> Answer: http://fakebank.thm/bank-deposit
+> **Answer:** http://fakebank.thm/bank-deposit
 
 ***
 
@@ -72,7 +72,7 @@ Upon returning to my account, I was greeted with this flag:
 
 Question: If your balance is now positive, a pop-up should appear with some green words in it. Input the green words as the answer to this question (all in uppercase).
 
-> Answer: BANK-HACKED
+> **Answer:** BANK-HACKED
 
 ***
 

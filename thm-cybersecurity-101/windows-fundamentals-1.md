@@ -4,11 +4,11 @@ icon: windows
 
 # Windows Fundamentals 1
 
-Date: 18.03.2026&#x20;
+**Date:** 18.03.2026&#x20;
 
-Room Category: Walkthrough&#x20;
+**Room Category:** Walkthrough&#x20;
 
-Core Concept: An introduction to the Windows operating system, its GUI, file system, and basic administrative tools.
+**Core Concept:** An introduction to the Windows operating system, its GUI, file system, and basic administrative tools.
 
 Moving from Linux over to Windows fundamentals is essential. Even though I prefer the Linux terminal for most heavy lifting, a huge portion of the corporate world runs on Windows. To be a well-rounded security professional, I need to know exactly how Windows handles users, permissions, and system files. This knowledge is the bedrock for later learning about Active Directory and Windows-specific attacks.
 
@@ -20,7 +20,7 @@ Windows is a family of operating systems tailored for different needs. While Hom
 
 Question: What encryption can you enable on Pro that you can't enable in Home?
 
-> Answer: BitLocker
+> **Answer:** BitLocker
 
 ***
 
@@ -42,15 +42,15 @@ The above screenshot is an example of a typical Windows Desktop and below are th
 
 Question: Which selection will hide/disable the Search box?
 
-> Answer: Hidden
+> **Answer:** Hidden
 
 Question: Which selection will hide/disable the Task View button?
 
-> Answer: Show Task View Button
+> **Answer:** Show Task View Button
 
 Question: Besides Clock and Network, what other icon is visible in the Notification Area?
 
-> Answer: Action Center
+> **Answer:** Action Center
 
 ***
 
@@ -60,7 +60,7 @@ Windows has a long history dating back to 1985. It has evolved from a simple GUI
 
 Question: Read above and start the virtual machine.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -72,7 +72,7 @@ Windows primarily uses the NTFS (New Technology File System) format. Unlike Linu
 
 What is the meaning of NTFS?
 
-> Answer: New Technology File System
+> **Answer:** New Technology File System
 
 ***
 
@@ -82,7 +82,7 @@ The System32 directory (C:\Windows\System32) is the heart of the Windows OS. It 
 
 Question: What is the system variable for the Windows folder?
 
-> Answer: %windir%
+> **Answer:** %windir%
 
 ***
 
@@ -92,19 +92,19 @@ User management is central to Windows security. Every user has a unique profile 
 
 Question: What is the name of the other user account?
 
-> Answer: tryhackmebilly
+> **Answer:** tryhackmebilly
 
 Question: What groups is this user a member of?
 
-> Answer: Remote Desktop Users,Users
+> **Answer:** Remote Desktop Users,Users
 
 Question: What built-in account is for guest access to the computer?
 
-> Answer: Guest
+> **Answer:** Guest
 
 Question: What is the account description?
 
-> Answer: window$Fun1!
+> **Answer:** window$Fun1!
 
 ***
 
@@ -116,7 +116,7 @@ UAC is a security boundary that helps mitigate the impact of malware. It ensures
 
 Question: What does UAC mean?
 
-> Answer: User Account Control
+> **Answer:** User Account Control
 
 ***
 
@@ -128,7 +128,7 @@ Microsoft is currently transitioning all system management to the modern Setting
 
 Question: In the Control Panel, change the view to Small icons. What is the last setting in the Control Panel view?
 
-> Answer: Windows Defender Firewall
+> **Answer:** Windows Defender Firewall
 
 ***
 
@@ -140,7 +140,7 @@ Task Manager (Ctrl+Shift+Esc) is the go-to tool for real-time system monitoring.
 
 Question: What is the keyboard shortcut to open Task Manager?
 
-> Answer: Ctrl+Shift+Esc
+> **Answer:** Ctrl+Shift+Esc
 
 ***
 

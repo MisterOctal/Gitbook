@@ -4,11 +4,11 @@ icon: cloud
 
 # Cloud Computing Fundamentals
 
-Date: 05.03.2026
+**Date:** 05.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Cloud deployment models, service types, and cost management.
+**Core Concept:** Cloud deployment models, service types, and cost management.
 
 This room is a perfect follow up to the virtualization stuff we just covered. In the real world, almost every enterprise environment is either fully in the cloud or running a hybrid setup. As a future SOC analyst, I am going to have to know how to monitor and secure cloud infrastructure just as much as on premise networks. This room will also give me a head start on my HND Cloud Computing Module.
 
@@ -20,7 +20,7 @@ This task gives a quick intro to why the cloud even exists. If you have an appli
 
 Question: Let's go!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -38,15 +38,15 @@ The apartment analogy they used was great: IaaS is renting an empty apartment, P
 
 Question: What is the characteristic of a cloud environment that enables you to handle an unexpected increase in traffic?
 
-> Answer: Scalability
+> **Answer:** Scalability
 
 Question: What is the most common type of cloud deployment used?
 
-> Answer: Public Cloud
+> **Answer:** Public Cloud
 
 Question: Suppose you want to deploy an application to the internet, focusing only on application development and leave the infrastructure to others. Which cloud service model would you use?
 
-> Answer: PaaS
+> **Answer:** PaaS
 
 ***
 
@@ -56,19 +56,19 @@ This task was a really cool interactive simulation of a cloud billing dashboard 
 
 Question: What is the total cost of credit if Study Machine 1 and Study Machine 2 are stopped?
 
-> Answer: 30
+> **Answer:** 30
 
 Question: How many credits does an M5 Large instance cost?
 
-> Answer: 70
+> **Answer:** 70
 
 Question: What is the total cost of credit if only the new instances we created are running?
 
-> Answer: 150
+> **Answer:** 150
 
 Question: What would the total running cost of the environment be if a third T3 Small study machine were added alongside our machines?
 
-> Answer: 188
+> **Answer:** 188
 
 ***
 

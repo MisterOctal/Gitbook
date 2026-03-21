@@ -4,11 +4,11 @@ icon: terminal
 
 # Windows Command Line
 
-Date: 20.03.2026&#x20;
+**Date:** 20.03.2026&#x20;
 
-Room Category: Walkthrough&#x20;
+**Room Category:** Walkthrough&#x20;
 
-Core Concept: Mastering the Windows Command Prompt (cmd.exe) for speed, efficiency, and remote management.
+**Core Concept:** Mastering the Windows Command Prompt (cmd.exe) for speed, efficiency, and remote management.
 
 While graphical interfaces are intuitive, the Command Line Interface (CLI) is a essential tool for security professionals. It uses fewer system resources, allows for rapid automation, and is often the only way to interact with a system during remote management or after gaining initial access via a shell.
 
@@ -20,7 +20,7 @@ Command Line Interfaces (CLI) can be challenging at first but offer significant 
 
 Question: What is the default command line interpreter in the Windows environment?
 
-> Answer: cmd.exe
+> **Answer:** cmd.exe
 
 ***
 
@@ -32,11 +32,11 @@ This task covers how to identify the system you are working on. The 'ver' comman
 
 Question: What is the OS version of the Windows VM?
 
-> Answer: 10.0.20348.2655
+> **Answer:** 10.0.20348.2655
 
 Question: What is the hostname of the Windows VM?
 
-> Answer: WINSRV2022-CORE
+> **Answer:** WINSRV2022-CORE
 
 ***
 
@@ -46,15 +46,15 @@ Networking commands are the bread and butter of connectivity testing. 'ipconfig 
 
 Question: Which command can we use to look up the server’s physical address (MAC address)?
 
-> Answer: ipconfig /all
+> **Answer:** ipconfig /all
 
 Question: What is the name of the service listening on port 135?
 
-> Answer: RPCSS
+> **Answer:** RPCSS
 
 Question: What is the name of the process listening on port 3389?
 
-> Answer: TermService
+> **Answer:** TermService
 
 ***
 
@@ -64,7 +64,7 @@ Navigating the filesystem involves using 'cd' to move and 'dir' to list contents
 
 Question: What are the file’s contents in C:\Treasure\Hunt?
 
-> Answer: THM{CLI\_POWER}
+> **Answer:** THM{CLI\_POWER}
 
 ***
 
@@ -74,11 +74,11 @@ Managing running applications is critical for performance and security. 'tasklis
 
 Question: What command would you use to find the running processes related to notepad.exe?
 
-> Answer: tasklist /FI "imagename eq notepad.exe"
+> **Answer:** tasklist /FI "imagename eq notepad.exe"
 
 Question: What command can you use to kill the process with PID 1516?
 
-> Answer: taskkill /PID 1516
+> **Answer:** taskkill /PID 1516
 
 ***
 
@@ -90,8 +90,8 @@ Below are the two final commands to wrap up the room:
 
 Question: The command shutdown /s can shut down a system. What is the command you can use to restart a system?
 
-> Answer: shutdown /r
+> **Answer:** shutdown /r
 
 Question: What command can you use to abort a scheduled system shutdown?
 
-> Answer: shutdown /a
+> **Answer:** shutdown /a

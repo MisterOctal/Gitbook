@@ -4,11 +4,11 @@ icon: display
 
 # Client-Server Basics
 
-Date: 05.03.2026
+**Date:** 05.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Understanding basics of client-server computing.
+**Core Concept:** Understanding basics of client-server computing.
 
 We are keeping the networking momentum going! This room is the perfect bridge between the hardware concepts we learned in "Inside a Computer" and the web protocols from "HTTP in Detail." As someone aiming to become a SOC analyst, almost every piece of network traffic I will ever look at is going to be a conversation between a client and a server. Having this mental model locked down is absolutely crucial for my Security+ exam in November, and it'll give me a huge leg up when I start at BCIT next year!
 
@@ -20,7 +20,7 @@ This task gives a brief history lesson on how computers originally operated enti
 
 Question: Read the introduction.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -34,11 +34,11 @@ The analogy maps out other network concepts perfectly too: the GPS used to find 
 
 Question: What do we use to identify a specific service on the server?
 
-> Answer: Port
+> **Answer:** Port
 
 Question: What do we call the address of the server?
 
-> Answer: Internet Protocol Address
+> **Answer:** Internet Protocol Address
 
 ***
 
@@ -48,11 +48,11 @@ This task drops the analogies and looks at actual HTTP/HTTPS traffic. HTTP is a 
 
 Question: What would the host in the following URL be?
 
-> Answer: www.iamlearning.thm
+> **Answer:** www.iamlearning.thm
 
 Question: What would the scheme be?
 
-> Answer: https
+> **Answer:** https
 
 ***
 

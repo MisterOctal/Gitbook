@@ -4,11 +4,11 @@ icon: triangle
 
 # The CIA Triad
 
-Date: 16.03.2026
+**Date:** 16.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Understanding the three main pillars of information security: Confidentiality, Integrity, and Availability.
+**Core Concept:** Understanding the three main pillars of information security: Confidentiality, Integrity, and Availability.
 
 Nailing down the core principles of security like the CIA triad is essential. This framework truly shapes everything in the security world. Its also a core part of Security+'s domain 1.0!
 
@@ -22,7 +22,7 @@ The CIA triad is the absolute baseline of information security. It stands for Co
 
 Question: I am ready to learn about the CIA Triad.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -36,23 +36,23 @@ An example of the entire CIA triad being broken is when data is seen, changed, t
 
 Question: Which pillar of the CIA focuses on preventing unauthorized modification of data?
 
-> Answer: Integrity
+> **Answer:** Integrity
 
 Question: Which pillar of the CIA focuses on preventing unauthorized access to data?
 
-> Answer: Confidentiality
+> **Answer:** Confidentiality
 
 Question: Which CIA pillar ensures data is available to users when needed?
 
-> Answer: Availability
+> **Answer:** Availability
 
 Question: Which CIA pillar gets impacted if the data becomes untrustworthy?
 
-> Answer: Integrity
+> **Answer:** Integrity
 
 Question: What is the term used collectively for all these pillars?
 
-> Answer: CIA Triad
+> **Answer:** CIA Triad
 
 ***
 
@@ -66,11 +66,11 @@ In this scenario, we have to interact with a static site to answer a short drag 
 
 Question: What is the flag received after solving the exercise?
 
-> Answer: THM{CIA\_IS\_ABOUT\_BALANCE}
+> **Answer:** THM{CIA\_IS\_ABOUT\_BALANCE}
 
 Question: CIA Triad is not just a set of definitions; it's a mindset. What type of mindset is it?
 
-> Answer: Security mindset
+> **Answer:** Security mindset
 
 ***
 

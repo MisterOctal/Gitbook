@@ -4,11 +4,11 @@ icon: shield
 
 # Source Code Security
 
-Date: 12.03.2026
+**Date:** 12.03.2026
 
-Room Category: Independent Study
+**Room Category:** Independent Study
 
-Core Concept: Understanding version control systems, Git, and how to secure credentials in code repositories.
+**Core Concept:** Understanding version control systems, Git, and how to secure credentials in code repositories.
 
 New day, new room. Continuing on the DevSecOps path, this room focuses on Source Code Security. Source code is the blueprint of any application, and protecting it is critical. Often, developers accidentally hardcode credentials or API keys directly into their commits, which attackers can easily harvest. Learning how version control systems like Git operate and how to properly manage secrets is a fundamental skill for any security engineer.
 
@@ -20,7 +20,7 @@ This task sets the stage for the room. Protecting source code ensures the integr
 
 Question: I'm ready!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -30,11 +30,11 @@ Git was created by Linus Torvalds in 2005 for the development of the Linux kerne
 
 Question: When was Git released?
 
-> Answer: 2005
+> **Answer:** 2005
 
 Question: What did Linux Kernel use for a DVCS previous to git?
 
-> Answer: BitKeeper
+> **Answer:** BitKeeper
 
 ***
 
@@ -44,7 +44,7 @@ Version control systems track changes made to code over time. They allow multipl
 
 Question: What type of version control is Git?
 
-> Answer: Distributed
+> **Answer:** Distributed
 
 ***
 
@@ -54,11 +54,11 @@ To collaborate globally, teams use cloud based hosting platforms for their Git r
 
 Question: When was Github founded?
 
-> Answer: 2007
+> **Answer:** 2007
 
 Question: Where do Cloud-Based VCS store code?
 
-> Answer: repositories
+> **Answer:** repositories
 
 ***
 
@@ -68,11 +68,11 @@ This is the core security issue. Attackers actively scan code repositories for h
 
 Question: What is a solution to store secrets securely without revealing them?
 
-> Answer: environment variables
+> **Answer:** environment variables
 
 Question: Does using environment variables mean you are free from secrets being compromised? (Yes or No)
 
-> Answer: No
+> **Answer:** No
 
 ***
 
@@ -84,15 +84,15 @@ This task covers fundamental Git commands. "Branches" are used to isolate lines 
 
 Question: How does Git refer to isolated lines of development?
 
-> Answer: branches
+> **Answer:** branches
 
 Question: What term does Git use to refer to the original repository you cloned from?
 
-> Answer: origin
+> **Answer:** origin
 
 Question: What command can you use to "copy" the contents in a remote repository?
 
-> Answer: git clone
+> **Answer:** git clone
 
 ***
 
@@ -104,11 +104,11 @@ Unfortuantely I forgot to take a screenshot during this task but we have to navi
 
 Question: What is the name of the package that you need to import to make use of os.getenv?
 
-> Answer: os
+> **Answer:** os
 
 Question: What is the hidden flag?
 
-> Answer: THM\_3LL3N-RIPL3Y
+> **Answer:** THM\_3LL3N-RIPL3Y
 
 ***
 
@@ -118,15 +118,15 @@ While environment variables are better than hardcoded text, enterprise environme
 
 Question: What is the hidden flag?
 
-> Answer: THM\_S3CUr3\_4L13NS
+> **Answer:** THM\_S3CUr3\_4L13NS
 
 Question: What do you need to keep source code secure besides environment variables?
 
-> Answer: secret management
+> **Answer:** secret management
 
 Question: Which file handles the configuration to run CI/CD jobs?
 
-> Answer: .gitlab-ci.yml
+> **Answer:** .gitlab-ci.yml
 
 ***
 

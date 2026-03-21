@@ -4,11 +4,11 @@ icon: chart-network
 
 # Packets & Frames
 
-Date: 01.03.2026
+**Date:** 01.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Data encapsulation and transport protocols.
+**Core Concept:** Data encapsulation and transport protocols.
 
 Continuing the network theory grind! This room builds right on top of the OSI Model and LAN concepts we just went through. As someone aiming to be a SOC Analyst, I know I'll be staring at packet captures (PCAPs) constantly. Understanding the difference between a packet and a frame, and knowing how TCP and UDP work under the hood is absolutely essential for spotting malicious traffic. Plus, this is prime Security+ exam material.
 
@@ -20,11 +20,11 @@ In this task, we break down the difference between a packet and a frame. Tying t
 
 Question: What is the name for a piece of data when it does have IP addressing information?
 
-> Answer: Packet
+> **Answer:** Packet
 
 Question: What is the name for a piece of data when it does not have IP addressing information?
 
-> Answer: Frame
+> **Answer:** Frame
 
 ***
 
@@ -36,11 +36,11 @@ TCP is the workhorse of the internet. It is a "connection-oriented" protocol, wh
 
 Question: What is the header in a TCP packet that ensures the integrity of data?
 
-> Answer: Checksum
+> **Answer:** Checksum
 
 Question: Provide the order of a normal Three-way handshake (with each step separated by a comma)
 
-> Answer: SYN, SYN/ACK, ACK
+> **Answer:** SYN, SYN/ACK, ACK
 
 ***
 
@@ -50,7 +50,7 @@ In this question we have to play a short conversation between Alice and Bob by c
 
 Question: What is the value of the flag given at the end of the conversation?
 
-> Answer: THM{TCP\_CHATTER}
+> **Answer:** THM{TCP\_CHATTER}
 
 ***
 
@@ -62,19 +62,19 @@ UDP is basically the wild west compared to TCP. It is "connectionless", meaning 
 
 Question: What does the term "UDP" stand for?
 
-> Answer: User Datagram Protocol
+> **Answer:** User Datagram Protocol
 
 Question: What type of connection is "UDP"?
 
-> Answer: Stateless
+> **Answer:** Stateless
 
 Question: What protocol would you use to transfer a file?
 
-> Answer: TCP
+> **Answer:** TCP
 
 Question: What protocol would you use to have a video call?
 
-> Answer: UDP
+> **Answer:** UDP
 
 ***
 
@@ -86,7 +86,7 @@ The room uses a great harbor analogy: just like ships need to line up at compati
 
 Question: What is the flag received from the challenege?
 
-> Answer: THM{YOU\_CONNECTED\_TO\_A\_PORT}
+> **Answer:** THM{YOU\_CONNECTED\_TO\_A\_PORT}
 
 ***
 

@@ -4,11 +4,11 @@ icon: python
 
 # Python: Simple Demo
 
-Date: 15.03.2026
+**Date:** 15.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: An introduction to basic Python programming concepts including variables, conditionals, and loops.
+**Core Concept:** An introduction to basic Python programming concepts including variables, conditionals, and loops.
 
 As someone aiming to become a top-tier SOC analyst, knowing how to write and read scripts is a huge advantage. Python is the go-to language for automating security tasks, analyzing logs, and writing custom exploits. Getting comfortable with these basics now will make tackling more advanced security tools during my internships easier.
 
@@ -35,7 +35,7 @@ You got it in 4 tries!
 
 Question: Let's code our game!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -63,11 +63,11 @@ This task also offers a VM to run python if you want, but I didn't run it becaus
 
 Question: What is the name of the function we used to display text on the screen?
 
-> Answer: print()
+> **Answer:** print()
 
 Question: What is the name of the function that we used to convert user input to an integer?
 
-> Answer: int()
+> **Answer:** int()
 
 ***
 
@@ -103,11 +103,11 @@ else:
 
 Question: How does Python write "else if"?
 
-> Answer: elif
+> **Answer:** elif
 
 Question: What will the program display if the user's input is 50?
 
-> Answer: That number is out of range. Try again.
+> **Answer:** That number is out of range. Try again.
 
 ***
 
@@ -151,11 +151,11 @@ while guess != secret:
 
 Question: What type of loop does this program use?
 
-> Answer: while
+> **Answer:** while
 
 Question: What will the program display if the user makes the correct guess in 3 tries?
 
-> Answer: You got it in 3 tries!
+> **Answer:** You got it in 3 tries!
 
 ***
 

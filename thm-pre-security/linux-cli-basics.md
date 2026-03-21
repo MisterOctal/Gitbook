@@ -4,11 +4,11 @@ icon: linux
 
 # Linux CLI Basics
 
-Date: 08.03.2026
+**Date:** 08.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Navigating the Linux file system and gathering system information via the terminal.
+**Core Concept:** Navigating the Linux file system and gathering system information via the terminal.
 
 Linux is everywhere in cybersecurity. It powers the servers, the security tools, and the environments we have to defend. Before I can start doing deep dives into logs or investigating incidents, I need to be completely comfortable navigating the OS using the Command Line Interface (CLI). This room puts us in the shoes of a new intern getting familiar with the terminal, which is the exact baseline I need before moving into more advanced modules later this year.
 
@@ -20,7 +20,7 @@ The terminal might look intimidating at first, but it is actually much faster an
 
 Question: What does CLI stand for?
 
-> Answer: Command Line Interface
+> **Answer:** Command Line Interface
 
 ***
 
@@ -58,11 +58,11 @@ Knowing how to efficiently search for files is a core skill for any investigatio
 
 Question: What is the full path of the mission\_brief.txt?
 
-> Answer: /home/ubuntu/Documents/.research/archive/mission\_brief.txt
+> **Answer:** /home/ubuntu/Documents/.research/archive/mission\_brief.txt
 
 Question: What is the message inside the mission\_brief.txt?
 
-> Answer: MISSION-FOUND
+> **Answer:** MISSION-FOUND
 
 ***
 
@@ -93,19 +93,19 @@ cat /home/ubuntu/.logs/archive/day1_report.txt
 
 Question: What is the output of the whoami command?
 
-> Answer: ubuntu
+> **Answer:** ubuntu
 
 Question: What is the kernel version?
 
-> Answer: 6.14.0-1018-aws
+> **Answer:** 6.14.0-1018-aws
 
 Question: How much free disk space is reported?
 
-> Answer: 58G
+> **Answer:** 58G
 
 Question: What is the message in the day\_one\_report.txt?
 
-> Answer: END-OF-DAY1
+> **Answer:** END-OF-DAY1
 
 ***
 

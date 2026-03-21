@@ -4,11 +4,11 @@ icon: server
 
 # How Websites Work
 
-Date: 02.03.2026
+**Date:** 02.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: The building blocks of the web (HTML, CSS, JS) and basic web vulnerabilities.
+**Core Concept:** The building blocks of the web (HTML, CSS, JS) and basic web vulnerabilities.
 
 Continuing with the web fundamentals! As I push to finish my HND by October this year, getting extremely comfortable with how web applications are built is a top priority. When I start at University College Birmingham in 2027, having this baseline will give me a massive head start. From a SOC analyst perspective, understanding the difference between client-side (Front End) and server-side (Back End) is essential for figuring out where an attack is actually happening. Plus, knowing how HTML and JavaScript interact is exactly what I need to spot Cross-Site Scripting (XSS) or injection attacks on the job (and on my Security+ exam in November!).
 
@@ -22,7 +22,7 @@ Every website interaction involves two main components. The "Front End" (Client-
 
 Question: What term refers to the way your browser renders a website?
 
-> Answer: Front End
+> **Answer:** Front End
 
 ***
 
@@ -48,11 +48,11 @@ HTML (HyperText Markup Language) is the skeleton of every website. It defines th
 
 Question: One of the images on the cat website is broken - fix it, and the image will reveal the hidden text answer!
 
-> Answer: HTMLHERO
+> **Answer:** HTMLHERO
 
 Question: Add a dog image to the page by adding another img tag (\<img>) on line 11. The dog image location is img/dog-1.png. What is the text in the dog image?
 
-> Answer: DOGHTML
+> **Answer:** DOGHTML
 
 ***
 
@@ -79,7 +79,7 @@ In this task, we just have to render some HTML and JS to get the flag. Below is 
 
 Question: Click the "View Site" button on this task. On the right-hand side, add JavaScript that changes the demo element's content to "Hack the Planet"
 
-> Answer: JSISFUN
+> **Answer:** JSISFUN
 
 ***
 
@@ -133,7 +133,7 @@ Upon further inspection, we find out that the password is simply named 'testpass
 
 Question: View the website on [this link](https://static-labs.tryhackme.cloud/sites/howwebsiteswork/html_data_exposure/). What is the password hidden in the source code?
 
-> Answer: testpasswd
+> **Answer:** testpasswd
 
 ***
 
@@ -151,7 +151,7 @@ In this task, we just have to insert this short HTML snippet into the username f
 
 Question: Inject HTML into the page. What is the flag you receive from injecting HTML?
 
-> Answer: HTML\_INJ3CTI0N
+> **Answer:** HTML\_INJ3CTI0N
 
 ***
 

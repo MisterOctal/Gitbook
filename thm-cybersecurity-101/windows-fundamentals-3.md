@@ -4,7 +4,7 @@ icon: windows
 
 # Windows Fundamentals 3
 
-Date: 18.03.2026 Room Category: Walkthrough Core Concept: Understanding Windows security features, including the built-in Firewall, Windows Defender, and Event Viewer auditing.
+**Date:** 18.03.2026 **Room Category:** Walkthrough **Core Concept:** Understanding Windows security features, including the built-in Firewall, Windows Defender, and Event Viewer auditing.
 
 This final module in the Windows Fundamentals series shifts from management to defense. Knowing how to configure the Windows Firewall and audit system events is a direct prerequisite for the SOC environment I am building in my homelab.
 
@@ -18,7 +18,7 @@ While the previous rooms focused on how the system works and how to manage it, t
 
 Question: Read the above and start the virtual machine.
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -28,7 +28,7 @@ Keeping a system patched is the most effective way to prevent exploitation of kn
 
 Question: There were two definition updates installed in the attached VM. On what date were these updates installed?
 
-> Answer: 5/3/2021
+> **Answer:** 5/3/2021
 
 ***
 
@@ -40,7 +40,7 @@ Windows Security is the central hub for all protection features. It provides an 
 
 Question: Checking the Security section on your VM, which area needs immediate attention?
 
-> Answer: Virus & threat protection
+> **Answer:** Virus & threat protection
 
 ***
 
@@ -52,7 +52,7 @@ Windows Defender is a robust, built-in antivirus and anti-malware solution. It u
 
 Question: Specifically, what is turned off that Windows is notifying you to turn on?
 
-> Answer: Real-time protection
+> **Answer:** Real-time protection
 
 ***
 
@@ -64,7 +64,7 @@ The Windows Defender Firewall is a host-based firewall that controls inbound and
 
 Question: If you were connected to airport Wi-Fi, what most likely will be the active firewall profile?
 
-> Answer: Public network
+> **Answer:** Public network
 
 ***
 
@@ -76,7 +76,7 @@ This feature adds layers of protection against malicious websites and potentiall
 
 Question: Read the above.
 
-> Answer: Warn
+> **Answer:** Warn
 
 ***
 
@@ -90,7 +90,7 @@ Device Security focuses on hardware-level protection. Features like Core Isolati
 
 Question: What is the TPM?
 
-> Answer: Trusted Platform Module
+> **Answer:** Trusted Platform Module
 
 ***
 
@@ -100,7 +100,7 @@ As mentioned in the first room, BitLocker is a full-disk encryption feature avai
 
 Question: What must a user insert on computers that DO NOT have a TPM version 1.2 or later?
 
-> Answer: Startup Key
+> **Answer:** Startup Key
 
 ***
 
@@ -112,7 +112,7 @@ The Volume Shadow Copy Service (VSS) allows Windows to take "snapshots" of files
 
 Question: What is VSS?
 
-> Answer: Volume Shadow Copy Service
+> **Answer:** Volume Shadow Copy Service
 
 ***
 

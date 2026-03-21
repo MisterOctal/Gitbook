@@ -4,11 +4,11 @@ icon: linux
 
 # Linux Fundamentals Part 1
 
-Date: 17.03.2026
+**Date:** 17.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: An introduction to the Linux operating system, basic terminal commands, navigating the filesystem, finding files, and using shell operators.
+**Core Concept:** An introduction to the Linux operating system, basic terminal commands, navigating the filesystem, finding files, and using shell operators.
 
 Linux is the backbone of modern computing and cybersecurity. From enterprise web servers to embedded industrial devices, Linux powers the vast majority of the internet. Because penetration testing tools and server environments are heavily Linux-based, becoming comfortable with the command-line interface is a mandatory skill for any security professional. This room serves as the perfect starting point for learning how to interact with the system entirely through text commands.
 
@@ -20,7 +20,7 @@ This room is the first in a three-part series covering Linux fundamentals. It in
 
 Question: Let's get started!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -30,7 +30,7 @@ Linux is an open-source operating system based on Unix. Because it is open-sourc
 
 Question: What year was the first release of a Linux operating system?
 
-> Answer: 1991
+> **Answer:** 1991
 
 ***
 
@@ -40,7 +40,7 @@ To practice these commands, this task simply requires you to deploy the interact
 
 Question: I've deployed my first Linux machine!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -58,11 +58,11 @@ whoami
 
 Question: If we wanted to output the text "TryHackMe", what would our command be?
 
-> Answer: echo TryHackMe
+> **Answer:** echo TryHackMe
 
 Question: What is the username of who you're logged in as on your deployed Linux machine?
 
-> Answer: tryhackme
+> **Answer:** tryhackme
 
 ***
 
@@ -86,19 +86,19 @@ cat note.txt
 
 Question: On the Linux machine that you deploy, how many folders are there?
 
-> Answer: 4
+> **Answer:** 4
 
 Question: Which directory contains a file?
 
-> Answer: folder4
+> **Answer:** folder4
 
 Question: What is the contents of this file?
 
-> Answer: Hello World
+> **Answer:** Hello World
 
 Question: Use the cd command to navigate to this file and find out the new current working directory. What is the path?
 
-> Answer: /home/tryhackme/folder4
+> **Answer:** /home/tryhackme/folder4
 
 ***
 
@@ -116,11 +116,11 @@ grep "THM" access.log
 
 Question: Use grep on "access.log" to find the flag that has a prefix of "THM". What is the flag? **Note:** The "access.log" file is located in the "/home/tryhackme/" directory.
 
-> Answer: THM{ACCESS}
+> **Answer:** THM{ACCESS}
 
 Question: And I still haven't found what I'm looking for!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -141,19 +141,19 @@ echo tryhackme >> passwords
 
 Question: If we wanted to run a command in the background, what operator would we want to use?
 
-> Answer: &
+> **Answer:** &
 
 Question: If I wanted to replace the contents of a file named "passwords" with the word "password123", what would my command be?
 
-> Answer: echo password123 > passwords
+> **Answer:** echo password123 > passwords
 
 Question: Now if I wanted to add "tryhackme" to this file (named passwords) but also keep "passwords123", what would my command be?
 
-> Answer: echo tryhackme >> passwords
+> **Answer:** echo tryhackme >> passwords
 
 Question: Now use the deployed Linux machine to put these into practice
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 

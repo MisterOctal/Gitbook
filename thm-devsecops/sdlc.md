@@ -4,11 +4,11 @@ icon: hammer
 
 # SDLC
 
-Date: 10.03.2026
+**Date:** 10.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: SDLC and its importance.
+**Core Concept:** SDLC and its importance.
 
 This room pairs perfectly with the DevSecOps module. As a future SOC analyst, I will not be writing the software, but I absolutely need to understand how it is built, tested, and deployed. If a breach occurs through a web application, understanding the SDLC helps trace exactly where the security failure happened in the pipeline.
 
@@ -20,7 +20,7 @@ This task just provides the room's objectives. In this room, we'll be learning t
 
 Question: I'm ready to start!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -32,7 +32,7 @@ The Software Development Lifecycle is a structured framework that defines the ex
 
 Question: How many phases can an SDLC have? (Format X-Y)
 
-> Answer: 6-8
+> **Answer:** 6-8
 
 ***
 
@@ -47,15 +47,15 @@ This task covers the first half of the lifecycle, taking an idea and turning it 
 
 Question: What phase focuses on determining the first idea of the prototype?
 
-> Answer: Requirements Definition
+> **Answer:** Requirements Definition
 
 Question: What stage is also known as the "Feasibility Stage"?
 
-> Answer: Planning Stage
+> **Answer:** Planning Stage
 
 Question: When do you outline the user interfaces and network requirements?
 
-> Answer: Design and Prototyping
+> **Answer:** Design and Prototyping
 
 ***
 
@@ -69,15 +69,15 @@ The second half of the cycle is about making sure the code works and getting it 
 
 Question: What phase focuses on handling issues or bugs reported by end users?
 
-> Answer: Operations and Maintenance
+> **Answer:** Operations and Maintenance
 
 Question: What phase involves releasing new versions of a software?
 
-> Answer: Deployment
+> **Answer:** Deployment
 
 Question: What phase ensures software meets the standards defined in the requirements phase?
 
-> Answer: Testing
+> **Answer:** Testing
 
 ***
 
@@ -87,7 +87,7 @@ CALMS is a conceptual framework used to measure a company's ability to adopt Dev
 
 Question: What does CALMS stand for?
 
-> Answer: Culture, Automation, Lean, Measurement, Sharing
+> **Answer:** Culture, Automation, Lean, Measurement, Sharing
 
 ***
 
@@ -97,15 +97,15 @@ You cannot improve what you do not measure. This task covers the key performance
 
 Question: What two metrics are used to measure deployment agility?
 
-> Answer: Deployment speed and frequency
+> **Answer:** Deployment speed and frequency
 
 Question: What is an essential rate for engineers in production environments to know if the code meets security requirements?
 
-> Answer: Production failure rate
+> **Answer:** Production failure rate
 
 Question: What is the measurement for recovery time after a failure?
 
-> Answer: MTTR
+> **Answer:** MTTR
 
 ***
 
@@ -115,7 +115,7 @@ This was an interactive budgeting game where we were tasked with hiring develope
 
 Question: What is the flag?
 
-> Answer: THM{Ruler.of.the.SDLC.Droids}
+> **Answer:** THM{Ruler.of.the.SDLC.Droids}
 
 ***
 

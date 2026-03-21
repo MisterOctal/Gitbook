@@ -4,11 +4,11 @@ icon: js
 
 # JavaScript: Simple Demo
 
-Date: 15.03.2026
+**Date:** 15.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: An introduction to basic JavaScript programming concepts including variables, conditionals, and loops.
+**Core Concept:** An introduction to basic JavaScript programming concepts including variables, conditionals, and loops.
 
 Knowing how to read and write JavaScript is incredibly useful for any security analyst. Since JS is the native language of web browsers, having a solid grasp of how it functions is a hard requirement for finding client side vulnerabilities like Cross Site Scripting (XSS). Getting comfortable with these coding basics now will definitely pay off when I start analyzing malicious web payloads down the line.
 
@@ -33,7 +33,7 @@ You got it in 3 tries!
 
 Question: Let's write our game in JavaScript!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -61,15 +61,15 @@ tries = tries + 1; // add 1 try
 
 Question: What word is used to declare a variable?
 
-> Answer: let
+> **Answer:** let
 
 Question: What word is used to declare a constant?
 
-> Answer: const
+> **Answer:** const
 
 Question: What is the name of the function we used to display text on the screen?
 
-> Answer: console.log()
+> **Answer:** console.log()
 
 ***
 
@@ -104,7 +104,7 @@ try {
 
 Question: What method is used to convert user input into a number?
 
-> Answer: parseInt()
+> **Answer:** parseInt()
 
 ***
 
@@ -150,11 +150,11 @@ try {
 
 Question: The secret is 10 . What will our program display on the screen if the user makes a guess of 15?
 
-> Answer: Too high, try again.
+> **Answer:** Too high, try again.
 
 Question: The secret is 10 . What will our program display on the screen if the user makes a guess of 35?
 
-> Answer: That number is out of range. Try again.
+> **Answer:** That number is out of range. Try again.
 
 ***
 
@@ -203,15 +203,15 @@ try {
 
 Question: What is the name of the loop that we used in this task?
 
-> Answer: while
+> **Answer:** while
 
 Question: What is the name of the variable that is incremented by one when the user makes a new wrong guess?
 
-> Answer: tries
+> **Answer:** tries
 
 Question: How is "not equal" written in JavaScript?
 
-> Answer: !==
+> **Answer:** !==
 
 ***
 

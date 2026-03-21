@@ -4,7 +4,7 @@ icon: server
 
 # Day 2 - Metasploitable Config
 
-**Date:** 17.03.2026
+****Date:**** 17.03.2026
 
 **Focus:** Network Isolation, Static IP Allocation, Log Normalization, and Baselining
 

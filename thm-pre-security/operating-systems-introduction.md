@@ -4,11 +4,11 @@ icon: display
 
 # Operating Systems: Introduction
 
-Date: 07.03.2026
+**Date:** 07.03.2026
 
-Room Category: Walkthrough
+**Room Category:** Walkthrough
 
-Core Concept: Basic operating system components, kernel vs user space, and OS interfaces.
+**Core Concept:** Basic operating system components, kernel vs user space, and OS interfaces.
 
 Diving into operating systems! It is easy to take the OS for granted since we use them every day, but understanding exactly how they manage hardware and resources is a massive part of being a SOC analyst. If I want to eventually do digital forensics or malware analysis, I have to know how the OS processes data under the hood.
 
@@ -20,7 +20,7 @@ This task sets up the scenario. We are basically looking at a gifted computer an
 
 Question: I understand the learning objectives and am ready to learn about operating systems!
 
-> Answer: No answer needed
+> **Answer:** No answer needed
 
 ***
 
@@ -39,11 +39,11 @@ We also covered OS duties, such as Process Management, Memory Management, and OS
 
 Question: Which OS space has unrestricted access to your computer?
 
-> Answer: Kernel Space
+> **Answer:** Kernel Space
 
 Question: Which OS responsibility manages user accounts and authentication?
 
-> Answer: User Management
+> **Answer:** User Management
 
 Instead of throwing us straight into a command line, this task uses the TryHackMe split-screen to give us a familiar Graphical User Interface (GUI) via an Ubuntu VM. We have to poke around the basic system settings to gather some hardware and OS information.
 
@@ -51,11 +51,11 @@ Instead of throwing us straight into a command line, this task uses the TryHackM
 
 Question: What version of Ubuntu MATE is running?
 
-> Answer: 1.26.2
+> **Answer:** 1.26.2
 
 Question: Check out the hardware section. How much memory is allocated to your machine?
 
-> Answer: 1.9 GiB
+> **Answer:** 1.9 GiB
 
 ***
 
@@ -74,16 +74,16 @@ Although THM allows us to use the GUI for this task, I decided to use the CLI to
 Question: Open the `File Systems` tab in `System Monitor`.\
 What `Type` is listed for the `/dev/root` device?
 
-> Answer: ext4
+> **Answer:** ext4
 
 Question: After opening the `Home` directory on the Desktop, how many user directories exist?
 
-> Answer: 3
+> **Answer:** 3
 
 Question: Navigate to Alex's home directory and explore the `Documents` folder.\
 What is the flag value contained in `note.txt`?
 
-> Answer: THM{new\_pc\_for\_free!}
+> **Answer:** THM{new\_pc\_for\_free!}
 
 ***
 
