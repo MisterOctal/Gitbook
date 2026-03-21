@@ -28,6 +28,7 @@
 * [Active Directory Basics](thm-cybersecurity-101/active-directory-basics.md)
 * [Windows Command Line](thm-cybersecurity-101/windows-command-line.md)
 * [Windows Powershell](thm-cybersecurity-101/windows-powershell.md)
+* [Linux Shells](thm-cybersecurity-101/linux-shells.md)
 
 ## THM DevSecOps
 
