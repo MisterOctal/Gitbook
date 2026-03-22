@@ -1,5 +1,9 @@
 ---
 icon: magnifying-glass
+cover: >-
+  https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/5f04259cf9bf5b57aed2c476-1720165007219.png
+coverY: 0
+coverHeight: 138
 ---
 
 # Search Skills

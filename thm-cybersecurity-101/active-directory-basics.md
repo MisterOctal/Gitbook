@@ -1,5 +1,8 @@
 ---
 icon: windows
+cover: https://assets.tryhackme.com/additional/banners/bEG08k9.png
+coverY: 0
+coverHeight: 138
 ---
 
 # Active Directory Basics

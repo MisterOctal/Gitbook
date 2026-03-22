@@ -1,12 +1,16 @@
 ---
 icon: terminal
+cover: >-
+  https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/5f04259cf9bf5b57aed2c476-1728058105202.png
+coverY: 0
+coverHeight: 138
 ---
 
 # Windows Command Line
 
-**Date:** 20.03.2026&#x20;
+**Date:** 20.03.2026
 
-**Room Category:** Walkthrough&#x20;
+**Room Category:** Walkthrough
 
 **Core Concept:** Mastering the Windows Command Prompt (cmd.exe) for speed, efficiency, and remote management.
 

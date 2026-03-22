@@ -1,12 +1,16 @@
 ---
 icon: terminal
+cover: >-
+  https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/5f04259cf9bf5b57aed2c476-1728058105202.png
+coverY: 0
+coverHeight: 139
 ---
 
 # Linux Shells
 
-**Date:** 21.03.2026&#x20;
+**Date:** 21.03.2026
 
-**Room Category:** Walkthrough&#x20;
+**Room Category:** Walkthrough
 
 **Core Concept:** Understanding the interface between the user and the Linux kernel, including different shell types and basic scripting.
 

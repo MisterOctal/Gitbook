@@ -1,5 +1,9 @@
 ---
 icon: terminal
+cover: >-
+  https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/5f04259cf9bf5b57aed2c476-1728058105202.png
+coverY: 0
+coverHeight: 138
 ---
 
 # Windows Powershell
@@ -30,7 +34,7 @@ Question: Raise the anchor, hoist the sails—it's time to set sail!
 
 PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. Initially created for Windows, it now supports macOS and Linux.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: What do we call the advanced approach used to develop PowerShell?
 

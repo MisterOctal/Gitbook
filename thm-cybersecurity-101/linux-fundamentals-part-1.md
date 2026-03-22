@@ -1,5 +1,9 @@
 ---
 icon: linux
+cover: >-
+  https://tryhackme-images.s3.amazonaws.com/user-uploads/61add44b3c6be8004802cc37/room-content/184dc7fb5b1d816f4005d59f36a0e484.svg
+coverY: 0
+coverHeight: 138
 ---
 
 # Linux Fundamentals Part 1

@@ -1,10 +1,14 @@
 ---
 icon: chart-network
+cover: >-
+  https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/5f04259cf9bf5b57aed2c476-1721904048318.png
+coverY: 0
+coverHeight: 138
 ---
 
 # Networking Secure Protocols
 
-**Date:** 25.10.2024
+**Date:** 22.03.2026
 
 **Room Category:** Walkthrough
 
@@ -14,7 +18,7 @@ In the previous room, we saw how easy it is to intercept passwords and data when
 
 ***
 
-### Task 1: Introduction
+## Task 1: Introduction
 
 The core issue with early internet protocols is that they were designed for functionality, not security. Without encryption, data has no **Confidentiality** (anyone can read it), **Integrity** (anyone can change it), or **Authenticity** (anyone can pretend to be the server). We use Transport Layer Security (TLS) and Secure Shell (SSH) to solve these problems.
 
@@ -24,7 +28,7 @@ Question: Please ensure you have finished the Networking Core Protocols room at 
 
 ***
 
-### Task 2: TLS
+## Task 2: TLS
 
 TLS is the successor to SSL (Secure Sockets Layer). It provides the encryption "wrapper" for other protocols. To verify a server's identity, TLS uses **Certificates** issued by a **Certificate Authority (CA)**.
 
@@ -43,7 +47,7 @@ Question: Which type of certificates should not be used to confirm the authentic
 
 ***
 
-### Task 3: HTTPS
+## Task 3: HTTPS
 
 HTTPS is simply HTTP running over a TLS tunnel. While a standard HTTP connection only requires a TCP 3-way handshake, HTTPS requires an additional **TLS Handshake** to negotiate encryption keys before any web data is sent.
 
@@ -62,7 +66,7 @@ Question: What is the number of the packet that contains the GET /login when acc
 
 ***
 
-### Task 4: SMTPS, POP3S, and IMAPS
+## Task 4: SMTPS, POP3S, and IMAPS
 
 Just like web traffic, email protocols have secure versions that utilize TLS to prevent attackers from reading private correspondence or stealing login credentials.
 
@@ -78,7 +82,7 @@ Question: If you capture network traffic, in which of the following protocols ca
 
 ***
 
-### Task 5: SSH (Secure Shell)
+## Task 5: SSH (Secure Shell)
 
 SSH (Port 22) was created to replace the insecure Telnet (Port 23). It provides a secure, encrypted channel for command-line access. Beyond just "remote desktop for text," SSH supports:
 
@@ -93,7 +97,7 @@ Question: What is the name of the open-source implementation of the SSH protocol
 
 ***
 
-### Task 6: SFTP and FTPS
+## Task 6: SFTP and FTPS
 
 While they sound similar, they use different security methods:
 
@@ -106,7 +110,7 @@ Question: Click on the View Site button to access the related site. Please follo
 
 ***
 
-### Task 7: VPN (Virtual Private Network)
+## Task 7: VPN (Virtual Private Network)
 
 A VPN creates a secure "tunnel" across an untrusted network (like the Internet). It encrypts all traffic between your device and the VPN server, hiding your true IP address and protecting your data from your Local ISP.
 
@@ -118,7 +122,7 @@ Question: What would you use to connect the various company sites so that users 
 
 ***
 
-### Task 8: Closing Notes
+## Task 8: Closing Notes
 
 To analyze encrypted traffic in tools like Wireshark, analysts often use "SSL Key Logging" to decrypt the session. Without the proper keys, the data remains undecipherable gibberish.
 
@@ -128,6 +132,6 @@ Question: One of the packets contains login credentials. What password did the u
 
 ***
 
-### Conclusion
+## Conclusion
 
 This concludes the Networking module. We have traveled from the basic theory of the OSI model to the essential protocols like DHCP/ARP, into the core functionality of DNS/HTTP, and finally into the security frameworks that keep our data safe today. Understanding this progression is vital for both defending networks and identifying the weaknesses in legacy systems.

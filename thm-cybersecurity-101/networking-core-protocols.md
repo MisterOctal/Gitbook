@@ -1,10 +1,33 @@
 ---
 icon: chart-network
+cover: >-
+  https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/5f04259cf9bf5b57aed2c476-1721904048318.png
+coverY: 0
+coverHeight: 138
+layout:
+  width: default
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
 ---
 
 # Networking Core Protocols
 
-**Date:** 25.10.2024
+**Date:** 22.03.2026
 
 **Room Category:** Walkthrough
 

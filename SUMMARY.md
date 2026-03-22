@@ -33,6 +33,7 @@
 * [Networking Essentials](thm-cybersecurity-101/networking-essentials.md)
 * [Networking Core Protocols](thm-cybersecurity-101/networking-core-protocols.md)
 * [Networking Secure Protocols](thm-cybersecurity-101/networking-secure-protocols.md)
+* [Wireshark: The Basics](thm-cybersecurity-101/wireshark-the-basics.md)
 
 ## THM DevSecOps
 

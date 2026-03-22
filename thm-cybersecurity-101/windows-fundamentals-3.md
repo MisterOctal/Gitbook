@@ -1,10 +1,18 @@
 ---
 icon: windows
+cover: >-
+  https://tryhackme-images.s3.amazonaws.com/user-uploads/61add44b3c6be8004802cc37/room-content/4094ed0a54f8dc274b9b4f602c57b152.svg
+coverY: 0
+coverHeight: 140
 ---
 
 # Windows Fundamentals 3
 
-**Date:** 18.03.2026 **Room Category:** Walkthrough **Core Concept:** Understanding Windows security features, including the built-in Firewall, Windows Defender, and Event Viewer auditing.
+**Date:** 18.03.2026&#x20;
+
+**Room Category:** Walkthrough&#x20;
+
+**Core Concept:** Understanding Windows security features, including the built-in Firewall, Windows Defender, and Event Viewer auditing.
 
 This final module in the Windows Fundamentals series shifts from management to defense. Knowing how to configure the Windows Firewall and audit system events is a direct prerequisite for the SOC environment I am building in my homelab.
 
