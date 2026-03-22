@@ -18,7 +18,7 @@ Tomorrow is the first day of my HND Computing Research Project, its very likely 
 
 Shodan.io is basically the Google of IoT. You can find publicly accessible security cameras, what servers are being used, and more! It uses a web crawler to scan the whole internet and archive the services that run on each IP address, extremely useful for researching.
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 In this example, I used Shodan to see what's going on in my country (Myanmar), as we can see, Yangon seems to have the most IoT devices. This makes sense, its the largest city in Myanmar and where I live after all. We can also see that Mytel, which is a government-controlled telcom company is the largest organization here.
 
@@ -32,7 +32,7 @@ Question: Go to Shodan.io
 
 In this task, we learn about the usage of filters on Shodan. There is an extensive list of filters that we can use on Shodan, but some of the popular ones include product, country, port, and asn. Another powerful filter is the vuln filter, which we can use to find ip addresses that are vulnerable to certain vulnerabilities.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 In this example, I used Shodan to find out how many IPs in the US, part of Digital Ocean's ASN are still vulnerable to Eternal blue. Fortunately, only 47 are vulnerable in a country with millions of devices on Shodan, so that's good.
 
@@ -46,7 +46,7 @@ Question: What command is used to find Eternal Blue exploits on Shodan using the
 
 In this task, we will use Shodan and its filters to examine Google and it services. Unfortunately, this room was made a few years ago so the data might not be accurate anymore and TryHackMe has provided the answers so we can skip this task.
 
-Question: What is the top operating system for MYSQL servers in Google's ASN?   &#x20;
+Question: What is the top operating system for MYSQL servers in Google's ASN?
 
 > **Answer:** 5.6.40-84.0-log
 
@@ -80,8 +80,7 @@ I will likely have to use Shodan Monitor in my computing research project, but w
 
 Question: What URL takes you to Shodan Monitor?
 
-> **Answer:** [https://monitor.shodan.io/dashboard
-> ](https://monitor.shodan.io/dashboard)
+> **Answer:** [https://monitor.shodan.io/dashboard](https://monitor.shodan.io/dashboard)
 
 ***
 

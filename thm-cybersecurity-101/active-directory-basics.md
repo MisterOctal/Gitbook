@@ -4,11 +4,11 @@ icon: windows
 
 # Active Directory Basics
 
-**Date:** 19.03.2026 **Room Category:**&#x20;
+**Date:** 19.03.2026&#x20;
 
-Walkthrough **Core Concept:** Centralized identity management, authentication protocols (Kerberos/NTLM), and the AD hierarchy (OUs, Trees, and Forests).
+**Room Category:** Walkthrough **Core Concept:** Centralized identity management, authentication protocols (Kerberos/NTLM), and the AD hierarchy (OUs, Trees, and Forests).
 
-Active Directory (AD) is a sophisticated directory database and service that stores information about objects on a network such as users, groups, machines, and printers. In a large enterprise environment, it allows for centralized administration of thousands of endpoints from a single cluster of Domain Controllers (DCs).&#x20;
+Active Directory (AD) is a sophisticated directory database and service that stores information about objects on a network such as users, groups, machines, and printers. In a large enterprise environment, it allows for centralized administration of thousands of endpoints from a single cluster of Domain Controllers (DCs).
 
 Without AD, managing permissions and security policies would require manual configuration on every individual machine, which is impossible at scale. Mastering these authentication flows is a core requirement for any high-level network or security role.
 

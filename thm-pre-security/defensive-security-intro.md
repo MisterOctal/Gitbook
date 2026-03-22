@@ -36,7 +36,7 @@ Question: What would you call a team of cyber security professionals that monito
 
 ## Task 3: Digital Forensics
 
-Digital Forensics is the application of traditional forensics techniques onto the digitla medium. This involves investigating information found on digital media to help solve a crime. The key areas of digital forensics are file systems, system memory, system logs, and, network logs.&#x20;
+Digital Forensics is the application of traditional forensics techniques onto the digitla medium. This involves investigating information found on digital media to help solve a crime. The key areas of digital forensics are file systems, system memory, system logs, and, network logs.
 
 Question: An attacker deploys a piece of malicious code that does not save to the disk. What digital forensics technique would we use in this instance?
 
@@ -48,7 +48,7 @@ Question: An attacker deploys a piece of malicious code that does not save to th
 
 Incident response is how organizations resolve and handle cybersecurity breaches. The process of incident response often looks like this:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Preparation is the phase where necessary frameworks and resources for incident response are created, detection and analysis is where tools and processes are used to assess the incident's impact. The next phase is where the impact of the incident is reduced and contained, and lastly, post-incident activity is where the incident is reviewed and lessons learned are documented.
 

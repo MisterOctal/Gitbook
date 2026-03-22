@@ -32,7 +32,7 @@ Question: What is the name for a piece of data when it does not have IP addressi
 
 TCP is the workhorse of the internet. It is a "connection-oriented" protocol, which means it guarantees that your data will actually reach its destination intact. It establishes this reliable connection using the famous Three-Way Handshake. It also includes a checksum in the header to verify that the data wasn't corrupted or tampered with in transit. From a SOC perspective, knowing what a normal handshake looks like is crucial so we can spot anomalies like SYN floods!
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What is the header in a TCP packet that ensures the integrity of data?
 
@@ -58,7 +58,7 @@ Question: What is the value of the flag given at the end of the conversation?
 
 UDP is basically the wild west compared to TCP. It is "connectionless", meaning it just fires data at the target server and doesn't bother checking if it actually arrived. Because it completely skips the handshake and reliability checks, it is significantly faster. This makes it perfect for applications where speed is more critical than 100% accuracy, like video calls, streaming, or DNS requests.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What does the term "UDP" stand for?
 
@@ -80,7 +80,7 @@ Question: What protocol would you use to have a video call?
 
 ## Task 5: Ports 101 (Practical)
 
-Knowing port numbers is absolutely vital. I need to have common ports like 21 (FTP), 22 (SSH), 80 (HTTP), and 443 (HTTPS) completely memorized for my Security+ exam this November. From a SOC perspective, monitoring what ports are being used is a huge part of the job. If I see RDP (3389) suddenly open to the internet, or a weird application running on a random port out of the 65,535 possible options, that's a massive red flag.&#x20;
+Knowing port numbers is absolutely vital. I need to have common ports like 21 (FTP), 22 (SSH), 80 (HTTP), and 443 (HTTPS) completely memorized for my Security+ exam this November. From a SOC perspective, monitoring what ports are being used is a huge part of the job. If I see RDP (3389) suddenly open to the internet, or a weird application running on a random port out of the 65,535 possible options, that's a massive red flag.
 
 The room uses a great harbor analogy: just like ships need to line up at compatible docks, network data has to connect to compatible ports to communicate properly.
 
@@ -93,4 +93,3 @@ Question: What is the flag received from the challenege?
 ## Conclusion
 
 That wraps up Packets & Frames! It’s really satisfying seeing the OSI Model theory actually map to real-world data structures like TCP handshakes and UDP traffic. I’m definitely going to need this knowledge when I start analyzing actual malware traffic or digging through logs. Moving on to the next one!
-
