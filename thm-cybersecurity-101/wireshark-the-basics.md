@@ -36,7 +36,7 @@ Question: Which file is used to answer the questions?
 
 The Wireshark interface is divided into several key panes:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 * **Packet List:** A top-level summary of every packet (Source, Destination, Protocol).
 * **Packet Details:** A breakdown of the selected packet by OSI layers.
@@ -47,7 +47,7 @@ The Wireshark interface is divided into several key panes:
 * **Sniffing:** Begins the sniffing and packet collection when the shark button is pressed.
 * **Coloring Rules:** Helps visually distinguish protocols (e.g., HTTP is usually green, TCP errors are black/red).
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Merge:** Combining multiple capture files into one for a unified timeline.
 * **Capture File Properties:** Viewing metadata like hashes, capture time, and OS information.
@@ -72,7 +72,7 @@ Packet dissection is the process of decoding the bits and bytes into readable pr
 
 * **Frame (Layer 1):** Physical details.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Ethernet II (Layer 2):** MAC addresses.
 
