@@ -1,5 +1,9 @@
 ---
 icon: magnifying-glass
+cover: >-
+  https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/5f04259cf9bf5b57aed2c476-1721904048318.png
+coverY: 0
+coverHeight: 138
 ---
 
 # Tcpdump: The Basics
@@ -18,7 +22,7 @@ The main challenge when studying networking protocols is that we don’t get a c
 
 Tcpdump and its `libpcap` library are written in C/C++. The `libpcap` library is the foundation for various other networking tools today and was even ported to Windows as `winpcap`.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: What is the name of the library that is associated with tcpdump?
 

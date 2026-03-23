@@ -36,7 +36,7 @@ The OSI (Open Systems Interconnection) model is a conceptual framework that desc
 
 * **Physical Layer:** Hardware transmission like cables and switches.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 * **Data Link Layer:** Transferring data between nodes on the same network.
 
@@ -44,7 +44,7 @@ The OSI (Open Systems Interconnection) model is a conceptual framework that desc
 
 * **Network Layer:** Routing packets across different networks using IP addresses.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Transport Layer:** Managing data transfer reliability via TCP or UDP.
 * **Session, Presentation, and Application Layers:** Handling the higher level functions like encryption and the actual software interface.
@@ -85,7 +85,7 @@ Question: How many layers of the OSI model does the application layer in the TCP
 
 Every host on a network needs a unique identifier so other hosts can find it. This is where IP addresses come in. In this room, we focus on IPv4, which are 32-bit addresses divided into four octets. Subnetting is another crucial concept, it allows us to divide a large network into smaller, more manageable ones for better security and performance.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Looking Up Your Network Configuration
 

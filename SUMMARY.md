@@ -15,6 +15,7 @@
 * [Day 0 - Lab Summary](homelab/day-0-lab-summary.md)
 * [Day 1 - Kali Config](homelab/day-1-kali-config.md)
 * [Day 2 - Metasploitable Config](homelab/day-2-metasploitable-config.md)
+* [Day 3 - Initial Reconnaissance](homelab/day-3-initial-reconnaissance.md)
 
 ## THM CYBERSECURITY 101
 
@@ -35,6 +36,7 @@
 * [Networking Secure Protocols](thm-cybersecurity-101/networking-secure-protocols.md)
 * [Wireshark: The Basics](thm-cybersecurity-101/wireshark-the-basics.md)
 * [Tcpdump: The Basics](thm-cybersecurity-101/tcpdump-the-basics.md)
+* [Nmap: The Basics](thm-cybersecurity-101/nmap-the-basics.md)
 
 ## THM DevSecOps
 

@@ -18,7 +18,7 @@ By the way, Austo-College is a parody of my current college, Auston College!
 
 ***
 
-## 1. Absolute Network Containment
+## Section 1: Absolute Network Containment
 
 Austo-College must never touch a public network or the host machine's primary NAT adapter. If exposed to the internet, it will be compromised within minutes by automated scanners.
 
@@ -27,7 +27,7 @@ Austo-College must never touch a public network or the host machine's primary NA
 
 ***
 
-## 2. Static IP Allocation
+## Section 2: Static IP Allocation
 
 By default, Austo-College attempts to pull an IP address via DHCP. In a SOC environment, targets and log sources must have predictable, static IP addresses to ensure that firewall rules, SIEM configurations, and attack scripts do not break when the lab is rebooted.
 
@@ -61,7 +61,7 @@ ifconfig eth0
 
 ***
 
-## 3. Timezone Normalization (Legacy OS)
+## Section 3: Timezone Normalization (Legacy OS)
 
 As established in Day 1, chronological alignment is critical for log analysis. Since Austo-College runs on a legacy Ubuntu 8.04 kernel, the system time was synchronized to **Asia/Yangon** using the package reconfiguration tool to ensure the change persists across reboots.
 
@@ -79,7 +79,7 @@ This guarantees that when an attack is executed from Kali, the corresponding Apa
 
 ***
 
-## 4. Log Forwarding Preparation (rsyslog)
+## Section 4: Log Forwarding Preparation (rsyslog)
 
 A SOC analyst needs logs. While we are not deploying the SIEM (Splunk/Elastic) today, the target machine must be prepped to send its internal system and authentication logs over the network.
 
@@ -92,7 +92,7 @@ sudo tail -f /var/log/auth.log
 
 ***
 
-## 5. Identity Customization (User Renaming)
+## Section 5: Identity Customization (User Renaming)
 
 To fully transition the machine identity from "Metasploitable" to **Austo-College**, both the hostname and the default user account required manual modification.
 
@@ -123,7 +123,7 @@ _Note: A system reboot was required after these changes to refresh the `user@hos
 
 ***
 
-## 6. VM Baselining (The "Golden Image" Snapshot)
+## Section 6: VM Baselining
 
 Once the static IP, identity, and timezone were locked in, the machine was gracefully shut down.
 

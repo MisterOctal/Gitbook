@@ -16,7 +16,7 @@ Day 1 is dedicated to establishing a secure and functional baseline for the SOC 
 
 ***
 
-## 1. Virtual Machine Hardware & Tools Upgrade
+## Section 1: Virtual Machine Hardware & Tools Upgrade
 
 Before proceeding with OS-level configurations, a critical preliminary step was performed within the hypervisor. To prevent the notorious "missing cursor" or "stuck mouse" issues often encountered in VMware with Kali Linux, the virtual machine hardware version was upgraded to the latest compatible version.
 
@@ -29,7 +29,7 @@ To resolve repository connection errors while maintaining a secure, isolated tes
 
 ***
 
-## 2. System Updates and Patching
+## Section 2: System Updates and Patching
 
 The first and most critical step in any deployment is ensuring the system is running the latest software. This mitigates risks from known vulnerabilities and ensures that all security tools are compatible with the current kernel.
 
@@ -44,7 +44,7 @@ By using `full-upgrade` instead of a simple `upgrade`, we ensure that dependenci
 
 ***
 
-## 3. Identity and Credential Management
+## Section 3: Identity and Credential Management
 
 Default credentials are a primary target for automated scripts and lateral movement. Transitioning the system from the default `kali:kali` setup to a custom user profile (`octal`) provides a layer of obfuscation and better reflects a professional workstation setup.
 
@@ -52,7 +52,7 @@ A unique PIN was generated for the `octal` account. This ensures that even if th
 
 ***
 
-## 4. Localization: Timezone Configuration
+## Section 4: Localization: Timezone Configuration
 
 In a SOC environment, time is the most important variable. When correlating logs between an attacker machine, a victim machine, and a SIEM, timestamp discrepancies can lead to incorrect conclusions during incident response. Setting the timezone to Yangon ensures all local artifacts align with the physical location of the investigator.
 
@@ -66,7 +66,7 @@ timedatectl
 
 ***
 
-## 5. Desktop Organization and Workflow
+## Section 5: Desktop Organization and Workflow
 
 Efficiency in the lab is driven by organization. A dedicated workspace prevents "desktop clutter" and ensures that sensitive data like PCAP files, malware samples, and report drafts are stored in a centralized, predictable location.
 
@@ -80,7 +80,7 @@ chmod 700 ~/Desktop/SOC_Lab
 
 ***
 
-## 6. GUI and Environment Customization
+## Section 6: GUI and Environment Customization
 
 The Kali Linux environment was customized to create a more ergonomic and personalized workspace, departing from the default dark aesthetics for better visual clarity.
 

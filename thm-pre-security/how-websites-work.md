@@ -18,7 +18,7 @@ Continuing with the web fundamentals! As I push to finish my HND by October this
 
 Every website interaction involves two main components. The "Front End" (Client-Side) is what your browser renders and what the user actually sees and interacts with. The "Back End" (Server-Side) is the dedicated computer sitting in a data center somewhere processing your requests, querying databases, and sending the data back.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What term refers to the way your browser renders a website?
 
