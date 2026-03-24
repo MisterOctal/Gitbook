@@ -41,6 +41,9 @@
 * [Wireshark: The Basics](thm-cybersecurity-101/wireshark-the-basics.md)
 * [Tcpdump: The Basics](thm-cybersecurity-101/tcpdump-the-basics.md)
 * [Nmap: The Basics](thm-cybersecurity-101/nmap-the-basics.md)
+* [Cryptography Basics](thm-cybersecurity-101/cryptography-basics.md)
+* [Public Key Cryptography Basics](thm-cybersecurity-101/public-key-cryptography-basics.md)
+* [Hashing Basics](thm-cybersecurity-101/hashing-basics.md)
 
 ## THM Standalone
 
