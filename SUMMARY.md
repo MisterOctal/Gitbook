@@ -17,6 +17,10 @@
 * [Day 2 - Metasploitable Config](homelab/day-2-metasploitable-config.md)
 * [Day 3 - Initial Reconnaissance](homelab/day-3-initial-reconnaissance.md)
 
+## THM Cloud Rooms
+
+* [Cloud Security Pitfalls](thm-cloud-rooms/cloud-security-pitfalls.md)
+
 ## THM CYBERSECURITY 101
 
 * [Search Skills](thm-cybersecurity-101/search-skills.md)
@@ -38,6 +42,10 @@
 * [Tcpdump: The Basics](thm-cybersecurity-101/tcpdump-the-basics.md)
 * [Nmap: The Basics](thm-cybersecurity-101/nmap-the-basics.md)
 
+## THM Standalone
+
+* [Shodan.io](thm-standalone/shodan.io.md)
+
 ## THM DevSecOps
 
 * [Introduction to DevSecOps](thm-devsecops/introduction-to-devsecops.md)
@@ -45,10 +53,6 @@
 * [SSDLC](thm-devsecops/ssdlc.md)
 * [Intro to Pipeline Automation](thm-devsecops/intro-to-pipeline-automation.md)
 * [Source Code Security](thm-devsecops/source-code-security.md)
-
-## THM Standalone
-
-* [Shodan.io](thm-standalone/shodan.io.md)
 
 ## THM Pre Security
 
