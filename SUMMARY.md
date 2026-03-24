@@ -16,6 +16,7 @@
 * [Day 1 - Kali Config](homelab/day-1-kali-config.md)
 * [Day 2 - Metasploitable Config](homelab/day-2-metasploitable-config.md)
 * [Day 3 - Initial Reconnaissance](homelab/day-3-initial-reconnaissance.md)
+* [Day 4 - Vulnerability Research](homelab/day-4-vulnerability-research.md)
 
 ## THM Cloud Rooms
 

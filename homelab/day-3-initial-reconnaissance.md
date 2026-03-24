@@ -3,7 +3,7 @@ icon: magnifying-glass
 cover: >-
   https://cdn.discordapp.com/attachments/1031890307979149332/1483977967347433593/image.png?ex=69c1d3ae&is=69c0822e&hm=25522067af4b6d5ef6422a90b24711fb0f5e62d1bd0b48c156779b9ffc173adc
 coverY: 0
-coverHeight: 137
+coverHeight: 138
 ---
 
 # Day 3 - Initial Reconnaissance
