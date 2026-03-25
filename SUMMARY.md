@@ -45,6 +45,8 @@
 * [Cryptography Basics](thm-cybersecurity-101/cryptography-basics.md)
 * [Public Key Cryptography Basics](thm-cybersecurity-101/public-key-cryptography-basics.md)
 * [Hashing Basics](thm-cybersecurity-101/hashing-basics.md)
+* [John the Ripper: The Basics](thm-cybersecurity-101/john-the-ripper-the-basics.md)
+* [Moniker Link (CVE-2024-21413)](thm-cybersecurity-101/moniker-link-cve-2024-21413.md)
 
 ## THM Standalone
 
