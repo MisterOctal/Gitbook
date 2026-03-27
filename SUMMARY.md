@@ -17,6 +17,7 @@
 * [Day 2 - Metasploitable Config](homelab/day-2-metasploitable-config.md)
 * [Day 3 - Initial Reconnaissance](homelab/day-3-initial-reconnaissance.md)
 * [Day 4 - Vulnerability Research](homelab/day-4-vulnerability-research.md)
+* [Day 5 - vsFTPd 2.3.4](homelab/day-5-vsftpd-2.3.4.md)
 
 ## THM Cloud Rooms
 
