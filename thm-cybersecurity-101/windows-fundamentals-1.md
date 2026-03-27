@@ -72,7 +72,7 @@ Question: Read above and start the virtual machine.
 
 Windows primarily uses the NTFS (New Technology File System) format. Unlike Linux's single-root tree (/), Windows uses drive letters (like C:) to represent different partitions or physical disks. NTFS is superior to older systems like FAT32 because it supports ACLs (Access Control Lists), file compression, and journaling, which helps prevent data corruption.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="542"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="542"><figcaption></figcaption></figure>
 
 What is the meaning of NTFS?
 
@@ -128,7 +128,7 @@ Question: What does UAC mean?
 
 Microsoft is currently transitioning all system management to the modern Settings app, but the legacy Control Panel remains essential for deep administrative tasks. In the Control Panel, switching the view to "Small Icons" reveals a more granular list of utilities, including administrative tools and specialized drivers.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="544"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="544"><figcaption></figcaption></figure>
 
 Question: In the Control Panel, change the view to Small icons. What is the last setting in the Control Panel view?
 
@@ -140,7 +140,7 @@ Question: In the Control Panel, change the view to Small icons. What is the last
 
 Task Manager (Ctrl+Shift+Esc) is the go-to tool for real-time system monitoring. It provides visibility into processes, performance, startup applications, and active users. Checking the Startup tab is a primary location to check for malware persistence.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="496"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="496"><figcaption></figcaption></figure>
 
 Question: What is the keyboard shortcut to open Task Manager?
 

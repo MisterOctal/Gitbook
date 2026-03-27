@@ -49,6 +49,8 @@
 * [Moniker Link (CVE-2024-21413)](thm-cybersecurity-101/moniker-link-cve-2024-21413.md)
 * [Metasploit: Introduction](thm-cybersecurity-101/metasploit-introduction.md)
 * [Metasploit: Exploitation](thm-cybersecurity-101/metasploit-exploitation.md)
+* [Metasploit: Meterpreter](thm-cybersecurity-101/metasploit-meterpreter.md)
+* [Blue](thm-cybersecurity-101/blue.md)
 
 ## THM Standalone
 
