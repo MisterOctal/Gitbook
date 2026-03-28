@@ -52,6 +52,7 @@
 * [Metasploit: Exploitation](thm-cybersecurity-101/metasploit-exploitation.md)
 * [Metasploit: Meterpreter](thm-cybersecurity-101/metasploit-meterpreter.md)
 * [Blue](thm-cybersecurity-101/blue.md)
+* [Web Application Basics](thm-cybersecurity-101/web-application-basics.md)
 
 ## THM Standalone
 
