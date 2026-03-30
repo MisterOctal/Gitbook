@@ -56,6 +56,7 @@
 * [Web Application Basics](thm-cybersecurity-101/web-application-basics.md)
 * [JavaScript Essentials](thm-cybersecurity-101/javascript-essentials.md)
 * [SQL Fundamentals](thm-cybersecurity-101/sql-fundamentals.md)
+* [Burp Suite: The Basics](thm-cybersecurity-101/burp-suite-the-basics.md)
 
 ## THM Standalone
 
