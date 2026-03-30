@@ -18,6 +18,7 @@
 * [Day 3 - Initial Reconnaissance](homelab/day-3-initial-reconnaissance.md)
 * [Day 4 - Vulnerability Research](homelab/day-4-vulnerability-research.md)
 * [Day 5 - vsFTPd 2.3.4](homelab/day-5-vsftpd-2.3.4.md)
+* [Day 6 - Other Exploits](homelab/day-6-other-exploits.md)
 
 ## THM Cloud Rooms
 
