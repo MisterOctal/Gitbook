@@ -18,7 +18,7 @@ Nailing down the core principles of security like the CIA triad is essential. Th
 
 The CIA triad is the absolute baseline of information security. It stands for Confidentiality, Integrity, and Availability. Every security policy or technical control you implement is ultimately trying to protect one or more of these three pillars. It is a simple concept but it forms the foundation for protecting any network.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: I am ready to learn about the CIA Triad.
 

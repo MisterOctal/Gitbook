@@ -53,6 +53,8 @@
 * [Metasploit: Meterpreter](thm-cybersecurity-101/metasploit-meterpreter.md)
 * [Blue](thm-cybersecurity-101/blue.md)
 * [Web Application Basics](thm-cybersecurity-101/web-application-basics.md)
+* [JavaScript Essentials](thm-cybersecurity-101/javascript-essentials.md)
+* [SQL Fundamentals](thm-cybersecurity-101/sql-fundamentals.md)
 
 ## THM Standalone
 
