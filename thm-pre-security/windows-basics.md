@@ -30,7 +30,7 @@ Windows has come a long way since the early versions built on top of MS DOS. We 
 
 We are also given a windows 10 VM in this task and need to navigate around it to find the answers for the questions. After opening About your PC, examining the device specifications and windows specifications give us the answer to the first three questions.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="421"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="421"><figcaption></figcaption></figure>
 
 Question: What is the device name specified in About your PC?
 
@@ -46,7 +46,7 @@ Question: Which version of Windows Server 2019 Data Center is installed?
 
 Next, we have to navigate some folders, like in the previous room, I chose to the use the CLI instead of the GUI for this step. Upon navigating to the directory and reading the welcome file, we receive the flag needed for the last question in this task!
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Explore the `TryHatMe Onboarding` folder located on your computer's Desktop.
 
@@ -60,7 +60,7 @@ What is the flag value found within `Welcome.txt`?
 
 This task covered the basics of installing and updating software. We looked at the Windows Update service and the different ways applications are installed (via the Microsoft Store or .exe and .msi installers). From a defense perspective, keeping the OS and applications updated is the easiest way to prevent many common exploits.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="555"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="555"><figcaption></figcaption></figure>
 
 We looked at the two main ways to manage system preferences: the modern Windows Settings app and the classic Control Panel. While Microsoft is slowly moving everything to the Settings app, the Control Panel still holds many of the advanced administrative tools that a security professional might need.
 

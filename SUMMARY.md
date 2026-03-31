@@ -57,6 +57,8 @@
 * [JavaScript Essentials](thm-cybersecurity-101/javascript-essentials.md)
 * [SQL Fundamentals](thm-cybersecurity-101/sql-fundamentals.md)
 * [Burp Suite: The Basics](thm-cybersecurity-101/burp-suite-the-basics.md)
+* [Hydra](thm-cybersecurity-101/hydra.md)
+* [Gobuster: The Basics](thm-cybersecurity-101/gobuster-the-basics.md)
 
 ## THM Standalone
 

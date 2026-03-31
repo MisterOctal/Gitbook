@@ -34,11 +34,11 @@ The cloud is categorized into three primary service models based on how much of 
 
 * **IaaS (Infrastructure as a Service):** This model provides the raw building blocks of computing, such as virtual machines, storage, and networking. You are responsible for the OS, middleware, and data. Examples include **AWS EC2** and **Azure VMs**.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **PaaS (Platform as a Service):** This model is designed for developers. It provides a framework to build, test, and deploy applications without the burden of managing the underlying operating system or runtime environments. Examples include **Heroku** and **Google App Engine**.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **SaaS (Software as a Service):** This is a fully managed software suite delivered over the web. Users simply interact with the application, and the provider handles everything from the code to the hardware. Examples include **Gmail**, **Slack**, and **Dropbox**.
 
@@ -54,7 +54,7 @@ Question: Which cloud model do Elastic Cloud and CrowdStrike Falcon fit into?
 
 ## Task 3: Security of the Cloud
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Security of the Cloud** refers to the provider's mandate to protect the global infrastructure that runs all of the services offered. This includes the physical security of the data centers, the hardware stability, the virtualization layer (hypervisor), and the internal networks that connect their regions.
 
