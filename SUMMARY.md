@@ -59,6 +59,9 @@
 * [Burp Suite: The Basics](thm-cybersecurity-101/burp-suite-the-basics.md)
 * [Hydra](thm-cybersecurity-101/hydra.md)
 * [Gobuster: The Basics](thm-cybersecurity-101/gobuster-the-basics.md)
+* [SOC Fundamentals](thm-cybersecurity-101/soc-fundamentals.md)
+* [Digital Forensics Fundamentals](thm-cybersecurity-101/digital-forensics-fundamentals.md)
+* [IR Fundamentals](thm-cybersecurity-101/ir-fundamentals.md)
 
 ## THM Standalone
 
