@@ -19,6 +19,7 @@
 * [Day 4 - Vulnerability Research](homelab/day-4-vulnerability-research.md)
 * [Day 5 - vsFTPd 2.3.4](homelab/day-5-vsftpd-2.3.4.md)
 * [Day 6 - Other Exploits](homelab/day-6-other-exploits.md)
+* [Day 7 - Hardening Basics](homelab/day-7-hardening-basics.md)
 
 ## THM Cloud Rooms
 
@@ -62,6 +63,7 @@
 * [SOC Fundamentals](thm-cybersecurity-101/soc-fundamentals.md)
 * [Digital Forensics Fundamentals](thm-cybersecurity-101/digital-forensics-fundamentals.md)
 * [IR Fundamentals](thm-cybersecurity-101/ir-fundamentals.md)
+* [Logs Fundamentals](thm-cybersecurity-101/logs-fundamentals.md)
 
 ## THM Standalone
 

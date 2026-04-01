@@ -41,7 +41,7 @@ Question: An attack has been detected on an organisation's network. What is the 
 
 ## Task 3: Defensive Security in Practice
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 In practice, organizations never rely on a single tool or method to remain secure. They utilize layers of defensive, using various tools and policies to ensure security. This is called 'Defense in Depth', meaning that even if one security measure fails, various others exist to ensure security.
 
