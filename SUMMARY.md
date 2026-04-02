@@ -64,6 +64,10 @@
 * [Digital Forensics Fundamentals](thm-cybersecurity-101/digital-forensics-fundamentals.md)
 * [IR Fundamentals](thm-cybersecurity-101/ir-fundamentals.md)
 * [Logs Fundamentals](thm-cybersecurity-101/logs-fundamentals.md)
+* [Introduction to SIEM](thm-cybersecurity-101/introduction-to-siem.md)
+* [Firewall Fundamentals](thm-cybersecurity-101/firewall-fundamentals.md)
+* [IDS Fundamentals](thm-cybersecurity-101/ids-fundamentals.md)
+* [Vulnerability Scanner Overview](thm-cybersecurity-101/vulnerability-scanner-overview.md)
 
 ## THM Standalone
 

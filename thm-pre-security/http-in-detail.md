@@ -1,5 +1,9 @@
 ---
 icon: server
+cover: >-
+  https://tryhackme-images.s3.amazonaws.com/user-uploads/62c435d1f4d84a005f5df811/room-content/f54f3b9acec93f9cdbf2f1811dff1e70.png
+coverY: 0
+coverHeight: 138
 ---
 
 # HTTP in Detail
@@ -36,11 +40,11 @@ Question: On the mock webpage on the right there is an issue, once you've found 
 
 We've all used URLs (Uniform Resource Locators) before. When we try to access a website we always encounter them at the top of our browser.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Every interaction on the web is a conversation. Your browser sends a "Request" (saying "give me this page"), and the server replies with a "Response" (which includes status codes and the actual HTML). Knowing how to manually read these raw requests is crucial for finding anomalies.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: What HTTP protocol is being used in the above example?
 
@@ -118,7 +122,7 @@ Question: What header tells the web server which website is being requested?
 
 Because HTTP is "stateless" (it forgets who you are immediately after every request), cookies are used to maintain sessions and keep you logged in. If an attacker steals your session cookie via Cross-Site Scripting (XSS), they can completely bypass the login screen.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Which header is used to save cookies to your computer?
 

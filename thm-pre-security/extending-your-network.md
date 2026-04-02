@@ -1,5 +1,9 @@
 ---
 icon: chart-network
+cover: >-
+  https://tryhackme-images.s3.amazonaws.com/user-uploads/61add44b3c6be8004802cc37/room-content/b12a04bf3cd3605ae0d80150cb3efa06.svg
+coverY: 0
+coverHeight: 138
 ---
 
 # Extending Your Network

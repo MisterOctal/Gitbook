@@ -1,5 +1,9 @@
 ---
 icon: chart-network
+cover: >-
+  https://tryhackme-images.s3.amazonaws.com/user-uploads/61add44b3c6be8004802cc37/room-content/b12a04bf3cd3605ae0d80150cb3efa06.svg
+coverY: 0
+coverHeight: 138
 ---
 
 # Introduction to LAN
@@ -34,11 +38,11 @@ Question: What device is used to centrally connect multiple devices on the local
 
 In this task, we also learn about the different ways a network can be physically or logically arranged, which is called a topology. The room covers a few main ones:
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt="" width="425"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt="" width="425"><figcaption></figcaption></figure>
 
 * **Star Topology:** The most common one. All devices connect to a central switch. It's robust because if one cable breaks, only that device goes offline.
 
-<figure><img src="../.gitbook/assets/image (14) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Bus Topology:** All devices share a single backbone cable. It's cheap but if the main cable breaks, the whole network goes down.
 

@@ -1,5 +1,9 @@
 ---
 icon: display
+cover: >-
+  https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1771253130859
+coverY: 0
+coverHeight: 139
 ---
 
 # Inside a Computer System
@@ -38,7 +42,7 @@ Question: Give in the flag you received after completing the exercise on the sta
 
 This is arguably the most important task for security. When you hit the power button, the system runs a POST (Power-On Self-Test) to ensure hardware is functional. Then, the BIOS or UEFI takes over and looks for a Bootloader (like GRUB for Linux or Windows Boot Manager). The bootloader then loads the Operating System into RAM. Understanding this chain is critical because advanced malware, like bootkits or rootkits, will try to infect the UEFI or bootloader to compromise the system before the OS or antivirus even starts!
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Now, we just have to deploy a static lab and answer some McQ and drag and drops again to receive a flag!
 

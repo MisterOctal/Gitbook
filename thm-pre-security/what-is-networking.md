@@ -1,5 +1,9 @@
 ---
 icon: chart-network
+cover: >-
+  https://tryhackme-images.s3.amazonaws.com/user-uploads/61add44b3c6be8004802cc37/room-content/b12a04bf3cd3605ae0d80150cb3efa06.svg
+coverY: 0
+coverHeight: 138
 ---
 
 # What is Networking?
@@ -16,7 +20,7 @@ Networking is absolutely foundational in cybersecurity. As someone aiming to be 
 
 This task explains the absolute basics. A network is simply a group of things connected together. It doesn't even have to be technology, it could be a postal system or public transport! But in IT, it's technological devices connecting to share resources and communicate with each other.
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt="" width="316"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (1).png" alt="" width="316"><figcaption></figcaption></figure>
 
 Question: What is the key term for devices that are connected together?
 
@@ -78,7 +82,7 @@ Question: What is the syntax to ping 10.10.10.10?
 
 For the final question, we have to deploy the interactive terminal in the room and ping the Google DNS server (`8.8.8.8`). Doing so gives us a nice little flag to wrap up the room!
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What flag do you get when you ping 8.8.8.8?
 

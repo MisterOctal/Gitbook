@@ -1,5 +1,8 @@
 ---
 icon: shield
+cover: https://assets.tryhackme.com/room-banners/intro-to-defensive-security.png
+coverY: 0
+coverHeight: 139
 ---
 
 # Defensive Security Intro
@@ -48,7 +51,7 @@ Question: An attacker deploys a piece of malicious code that does not save to th
 
 Incident response is how organizations resolve and handle cybersecurity breaches. The process of incident response often looks like this:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Preparation is the phase where necessary frameworks and resources for incident response are created, detection and analysis is where tools and processes are used to assess the incident's impact. The next phase is where the impact of the incident is reduced and contained, and lastly, post-incident activity is where the incident is reviewed and lessons learned are documented.
 

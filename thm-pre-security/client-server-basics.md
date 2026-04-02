@@ -1,5 +1,9 @@
 ---
 icon: display
+cover: >-
+  https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1771253130859
+coverY: 0
+coverHeight: 138
 ---
 
 # Client-Server Basics

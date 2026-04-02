@@ -1,5 +1,9 @@
 ---
 icon: cloud
+cover: >-
+  https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/68dac5d6d4d4f23175b3296f-1768564598589
+coverY: 0
+coverHeight: 139
 ---
 
 # Cloud Computing Fundamentals
@@ -30,7 +34,7 @@ Here we look at the evolution of servers. We started with massive physical mainf
 
 <figure><img src="https://cdn.discordapp.com/attachments/1472776768103518241/1479481031575732337/image.png?ex=69ac3195&#x26;is=69aae015&#x26;hm=d34698e733d6dd51e020e60af1dbf2db75f593341eead874899e5889ccfcbb15" alt="" width="563"><figcaption></figcaption></figure>
 
-The main benefits of the cloud are also included. They are: scalability (growing on demand), high availability, and paying only for what you use. We also looked at the different deployment models (Public, Private, and Hybrid) and the service models (IaaS, PaaS, SaaS).&#x20;
+The main benefits of the cloud are also included. They are: scalability (growing on demand), high availability, and paying only for what you use. We also looked at the different deployment models (Public, Private, and Hybrid) and the service models (IaaS, PaaS, SaaS).
 
 <figure><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/68dac5d6d4d4f23175b3296f/room-content/68dac5d6d4d4f23175b3296f-1765978997643.png" alt="" width="563"><figcaption></figcaption></figure>
 

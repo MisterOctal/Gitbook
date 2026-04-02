@@ -34,11 +34,11 @@ The cloud is categorized into three primary service models based on how much of 
 
 * **IaaS (Infrastructure as a Service):** This model provides the raw building blocks of computing, such as virtual machines, storage, and networking. You are responsible for the OS, middleware, and data. Examples include **AWS EC2** and **Azure VMs**.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **PaaS (Platform as a Service):** This model is designed for developers. It provides a framework to build, test, and deploy applications without the burden of managing the underlying operating system or runtime environments. Examples include **Heroku** and **Google App Engine**.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **SaaS (Software as a Service):** This is a fully managed software suite delivered over the web. Users simply interact with the application, and the provider handles everything from the code to the hardware. Examples include **Gmail**, **Slack**, and **Dropbox**.
 
@@ -54,7 +54,7 @@ Question: Which cloud model do Elastic Cloud and CrowdStrike Falcon fit into?
 
 ## Task 3: Security of the Cloud
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Security of the Cloud** refers to the provider's mandate to protect the global infrastructure that runs all of the services offered. This includes the physical security of the data centers, the hardware stability, the virtualization layer (hypervisor), and the internal networks that connect their regions.
 
@@ -73,7 +73,7 @@ Question: But should you trust the cloud provider without watching for supply ch
 
 ## Task 4: Security in the Cloud
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Security in the Cloud** is the customer's responsibility. This is where most breaches occur. It covers the data you store, the users you manage, the permissions you grant, and the guest operating systems you run on top of IaaS. The provider secures the "pipes," but you are responsible for what you put through them.
 
@@ -92,7 +92,7 @@ Question: What is the first major obstacle to integrating most cloud products wi
 
 ## Task 5: Cloud Security Monitoring
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Monitoring strategies must adapt to the service model being used. For SaaS, your focus is on Identity and Access Management (IAM), looking for suspicious logins or unauthorized data sharing. For IaaS, the mission is two-fold: you must monitor the **Control Plane** (who is changing your cloud configuration) and the **Workloads** (the actual behavior of processes inside your containers or VMs).
 

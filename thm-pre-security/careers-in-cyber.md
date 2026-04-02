@@ -1,5 +1,8 @@
 ---
 icon: briefcase-blank
+cover: https://assets.tryhackme.com/room-banners/intro-to-cyber.png
+coverY: 0
+coverHeight: 138
 ---
 
 # Careers in Cyber
@@ -36,7 +39,7 @@ Question: Read about what a security analyst does.
 
 ## Task 3: Security Engineer
 
-A security engineer develops and implements various security measures, using threat and vulnerability data, often sourced from other security team members.&#x20;
+A security engineer develops and implements various security measures, using threat and vulnerability data, often sourced from other security team members.
 
 Question: Read about what a security engineer does.
 
@@ -109,4 +112,3 @@ Question: Complete the careers quiz and share your chosen job!
 ## Conclusion
 
 Overall, this is a pretty trivial room but it's great for finding out where you belong in cybersecurity! That's all for this room, see you around!
-
