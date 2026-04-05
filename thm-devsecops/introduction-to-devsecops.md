@@ -26,13 +26,13 @@ Question: I'm ready to start!
 
 ## Task 2: DevOps: A New Hope
 
-To understand DevSecOps, you have to look at the history of software development. We started with the Waterfall model, a strict, hierarchical approach where developers, testers, and admins worked in total silos, leading to massive backlogs and poor communication.&#x20;
+To understand DevSecOps, you have to look at the history of software development. We started with the Waterfall model, a strict, hierarchical approach where developers, testers, and admins worked in total silos, leading to massive backlogs and poor communication.
 
-<figure><img src="../.gitbook/assets/image (30).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-The Agile methodology later took over, focusing on collaboration and flexibility.&#x20;
+The Agile methodology later took over, focusing on collaboration and flexibility.
 
-<figure><img src="../.gitbook/assets/image (31).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Finally, DevOps was born to unite both development and operations through heavy automation. It broke down the "wall of confusion" between developers who wanted fast changes and operations teams who wanted stability, building a shared culture of trust.
 
@@ -60,7 +60,7 @@ DevOps is visualized as an infinite loop consisting of planning, coding, buildin
 
 <figure><img src="../.gitbook/assets/image (32).png" alt="" width="563"><figcaption></figcaption></figure>
 
-We use tools like CI/CD (Continuous Integration and Continuous Deployment) to automate the heavy lifting. Continuous Integration means developers are merging their code changes into a central repository daily, which automatically triggers unit tests. Continuous Deployment takes that tested code and automatically pushes it to production servers.&#x20;
+We use tools like CI/CD (Continuous Integration and Continuous Deployment) to automate the heavy lifting. Continuous Integration means developers are merging their code changes into a central repository daily, which automatically triggers unit tests. Continuous Deployment takes that tested code and automatically pushes it to production servers.
 
 We also use IaC (Infrastructure as Code) to provision environments. Using tools like Terraform, we can write a text file that defines an entire cloud network, allowing us to build and tear down servers in minutes while ensuring configurations are consistent every single time.
 

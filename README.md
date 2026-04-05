@@ -14,13 +14,17 @@ My name is Wai Yan, aka MisterOctal, This GitBook serves as my active brain-dump
 
 Here is what you will find inside:
 
-#### 🎯 The 100-Day SOC Lab Project (Current Focus)
+## 🎯 Home SOC Lab Documentation
 
-I am currently documenting a 100-day journey to build and operate a custom Security Operations Center (SOC) lab. The goal here is hands-on muscle memory.
+I am currently working on a cloud-hosted home SOC lab to emulate real-world SOC environments at home. This lab will serve as the heart of my portfolio in the future and grow along with me!
 
-#### 📖 TryHackMe Writeups (The Foundation)
+***
+
+## 📖 TryHackMe Writeups
 
 Before building the lab, I spent time tackling various TryHackMe rooms. However, I've decided to restart my THM progress and redo various rooms with proper documentation this time. You can explore my detailed writeups and walkthroughs in this section. This section is the backbone of my knowledge and practical skills.
+
+***
 
 {% hint style="info" icon="phone" %}
 ## Contact Information

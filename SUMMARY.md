@@ -5,21 +5,9 @@
 * [GitHub](https://github.com/MisterOctal/)
 * [TryHackMe](https://tryhackme.com/p/MisterOctal)
 
-## General & Personal
-
-* [Change of Plans](general-and-personal/change-of-plans.md)
-* [THM Fresh Start](general-and-personal/thm-fresh-start.md)
-
 ## Homelab
 
-* [Day 0 - Lab Summary](homelab/day-0-lab-summary.md)
-* [Day 1 - Kali Config](homelab/day-1-kali-config.md)
-* [Day 2 - Metasploitable Config](homelab/day-2-metasploitable-config.md)
-* [Day 3 - Initial Reconnaissance](homelab/day-3-initial-reconnaissance.md)
-* [Day 4 - Vulnerability Research](homelab/day-4-vulnerability-research.md)
-* [Day 5 - vsFTPd 2.3.4](homelab/day-5-vsftpd-2.3.4.md)
-* [Day 6 - Other Exploits](homelab/day-6-other-exploits.md)
-* [Day 7 - Hardening Basics](homelab/day-7-hardening-basics.md)
+* [Notice](homelab/day-0-lab-summary.md)
 
 ## THM Cloud Rooms
 
@@ -68,6 +56,15 @@
 * [Firewall Fundamentals](thm-cybersecurity-101/firewall-fundamentals.md)
 * [IDS Fundamentals](thm-cybersecurity-101/ids-fundamentals.md)
 * [Vulnerability Scanner Overview](thm-cybersecurity-101/vulnerability-scanner-overview.md)
+* [CyberChef: The Basics](thm-cybersecurity-101/cyberchef-the-basics.md)
+* [CAPA: The Basics](thm-cybersecurity-101/capa-the-basics.md)
+* [REMnux: Getting Started](thm-cybersecurity-101/remnux-getting-started.md)
+* [FlareVM: Arsenal of Tools](thm-cybersecurity-101/flarevm-arsenal-of-tools.md)
+* [Security Principles](thm-cybersecurity-101/security-principles.md)
+* [Training Impact on Teams](thm-cybersecurity-101/training-impact-on-teams.md)
+* [OWASP Top 10 2025 Part 1](thm-cybersecurity-101/owasp-top-10-2025-part-1.md)
+* [OWASP Top 10 2025 Part 2](thm-cybersecurity-101/owasp-top-10-2025-part-2.md)
+* [OWASP Top 10 2025 Part 3](thm-cybersecurity-101/owasp-top-10-2025-part-3.md)
 
 ## THM Standalone
 

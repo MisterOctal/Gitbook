@@ -20,7 +20,7 @@ Burp Suite is a Java-based framework designed to be a comprehensive solution for
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 Welcome to the foundational room for Burp Suite. This module transitions from theoretical concepts to the practical application of the tool. I will cover the installation process, the various editions available (Community vs. Professional), and the core navigation required to move through the suite's complex interface.
 
@@ -34,7 +34,7 @@ Question: Let us start!
 
 Burp Suite is the industry-standard tool for hands-on security assessments. It captures and enables the manipulation of all HTTP/HTTPS traffic. While we focus on the **Community Edition** (free for non-commercial use), it is important to understand the Professional and Enterprise versions. The Professional edition adds automated scanning and removes rate limits on tools like Intruder, while the Enterprise edition is designed for continuous, server-side scanning of entire web estates.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Which edition of Burp Suite runs on a server and provides constant scanning for target web apps?
 
@@ -64,7 +64,7 @@ Question: Which Burp tool would we use to brute-force a login form?
 
 Burp Suite is a Java application, meaning it can run on Windows, macOS, and Linux as long as a Java Runtime Environment is present. On platforms like Kali Linux and the THM AttackBox, Burp comes pre-installed and ready to use. For personal machines, PortSwigger provides dedicated installers that include a bundled "private" browser, which simplifies the configuration process significantly by eliminating the need to manually install CA certificates in your standard browser.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: If you have chosen not to use the AttackBox, ensure that you have a copy of Burp Suite installed before proceeding.
 
@@ -76,7 +76,7 @@ Question: If you have chosen not to use the AttackBox, ensure that you have a co
 
 The Dashboard is your "Mission Control." It is divided into quadrants that help you monitor background activity. The **Tasks** quadrant shows what Burp is doing behind the scenes (like passive crawling), while the **Event Log** provides a running list of technical actions, such as starting the proxy listener or encountering connection errors.&#x20;
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 For Professional users, the **Issue Activity** and **Advisory** sections display live results from the automated vulnerability scanner.
 
@@ -90,7 +90,7 @@ Question: What menu provides information about the actions performed by Burp Sui
 
 Navigating Burp Suite requires getting used to its "tab-within-a-tab" structure. The top row of tabs switches between major modules (Proxy, Target, Repeater), while a second row of sub-tabs appears beneath them for module-specific views (e.g., Proxy Intercept vs. Proxy History). If the interface feels cramped, you can "detach" tabs into separate windows. Learning keyboard shortcuts like `Ctrl + Shift + R` for Repeater will significantly speed up your testing workflow.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: Which tab Ctrl + Shift + P will switch us to?
 
@@ -102,7 +102,7 @@ Question: Which tab Ctrl + Shift + P will switch us to?
 
 Settings in Burp are split into **Global (User) settings** and **Project settings**. User settings apply to the entire installation, such as your theme (Dark Mode!) or font sizes. Project settings are specific to the current engagement. Since the Community edition does not support saving project files, these settings must be reconfigured each time you start a new session. The "Search" feature in the settings menu is the fastest way to find specific toggles like the "Cookie Jar" or "Hotkeys."
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: In which category can you find a reference to a "Cookie jar"?
 
@@ -126,7 +126,7 @@ Question: If we have uploaded Client-Side TLS certificates, can we override thes
 
 The Proxy is the core of the framework. It sits between you and the server, holding requests in "limbo" until you decide to forward or drop them. This allows you to bypass client-side validation by changing data after it leaves the browser but before it reaches the server. Even when "Intercept is off," Burp maintains an **HTTP History** log, which is a vital record of every request and response that has passed through the proxy for later analysis.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Click me to proceed to the next task.
 
@@ -138,7 +138,7 @@ Question: Click me to proceed to the next task.
 
 To effectively use Burp, your browser traffic must be routed through it. FoxyProxy is a browser extension that simplifies this by allowing you to switch between proxy profiles with one click. By setting up a profile pointing to `127.0.0.1:8080`, you tell your browser to send all requests to Burp Suite first. This task walks through the configuration of the proxy IP and port, ensuring that your environment is properly staged for interception.
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Click me to proceed to the next task.
 
@@ -160,7 +160,7 @@ Question: What is the flag you receive after visiting the unusual endpoint?
 
 PortSwigger recently introduced a built-in Chromium browser to solve the "proxy configuration headache." This browser is pre-configured to trust Burp’s certificate and route all traffic through the proxy automatically. It saves time and prevents technical friction, though users running as root on Linux may need to disable the sandbox in settings to get it running. It is the recommended way for beginners to start their first interception.
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt="" width="445"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1).png" alt="" width="445"><figcaption></figcaption></figure>
 
 Question: Click me to proceed to the next task.
 
