@@ -9,6 +9,13 @@
 
 * [Notice](homelab/day-0-lab-summary.md)
 
+## THM SOC Level 1
+
+* [Junior Security Analyst Intro](thm-soc-level-1/junior-security-analyst-intro.md)
+* [SOC Role in Blue Team](thm-soc-level-1/soc-role-in-blue-team.md)
+* [Humans as Attack Vectors](thm-soc-level-1/humans-as-attack-vectors.md)
+* [Systems as Attack Vectors](thm-soc-level-1/systems-as-attack-vectors.md)
+
 ## THM Cloud Rooms
 
 * [Cloud Security Pitfalls](thm-cloud-rooms/cloud-security-pitfalls.md)

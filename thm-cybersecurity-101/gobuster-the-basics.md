@@ -20,7 +20,7 @@ Gobuster is a staple in penetration testing and bug bounty hunting. Operating be
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 This room focuses on the offensive security tool Gobuster, often used for reconnaissance. We will explore how this tool can enumerate web directories, subdomains, and virtual hosts. The room follows a hands-on approach to understand enumeration and brute-forcing using wordlists.
 

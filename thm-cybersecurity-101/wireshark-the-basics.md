@@ -36,7 +36,7 @@ Question: Which file is used to answer the questions?
 
 The Wireshark interface is divided into several key panes:
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Packet List:** A top-level summary of every packet (Source, Destination, Protocol).
 * **Packet Details:** A breakdown of the selected packet by OSI layers.
@@ -47,7 +47,7 @@ The Wireshark interface is divided into several key panes:
 * **Sniffing:** Begins the sniffing and packet collection when the shark button is pressed.
 * **Coloring Rules:** Helps visually distinguish protocols (e.g., HTTP is usually green, TCP errors are black/red).
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Merge:** Combining multiple capture files into one for a unified timeline.
 * **Capture File Properties:** Viewing metadata like hashes, capture time, and OS information.
@@ -72,23 +72,23 @@ Packet dissection is the process of decoding the bits and bytes into readable pr
 
 * **Frame (Layer 1):** Physical details.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Ethernet II (Layer 2):** MAC addresses.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Internet Protocol (Layer 3):** IP addresses and TTL.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Transmission Control Protocol (Layer 4):** Ports and sequence numbers.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Application Layer (Layer 5-7):** HTTP headers, data payloads, etc.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 
@@ -120,7 +120,7 @@ Efficient navigation is crucial when dealing with thousands of packets. You can 
 
 **Expert Info:** This feature highlights potential issues like TCP retransmissions or malformed packets, categorized by severity (Chat, Note, Warn, Error).
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: Search the "r4w" string in packet details. What is the name of artist 1?
 
@@ -147,7 +147,7 @@ Filtering is the most powerful part of Wireshark.
 * **Apply as Filter:** Right-clicking a field to instantly isolate that value.
 * **Follow Stream:** Reconstructing a conversation (TCP/UDP/HTTP) to see the raw data as the application saw it (e.g., a full web page or a chat log).
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: Go to packet number 4. Right-click on the "Hypertext Transfer Protocol" and apply it as a filter. Now, look at the filter pane. What is the filter query?
 
