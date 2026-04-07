@@ -15,6 +15,11 @@
 * [SOC Role in Blue Team](thm-soc-level-1/soc-role-in-blue-team.md)
 * [Humans as Attack Vectors](thm-soc-level-1/humans-as-attack-vectors.md)
 * [Systems as Attack Vectors](thm-soc-level-1/systems-as-attack-vectors.md)
+* [SOC L1 Alert Triage](thm-soc-level-1/soc-l1-alert-triage.md)
+* [SOC L1 Alert Reporting](thm-soc-level-1/soc-l1-alert-reporting.md)
+* [SOC Workbooks and Lookups](thm-soc-level-1/soc-workbooks-and-lookups.md)
+* [SOC Metrics and Objectives](thm-soc-level-1/soc-metrics-and-objectives.md)
+* [Introduction to EDR](thm-soc-level-1/introduction-to-edr.md)
 
 ## THM Cloud Rooms
 

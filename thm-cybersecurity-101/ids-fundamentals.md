@@ -40,7 +40,7 @@ IDS solutions are categorized based on where they are deployed and how they dete
 * **Host Intrusion Detection System (HIDS):** Installed on individual devices (hosts). Provides deep visibility into local system files and processes but is resource-intensive to manage at scale.
 * **Network Intrusion Detection System (NIDS):** Monitors traffic across the entire network. It provides a centralized view of all network-wide threats.
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Detection Modes
 
@@ -62,7 +62,7 @@ Question: Which IDS leverages both signature-based and anomaly-based detection t
 
 Snort is a powerful, open-source NIDS capable of performing real-time traffic analysis and packet logging. It operates in three primary modes:
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="148.20001220703125"></th><th width="298.2000732421875"></th><th></th></tr></thead><tbody><tr><td>Mode</td><td>Description</td><td>Use Case</td></tr><tr><td><strong>Packet Sniffer</strong></td><td>Reads and displays packets on the console.</td><td>Troubleshooting network flow.</td></tr><tr><td><strong>Packet Logging</strong></td><td>Logs packets to a disk (often in PCAP format).</td><td>Forensic investigation and root cause analysis.</td></tr><tr><td><strong>NIDS Mode</strong></td><td>Analyzes traffic against rule files to generate alerts.</td><td>Proactive threat monitoring.</td></tr></tbody></table>
 
@@ -92,7 +92,7 @@ A standard Snort rule looks like this: `alert icmp any any -> $HOME_NET any (msg
   * `sid`: Unique Signature ID.
   * `rev`: Revision number for version tracking.
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Where is the main directory of Snort that stores its files?
 
@@ -116,7 +116,7 @@ Question: What is the file name that contains custom rules for Snort?
 
 In this scenario, Snort is used to analyze a historical traffic capture file (`Intro_to_IDS.pcap`) to identify signs of an intrusion. By running Snort with the `-r` flag, we can process the file against our defined rules.
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Analysis Command:** `sudo snort -q -l /var/log/snort -r Intro_to_IDS.pcap -A console -c /etc/snort/snort.conf`
 

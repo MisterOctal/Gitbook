@@ -19,7 +19,7 @@ This room explores how applications handle data throughout its lifecycle from re
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (24).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 This room introduces three key elements of the OWASP Top 10 (2025) list that relate to how an application processes and trusts data:
 

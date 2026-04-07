@@ -19,7 +19,7 @@ This room focuses on the implementation of the IAAA model within web application
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (24).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 This room covers three specific categories from the OWASP Top 10 (2025) that stem from IAAA implementation failures:
 
@@ -62,7 +62,7 @@ Question: If you don't get access to more roles but can view the data of another
 
 To find the flag in this task, we manually change our user id in the url bar, upon switching to user number 7, we find the flag:
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: What is the note you found when viewing the user's account who had more than $ 1 million?
 

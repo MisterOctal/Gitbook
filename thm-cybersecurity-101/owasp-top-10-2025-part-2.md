@@ -21,7 +21,7 @@ Side note: I'm not gonna lie, I had to look at youtube walkthroughs and other pe
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (24).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 This room covers four specific categories from the OWASP Top 10 (2025) that relate to architectural failures:
 
