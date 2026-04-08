@@ -20,6 +20,8 @@
 * [SOC Workbooks and Lookups](thm-soc-level-1/soc-workbooks-and-lookups.md)
 * [SOC Metrics and Objectives](thm-soc-level-1/soc-metrics-and-objectives.md)
 * [Introduction to EDR](thm-soc-level-1/introduction-to-edr.md)
+* [Splunk: The Basics](thm-soc-level-1/splunk-the-basics.md)
+* [Elastic Stack: The Basics](thm-soc-level-1/elastic-stack-the-basics.md)
 
 ## THM Cloud Rooms
 
