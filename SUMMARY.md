@@ -23,6 +23,11 @@
 * [Splunk: The Basics](thm-soc-level-1/splunk-the-basics.md)
 * [Elastic Stack: The Basics](thm-soc-level-1/elastic-stack-the-basics.md)
 
+## THM Standalone
+
+* [Shodan.io](thm-standalone/shodan.io.md)
+* [Python for Pentesters](thm-standalone/python-for-pentesters.md)
+
 ## THM Cloud Rooms
 
 * [Cloud Security Pitfalls](thm-cloud-rooms/cloud-security-pitfalls.md)
@@ -79,10 +84,6 @@
 * [OWASP Top 10 2025 Part 1](thm-cybersecurity-101/owasp-top-10-2025-part-1.md)
 * [OWASP Top 10 2025 Part 2](thm-cybersecurity-101/owasp-top-10-2025-part-2.md)
 * [OWASP Top 10 2025 Part 3](thm-cybersecurity-101/owasp-top-10-2025-part-3.md)
-
-## THM Standalone
-
-* [Shodan.io](thm-standalone/shodan.io.md)
 
 ## THM DevSecOps
 
