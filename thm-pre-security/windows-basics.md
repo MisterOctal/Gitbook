@@ -30,7 +30,7 @@ Windows has come a long way since the early versions built on top of MS DOS. We 
 
 We are also given a windows 10 VM in this task and need to navigate around it to find the answers for the questions. After opening About your PC, examining the device specifications and windows specifications give us the answer to the first three questions.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="421"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="421"><figcaption></figcaption></figure>
 
 Question: What is the device name specified in About your PC?
 
@@ -46,7 +46,7 @@ Question: Which version of Windows Server 2019 Data Center is installed?
 
 Next, we have to navigate some folders, like in the previous room, I chose to the use the CLI instead of the GUI for this step. Upon navigating to the directory and reading the welcome file, we receive the flag needed for the last question in this task!
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Explore the `TryHatMe Onboarding` folder located on your computer's Desktop.
 
@@ -60,11 +60,11 @@ What is the flag value found within `Welcome.txt`?
 
 This task covered the basics of installing and updating software. We looked at the Windows Update service and the different ways applications are installed (via the Microsoft Store or .exe and .msi installers). From a defense perspective, keeping the OS and applications updated is the easiest way to prevent many common exploits.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="555"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="555"><figcaption></figcaption></figure>
 
 We looked at the two main ways to manage system preferences: the modern Windows Settings app and the classic Control Panel. While Microsoft is slowly moving everything to the Settings app, the Control Panel still holds many of the advanced administrative tools that a security professional might need.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="306"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="306"><figcaption></figcaption></figure>
 
 Task Manager is a vital tool for any analyst. It lets you see exactly what processes are running, how much CPU and RAM they are consuming, and which services are active. If a machine is acting weird or might be infected with malware, Task Manager is often the first place I will look to see what is running in the background.
 
@@ -76,7 +76,7 @@ Task Manager has five tabs to help you keep track of your system.
 4. Details: A more technical view of running processes, including process IDs (PIDs)
 5. Services: Windows services and their current status (running or stopped)
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="390"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="390"><figcaption></figcaption></figure>
 
 Finally, we looked at the built in security tools like Windows Security (formerly Defender) and the Windows Firewall. We practiced running a custom scan on a specific folder to see how it detects potential threats. Understanding how the native firewall handles inbound and outbound rules is a core part of endpoint protection.
 
@@ -85,21 +85,21 @@ What is the flag value you receive after installing and running the application?
 
 > **Answer:** THM{your\_first\_day!}
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="290"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="290"><figcaption></figcaption></figure>
 
 Question: Investigate the Time & Language section of the Windows Settings app.\
 Which country or region is your computer currently set to?
 
 > **Answer:** United States
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="442"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="442"><figcaption></figcaption></figure>
 
 Question: Open the Task Manager on your workstation's Desktop and navigate to the Users tab.\
 Which account is currently logged in?
 
 > **Answer:** Administrator
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="440"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="440"><figcaption></figcaption></figure>
 
 Question: After performing your custom scan, click `Virus:DOS/EICAR_Test_File` and select See details.\
 What is the file name shown in the Affected items section?

@@ -20,7 +20,7 @@ While HTML provides the skeleton and CSS the skin, JavaScript (JS) is the muscle
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt="" width="312"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt="" width="312"><figcaption></figcaption></figure>
 
 JavaScript (JS) is a popular scripting language that allows web developers to add interactive features to websites containing HTML and CSS. Once the HTML elements are created, you can add interactiveness like validation, onClick actions, and animations through JS.
 
@@ -42,7 +42,7 @@ Question: I have successfully started the attached VM.
 
 ## Task 2: Essential Concepts
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Before writing code, it is vital to understand the "buckets" and "instructions" used in JS.
 

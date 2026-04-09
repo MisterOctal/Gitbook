@@ -9,6 +9,12 @@
 
 * [Notice](homelab/day-0-lab-summary.md)
 
+## THM Cloud Rooms
+
+* [Cloud Security Pitfalls](thm-cloud-rooms/cloud-security-pitfalls.md)
+* [Monitoring AWS Logins](thm-cloud-rooms/monitoring-aws-logins.md)
+* [Monitoring AWS Services](thm-cloud-rooms/monitoring-aws-services.md)
+
 ## THM SOC Level 1
 
 * [Junior Security Analyst Intro](thm-soc-level-1/junior-security-analyst-intro.md)
@@ -22,15 +28,12 @@
 * [Introduction to EDR](thm-soc-level-1/introduction-to-edr.md)
 * [Splunk: The Basics](thm-soc-level-1/splunk-the-basics.md)
 * [Elastic Stack: The Basics](thm-soc-level-1/elastic-stack-the-basics.md)
+* [Introduction to SOAR](thm-soc-level-1/introduction-to-soar.md)
 
 ## THM Standalone
 
 * [Shodan.io](thm-standalone/shodan.io.md)
 * [Python for Pentesters](thm-standalone/python-for-pentesters.md)
-
-## THM Cloud Rooms
-
-* [Cloud Security Pitfalls](thm-cloud-rooms/cloud-security-pitfalls.md)
 
 ## THM CYBERSECURITY 101
 
