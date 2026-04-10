@@ -30,6 +30,7 @@
 * [Splunk: The Basics](thm-soc-level-1/splunk-the-basics.md)
 * [Elastic Stack: The Basics](thm-soc-level-1/elastic-stack-the-basics.md)
 * [Introduction to SOAR](thm-soc-level-1/introduction-to-soar.md)
+* [Pyramid of Pain](thm-soc-level-1/pyramid-of-pain.md)
 
 ## THM Standalone
 
