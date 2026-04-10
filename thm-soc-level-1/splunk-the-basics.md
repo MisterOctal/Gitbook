@@ -10,7 +10,7 @@ coverHeight: 138
 
 **Date:** 08.04.2026
 
-**Category:** Technical Analysis
+**Room Category:** Walkthrough
 
 **Core Concept:** This session focused on the Splunk SIEM architecture and its log ingestion pipeline. We looked at how machine data is converted into searchable events and applied Search Processing Language (SPL) to filter through VPN telemetry for specific security indicators.
 

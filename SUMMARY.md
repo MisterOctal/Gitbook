@@ -14,6 +14,7 @@
 * [Cloud Security Pitfalls](thm-cloud-rooms/cloud-security-pitfalls.md)
 * [Monitoring AWS Logins](thm-cloud-rooms/monitoring-aws-logins.md)
 * [Monitoring AWS Services](thm-cloud-rooms/monitoring-aws-services.md)
+* [Monitoring AWS Workloads](thm-cloud-rooms/monitoring-aws-workloads.md)
 
 ## THM SOC Level 1
 

@@ -10,7 +10,7 @@ coverHeight: 138
 
 **Date:** 08.04.2026
 
-**Category:** Technical Analysis
+**Room Category:** Walkthrough
 
 **Core Concept:** This session focused on the Elastic Stack (ELK), an open-source collection of tools used for searching, analyzing, and visualizing large datasets. We analyzed how SOC teams leverage the stack as a SIEM-like solution to gain real-time visibility into endpoint telemetry and traffic.
 

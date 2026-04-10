@@ -47,7 +47,7 @@ A robust SIEM solution goes beyond simple log storage. It offers several critica
 
 ## Task 3: Log Sources and Ingestion
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="367"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="367"><figcaption></figcaption></figure>
 
 For a SIEM to be effective, it must ingest data from various parts of the network. These sources are generally categorized into:
 
@@ -64,7 +64,7 @@ The ingestion process involves collectors or agents that forward logs to the SIE
 
 The heart of a SIEM is its correlation engine. This engine uses predefined rules to look for specific patterns. For example, a rule might state: "If a user fails to login five times and then successfully logs in from a different IP, trigger an alert."
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 When a rule is matched, an **Alert** is generated. Analysts then investigate these alerts to determine if they are **True Positives** (actual threats) or **False Positives** (benign activity that triggered a rule). Effective analysis involves checking the raw logs associated with the alert to understand the context of the activity.
 

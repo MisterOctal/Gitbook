@@ -32,7 +32,7 @@ Question: Let's find out!
 
 ## Task 2: Security Hierarchy
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Security priorities vary by industry (Privacy for Law, Availability for Manufacturing, Safety for Healthcare). However, most large organizations follow a standard leadership structure:
 
@@ -59,7 +59,7 @@ The Blue Team is dedicated to defensive security, monitoring for attacks and res
 
 #### Sub-departments:
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. **SOC (Security Operations Center):** The "First Line of Defense." Includes L1/L2 analysts and engineers who triage alerts and create detection rules.
 

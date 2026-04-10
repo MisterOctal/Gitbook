@@ -9,7 +9,7 @@ coverHeight: 138
 
 **Date:** 09.04.2026
 
-**Category:** Technical Analysis
+**Category:** Walkthrough
 
 **Core Concept:** Understanding how Security Orchestration, Automation, and Response (SOAR) helps a SOC team manage the flood of alerts and disconnected tools.
 

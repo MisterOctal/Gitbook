@@ -10,7 +10,7 @@ coverHeight: 138
 
 **Date:** 09.04.2026
 
-**Category:** Technical Analysis
+**Room Category:** Walkthrough
 
 **Core Concept:** Identifying and detecting the most common and impactful attacks targeting AWS services like S3, EC2, and RDS using CloudTrail and Splunk.
 
