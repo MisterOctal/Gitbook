@@ -20,7 +20,7 @@ Digital forensics is the application of scientific investigation techniques to d
 
 ## Task 1: Introduction to Digital Forensics
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Digital forensics is essential in modern law enforcement. When devices like laptops or mobile phones are seized, they are analyzed in labs to find maps, documents, or chat records that can link a suspect to a crime.
 
@@ -32,7 +32,7 @@ Question: Which team was handed the case by law enforcement?
 
 ## Task 2: Digital Forensics Methodology
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 The NIST framework defines four key phases for digital forensics:
 
@@ -55,7 +55,7 @@ Question: Which phase of digital forensics is concerned with extracting the data
 
 Integrity is paramount. Investigators must have proper authorization and maintain a strict **Chain of Custody**. To prevent the forensic workstation from altering the evidence during the imaging process, **Write Blockers** are used.
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: Which tool is used to ensure data integrity during the collection?
 
@@ -76,7 +76,7 @@ Windows analysis involves two main types of images:
 
 Key tools include **FTK Imager** and **Autopsy** for disks, and **DumpIt** and **Volatility** for memory analysis.
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 Question: Which type of forensic image is taken to collect the volatile data from the operating system?
 

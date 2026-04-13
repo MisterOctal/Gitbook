@@ -31,6 +31,11 @@
 * [Elastic Stack: The Basics](thm-soc-level-1/elastic-stack-the-basics.md)
 * [Introduction to SOAR](thm-soc-level-1/introduction-to-soar.md)
 * [Pyramid of Pain](thm-soc-level-1/pyramid-of-pain.md)
+* [Cyber Kill Chain](thm-soc-level-1/cyber-kill-chain.md)
+* [Unified Kill Chain](thm-soc-level-1/unified-kill-chain.md)
+* [MITRE](thm-soc-level-1/mitre.md)
+* [Summit](thm-soc-level-1/summit.md)
+* [Eviction](thm-soc-level-1/eviction.md)
 
 ## THM Standalone
 

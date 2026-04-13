@@ -20,7 +20,7 @@ Setting up a secure and comprehensive malware analysis environment from scratch 
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="357"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt="" width="357"><figcaption></figcaption></figure>
 
 FlareVM is a carefully curated collection of specialized tools designed specifically to meet the needs of reverse engineers, incident responders, and forensic investigators. Because it contains live malware samples for practice, this environment operates in strict isolation. Attempting to install all of these tools manually on a standard Windows machine would take several hours and require significant configuration to avoid conflicts.
 
@@ -68,15 +68,15 @@ Question: What tool can be used to view and edit a binary file?
 
 Before diving into complex reverse engineering, most investigations begin with a standard set of triage tools. These utilities provide immediate insight into a file's capabilities and its impact on the host system.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Process Monitor (Procmon):** Records real-time file system, registry, and thread activity. It is highly effective for seeing exactly which files a piece of malware is attempting to read or modify (e.g., unauthorized access to `lsass.exe` for credential dumping).
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Process Explorer (Procexp):** Shows the parent-child relationships of active processes. This is vital for determining if a seemingly harmless Word document unexpectedly spawned a malicious command prompt.
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **HxD:** A hex editor that allows analysts to view the raw byte structure of a file. For example, identifying the `4D 5A` (MZ) header immediately confirms a file is a Windows executable, regardless of its extension.
 
