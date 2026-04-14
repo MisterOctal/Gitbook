@@ -5,9 +5,18 @@
 * [GitHub](https://github.com/MisterOctal/)
 * [TryHackMe](https://tryhackme.com/p/MisterOctal)
 
-## Homelab
+## Azure SOC Lab
 
-* [Notice](homelab/day-0-lab-summary.md)
+* [SOC Lab GitHub](https://github.com/MisterOctal/SOC-Homelab)
+* [Lab Planning & Architecture](azure-soc-lab/day-0-lab-summary.md)
+
+## THM AI Security
+
+* [AI/ML Security Threats](thm-ai-security/ai-ml-security-threats.md)
+* [AI Models & Data](thm-ai-security/ai-models-and-data.md)
+* [Prompt Engineering](thm-ai-security/prompt-engineering.md)
+* [AI Forensics](thm-ai-security/ai-forensics.md)
+* [ContAInment](thm-ai-security/containment.md)
 
 ## THM Cloud Rooms
 
