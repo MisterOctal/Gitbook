@@ -68,7 +68,7 @@ Question: What is the False Positive Rate if only 10 out of 50 alerts appear to 
 
 The timeline of a breach is measured by three primary "Mean Time" metrics, often dictated by a **Service Level Agreement (SLA)**.
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. **Mean Time to Detect (MTTD):** Time from the attack starting to the alert appearing in the SIEM (Benchmark: < 5 mins).
 2. **Mean Time to Acknowledge (MTTA):** Time from the alert appearing to an analyst starting the triage (Benchmark: < 10 mins).
@@ -92,7 +92,7 @@ Question: Provide the MTTD, MTTA, and MTTR for the malware scenario (12 min dete
 
 ## Task 4: Improving Metrics
 
-<figure><img src="../.gitbook/assets/image (24).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Metrics are used for performance evaluations and career growth. Improving them requires coordination across all SOC roles.
 

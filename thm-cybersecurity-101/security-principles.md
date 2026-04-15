@@ -22,7 +22,7 @@ Security is not a binary state but a continuous process of improving a system's 
 
 Perfect security is impossible to achieve. Instead, security professionals aim to increase the "cost" of an attack, making it difficult enough that the adversary gives up or is detected. To do this effectively, we must first understand the assets we are protecting and the threats we face.
 
-<figure><img src="../.gitbook/assets/image (16) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: Think how you would describe something as secure.
 
@@ -34,7 +34,7 @@ Question: Think how you would describe something as secure.
 
 The foundation of information security is built upon three pillars known as the **CIA Triad**:
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Confidentiality:** Ensuring data is accessible only to authorized users. (e.g., encrypting credit card details).
 * **Integrity:** Ensuring data remains accurate and hasn't been tampered with. (e.g., preventing a hacker from changing a shipping address).
@@ -61,7 +61,7 @@ Question: What is the flag that you obtained at the end of the site exercise?
 
 To understand attacks, we look at the inverse of the CIA triad, known as the **DAD Triad**:
 
-<figure><img src="../.gitbook/assets/image (18) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Disclosure:** The opposite of Confidentiality (e.g., a data leak).
 * **Alteration:** The opposite of Integrity (e.g., unauthorized modification).
@@ -99,7 +99,7 @@ Question: What is the flag that you obtained at the end of the site exercise?
 
 Also known as **Multi-Level Security**, this principle argues that security should be implemented in layers. If one control fails (e.g., a firewall is bypassed), another control (e.g., endpoint antivirus or file encryption) should still protect the asset.
 
-<figure><img src="../.gitbook/assets/image (19) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: Make sure you have read the above.
 
@@ -156,7 +156,7 @@ Question: Make sure you have read the above.
 
 It is critical to distinguish between these three terms:
 
-<figure><img src="../.gitbook/assets/image (20) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Vulnerability:** A weakness in a system (e.g., a glass window).
 * **Threat:** A potential danger that could exploit a weakness (e.g., a thief with a rock).

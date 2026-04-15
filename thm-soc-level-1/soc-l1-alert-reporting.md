@@ -36,7 +36,7 @@ Question: I am ready to start!
 
 ## Task 2: Alert Funnel
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 The alert funnel describes the lifecycle of an alert as it moves from automated detection to resolution or escalation.
 
@@ -100,9 +100,9 @@ Question: Using the Five Ws template, what flag did you receive after writing a 
 
 You should escalate an alert if it indicates a major attack, requires remediation actions you cannot perform, or if you need senior technical support.
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Case 2: Spike of Domain Discovery (High Severity)
 
@@ -139,7 +139,7 @@ Question: After you finish your triage on the second alert, you should receive a
 
 ## Task 5: SOC Communication
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 Communication is key during high-stress incidents.
 

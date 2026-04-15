@@ -22,7 +22,7 @@ PowerShell is more than just a shell; it is a full scripting language and config
 
 Ahoy there! This is the second room in the Command Line module. It is an introductory room to PowerShell, the second, only historically command-line utility built for the Windows operating system.
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt="" width="332"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png" alt="" width="332"><figcaption></figcaption></figure>
 
 Question: Raise the anchor, hoist the sails—it's time to set sail!
 
@@ -34,7 +34,7 @@ Question: Raise the anchor, hoist the sails—it's time to set sail!
 
 PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. Initially created for Windows, it now supports macOS and Linux.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: What do we call the advanced approach used to develop PowerShell?
 

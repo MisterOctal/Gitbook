@@ -28,7 +28,7 @@ Question: I understand the learning objectives and am ready to learn about opera
 
 This is the most critical theory section. It breaks down the system into layers. At the very bottom is the hardware, and right above that is the OS.
 
-<figure><img src="../.gitbook/assets/image (27) (1).png" alt="" width="269"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1) (1).png" alt="" width="269"><figcaption></figcaption></figure>
 
 The OS is split into two main spaces:
 

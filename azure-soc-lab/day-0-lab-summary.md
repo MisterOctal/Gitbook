@@ -1,15 +1,13 @@
 ---
 icon: pen-ruler
-cover: ../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png
+cover: ../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png
 coverY: 0
 coverHeight: 138
 ---
 
 # Lab Planning & Architecture
 
-## Day 0: Lab Planning & Architecture
-
-## Section 1: Executive Summary - The Pivot to Azure
+## Section 1: The Pivot to Azure
 
 Initially, this SOC lab was conceptualized for a local hypervisor environment. However, to better align with industry standards and the evolving landscape of cybersecurity, the decision was made to migrate the entire infrastructure to **Microsoft Azure**.
 
@@ -43,7 +41,7 @@ The lab follows a "Hybrid-Analysis" model. It is designed to capture high-volume
 
 The following virtual assets will be provisioned within a single Azure Resource Group. The Attacker role is handled by a local machine to reduce cloud overhead.
 
-<table data-header-hidden><thead><tr><th></th><th width="167.79998779296875"></th><th width="143.39990234375"></th><th></th></tr></thead><tbody><tr><td>Role</td><td>OS</td><td>Size</td><td>Key Components</td></tr><tr><td><strong>SOC-ELK-HOST</strong></td><td>Ubuntu 22.04</td><td>Standard_B2s</td><td>Docker, Elasticsearch, Logstash, Kibana, Uptime Kuma</td></tr><tr><td><strong>HONEY-WIN</strong></td><td>Windows Server</td><td>Standard_B2s</td><td>Sysmon, Winlogbeat, Exposed RDP/SMB</td></tr><tr><td><strong>HONEY-LINUX</strong></td><td>Ubuntu 22.04</td><td>Standard_B1s</td><td>Cowrie Honeypot, Filebeat, Exposed SSH/Telnet</td></tr><tr><td><strong>LOCAL-ATTACKER</strong></td><td>Kali Linux</td><td>Local</td><td>Nmap, Metasploit, Hydra (Simulates external actor)</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="187.5999755859375"></th><th width="150.199951171875"></th><th width="133.7999267578125"></th><th></th></tr></thead><tbody><tr><td>Role</td><td>OS</td><td>Size</td><td>Key Components</td></tr><tr><td><strong>SOC-ELK-HOST</strong></td><td>Ubuntu 22.04</td><td>Standard_B2s</td><td>Docker, Elasticsearch, Logstash, Kibana, Uptime Kuma</td></tr><tr><td><strong>HONEY-WIN</strong></td><td>Windows Server</td><td>Standard_B2s</td><td>Sysmon, Winlogbeat, Exposed RDP/SMB</td></tr><tr><td><strong>HONEY-LINUX</strong></td><td>Ubuntu 22.04</td><td>Standard_B1s</td><td>Cowrie Honeypot, Filebeat, Exposed SSH/Telnet</td></tr><tr><td><strong>LOCAL-ATTACKER</strong></td><td>Kali Linux</td><td>Local</td><td>Nmap, Metasploit, Hydra (Simulates external actor)</td></tr></tbody></table>
 
 ***
 

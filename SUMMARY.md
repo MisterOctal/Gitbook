@@ -17,6 +17,7 @@
 * [Prompt Engineering](thm-ai-security/prompt-engineering.md)
 * [AI Forensics](thm-ai-security/ai-forensics.md)
 * [ContAInment](thm-ai-security/containment.md)
+* [Securing AI Systems](thm-ai-security/securing-ai-systems.md)
 
 ## THM Cloud Rooms
 
@@ -45,6 +46,9 @@
 * [MITRE](thm-soc-level-1/mitre.md)
 * [Summit](thm-soc-level-1/summit.md)
 * [Eviction](thm-soc-level-1/eviction.md)
+* [Phishing Analysis Fundamentals](thm-soc-level-1/phishing-analysis-fundamentals.md)
+* [Phishing Emails in Action](thm-soc-level-1/phishing-emails-in-action.md)
+* [Phishing Analysis Tools](thm-soc-level-1/phishing-analysis-tools.md)
 
 ## THM Standalone
 

@@ -19,7 +19,7 @@ This room focuses on the implementation of the IAAA model within web application
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (24) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 This room covers three specific categories from the OWASP Top 10 (2025) that stem from IAAA implementation failures:
 
@@ -62,7 +62,7 @@ Question: If you don't get access to more roles but can view the data of another
 
 To find the flag in this task, we manually change our user id in the url bar, upon switching to user number 7, we find the flag:
 
-<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: What is the note you found when viewing the user's account who had more than $ 1 million?
 
@@ -80,7 +80,7 @@ These failures occur when the application cannot reliably confirm a user's ident
 
 To find the flag in this task, we register an account by the username aDmiN, then we add a password to it. Afterwards, we can access the administrator account using the password we registered to access the flag:
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: What is the flag on the admin user's dashboard?
 
@@ -98,7 +98,7 @@ Without proper logging, security events cannot be detected or investigated. Acco
 
 In this task, we examine a SIEM dashboard. After identifying a string of suspicious logs, we can earn our answers:
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: It looks like an attacker tried to perform a brute-force attack, what is the ip of the attacker?
 

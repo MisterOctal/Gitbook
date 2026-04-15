@@ -30,7 +30,7 @@ Question: It’s time to find out who is listening on the network.
 
 ## Task 2: Host Discovery: Who Is Online
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Before scanning for ports, we need to know which IP addresses are actually active. This is "Host Discovery."
 
@@ -48,7 +48,7 @@ Question: What is the last IP address that will be scanned when your scan target
 
 ## Task 3: Port Scanning: Who Is Listening
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Once a host is found to be "up," we check its ports (0-65535) to see which services are running.
 
@@ -66,7 +66,7 @@ Question: What is the flag that appears on the main page of the listening web se
 
 ## Task 4: Version Detection: Extract More Information
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Knowing a port is open isn't enough; we need to know the specific software and version to find applicable exploits.
 

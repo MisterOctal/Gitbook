@@ -39,11 +39,11 @@ Question: I am ready to start!
 
 To triage an alert, you must understand the entities involved. This is done through two primary inventories:
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. **Identity Inventory:** A catalogue of user accounts, service accounts, roles, and permissions. (Sources: Active Directory, Okta, HR systems like BambooHR).
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 2. **Asset Inventory:** A list of computing resources, including servers and workstations. (Sources: SIEM, EDR, MDM solutions like Intune).
 
@@ -67,7 +67,7 @@ Question: Finally, does the file sharing from the scenario look legitimate and e
 
 A network diagram is a visual schema of subnets, locations, and connections. It helps analysts reconstruct attack paths, such as lateral movement or unauthorized external access.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Scenario:** An external IP connects to port `10443`, is translated to an internal IP, and begins scanning internal subnets.
 
@@ -93,7 +93,7 @@ Question: Finally, does the scenario look like a True Positive (TP) or False Pos
 
 A **SOC Workbook** (also known as a playbook or runbook) defines the exact steps to investigate and remediate a specific threat. It ensures that L1 analysts don't miss vital details.
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Common Workbook Structure:**
 
