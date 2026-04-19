@@ -20,7 +20,7 @@ EDR is the "black box" of an endpoint. While an Antivirus acts as a gatekeeper, 
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt="" width="362"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt="" width="362"><figcaption></figcaption></figure>
 
 Modern security requires monitoring endpoints even when they are outside the corporate network. EDR provides the necessary telemetry to detect and respond to these remote threats.
 
@@ -39,21 +39,21 @@ Question: I am all set!
 
 ## Task 2: What is an EDR?
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 EDR solutions (like CrowdStrike, SentinelOne, or Microsoft Defender) rely on three main pillars:
 
 1. **Visibility:** Detailed logs of process trees, registry changes, and user actions.
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **Detection:** Uses signatures, behavioral analysis, and machine learning to flag anomalies (e.g., a Word doc spawning PowerShell).
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. **Response:** Allows analysts to isolate hosts, kill processes, or remotely access shells to remediate threats.
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: Which feature of EDR provides a complete context for all the detections?
 
@@ -72,7 +72,7 @@ Question: Which process spawned sc.exe?
 * **AV (Antivirus):** Like an **immigration check**. It checks passports against a database of known criminals. If the criminal is new (Zero-day), they get in.
 * **EDR:** Like **security officers/CCTV** inside the airport. Even if the person gets past immigration, the EDR monitors their behavior (roaming near restricted areas, leaving bags unattended).
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 | Attack Step           | AV Response                       | EDR Response                                      |
 | --------------------- | --------------------------------- | ------------------------------------------------- |
@@ -96,14 +96,14 @@ Question: Which security solution might mark this activity as clean?
 
 ## Task 4: How an EDR Works?
 
-<figure><img src="../.gitbook/assets/image (14) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 EDR architecture consists of two main components:
 
 * **Agents (Sensors):** Installed on the endpoint; the "eyes and ears" that collect telemetry.
 * **Console:** The "brain" that correlates data, matches it against Threat Intel, and triggers alerts for the analyst.
 
-<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: Which component of the EDR is responsible for collecting telemetry from the endpoints?
 
@@ -136,7 +136,7 @@ Question: Where are the configuration settings of a Windows system primarily sto
 
 ## Task 6: Detection and Response Capabilities
 
-<figure><img src="../.gitbook/assets/image (16) (1).png" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt="" width="352"><figcaption></figcaption></figure>
 
 #### Detection Techniques
 

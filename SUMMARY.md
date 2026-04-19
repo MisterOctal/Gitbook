@@ -10,6 +10,10 @@
 * [SOC Lab GitHub](https://github.com/MisterOctal/SOC-Homelab)
 * [Lab Planning & Architecture](azure-soc-lab/day-0-lab-summary.md)
 
+## THM For HND
+
+* [Elastic Stack: The Basics](thm-for-hnd/elastic-stack-the-basics.md)
+
 ## THM AI Security
 
 * [AI/ML Security Threats](thm-ai-security/ai-ml-security-threats.md)
@@ -18,6 +22,16 @@
 * [AI Forensics](thm-ai-security/ai-forensics.md)
 * [ContAInment](thm-ai-security/containment.md)
 * [Securing AI Systems](thm-ai-security/securing-ai-systems.md)
+* [LLM Security](thm-ai-security/llm-security.md)
+* [AI Threat Modelling](thm-ai-security/ai-threat-modelling.md)
+* [AI System Reconnaissance](thm-ai-security/ai-system-reconnaissance.md)
+* [Prompt Injection](thm-ai-security/prompt-injection.md)
+* [Jailbreaking](thm-ai-security/jailbreaking.md)
+* [Prompt Defence](thm-ai-security/prompt-defence.md)
+* [LLMborghini](thm-ai-security/llmborghini.md)
+* [White Rabbit](thm-ai-security/white-rabbit.md)
+* [AI Supply Chain Security](thm-ai-security/ai-supply-chain-security.md)
+* [Supply Chain Attack Vectors](thm-ai-security/supply-chain-attack-vectors.md)
 
 ## THM Cloud Rooms
 
@@ -38,7 +52,6 @@
 * [SOC Metrics and Objectives](thm-soc-level-1/soc-metrics-and-objectives.md)
 * [Introduction to EDR](thm-soc-level-1/introduction-to-edr.md)
 * [Splunk: The Basics](thm-soc-level-1/splunk-the-basics.md)
-* [Elastic Stack: The Basics](thm-soc-level-1/elastic-stack-the-basics.md)
 * [Introduction to SOAR](thm-soc-level-1/introduction-to-soar.md)
 * [Pyramid of Pain](thm-soc-level-1/pyramid-of-pain.md)
 * [Cyber Kill Chain](thm-soc-level-1/cyber-kill-chain.md)
@@ -49,6 +62,9 @@
 * [Phishing Analysis Fundamentals](thm-soc-level-1/phishing-analysis-fundamentals.md)
 * [Phishing Emails in Action](thm-soc-level-1/phishing-emails-in-action.md)
 * [Phishing Analysis Tools](thm-soc-level-1/phishing-analysis-tools.md)
+* [Phishing Prevention](thm-soc-level-1/phishing-prevention.md)
+* [The Greenholt Phish](thm-soc-level-1/the-greenholt-phish.md)
+* [Snapped Phish-ing Line](thm-soc-level-1/snapped-phish-ing-line.md)
 
 ## THM Standalone
 

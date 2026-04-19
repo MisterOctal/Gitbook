@@ -22,7 +22,7 @@ We're moving beyond the basics of a simple LAN and looking at how networks are e
 
 Building right off our previous knowledge of ports, port forwarding is how we allow external devices on the internet to access a specific service on our internal LAN. Since our LAN devices usually have private IP addresses that can't be reached from the outside, the router acts as the middleman. We tell the router, "Hey, if traffic comes in on port 80, forward it to this specific internal server." It's incredibly useful but can be a huge security risk if misconfigured!
 
-<figure><img src="../.gitbook/assets/image (20) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What is the name of the device that is used to configure port forwarding?
 
@@ -34,7 +34,7 @@ Question: What is the name of the device that is used to configure port forwardi
 
 Firewalls are the ultimate gatekeepers of a network, making them one of the most important tools for a SOC Analyst. This task breaks down the difference between stateless and stateful firewalls. Stateless firewalls are basic—they just look at individual packets and check them against a set of rules (like an ACL). Stateful firewalls are much smarter; they track the entire active connection and understand the context of the traffic, which makes them much better at stopping modern attacks.
 
-<figure><img src="../.gitbook/assets/image (21) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 Question: What layers of the OSI model do firewalls operate at?
 
@@ -64,7 +64,7 @@ Question: What is the flag?
 
 VPNs (Virtual Private Networks) are what allow employees to work remotely while still securely accessing the corporate network. They create an encrypted "tunnel" over the public internet. As an analyst, I'll need to know the difference between site-to-site VPNs (connecting two entire offices) and remote access VPNs (connecting a single user's laptop to the office). We also touch on the underlying technologies like IPSec, which handles the heavy lifting for encryption and authentication.
 
-<figure><img src="../.gitbook/assets/image (22) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What VPN technology only encrypts & provides the authentication of data?
 
@@ -80,7 +80,7 @@ Question: What VPN technology uses the IP framework?
 
 This task goes deeper into the hardware that makes a network function. Routers are the devices that connect different networks together (operating at Layer 3 of the OSI model) by "routing" traffic. Switches connect devices within the _same_ network (operating at Layer 2). However, as networks get more advanced, we now have Layer 3 Switches, which blur the line by doing the job of a switch but with the routing capabilities of a router!
 
-<figure><img src="../.gitbook/assets/image (24) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What is the verb for the action that a router does?
 

@@ -22,7 +22,7 @@ Analyzing potentially malicious software presents a significant challenge: runni
 
 CAPA (Common Analysis Platform for Artifacts) is a powerful tool developed by the FireEye Mandiant team. It is designed to identify the capabilities present in executable files, such as Portable Executables (PE), ELF binaries, .NET modules, and shellcode. By analyzing the file against a vast set of rules describing common behaviors, CAPA can determine if a program is capable of network communication, file manipulation, process injection, and more.
 
-<figure><img src="../.gitbook/assets/image (28).png" alt="" width="352"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (1).png" alt="" width="352"><figcaption></figcaption></figure>
 
 The true beauty of CAPA is that it encapsulates years of reverse engineering knowledge into an automated format. This makes it highly accessible for security professionals, allowing them to quickly understand a binary's functionality for incident response without having to manually reverse engineer the underlying assembly code.
 
@@ -214,7 +214,7 @@ CAPA groups its rules into Namespaces to keep related behaviors organized. The h
 * **persistence:** Focuses on how malware maintains a presence across reboots.
 * **nursery:** A special staging ground for rules that are currently unpolished or in testing.
 
-<figure><img src="../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Underneath the TLN, sub-namespaces further categorize the behavior, such as `anti-vm/vm-detection` under the `anti-analysis` TLN.
 
@@ -305,7 +305,7 @@ Question: Check the conditions inside the check-for-windows-sandbox-via-registry
 
 While the standard output is incredibly useful, sometimes an investigation requires knowing exactly _why_ a rule was triggered. Running CAPA with the `-vv` parameter outputs the exact assembly instructions or strings that matched the rule condition.
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 Because this level of verbosity can generate thousands of lines of output, the best approach is to output the results to a JSON file using the `-j` parameter. This JSON file can then be uploaded to the **CAPA Web Explorer**, a graphical interface that allows you to interactively filter, search, and examine the deep technical details using its Global Search Box.
 

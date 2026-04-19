@@ -41,7 +41,7 @@ Question: What is the most efficient way to ramp up the skills of a junior hire 
 
 As teams grow beyond 20 employees, off-the-shelf training may need to be supplemented with custom content tailored to specific organizational risks.
 
-<figure><img src="../.gitbook/assets/image (21) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Enterprise Features:**
 
@@ -59,7 +59,7 @@ Question: What is the name of the dashboard that TryHackMe offers for companies 
 
 To secure a budget, security professionals often need to demonstrate the financial value of training to leadership.
 
-<figure><img src="../.gitbook/assets/image (22) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Calculating ROI (Return on Investment)
 
@@ -88,7 +88,7 @@ Question: Assuming that training costs $500 per employee, what is the Return on 
 
 When selecting a training provider, the Chief Financial Officer (CFO) focuses on cost, but the security lead should focus on team productivity and content quality.
 
-<figure><img src="../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Critical Questions for Selection:**
 

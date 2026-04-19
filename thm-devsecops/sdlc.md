@@ -28,7 +28,7 @@ Question: I'm ready to start!
 
 The Software Development Lifecycle is a structured framework that defines the exact tasks performed at each step of the software creation process. Its purpose is to improve the quality of the software, meet customer expectations, and keep projects within budget and deadlines. Companies will often rearrange the cycle, splitting or unifying it into anywhere from six to eight distinct phases depending on their needs.
 
-<figure><img src="../.gitbook/assets/image (39).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: How many phases can an SDLC have? (Format X-Y)
 

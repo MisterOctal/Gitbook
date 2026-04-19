@@ -32,15 +32,15 @@ Question: Read above and start the virtual machine.
 
 The System Configuration utility (`msconfig`) is primarily used to troubleshoot the Windows boot process. It allows you to toggle "Safe Boot" and manage which services and startup items are allowed to run.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="436"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="436"><figcaption></figcaption></figure>
 
 From a defensive standpoint, checking the "Services" tab (and hiding Microsoft services) is a quick way to find third-party software that might be malicious or unnecessary.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="437"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="437"><figcaption></figcaption></figure>
 
 Additionally, the "Tools" tab provides a centralized list of administrative commands, which is useful for identifying the underlying executables for various Windows utilities.
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="440"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="440"><figcaption></figcaption></figure>
 
 While MSConfig handles boot-level configurations, **Advanced System Settings** (via `sysdm.cpl`) allows for deeper OS-level tuning. Key areas include:
 
@@ -71,7 +71,7 @@ Question: What command will open the Control Panel?
 
 As we learned in Part 1, User Account Control (UAC) is the gatekeeper for administrative actions. In this task, we look at the different levels of UAC notification. While you can technically turn it off using `UserAccountControlSettings.exe`, doing so on a production machine is a massive security risk, as it allows any process to gain administrative rights without user interaction.
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="528"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="528"><figcaption></figcaption></figure>
 
 Question: What is the command to open User Account Control Settings?
 
@@ -83,11 +83,11 @@ Question: What is the command to open User Account Control Settings?
 
 Computer Management (`compmgmt.msc`) is a "snap-in" tool that combines several utilities into one interface. It includes the Task Scheduler, Event Viewer, and Shared Folders.
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="279"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="279"><figcaption></figcaption></figure>
 
 For a SOC analyst, the Event Viewer is the most important part of this tool, as it records every significant action taken on the system.
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1).png" alt="" width="367"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="367"><figcaption></figcaption></figure>
 
 The Task Scheduler is also a critical area to audit, as attackers frequently use it to maintain persistence by scheduling malicious scripts to run at startup or on a specific trigger.
 
@@ -127,7 +127,7 @@ Question: Under Environment Variables, what is the value for ComSpec?
 
 Resource Monitor (`resmon.exe`) provides a much more granular view of system performance than the basic Task Manager. It allows you to see exactly which files a process is reading/writing and which network IP addresses a process is communicating with. In a malware analysis scenario, this is vital for seeing if a suspicious file is communicating with an external Command and Control (C2) server.
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What is the command to open Resource Monitor?
 
@@ -153,7 +153,7 @@ Question: For the ipconfig command, how do you show detailed information?
 
 The Registry (`regedt32.exe`) is the central hierarchical database used to store software and hardware configurations. It is divided into "Hives" (like `HKEY_LOCAL_MACHINE` and `HKEY_CURRENT_USER`). Attackers love the Registry because it offers numerous locations to hide "Run" keys, which ensure their malware starts every time the computer boots up.
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1).png" alt="" width="380"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1).png" alt="" width="380"><figcaption></figcaption></figure>
 
 Question: What is the command to open the Registry Editor?
 

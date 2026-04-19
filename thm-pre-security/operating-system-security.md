@@ -28,7 +28,7 @@ Question: Which of the following is not an operating system?
 
 We looked at the most common weaknesses that lead to compromise: weak authentication, poor file permissions, and malicious software. A huge takeaway here is the danger of weak passwords. Many people still use predictable patterns like "123456" or "qwerty" which are easily cracked using dictionary attacks. We also touched on the Principle of Least Privilege, which states that a user should only have access to the specific data they need to perform their job.
 
-<figure><img src="../.gitbook/assets/image (29) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: Which of the following is a strong password?
 

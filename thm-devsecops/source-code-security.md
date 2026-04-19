@@ -80,7 +80,7 @@ Question: Does using environment variables mean you are free from secrets being 
 
 This task covers fundamental Git commands. "Branches" are used to isolate lines of development so experimental features do not break the main application. "Origin" is the default name given to the remote repository you cloned from. Using the clone command copies the entire remote repository to your local machine.
 
-<figure><img src="../.gitbook/assets/image (46).png" alt="" width="540"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (46) (1).png" alt="" width="540"><figcaption></figcaption></figure>
 
 Question: How does Git refer to isolated lines of development?
 

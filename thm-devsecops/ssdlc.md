@@ -30,7 +30,7 @@ This task highlights the financial and operational costs of ignoring security. F
 
 A study conducted by IBM discovered that it can cost around six times more to fix a bug during implementation, 15 times during testing, and up to 100 times during maintenance in the diagram below.
 
-<figure><img src="../.gitbook/assets/image (40).png" alt="" width="418"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40) (1).png" alt="" width="418"><figcaption></figcaption></figure>
 
 Question: How much more does it cost to identify vulnerabilities during the testing phase?
 
@@ -42,7 +42,7 @@ Question: How much more does it cost to identify vulnerabilities during the test
 
 Before diving into security tools, an organization has to understand its current security posture. This means performing a gap analysis and creating formal policies. Once the baseline is established, security processes are mapped to the existing SDLC phases. For example, Risk Assessments happen during the planning phase, while Threat Modeling takes place during the design phase.
 
-<figure><img src="../.gitbook/assets/image (41).png" alt="" width="555"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41) (1).png" alt="" width="555"><figcaption></figcaption></figure>
 
 Question: What should you understand before implementing Secure SDLC processes?
 
@@ -62,7 +62,7 @@ Question: What should be carried out during the design phase?
 
 This phase evaluates the likelihood of a threat being exploited and the potential impact it would have. There are two main ways to measure this. Qualitative risk assessments use subjective categories like Low, Medium, and High based on the formula of Severity multiplied by Likelihood. Quantitative risk assessments assign actual numerical and monetary values to the risk, calculating metrics like the Annual Loss Expectancy to decide if a security control is actually worth the investment.
 
-<figure><img src="../.gitbook/assets/image (42).png" alt="" width="402"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (42) (1).png" alt="" width="402"><figcaption></figcaption></figure>
 
 Question: What is a formula to assign a Qualitative Risk level?
 
@@ -78,9 +78,9 @@ Question: Which type of Risk Assessment assigns numerical values to determine ri
 
 Threat modeling is a structured process of identifying potential vulnerabilities and prioritizing mitigations before a single line of code is written. We looked at three main frameworks. STRIDE evaluates threats based on Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege (tying directly to the CIA triad). DREAD assigns a rating system based on damage and reproducibility. Finally, PASTA is a risk centric framework that aligns technical requirements directly with business objectives.
 
-<figure><img src="../.gitbook/assets/image (43).png" alt="" width="555"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (43) (1).png" alt="" width="555"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (44).png" alt="" width="428"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44) (1).png" alt="" width="428"><figcaption></figcaption></figure>
 
 Question: What threat modelling methodology assigns a rating system based on risk probability?
 
@@ -100,7 +100,7 @@ Question: What threat modelling methodology helps align technical requirements w
 
 Once the developers start writing the actual application, automated code analysis tools step in. SAST (Static Application Security Testing) is a white-box testing method that analyzes the raw source code for vulnerabilities without running it, making it perfect for the early stages. DAST (Dynamic Application Security Testing), on the other hand, is a black-box method that attacks the application while it is running to find runtime flaws that SAST might miss.
 
-<figure><img src="../.gitbook/assets/image (45).png" alt="" width="560"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (45) (1).png" alt="" width="560"><figcaption></figcaption></figure>
 
 Question: Is it recommended to use SAST analysis at the beginning of the SDLC? (y/n)
 

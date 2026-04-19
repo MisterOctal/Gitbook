@@ -28,11 +28,11 @@ Question: I'm ready to start!
 
 To understand DevSecOps, you have to look at the history of software development. We started with the Waterfall model, a strict, hierarchical approach where developers, testers, and admins worked in total silos, leading to massive backlogs and poor communication.
 
-<figure><img src="../.gitbook/assets/image (30) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 The Agile methodology later took over, focusing on collaboration and flexibility.
 
-<figure><img src="../.gitbook/assets/image (31) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Finally, DevOps was born to unite both development and operations through heavy automation. It broke down the "wall of confusion" between developers who wanted fast changes and operations teams who wanted stability, building a shared culture of trust.
 
@@ -58,7 +58,7 @@ Question: What does DevOps emphasize?
 
 DevOps is visualized as an infinite loop consisting of planning, coding, building, testing, releasing, deploying, operating, and monitoring. Automation is the absolute engine that keeps this loop moving efficiently.
 
-<figure><img src="../.gitbook/assets/image (32).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 We use tools like CI/CD (Continuous Integration and Continuous Deployment) to automate the heavy lifting. Continuous Integration means developers are merging their code changes into a central repository daily, which automatically triggers unit tests. Continuous Deployment takes that tested code and automatically pushes it to production servers.
 
@@ -82,7 +82,7 @@ Question: What is a way to provision infrastructure through reusable and consist
 
 The core philosophy of DevSecOps is "Shifting Left." In older models, security testing was a massive bottleneck that happened right before a product was scheduled for release. If a critical vulnerability was found at the last minute, the entire project had to be delayed, costing the company a lot of money and causing friction between teams.
 
-<figure><img src="../.gitbook/assets/image (33).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Shifting left means moving security checks into the earliest planning and coding phases. By catching flaws in the developer's IDE or during the automated build process, remediation is incredibly cheap and fast. This is usually achieved by automating SAST (Static Application Security Testing) to scan raw code, SCA (Software Composition Analysis) to check third party libraries for known CVEs, and DAST (Dynamic Application Security Testing) to attack the running application just like a hacker would.
 
@@ -142,15 +142,15 @@ As a huge star wars fan, this room and its art is very charming to me. In this t
 
 The first comic represents the waterfall model.
 
-<figure><img src="../.gitbook/assets/image (34).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 The second comic represents the agile model.
 
-<figure><img src="../.gitbook/assets/image (36).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (36) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 The last comic represents the DevOps model.
 
-<figure><img src="../.gitbook/assets/image (37).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 This site perfectly highlights the rigid, slow planning of the Waterfall approach, the adaptive but sometimes disorganized teamwork of the Agile method, and the smooth, highly automated continuous delivery of DevOps. This interactive element really had me hooked.
 

@@ -28,7 +28,7 @@ Question: I understand the learning objectives and am ready to learn about opera
 
 This is the most critical theory section. It breaks down the system into layers. At the very bottom is the hardware, and right above that is the OS.
 
-<figure><img src="../.gitbook/assets/image (27) (1) (1).png" alt="" width="269"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1) (1) (1).png" alt="" width="269"><figcaption></figcaption></figure>
 
 The OS is split into two main spaces:
 
@@ -47,7 +47,7 @@ Question: Which OS responsibility manages user accounts and authentication?
 
 Instead of throwing us straight into a command line, this task uses the TryHackMe split-screen to give us a familiar Graphical User Interface (GUI) via an Ubuntu VM. We have to poke around the basic system settings to gather some hardware and OS information.
 
-<figure><img src="../.gitbook/assets/image (28) (1).png" alt="" width="459"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (1) (1).png" alt="" width="459"><figcaption></figcaption></figure>
 
 Question: What version of Ubuntu MATE is running?
 

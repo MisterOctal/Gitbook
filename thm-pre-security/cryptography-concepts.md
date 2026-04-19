@@ -28,9 +28,9 @@ Question: Let's get started.
 
 To understand encryption, you have to know the terminology. Plaintext is a readable message. Ciphertext is the scrambled, unreadable version. The algorithm is the public mathematical process used to scramble the data, and the key is the secret ingredient that locks or unlocks it. In symmetric encryption, like the classic Caesar cipher, the exact same key is used to both encrypt and decrypt the message. It is incredibly fast and efficient for bulk data.
 
-<figure><img src="../.gitbook/assets/image (47).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (47) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (48).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (48) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: What's the flag you received after completing all levels of the Secret Message Rescue game?
 
@@ -50,7 +50,7 @@ Question: Using the Caesar cipher, find the correct key and decode the following
 
 Symmetric encryption is fast, but it has a massive flaw known as the key distribution problem. If Alice and Bob have never met, how can they securely share the symmetric key over the internet without someone intercepting it? Asymmetric encryption solves this by using two mathematically linked keys: a public key that anyone can see, and a private key that is kept completely secret. Modern systems like HTTPS use a hybrid approach: they use asymmetric encryption to securely share a key, and then switch to faster symmetric encryption for the actual data transfer.
 
-<figure><img src="../.gitbook/assets/image (49).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (49) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: With asymmetric encryption, which key is kept secret?
 

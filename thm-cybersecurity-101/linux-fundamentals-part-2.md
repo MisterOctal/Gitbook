@@ -32,7 +32,7 @@ Question: Let's proceed!
 
 Secure Shell (SSH) is the standard protocol for connecting to and interacting with the command line of a remote Linux machine. Any input sent or output received over an SSH connection is encrypted, ensuring that anyone monitoring the network cannot read the commands or passwords being transmitted.
 
-<figure><img src="../.gitbook/assets/image (25) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ```bash
 # Standard SSH connection syntax

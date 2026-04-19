@@ -32,7 +32,7 @@ Question: Check how many results you get when searching for **learn hacking**. A
 
 Searching is easy, but finding exactly what you need requires properly evaluating the results you get back. It is important to look at the sheer volume of results to gauge how broad your search is. If you get millions of hits, you likely need to refine your keywords or use search operators to narrow things down.
 
-<figure><img src="../.gitbook/assets/image (55).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (55) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: What do you call a cryptographic method or product considered bogus or fraudulent?
 
