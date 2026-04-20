@@ -1,6 +1,6 @@
 ---
 icon: pen-ruler
-cover: ../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png
+cover: ../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png
 coverY: 0
 coverHeight: 138
 ---
@@ -24,7 +24,7 @@ Initially, this SOC lab was conceptualized for a local hypervisor environment. H
 
 The lab follows a "Hybrid-Analysis" model. It is designed to capture high-volume "noise" from the internet via honeypots, process that data in a cost-effective ELK stack, and escalate critical alerts to Microsoft Sentinel for incident response.
 
-<figure><img src="../.gitbook/assets/azure soc lab.drawio (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/azure soc lab.drawio (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Architectural Breakdown
 
@@ -32,7 +32,7 @@ The lab follows a "Hybrid-Analysis" model. It is designed to capture high-volume
 * **Analysis Zone (ELK Stack + Docker):** The "Brain" of the operation. A centralized Linux host running Elasticsearch, Logstash, and Kibana.
   * **Docker Integration:** This host also runs **Uptime Kuma** in a Docker container to provide real-time availability monitoring for the entire lab.
 * **SIEM Zone (Microsoft Sentinel):** The professional orchestration layer. It handles filtered, high-fidelity alerts and serves as the primary interface for KQL-based threat hunting.
-* **Management Zone:** A restricted access layer utilizing **Azure Bastion** for management.&#x20;
+* **Management Zone:** A restricted access layer for management.&#x20;
 * Testing and verification attacks are performed from a **Local Attacker Machine** (External to Azure) to simulate a realistic external threat actor.
 
 ***
@@ -60,7 +60,7 @@ The following virtual assets will be provisioned within a single Azure Resource 
 * Install Docker Engine on the ELK Host.
 * Deploy **Uptime Kuma** container to monitor VM heartbeats.
 * Install and configure the ELK Stack (Elasticsearch, Logstash, Kibana).
-* Verify Kibana dashboard accessibility via Azure Bastion.
+* Verify Kibana dashboard accessibility.
 
 ### Phase 3: Telemetry Ingestion (Honeypot Deployment)
 

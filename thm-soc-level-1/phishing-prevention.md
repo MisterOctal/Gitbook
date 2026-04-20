@@ -34,7 +34,7 @@ Sender Policy Framework (SPF) is used to authenticate the sender of an email. Wi
 
 **The SPF Workflow:** When an email is sent, the receiving mail server checks the domain's SPF record to verify whether the sending server is authorized. The delivery of the email is based on the result of the SPF record verification:
 
-<figure><img src="../.gitbook/assets/image (9).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Pass, Neutral, None:** Accept (Allow and process the email)
 * **SoftFail, PermError:** Flag (Mark as suspicious but allow)
@@ -49,7 +49,7 @@ Sender Policy Framework (SPF) is used to authenticate the sender of an email. Wi
 
 **Tools for SPF Analysis:** Tools like dmarcian's SPF Surveyor enable visual inspection of DNS records to ensure correct syntax. For example, a domain might not list explicit IP addresses but instead use `include` tags to authorize third party services (like Google, Chargebee, or Hubspot).&#x20;
 
-<figure><img src="../.gitbook/assets/image (12).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Additionally, tools like Google Admin Toolbox Messageheader allow analysts to view delivery details using an email's full header. If an IP address is unknown to the SPF record, it may return a SoftFail, meaning the receiving server will accept the email but flag it as suspicious.
 

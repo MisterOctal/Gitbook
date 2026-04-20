@@ -32,6 +32,8 @@
 * [White Rabbit](thm-ai-security/white-rabbit.md)
 * [AI Supply Chain Security](thm-ai-security/ai-supply-chain-security.md)
 * [Supply Chain Attack Vectors](thm-ai-security/supply-chain-attack-vectors.md)
+* [Securing the AI Supply Chain](thm-ai-security/securing-the-ai-supply-chain.md)
+* [RAG Security Fundamentals](thm-ai-security/rag-security-fundamentals.md)
 
 ## THM Cloud Rooms
 
@@ -65,6 +67,8 @@
 * [Phishing Prevention](thm-soc-level-1/phishing-prevention.md)
 * [The Greenholt Phish](thm-soc-level-1/the-greenholt-phish.md)
 * [Snapped Phish-ing Line](thm-soc-level-1/snapped-phish-ing-line.md)
+* [Network Traffic Basics](thm-soc-level-1/network-traffic-basics.md)
+* [Wireshark: Packet Operations](thm-soc-level-1/wireshark-packet-operations.md)
 
 ## THM Standalone
 

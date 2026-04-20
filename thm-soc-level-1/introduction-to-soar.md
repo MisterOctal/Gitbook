@@ -31,7 +31,7 @@ Question: Let's get started!
 
 Before jumping into SOAR, it is important to understand how a traditional SOC works. They handle monitoring, recovery, and threat intelligence, but they often struggle because their tools don't talk to each other.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt="" width="262"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt="" width="262"><figcaption></figcaption></figure>
 
 The biggest hurdles usually include:
 
@@ -50,7 +50,7 @@ Question: How would you describe the experience of an overload of security event
 
 SOAR is basically the "connective tissue" for a SOC. It brings everything into one interface so you don't have to keep switching tabs.
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 There are three main pillars to how it works:
 
@@ -74,11 +74,11 @@ Question: What do we call a predefined list of actions to handle an incident?
 
 Playbooks are just step by step instructions for the SOAR tool. We looked at two common examples:
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Phishing Playbook:** This handles the tedious work of checking attachments and URLs in suspicious emails. It can even notify users or delete the email automatically if it's confirmed as malicious.
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **CVE Patching Playbook:** This helps manage new vulnerabilities by checking if your systems are affected and tracking the patching process. If a patch can't be applied, it prompts the team to come up with a different mitigation plan.
 
