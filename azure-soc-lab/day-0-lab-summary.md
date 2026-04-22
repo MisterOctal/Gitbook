@@ -1,6 +1,6 @@
 ---
 icon: pen-ruler
-cover: ../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png
+cover: ../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png
 coverY: 0
 coverHeight: 138
 ---

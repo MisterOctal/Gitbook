@@ -34,7 +34,7 @@ Python's pickle format is inherently insecure due to the `__reduce__` method, wh
 
 **Defence 1: SafeTensors**&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 SafeTensors, developed by Hugging Face, guarantees no code execution during loading. It uses a JSON header combined with raw binary tensor data, meaning it physically cannot encode executable instructions.
 
@@ -57,7 +57,7 @@ safe_weights = load_file("model.safetensors")
 
 **Defence 2: PyTorch weights\_only=True**&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 When using `torch.load()`, PyTorch uses pickle internally. By setting `weights_only=True`, the unpickler is restricted to reconstructing tensor objects only. Instructions attempting to import modules (like `os`) or call system functions are blocked.
 
@@ -100,7 +100,7 @@ analyst@tryhackme-2204:~$ sha256sum /opt/supply-chain/models/product_recommender
 
 **The Model Acquisition Framework:**
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. **Quarantine:** Isolate the downloaded model.
 2. **Source verification:** Verify author, organization, and reputation.
@@ -261,7 +261,7 @@ Question: Open the Telemetry terminal. How many layers does the compromised mode
 
 ## Task 7: Architecture Inspection
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Static inspection is necessary to review flagged architecture anomalies. ModelScan includes `H5LambdaDetectScan` specifically for this purpose.
 
@@ -325,7 +325,7 @@ Question: Run inspect\_h5\_model.py on image\_classifier\_v2.h5. What is the nam
 
 ## Task 8: Dependency Auditing and SBOMs
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Dependencies represent a massive attack surface that must be tightly controlled.
 
@@ -400,7 +400,7 @@ Question: Which SBOM format is maintained by OWASP and focuses on security?
 
 API-served models abstract away the file but shift the supply chain risk directly to the provider's infrastructure and the application's configuration.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Key Defensive Strategies:**
 

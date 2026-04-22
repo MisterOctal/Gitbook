@@ -30,13 +30,13 @@ This sample mimics an official transaction receipt to create a sense of urgency.
 
 #### Techniques Used
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Spoofed Email Address:** The display name shows `service@paypal.com` but the actual address is `gibberish@sultanbogor.com`. This is an immediate red flag found in the headers.
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **URL Shortening:** The "Cancel the order" button uses a shortening service to hide the final malicious landing page. Shortened URLs are common in phishing because they prevent the user from seeing the actual destination domain when hovering over the link.
 * **Tools:** Services like **WhereGoes** can be used to follow the redirection chain of a shortened URL safely without visiting the malicious site directly.
@@ -51,11 +51,11 @@ Question: Who is listed as the Merchant in the email body?
 
 Attackers frequently use fake tracking numbers to prompt users to click. This exploit leverages the high volume of modern delivery notifications to blend in with legitimate shipping alerts from companies like UPS or FedEx.
 
-<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Pixel Tracking
 
-<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In this sample, an invisible image (`Tracking.png`) is embedded. These **tracking pixels** notify the sender when the email is opened, confirming that the recipient's email address is active and the user is susceptible to interaction. This allows the attacker to validate their target list for future, more targeted campaigns. Many email providers now block images by default to prevent this specific type of telemetry.
 
@@ -71,11 +71,11 @@ This campaign uses a chain of trusted brands (OneDrive to Adobe to Microsoft) to
 
 #### The Redirection Chain
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. User clicks "Download Document" in an email that claims to have an expiration date for added urgency.
 
-<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. User lands on a fake OneDrive page that acts as a bridge.
 3. Clicking "Get Document" leads to a fake Adobe page with nonsensical instructions.

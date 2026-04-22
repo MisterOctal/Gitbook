@@ -69,6 +69,10 @@
 * [Snapped Phish-ing Line](thm-soc-level-1/snapped-phish-ing-line.md)
 * [Network Traffic Basics](thm-soc-level-1/network-traffic-basics.md)
 * [Wireshark: Packet Operations](thm-soc-level-1/wireshark-packet-operations.md)
+* [Network Security Essentials](thm-soc-level-1/network-security-essentials.md)
+* [Wireshark: Traffic Analysis](thm-soc-level-1/wireshark-traffic-analysis.md)
+* [NetworkMiner](thm-soc-level-1/networkminer.md)
+* [Network Discovery Detection](thm-soc-level-1/network-discovery-detection.md)
 
 ## THM Standalone
 

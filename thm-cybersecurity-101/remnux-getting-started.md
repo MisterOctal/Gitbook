@@ -41,7 +41,7 @@ Analyzing potentially malicious software can be highly stressful during an activ
 
 REMnux acts as a dedicated laboratory. It provides a secure, sandbox-like environment to dissect malicious software without risking your primary operating system. Because it comes pre-configured, it saves analysts from the significant hassle of manually installing dependencies and resolving tool conflicts. The goal here is to explore its capabilities across document analysis, network simulation, and memory forensics.
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1) (1).png" alt="" width="166"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1).png" alt="" width="166"><figcaption></figcaption></figure>
 
 Question: Proceed with the next tasks to learn more!
 
@@ -67,7 +67,7 @@ By running `oledump.py agenttesla.xlsm`, we can see the internal data streams of
 
 During the exercise, analyzing the decompressed VBA macro reveals a heavily obfuscated PowerShell script. By pasting this script into CyberChef and using the "Find/Replace" operation to remove wildcard characters like `*` and `^`, the true intent of the script is exposed. It attempts to download a malicious executable using `Invoke-WebRequest` and saves it to a temporary location (`$TempFile`) before executing it.
 
-<figure><img src="../.gitbook/assets/image (15) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: What Python tool analyzes OLE2 files, commonly called Structured Storage or Compound File Binary Format?
 

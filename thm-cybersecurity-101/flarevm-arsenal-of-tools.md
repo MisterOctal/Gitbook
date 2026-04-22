@@ -20,7 +20,7 @@ Setting up a secure and comprehensive malware analysis environment from scratch 
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="357"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="357"><figcaption></figcaption></figure>
 
 FlareVM is a carefully curated collection of specialized tools designed specifically to meet the needs of reverse engineers, incident responders, and forensic investigators. Because it contains live malware samples for practice, this environment operates in strict isolation. Attempting to install all of these tools manually on a standard Windows machine would take several hours and require significant configuration to avoid conflicts.
 
@@ -68,23 +68,23 @@ Question: What tool can be used to view and edit a binary file?
 
 Before diving into complex reverse engineering, most investigations begin with a standard set of triage tools. These utilities provide immediate insight into a file's capabilities and its impact on the host system.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Process Monitor (Procmon):** Records real-time file system, registry, and thread activity. It is highly effective for seeing exactly which files a piece of malware is attempting to read or modify (e.g., unauthorized access to `lsass.exe` for credential dumping).
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Process Explorer (Procexp):** Shows the parent-child relationships of active processes. This is vital for determining if a seemingly harmless Word document unexpectedly spawned a malicious command prompt.
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **HxD:** A hex editor that allows analysts to view the raw byte structure of a file. For example, identifying the `4D 5A` (MZ) header immediately confirms a file is a Windows executable, regardless of its extension.
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **CFF Explorer:** Used to generate file hashes and inspect the structural headers of Portable Executables, verifying if a system file has been maliciously altered.
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **PEStudio:** Performs automated static analysis on an executable to calculate its entropy (which indicates packing or encryption) and lists suspicious API imports.
 * **FLOSS:** The FLARE Obfuscated String Solver automatically extracts and de-obfuscates strings from a binary, revealing hidden IP addresses, registry keys, and URLs that standard string extraction tools might miss.
@@ -135,11 +135,11 @@ Question: Use the CFF Explorer tool to open the file possible\_medusa.txt in the
 
 This practical exercise combines static and dynamic analysis to investigate two suspicious files: `windows.exe` and `cobaltstrike.exe`.
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Static Triage with PEStudio:** Opening `windows.exe` in PEStudio reveals multiple red flags. The file has an extremely high entropy score of 7.999, which strongly indicates the binary is packed or encrypted to evade detection. Furthermore, examining the manifest shows it requires administrative privileges. Looking at its imported functions reveals API calls like `set_UseShellExecute` (used for spawning other processes) and `RijndaelManaged` (an encryption function often used by ransomware to lock files).
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Dynamic Observation with Process Monitor and Process Explorer:** When running `cobaltstrike.exe`, dynamic analysis tools allow us to observe its behavior in real time. Using Process Explorer, it is immediately clear that the file was spawned by `explorer.exe`. Checking the TCP/IP properties of the process, and verifying it with Procmon filters, confirms that the executable is actively beaconing out to an external Command and Control (C2) server on port 81.
 
