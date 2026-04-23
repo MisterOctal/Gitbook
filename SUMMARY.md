@@ -8,7 +8,7 @@
 ## Azure SOC Lab
 
 * [SOC Lab GitHub](https://github.com/MisterOctal/SOC-Homelab)
-* [Lab Planning & Architecture](azure-soc-lab/day-0-lab-summary.md)
+* [Day 0 - Lab Planning](azure-soc-lab/day-0-lab-summary.md)
 
 ## THM For HND
 
@@ -73,6 +73,8 @@
 * [Wireshark: Traffic Analysis](thm-soc-level-1/wireshark-traffic-analysis.md)
 * [NetworkMiner](thm-soc-level-1/networkminer.md)
 * [Network Discovery Detection](thm-soc-level-1/network-discovery-detection.md)
+* [Data Exfiltration Detection](thm-soc-level-1/data-exfiltration-detection.md)
+* [Man-in-the-Middle Detection](thm-soc-level-1/man-in-the-middle-detection.md)
 
 ## THM Standalone
 
