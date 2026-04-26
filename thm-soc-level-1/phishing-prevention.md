@@ -34,7 +34,7 @@ Sender Policy Framework (SPF) is used to authenticate the sender of an email. Wi
 
 **The SPF Workflow:** When an email is sent, the receiving mail server checks the domain's SPF record to verify whether the sending server is authorized. The delivery of the email is based on the result of the SPF record verification:
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Pass, Neutral, None:** Accept (Allow and process the email)
 * **SoftFail, PermError:** Flag (Mark as suspicious but allow)

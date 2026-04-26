@@ -75,6 +75,7 @@
 * [Network Discovery Detection](thm-soc-level-1/network-discovery-detection.md)
 * [Data Exfiltration Detection](thm-soc-level-1/data-exfiltration-detection.md)
 * [Man-in-the-Middle Detection](thm-soc-level-1/man-in-the-middle-detection.md)
+* [Snort](thm-soc-level-1/snort.md)
 
 ## THM Standalone
 

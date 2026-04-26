@@ -20,7 +20,7 @@ Securing the cloud starts with the control plane. This room walks through how to
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 The control plane is the brain of your AWS environment. Authentication is the first line of defense, so we need to know exactly who is getting in and from where. This lab uses Splunk to hunt through CloudTrail logs to identify common attack patterns like brute forcing and credential leaks.
 
@@ -34,15 +34,15 @@ Question: Launch the VM and complete the task!
 
 IAM (Identity and Access Management) is the core of AWS security. There are three main ways to get into an account:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **AWS Management Console:** The web-based GUI. This is usually for human users and should always be protected by MFA.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **IAM Access Keys:** These are for programmatic access (CLI/SDK). They are long-lived and dangerous if they leak into public code repos.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **IAM Roles:** These provide temporary security credentials (STS tokens). This is the gold standard for security because the credentials expire quickly and aren't hardcoded.
 
@@ -111,7 +111,7 @@ Question: Which other user logged in to the AWS console without MFA?
 
 Leaked access keys are the top cause of cloud breaches. Unlike the console, there is no "login" event for access keys; the credentials are sent with every single API call.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Splunk Queries used:**
 
@@ -187,7 +187,7 @@ Question: Which user assumed the IAM role from the question above?
 
 We monitor for misconfigurations like creating root access keys.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 An example scenario of a root access key credential leak:
 
