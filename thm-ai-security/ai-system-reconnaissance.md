@@ -22,7 +22,7 @@ When organisations add AI capabilities, their networks change in ways that most 
 
 Threat modelling works with assumptions about what exists, while reconnaissance confirms what is actually deployed and exposed. AI reconnaissance is the practice of identifying AI components, understanding what they are, and identifying what they expose.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 Traditional network scanning tools often miss AI infrastructure entirely because they were not built to find it. In January 2026, researchers found over 42,000 exposed AI agent instances on the public internet, many leaking API keys through unauthenticated connections. Attackers are actively scanning for these systems at scale.
 
@@ -38,7 +38,7 @@ A production AI system is a collection of specialised services. Finding these se
 
 **Core Components & Ports:**
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Model Serving Endpoints:** The front door of the AI deployment.
   * _NVIDIA Triton:_ Ports 8000 (HTTP), 8001 (gRPC), 8002 (Prometheus)

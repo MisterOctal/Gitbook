@@ -76,6 +76,9 @@
 * [Data Exfiltration Detection](thm-soc-level-1/data-exfiltration-detection.md)
 * [Man-in-the-Middle Detection](thm-soc-level-1/man-in-the-middle-detection.md)
 * [Snort](thm-soc-level-1/snort.md)
+* [Web Security Essentials](thm-soc-level-1/web-security-essentials.md)
+* [Detecting Web Attacks](thm-soc-level-1/detecting-web-attacks.md)
+* [Detecting Web Shells](thm-soc-level-1/detecting-web-shells.md)
 
 ## THM Standalone
 

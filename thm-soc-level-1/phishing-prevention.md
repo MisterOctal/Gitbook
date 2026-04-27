@@ -34,7 +34,7 @@ Sender Policy Framework (SPF) is used to authenticate the sender of an email. Wi
 
 **The SPF Workflow:** When an email is sent, the receiving mail server checks the domain's SPF record to verify whether the sending server is authorized. The delivery of the email is based on the result of the SPF record verification:
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Pass, Neutral, None:** Accept (Allow and process the email)
 * **SoftFail, PermError:** Flag (Mark as suspicious but allow)
@@ -49,11 +49,11 @@ Sender Policy Framework (SPF) is used to authenticate the sender of an email. Wi
 
 **Tools for SPF Analysis:** Tools like dmarcian's SPF Surveyor enable visual inspection of DNS records to ensure correct syntax. For example, a domain might not list explicit IP addresses but instead use `include` tags to authorize third party services (like Google, Chargebee, or Hubspot).&#x20;
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Additionally, tools like Google Admin Toolbox Messageheader allow analysts to view delivery details using an email's full header. If an IP address is unknown to the SPF record, it may return a SoftFail, meaning the receiving server will accept the email but flag it as suspicious.
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Based on TryHackMe's SPF record above, how many domains are authorized to send email on its behalf?
 
@@ -69,7 +69,7 @@ Question: What is the intended action of an email that returns a SoftFail verifi
 
 DomainKeys Identified Mail (DKIM) is used for the authentication of an email being sent. Like SPF, DKIM is an open standard for email authentication used for DMARC alignment. A DKIM record exists in the DNS but is more complex than SPF. DKIM's advantage is that it can survive email forwarding, making it a superior foundation for securing email.
 
-<figure><img src="../.gitbook/assets/image (14) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **The DKIM Workflow:** When an email is sent, the sending mail server uses a private key to add a digital signature to the email. The receiving server retrieves the public key from the domain's DNS DKIM record to verify that the message truly came from the domain. If the signature matches, the email is authentic; otherwise, it may be flagged or rejected.
 
@@ -81,7 +81,7 @@ DomainKeys Identified Mail (DKIM) is used for the authentication of an email bei
 
 If an email header shows a DKIM result of `permerror`, this indicates a permanent failure in DKIM verification. This could result from an invalid signature, a missing DNS record, forwarding modifications, or a misconfiguration.
 
-<figure><img src="../.gitbook/assets/image (15) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Based on the sample header above, what is the reason for the permerror?
 
@@ -93,7 +93,7 @@ Question: Based on the sample header above, what is the reason for the permerror
 
 Domain-Based Message Authentication, Reporting, and Conformance (DMARC) uses a concept called alignment to tie the result of SPF and DKIM to the content of an email. DMARC ensures the sender's domain matches the domains verified by SPF and DKIM. If the alignment fails, DMARC instructs the recipient server on how to handle the email based on a policy specified in the record.
 
-<figure><img src="../.gitbook/assets/image (16) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **DMARC Record Syntax:** A sample DMARC record looks like this: `v=DMARC1; p=quarantine; rua=mailto:postmaster@website.com`
 
@@ -115,7 +115,7 @@ Secure/Multipurpose Internet Mail Extensions (S/MIME) is a standard protocol for
 
 **Core S/MIME Components:**
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. **Digital Signature:** The sender signs the message with their private key, and the recipient verifies the sender's identity using the sender's public key. This provides:
 
@@ -202,7 +202,7 @@ Modern email systems employ a combination of technical controls and user educati
 
 **User-Facing Tools & Training:**
 
-<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Trust & Warning Indicators:** Visual cues (like banners stating "External Sender" or "Suspicious Link") help users gauge message safety.
 * **Phishing Reporting:** Easy, in-email buttons that let users quickly report suspicious messages to the security team.

@@ -137,7 +137,7 @@ Question: What is the originating IP address of this email?
 
 > **Answer:** 192.119.71.157
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: Who is the owner of the originating IP?
 
@@ -167,7 +167,7 @@ Question: Using the sha256sum command, what is the SHA256 hash of the file?
 
 > **Answer:** 2e91c533615a9bb8929ac4bb76707b2444597ce063d84a4b33525e25074fff3f
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: Investigate the file hash from the previous question using VirusTotal. What is the attachment's file size in KB?
 

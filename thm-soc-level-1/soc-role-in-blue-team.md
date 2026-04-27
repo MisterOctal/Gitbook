@@ -32,7 +32,7 @@ Question: Let's find out!
 
 ## Task 2: Security Hierarchy
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Security priorities vary by industry (Privacy for Law, Availability for Manufacturing, Safety for Healthcare). However, most large organizations follow a standard leadership structure:
 
@@ -59,15 +59,15 @@ The Blue Team is dedicated to defensive security, monitoring for attacks and res
 
 #### Sub-departments:
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. **SOC (Security Operations Center):** The "First Line of Defense." Includes L1/L2 analysts and engineers who triage alerts and create detection rules.
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **CIRT (Cyber Incident Response Team):** The "Firefighters." Called in for critical breaches. Roles include Forensic Experts and Malware Analysts. Examples include JPCERT and Mandiant.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. **Specialized Roles:** \* **Digital Forensics:** Disk/Memory analysis.
 
@@ -89,7 +89,7 @@ Question: Which department handles active or urgent cyber incidents?
 
 Starting as an L1 analyst provides a broad view of the cyber world. A key distinction in the first job is the environment:
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="122.5999755859375"></th><th width="256"></th><th></th></tr></thead><tbody><tr><td>Topic</td><td>Internal SOC</td><td>MSSP (Managed Security Service Provider)</td></tr><tr><td><strong>Focus</strong></td><td>One company's systems.</td><td>Multiple diverse customers.</td></tr><tr><td><strong>Pace</strong></td><td>Usually calmer, deep focus.</td><td>High-pressure, high volume.</td></tr><tr><td><strong>Tools</strong></td><td>A few tools, mastered deeply.</td><td>Dozens of different platforms.</td></tr><tr><td><strong>Experience</strong></td><td>Fewer major attacks/year.</td><td>Constant exposure to breaches.</td></tr></tbody></table>
 

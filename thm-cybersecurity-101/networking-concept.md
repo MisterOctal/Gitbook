@@ -32,11 +32,11 @@ Question: Get your notepad ready, and let’s begin.
 
 The OSI (Open Systems Interconnection) model is a conceptual framework that describes how communications should occur in a computer network. Even though it is a theoretical model, it is vital to learn because it helps me visualize where a problem might be occurring during troubleshooting or an attack. The model consists of seven distinct layers, ranging from the physical hardware to the application I am currently using.
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Physical Layer:** Hardware transmission like cables and switches.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 * **Data Link Layer:** Transferring data between nodes on the same network.
 
@@ -44,7 +44,7 @@ The OSI (Open Systems Interconnection) model is a conceptual framework that desc
 
 * **Network Layer:** Routing packets across different networks using IP addresses.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Transport Layer:** Managing data transfer reliability via TCP or UDP.
 * **Session, Presentation, and Application Layers:** Handling the higher level functions like encryption and the actual software interface.
@@ -85,7 +85,7 @@ Question: How many layers of the OSI model does the application layer in the TCP
 
 Every host on a network needs a unique identifier so other hosts can find it. This is where IP addresses come in. In this room, we focus on IPv4, which are 32-bit addresses divided into four octets. Subnetting is another crucial concept, it allows us to divide a large network into smaller, more manageable ones for better security and performance.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Looking Up Your Network Configuration
 
@@ -140,7 +140,7 @@ The IP protocol gets us to the right house, but TCP and UDP get us to the right 
 * **UDP (User Datagram Protocol):** This is the "fast" one. It does not care if the data arrives or not, making it perfect for video streaming or gaming where speed is more important than perfect accuracy.
 * **TCP (Transmission Control Protocol):** This is the "reliable" one. It uses a three-way handshake (SYN, SYN-ACK, ACK) to ensure a connection is established before sending data.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Which protocol requires a three-way handshake?
 
@@ -156,7 +156,7 @@ Question: What is the approximate number of port numbers (in thousands)?
 
 Encapsulation is the process of wrapping data in "envelopes" as it moves down the network layers. It starts as raw application data, gets a header at the transport layer to become a **segment** or **datagram**, gets an IP header at the network layer to become a **packet**, and finally gets a header and trailer at the link layer to become a **frame**. This process is reversed on the receiving end, which is known as de-encapsulation.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: On a WiFi, within what will an IP packet be encapsulated?
 
