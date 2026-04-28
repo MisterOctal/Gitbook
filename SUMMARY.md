@@ -79,6 +79,7 @@
 * [Web Security Essentials](thm-soc-level-1/web-security-essentials.md)
 * [Detecting Web Attacks](thm-soc-level-1/detecting-web-attacks.md)
 * [Detecting Web Shells](thm-soc-level-1/detecting-web-shells.md)
+* [Detecting Web DDoS](thm-soc-level-1/detecting-web-ddos.md)
 
 ## THM Standalone
 
