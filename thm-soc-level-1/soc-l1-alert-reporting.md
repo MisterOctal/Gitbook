@@ -36,7 +36,7 @@ Question: I am ready to start!
 
 ## Task 2: Alert Funnel
 
-<figure><img src="../.gitbook/assets/image (19) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The alert funnel describes the lifecycle of an alert as it moves from automated detection to resolution or escalation.
 

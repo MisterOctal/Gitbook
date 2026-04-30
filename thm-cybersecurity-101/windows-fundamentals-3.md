@@ -22,7 +22,7 @@ This final module in the Windows Fundamentals series shifts from management to d
 
 While the previous rooms focused on how the system works and how to manage it, this room focuses on how the system protects itself. We will explore the built-in security suite that comes standard with modern Windows installations, which is often the first line of defense against network-based attacks and malware.
 
-<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1).png" alt="" width="288"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="288"><figcaption></figcaption></figure>
 
 Question: Read the above and start the virtual machine.
 
@@ -44,7 +44,7 @@ Question: There were two definition updates installed in the attached VM. On wha
 
 Windows Security is the central hub for all protection features. It provides an at-a-glance view of the system's "health," including virus protection, firewall status, and app control. For an analyst, this dashboard is a quick way to verify if security features have been tampered with or disabled by an attacker.
 
-<figure><img src="../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Checking the Security section on your VM, which area needs immediate attention?
 
@@ -56,7 +56,7 @@ Question: Checking the Security section on your VM, which area needs immediate a
 
 Windows Defender is a robust, built-in antivirus and anti-malware solution. It uses signature-based detection (matching files against known malware) and heuristic analysis (monitoring for suspicious behavior). In this task, we see how Defender can quarantine or remove threats automatically.
 
-<figure><img src="../.gitbook/assets/image (17) (1) (1) (1) (1) (1) (1).png" alt="" width="339"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="339"><figcaption></figcaption></figure>
 
 Question: Specifically, what is turned off that Windows is notifying you to turn on?
 
@@ -68,7 +68,7 @@ Question: Specifically, what is turned off that Windows is notifying you to turn
 
 The Windows Defender Firewall is a host-based firewall that controls inbound and outbound network traffic based on sets of rules. It is essential for blocking unauthorized access to services like SMB or RDP. Understanding the difference between Domain, Private, and Public network profiles is key to applying the correct level of restriction.
 
-<figure><img src="../.gitbook/assets/image (18) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: If you were connected to airport Wi-Fi, what most likely will be the active firewall profile?
 
@@ -80,7 +80,7 @@ Question: If you were connected to airport Wi-Fi, what most likely will be the a
 
 This feature adds layers of protection against malicious websites and potentially unwanted applications (PUAs). It includes "SmartScreen," which checks downloads and web pages against a list of known-safe and known-malicious sites to prevent phishing and drive-by downloads.
 
-<figure><img src="../.gitbook/assets/image (19) (1) (1) (1) (1) (1).png" alt="" width="400"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1) (1) (1) (1) (1) (1).png" alt="" width="400"><figcaption></figcaption></figure>
 
 Question: Read the above.
 

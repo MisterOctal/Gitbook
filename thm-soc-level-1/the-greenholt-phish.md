@@ -137,7 +137,7 @@ Question: What is the originating IP address of this email?
 
 > **Answer:** 192.119.71.157
 
-<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: Who is the owner of the originating IP?
 

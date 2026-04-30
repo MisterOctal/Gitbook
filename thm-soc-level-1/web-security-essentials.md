@@ -30,7 +30,7 @@ Question: I'm ready to go!
 
 ## Task 2: Why Web?
 
-<figure><img src="../.gitbook/assets/image (8).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 The shift from desktop to web (ongoing since the 1990s) was driven by cloud computing and SaaS. While this increases accessibility and updates, it expands the attack surface.
 
@@ -56,7 +56,7 @@ Question: Who is ultimately responsible for ensuring the security of users' data
 
 ## Task 3: Web Infrastructure
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Web services function via a request-response cycle using three main components:
 
@@ -66,7 +66,7 @@ Web services function via a request-response cycle using three main components:
 
 **Common Web Servers:**
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="386"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt="" width="386"><figcaption></figcaption></figure>
 
 * **Apache:** Most popular for blogs/WordPress.
 * **Nginx:** High-performance standard used by Netflix and GitHub.
@@ -102,7 +102,7 @@ Securing a web service requires a defense-in-depth approach across all three lay
 * **GET:** Retrieve a resource.
 * **POST:** Submit data (like credentials).
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: What cyber security concept involves stopping or limiting damage from threats?
 
@@ -118,7 +118,7 @@ Question: What security control involves ensuring all software and components ar
 
 #### Content Delivery Network (CDN)
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 CDNs use edge servers to reduce latency and act as a buffer.
 
@@ -126,7 +126,7 @@ CDNs use edge servers to reduce latency and act as a buffer.
 
 #### Web Application Firewall (WAF)
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 WAFs inspect HTTP traffic and block harmful requests based on rules.
 
@@ -151,7 +151,7 @@ Question: Which common WAF detection technique works by matching incoming reques
 
 ## Task 6: Practice Scenario - Secure-A-Site
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt="" width="390"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt="" width="390"><figcaption></figcaption></figure>
 
 In this scenario, we apply hardening across the three layers of the "Secure-A-Site" application by answering a quiz.
 

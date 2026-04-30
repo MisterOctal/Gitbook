@@ -30,13 +30,13 @@ Question: I understand the learning objectives and am ready to learn about detec
 
 ## Task 2: Client-Side Attacks
 
-<figure><img src="../.gitbook/assets/image (9).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Client-side attacks exploit user behavior or device vulnerabilities (browsers/plugins).
 
 * **Visibility Issue:** SOC analysts have limited visibility into browser-side execution without endpoint monitoring.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Common Attacks:**
   * **XSS (Cross-Site Scripting):** Executing malicious scripts in a user's browser.
@@ -55,7 +55,7 @@ Question: What is the most common client-side attack?
 
 ## Task 3: Server-Side Attacks
 
-<figure><img src="../.gitbook/assets/image (11).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Server-side attacks target the web server, application code, or backend databases.
 
@@ -64,7 +64,7 @@ Server-side attacks target the web server, application code, or backend database
   * **SQL Injection (SQLi):** Manipulating database queries to leak/modify data.
   * **Command Injection:** Executing OS commands via vulnerable input fields.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: What class of attacks relies on exploiting vulnerabilities within web servers?
 
@@ -78,7 +78,7 @@ Question: Which server-side attack lets attackers abuse forms to dump database c
 
 ## Task 4: Log-Based Detection
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 Access logs provide a trail of evidence for every request.
 
@@ -107,12 +107,12 @@ Question: What is the complete, decoded SQLi payload the attacker uses on the /c
 
 Network traffic analysis (Wireshark) provides the verbosity missing in logs, including full POST bodies and HTTP headers.
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Wireshark Filter:** `http` or `http.request.method == "POST"`.
 * **HTTP Stream:** Right-click -> Follow -> HTTP Stream to see the full clear-text conversation between the attacker and server.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Investigation (traffic.pcap):** By following the HTTP stream on the `POST` requests to `login.php`, we can identify the specific credentials used. For the SQLi attack, the network capture reveals the actual database contents returned to the attacker.
 
@@ -128,7 +128,7 @@ Question: What is the flag the attacker found in the database using SQLi?
 
 ## Task 6: Web Application Firewall (WAF)
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 WAFs act as gatekeepers, inspecting and filtering requests before they reach the server.
 

@@ -80,6 +80,8 @@
 * [Detecting Web Attacks](thm-soc-level-1/detecting-web-attacks.md)
 * [Detecting Web Shells](thm-soc-level-1/detecting-web-shells.md)
 * [Detecting Web DDoS](thm-soc-level-1/detecting-web-ddos.md)
+* [Windows Logging for SOC](thm-soc-level-1/windows-logging-for-soc.md)
+* [Windows Threat Detection 1](thm-soc-level-1/windows-threat-detection-1.md)
 
 ## THM Standalone
 

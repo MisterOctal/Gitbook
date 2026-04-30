@@ -19,7 +19,7 @@ The Pyramid of Pain is a conceptual model used by security analysts to improve t
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 The Pyramid of Pain is applied in modern solutions like Cisco Security and SentinelOne to improve Cyber Threat Intelligence (CTI).
 
@@ -31,7 +31,7 @@ Question: Read the above.
 
 ## Task 2: Hash Values (Trivial)
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 At the base of the pyramid are **Hash Values**. These are unique identifiers for files (MD5, SHA-1, SHA-256). These are relatively easy to solve and analyze, thanks to various sites such as VirusTotal.
 
@@ -46,7 +46,7 @@ Question: Analyse the report for hash `b8ef959a9176aef07fdca8705254a163b50b49a17
 
 ## Task 3: IP Address (Easy)
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **IP Addresses** are marked green. They identify devices on a network.
 
@@ -65,7 +65,7 @@ Question: What is the first domain name the malicious process (PID 1632) attempt
 
 ## Task 4: Domain Names (Simple)
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Moving to the teal zone, **Domain Names** map IPs to readable text.
 
@@ -88,7 +88,7 @@ Question: Provide the redirected website for: `https://tinyurl.com/bw7t8p4u`
 
 ## Task 5: Host Artifacts (Annoying)
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Host Artifacts** (Yellow zone) are traces left on a system: registry values, dropped files, or specific process patterns.
 
@@ -106,7 +106,7 @@ Question: How many vendors determine this host to be malicious in the VirusTotal
 
 ## Task 6: Network Artifacts (Annoying)
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Also in the Yellow zone, these include **User-Agent strings**, URI patterns, or C2 protocols.
 
@@ -125,7 +125,7 @@ Question: How many POST requests are in the screenshot from the pcap file?
 
 ## Task 7: Tools (Challenging)
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the "Challenging" level, we detect the **Tools** the adversary uses (backdoors, maldoc creators, etc.).
 

@@ -50,7 +50,7 @@ Question: What is the definition for the email gathering process during the stag
 
 ## Task 3: Weaponization
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 Once the attacker has enough information, they package their exploit and malware into a deliverable payload. They might buy a payload off the Dark Web or craft a custom one to bypass specific AV signatures. A classic example is embedding malicious VBA scripts (macros) into a legitimate-looking Microsoft Office document tailored to the target.
 
@@ -62,7 +62,7 @@ Question: What is the term for automated scripts embedded in Microsoft Office do
 
 ## Task 4: Delivery
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 This is how the weaponized payload is transmitted to the target environment. The attacker has to pick the best medium based on their reconnaissance. Common methods include targeted spear-phishing emails, dropping infected USB drives in the company parking lot, or compromising a website the target employees frequently visit.
 
@@ -74,7 +74,7 @@ Question: What do you call an attack targeting a specific group by infecting the
 
 ## Task 5: Exploitation
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 This is the exact moment the malicious code is executed on the target's machine, taking advantage of a vulnerability. This could be a user double-clicking that malicious macro, or the attacker exploiting an unpatched public-facing web server or a Zero-day vulnerability.
 
@@ -88,7 +88,7 @@ Question: What is the term for a cyber attack that exploits a software vulnerabi
 
 ## Task 6: Installation
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 If an attacker gets disconnected or a vulnerability is patched, they don't want to lose access. In the Installation phase, they establish a persistent backdoor.
 
@@ -106,7 +106,7 @@ Question: What malicious script can be planted by an attacker on the web server 
 
 ## Task 7: Command & Control
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 Now the attacker needs to communicate with the compromised system to send instructions. They establish a Command and Control (C2) channel. Because legacy methods like IRC are easily blocked by modern firewalls, attackers usually blend their traffic into normal web browsing by using HTTP/HTTPS, or they tunnel their commands through standard DNS queries (DNS Tunneling).
 
@@ -118,7 +118,7 @@ Question: What is the C2 communication where the victim makes regular DNS reques
 
 ## Task 8: Actions on Objectives (Exfiltration)
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 The final phase. The attacker has persistent, remote control over the target and acts on their primary goal. This usually involves lateral movement, privilege escalation, stealing and exfiltrating sensitive data, or deploying ransomware. A key tactic here is deleting Windows Shadow Copies so the victim cannot easily restore their encrypted or corrupted files.
 
@@ -130,7 +130,7 @@ Question: What technology is included in Microsoft Windows that can create backu
 
 ## Task 9: Practice Analysis
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 This task involved mapping the notorious 2013 Target data breach to the Cyber Kill Chain using a static site lab. It was a great exercise in taking a real-world news story and breaking it down into operational phases.
 
@@ -142,6 +142,6 @@ Question: What is the flag after you complete the static site?
 
 ## Conclusion
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 While the Cyber Kill Chain is a legendary model, it does have its limits, specifically, it focuses heavily on perimeter defense and malware delivery, which means it struggles to account for Insider Threats or complex cloud-native attacks. Moving forward, it makes sense to combine this foundational knowledge with more modern, granular frameworks like MITRE ATT\&CK.

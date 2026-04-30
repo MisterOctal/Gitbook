@@ -32,7 +32,7 @@ Question: I understand the learning objectives and am ready to embark on a web s
 
 A web shell is a malicious program uploaded to a target web server, enabling adversaries to execute commands remotely. They serve as both an initial access method and a persistence mechanism.
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Key Deployment Concepts
 
@@ -63,7 +63,7 @@ Web shells abuse legitimate system execution functions. In PHP, common abusable 
 
 **Simple PHP Web Shell Example:**
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: Access the shell and determine which account you have access to by running the `whoami` command.
 
@@ -79,7 +79,7 @@ Question: List the directory contents and find the flag using the `ls` and `cat`
 
 #### Web Server Logs
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 Access logs are the first place to hunt. Key indicators include:
 

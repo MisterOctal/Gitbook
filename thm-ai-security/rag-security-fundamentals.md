@@ -22,7 +22,7 @@ Retrieval-Augmented Generation (RAG) enables language models to utilize external
 
 RAG systems introduce a paradigm shift in AI architecture. Because external data is pulled into the model's context window dynamically, untrusted inputs can influence outputs without the need to retrain or fine-tune the model.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: I understand the learning objectives and am ready to learn about RAG security fundamentals!
 
@@ -34,7 +34,7 @@ Question: I understand the learning objectives and am ready to learn about RAG s
 
 In a typical RAG deployment, the application provides retrieved external content alongside the initial user prompt. The model processes this combined input but lacks the ability to independently verify whether the retrieved information is correct, safe, or appropriate.
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Core Components of a RAG System:**
 
@@ -70,7 +70,7 @@ RAG architectures introduce new areas where security failures can occur. Because
 
 **Primary Attack Surfaces:**
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 1. **Document Ingestion:** RAG systems frequently ingest data from shared drives, wikis, or automated external feeds. Weak validation allows untrusted or malicious documents to enter the knowledge base and be treated as trusted information.
 2. **Embedding Generation:** Ingested documents are converted into embeddings. This mathematical transformation strips away vital context, such as authorship or approval status, making malicious and legitimate content appear equally valid to the system.
@@ -100,7 +100,7 @@ Retrieval abuse is a RAG-specific attack technique where malicious or unintended
 
 **Context Manipulation Mechanics:**
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Problems arise when a retrieved document contains false information or hidden instructions framed as documentation. Because retrieval prioritizes semantic relevance, highly ranked malicious documents are seamlessly included in the generation context.
 
@@ -120,7 +120,7 @@ Question: What does retrieval select documents based on?
 
 RAG failures are often subtle. The following case studies highlight how real-world deployments have been compromised when retrieved content heavily influenced model behavior.
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Case Study 1: Microsoft Copilot (2026)** Microsoft 365 Copilot integrated directly with enterprise emails and documents. Security researchers demonstrated that malicious content embedded inside an incoming email could be retrieved by Copilot during routine user queries. The model could not distinguish between legitimate information and embedded instructions, resulting in the exposure of sensitive enterprise data. Trust was implicitly granted at ingestion, and the context injection amplified the exploit.
 
@@ -138,7 +138,7 @@ Question: In the Web-Connected AI Assistants cases, failures were caused by gove
 
 Defending a RAG system is complex because poisoned content often perfectly blends with legitimate data. Detecting abuse relies heavily on observing system behavior over time rather than filtering single malicious inputs.
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Defensive Layers:**
 
