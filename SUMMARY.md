@@ -82,6 +82,7 @@
 * [Detecting Web DDoS](thm-soc-level-1/detecting-web-ddos.md)
 * [Windows Logging for SOC](thm-soc-level-1/windows-logging-for-soc.md)
 * [Windows Threat Detection 1](thm-soc-level-1/windows-threat-detection-1.md)
+* [Windows Threat Detection 2](thm-soc-level-1/windows-threat-detection-2.md)
 
 ## THM Standalone
 
