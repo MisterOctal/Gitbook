@@ -83,6 +83,9 @@
 * [Windows Logging for SOC](thm-soc-level-1/windows-logging-for-soc.md)
 * [Windows Threat Detection 1](thm-soc-level-1/windows-threat-detection-1.md)
 * [Windows Threat Detection 2](thm-soc-level-1/windows-threat-detection-2.md)
+* [Windows Threat Detection 3](thm-soc-level-1/windows-threat-detection-3.md)
+* [MAL: Malware Introductory](thm-soc-level-1/mal-malware-introductory.md)
+* [Intro to Malware Analysis](thm-soc-level-1/intro-to-malware-analysis.md)
 
 ## THM Standalone
 

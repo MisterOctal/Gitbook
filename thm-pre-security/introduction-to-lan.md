@@ -38,15 +38,15 @@ Question: What device is used to centrally connect multiple devices on the local
 
 In this task, we also learn about the different ways a network can be physically or logically arranged, which is called a topology. The room covers a few main ones:
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="425"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="425"><figcaption></figcaption></figure>
 
 * **Star Topology:** The most common one. All devices connect to a central switch. It's robust because if one cable breaks, only that device goes offline.
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Bus Topology:** All devices share a single backbone cable. It's cheap but if the main cable breaks, the whole network goes down.
 
-<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Ring Topology:** Devices are connected in a circle. Data travels in one direction, but it's pretty outdated nowadays.
 

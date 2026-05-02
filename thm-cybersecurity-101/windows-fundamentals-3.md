@@ -22,7 +22,7 @@ This final module in the Windows Fundamentals series shifts from management to d
 
 While the previous rooms focused on how the system works and how to manage it, this room focuses on how the system protects itself. We will explore the built-in security suite that comes standard with modern Windows installations, which is often the first line of defense against network-based attacks and malware.
 
-<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="288"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="288"><figcaption></figcaption></figure>
 
 Question: Read the above and start the virtual machine.
 

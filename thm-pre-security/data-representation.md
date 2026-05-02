@@ -28,7 +28,7 @@ Question: It is time to dive into computer colors.
 
 Here we look at the basics of color representation by combining Red, Green, and Blue (RGB) light. If we just turn these channels completely on or off, we get 8 different color combinations (2 × 2 × 2 = 8). However, giving each RGB channel 256 levels of intensity gives us over 16 million colors (256 × 256 × 256). Because 256 states require 8 bits (1 byte) of data, a full color takes 3 bytes (24 bits). Reading 24 ones and zeros is a nightmare, so we group them into Hexadecimal characters to make color codes much easier to read (like `#A3EA2A`).
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Question: Preview the color #3BC81E . In one word, what does this color appear to be?
 

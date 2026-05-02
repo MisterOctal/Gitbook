@@ -18,7 +18,7 @@ Tomorrow is the first day of my HND Computing Research Project, its very likely 
 
 Shodan.io is basically the Google of IoT. You can find publicly accessible security cameras, what servers are being used, and more! It uses a web crawler to scan the whole internet and archive the services that run on each IP address, extremely useful for researching.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In this example, I used Shodan to see what's going on in my country (Myanmar), as we can see, Yangon seems to have the most IoT devices. This makes sense, its the largest city in Myanmar and where I live after all. We can also see that Mytel, which is a government-controlled telcom company is the largest organization here.
 
@@ -32,7 +32,7 @@ Question: Go to Shodan.io
 
 In this task, we learn about the usage of filters on Shodan. There is an extensive list of filters that we can use on Shodan, but some of the popular ones include product, country, port, and asn. Another powerful filter is the vuln filter, which we can use to find ip addresses that are vulnerable to certain vulnerabilities.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In this example, I used Shodan to find out how many IPs in the US, part of Digital Ocean's ASN are still vulnerable to Eternal blue. Fortunately, only 47 are vulnerable in a country with millions of devices on Shodan, so that's good.
 

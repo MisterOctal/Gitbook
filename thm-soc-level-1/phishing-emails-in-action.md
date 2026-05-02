@@ -30,13 +30,13 @@ This sample mimics an official transaction receipt to create a sense of urgency.
 
 #### Techniques Used
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Spoofed Email Address:** The display name shows `service@paypal.com` but the actual address is `gibberish@sultanbogor.com`. This is an immediate red flag found in the headers.
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **URL Shortening:** The "Cancel the order" button uses a shortening service to hide the final malicious landing page. Shortened URLs are common in phishing because they prevent the user from seeing the actual destination domain when hovering over the link.
 * **Tools:** Services like **WhereGoes** can be used to follow the redirection chain of a shortened URL safely without visiting the malicious site directly.
@@ -51,7 +51,7 @@ Question: Who is listed as the Merchant in the email body?
 
 Attackers frequently use fake tracking numbers to prompt users to click. This exploit leverages the high volume of modern delivery notifications to blend in with legitimate shipping alerts from companies like UPS or FedEx.
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Pixel Tracking
 

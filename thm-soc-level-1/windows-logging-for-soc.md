@@ -39,14 +39,14 @@ Question: I'm ready to move on!
 
 Whenever an application is launched, a file is created, or a user authenticates, the Operating System processes and logs the event. These logs state the time, action details, and the user behind the action, which assists in Incident Response, Threat Hunting, and Alert Triage.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Anatomy of a Log Entry** Windows stores logs in a binary format inside the `C:\Windows\System32\winevt\Logs` directory. Every `.evtx` file corresponds to a specific log category:
 
 * **Application Logs:** Events from user-mode applications (IIS web server, MS SQL).
 * **Security Logs:** Events concerning authentication, process activity, and user management.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Reading Event Logs** The built-in Windows Event Viewer (`eventvwr`) parses these binary files into a readable format. Key components of the interface include:
 
@@ -71,7 +71,7 @@ The Security event log provides critical visibility into authentication attempts
 
 **Structure of 4624/4625 Events** Key fields to review include:
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Logon ID (A unique session identifier)
 * Logon Type
@@ -122,7 +122,7 @@ Monitoring user management events is crucial for identifying persistence mechani
 
 **Structure of User Management Events** These events are split into three logical parts:
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Subject:** The account performing the action. The Logon ID field here can be correlated with the preceding 4624 login event.
 * **Object:** The target of the action (the affected account).
