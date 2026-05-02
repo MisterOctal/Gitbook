@@ -1,8 +1,7 @@
 ---
 icon: pen-ruler
 cover: >-
-  ../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)
-  (1) (1) (1).png
+  https://cdn.discordapp.com/attachments/1389878975332880476/1500054276263645204/wp3734311.png?ex=69f709e9&is=69f5b869&hm=936a485c093a915bd797b2c1abcf5fcd0143f3b99b491b22fdeb9b0591735c5e
 coverY: 0
 coverHeight: 138
 ---

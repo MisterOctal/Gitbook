@@ -9,6 +9,7 @@
 
 * [SOC Lab GitHub](https://github.com/MisterOctal/SOC-Homelab)
 * [Day 0 - Lab Planning](azure-soc-lab/day-0-lab-summary.md)
+* [Day 1 - NSG Configurations](azure-soc-lab/day-1-nsg-configurations.md)
 
 ## THM For HND
 
