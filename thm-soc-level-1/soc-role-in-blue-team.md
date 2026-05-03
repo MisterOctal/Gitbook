@@ -32,7 +32,7 @@ Question: Let's find out!
 
 ## Task 2: Security Hierarchy
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Security priorities vary by industry (Privacy for Law, Availability for Manufacturing, Safety for Healthcare). However, most large organizations follow a standard leadership structure:
 

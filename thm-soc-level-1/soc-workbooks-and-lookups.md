@@ -39,7 +39,7 @@ Question: I am ready to start!
 
 To triage an alert, you must understand the entities involved. This is done through two primary inventories:
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. **Identity Inventory:** A catalogue of user accounts, service accounts, roles, and permissions. (Sources: Active Directory, Okta, HR systems like BambooHR).
 

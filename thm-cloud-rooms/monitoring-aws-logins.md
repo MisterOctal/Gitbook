@@ -34,15 +34,15 @@ Question: Launch the VM and complete the task!
 
 IAM (Identity and Access Management) is the core of AWS security. There are three main ways to get into an account:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **AWS Management Console:** The web-based GUI. This is usually for human users and should always be protected by MFA.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **IAM Access Keys:** These are for programmatic access (CLI/SDK). They are long-lived and dangerous if they leak into public code repos.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **IAM Roles:** These provide temporary security credentials (STS tokens). This is the gold standard for security because the credentials expire quickly and aren't hardcoded.
 
@@ -111,7 +111,7 @@ Question: Which other user logged in to the AWS console without MFA?
 
 Leaked access keys are the top cause of cloud breaches. Unlike the console, there is no "login" event for access keys; the credentials are sent with every single API call.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Splunk Queries used:**
 

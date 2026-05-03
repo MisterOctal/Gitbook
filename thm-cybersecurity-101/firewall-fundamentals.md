@@ -22,7 +22,7 @@ A firewall acts as a security guard for a network or a single host. By sitting b
 
 The primary goal of a firewall is to create a barrier between a private network and the outside world. Much like a security guard at a building entrance, the firewall inspects every packet of data trying to enter or leave.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 If the data packet matches an "Allow" rule, it is permitted to pass. If it matches a "Deny" or "Block" rule, or if it does not match any rule at all (depending on the default policy), it is stopped. This mechanism prevents unauthorized access and protects sensitive internal resources from external threats.
 
@@ -34,7 +34,7 @@ Question: Which security solution inspects the incoming and outgoing traffic of 
 
 ## Task 2: Types of Firewalls
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Firewalls have evolved significantly over the years to keep up with sophisticated attack methods. They are generally categorized by how they inspect data:
 

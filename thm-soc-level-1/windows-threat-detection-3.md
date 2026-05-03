@@ -32,11 +32,11 @@ Question: Let's go!
 
 Threat actors require a method to send commands and maintain control over a victim's host, mapped to the Command and Control (C2) MITRE tactic.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 **Attacks Without C2** In certain scenarios, such as an RDP breach, a dedicated C2 is unnecessary. Attackers can execute commands directly within the RDP session. However, this access is volatile and is lost as soon as the RDP session is closed or secured.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Implementing C2** For other Initial Access methods (like phishing), an active process must constantly communicate with the attacker's server.
 
@@ -61,7 +61,7 @@ Question: What is the domain of the Command and Control server?
 
 Maintaining reliable, long-term access that survives system reboots and password changes is known as Persistence.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Persisting via RDP and Backdoored Users** While attackers can repeatedly abuse an exposed RDP service, they often deploy alternative persistence methods in case the initial vulnerability is patched. A common approach is creating a new user, elevating it to an administrator, and using it for subsequent RDP logins.
 
@@ -76,7 +76,7 @@ Maintaining reliable, long-term access that survives system reboots and password
 * **Event ID 4732:** Detects adding a user to a privileged group (typically Administrators or Remote Desktop Users).
 * **Event ID 4724:** Detects an attacker resetting the password of an existing, dormant account instead of creating a new one.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: How many times did the threat actor fail to log in to the Administrator?
 
@@ -98,7 +98,7 @@ If an attack originates from phishing or a USB infection, remote login via RDP m
 
 **Detecting Malicious Services** Services execute upon OS startup and require administrative privileges to create.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Creation Command:** `sc create "BadService" binpath= "C:\malware.exe" start= auto`
 * **Detection:** \* Sysmon Event ID 1 (tracking `sc.exe` execution).

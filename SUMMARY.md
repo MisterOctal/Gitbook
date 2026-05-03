@@ -87,6 +87,8 @@
 * [Windows Threat Detection 3](thm-soc-level-1/windows-threat-detection-3.md)
 * [MAL: Malware Introductory](thm-soc-level-1/mal-malware-introductory.md)
 * [Intro to Malware Analysis](thm-soc-level-1/intro-to-malware-analysis.md)
+* [Malware Classification](thm-soc-level-1/malware-classification.md)
+* [Living Off the Land Attacks](thm-soc-level-1/living-off-the-land-attacks.md)
 
 ## THM Standalone
 

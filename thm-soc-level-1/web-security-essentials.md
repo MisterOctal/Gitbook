@@ -56,7 +56,7 @@ Question: Who is ultimately responsible for ensuring the security of users' data
 
 ## Task 3: Web Infrastructure
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Web services function via a request-response cycle using three main components:
 
@@ -66,7 +66,7 @@ Web services function via a request-response cycle using three main components:
 
 **Common Web Servers:**
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="386"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="386"><figcaption></figcaption></figure>
 
 * **Apache:** Most popular for blogs/WordPress.
 * **Nginx:** High-performance standard used by Netflix and GitHub.
@@ -102,7 +102,7 @@ Securing a web service requires a defense-in-depth approach across all three lay
 * **GET:** Retrieve a resource.
 * **POST:** Submit data (like credentials).
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: What cyber security concept involves stopping or limiting damage from threats?
 

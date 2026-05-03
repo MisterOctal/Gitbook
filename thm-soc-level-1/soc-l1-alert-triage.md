@@ -69,7 +69,7 @@ Question: What is the name of the most recent alert you see?
 
 A standard alert in a SIEM dashboard contains eight key properties that an analyst must review:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. **Alert Time:** When the alert was generated (usually minutes after the actual event).
 2. **Alert Name:** A summary of the detection (e.g., "Windows RDP Bruteforce").
@@ -118,7 +118,7 @@ Question: Assign yourself to the first-priority alert and change its status to I
 
 The triage process involves **Initial Actions** (Assigning/Familiarization), **Investigation** (Reviewing logs/Threat Intel), and **Final Actions** (Verdict/Commenting).
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Case 1: Potential Data Exfiltration (High Severity)
 

@@ -34,7 +34,7 @@ Initial Access represents the first step of a breach. Methods are generally divi
 
 **Exposed Services** Placing a Windows server directly on the Internet introduces significant security risks. Automated bots actively scan for open ports, weak passwords, and unpatched vulnerabilities.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **T1133 / External Remote Services:** Threat actors look for exposed RDP/VNC/SSH with weak passwords to gain remote access.
 * **T1190 / Exploit Public-Facing Application:** Threat actors target misconfigured or vulnerable websites and applications.
