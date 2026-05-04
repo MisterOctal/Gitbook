@@ -1,7 +1,7 @@
 ---
 icon: globe
 cover: >-
-  https://cdn.discordapp.com/attachments/1389878975332880476/1500054276263645204/wp3734311.png?ex=69f709e9&is=69f5b869&hm=936a485c093a915bd797b2c1abcf5fcd0143f3b99b491b22fdeb9b0591735c5e
+  https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/678ecc92c80aa206339f0f23-1766583599662
 coverY: 0
 coverHeight: 139
 ---

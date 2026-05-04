@@ -10,6 +10,7 @@
 * [SOC Lab GitHub](https://github.com/MisterOctal/SOC-Homelab)
 * [Day 0 - Lab Planning](azure-soc-lab/day-0-lab-summary.md)
 * [Day 1 - NSG Configurations](azure-soc-lab/day-1-nsg-configurations.md)
+* [Day 2 - VNet and Logistics](azure-soc-lab/day-2-vnet-and-logistics.md)
 
 ## THM For HND
 
@@ -89,11 +90,13 @@
 * [Intro to Malware Analysis](thm-soc-level-1/intro-to-malware-analysis.md)
 * [Malware Classification](thm-soc-level-1/malware-classification.md)
 * [Living Off the Land Attacks](thm-soc-level-1/living-off-the-land-attacks.md)
+* [Shadow Trace](thm-soc-level-1/shadow-trace.md)
 
 ## THM Standalone
 
 * [Shodan.io](thm-standalone/shodan.io.md)
 * [Python for Pentesters](thm-standalone/python-for-pentesters.md)
+* [Introduction to OT/ICS](thm-standalone/introduction-to-ot-ics.md)
 
 ## THM CYBERSECURITY 101
 
