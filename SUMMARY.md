@@ -91,6 +91,8 @@
 * [Malware Classification](thm-soc-level-1/malware-classification.md)
 * [Living Off the Land Attacks](thm-soc-level-1/living-off-the-land-attacks.md)
 * [Shadow Trace](thm-soc-level-1/shadow-trace.md)
+* [Linux Logging for SOC](thm-soc-level-1/linux-logging-for-soc.md)
+* [Linux Threat Detection 1](thm-soc-level-1/linux-threat-detection-1.md)
 
 ## THM Standalone
 

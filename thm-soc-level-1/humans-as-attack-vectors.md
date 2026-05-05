@@ -36,7 +36,7 @@ Question: I am ready to learn!
 
 ## Task 2: The Human Element
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="150"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="150"><figcaption></figcaption></figure>
 
 Humans are targeted because of the **access** they hold. Whether it's an HR manager's database access or an IT administrator's VPN credentials, a single compromised account can lead to a full-scale breach.
 

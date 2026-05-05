@@ -30,7 +30,7 @@ Question: I understand the learning objectives and am ready to learn about detec
 
 ## Task 2: Client-Side Attacks
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Client-side attacks exploit user behavior or device vulnerabilities (browsers/plugins).
 

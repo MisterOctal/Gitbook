@@ -39,7 +39,7 @@ DHCP automates the network configuration process. Instead of manually typing in 
 3. **Request:** The client asks to use that specific IP.
 4. **Acknowledge (ACK):** The server confirms the lease.
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: How many steps does DHCP use to provide network configuration?
 
@@ -59,7 +59,7 @@ Question: What is the source IP address a client uses when trying to get IP netw
 
 While IP addresses get data to the right network, **MAC addresses** get data to the right physical hardware on a local link. ARP bridges the gap by mapping a Layer 3 IP address to a Layer 2 MAC address. When your computer knows the IP but not the hardware address, it sends an ARP Request: _"Who has 192.168.1.1? Tell me your MAC!"_
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: What is the destination MAC address used in an ARP Request?
 
@@ -82,7 +82,7 @@ Below are images of wireshark during the ping process:
 
 <figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Using the example images, how many bytes were sent in the echo (ping) request?
 

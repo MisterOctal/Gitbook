@@ -52,7 +52,7 @@ The CyberChef interface is divided into four main functional areas, each serving
 * **Input Area:** This is where you provide the raw data. You can type, paste text, or even upload files and folders directly.
 * **Output Area:** Once the "Bake" button is pressed (or if Auto Bake is on), the results of your operations appear here. You can then copy the result or save it as a file.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: In which area can you find "From Base64"?
 
@@ -73,7 +73,7 @@ Before processing data, it is important to follow a structured four-step workflo
 3. **Operations:** Select the tools needed. If the data looks like random text, you might try categories like "Encryption/Encoding" (Base64, ROT13, etc.).
 4. **Output:** Check if the result is what you intended. If the output is still gibberish, you may need to add more "ingredients" to your recipe or change the order of operations.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: At which step would you determine, "What do I want to accomplish?"
 
@@ -137,7 +137,7 @@ Question: What is the URL encoded value of https://tryhackme.com/r/careers?
 
 ## Task 6: Your First Official Cook
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 In this stage, we apply our knowledge to real-world data processing challenges, combining multiple operations to reveal hidden information.
 
