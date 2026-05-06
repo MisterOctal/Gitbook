@@ -93,6 +93,7 @@
 * [Shadow Trace](thm-soc-level-1/shadow-trace.md)
 * [Linux Logging for SOC](thm-soc-level-1/linux-logging-for-soc.md)
 * [Linux Threat Detection 1](thm-soc-level-1/linux-threat-detection-1.md)
+* [Linux Threat Detection 2](thm-soc-level-1/linux-threat-detection-2.md)
 
 ## THM Standalone
 
