@@ -95,6 +95,7 @@
 * [Linux Threat Detection 1](thm-soc-level-1/linux-threat-detection-1.md)
 * [Linux Threat Detection 2](thm-soc-level-1/linux-threat-detection-2.md)
 * [Linux Threat Detection 3](thm-soc-level-1/linux-threat-detection-3.md)
+* [Intro to Cyber Threat Intel](thm-soc-level-1/intro-to-cyber-threat-intel.md)
 
 ## THM Standalone
 
