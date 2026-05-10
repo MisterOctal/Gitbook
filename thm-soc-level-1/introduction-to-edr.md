@@ -20,7 +20,7 @@ EDR is the "black box" of an endpoint. While an Antivirus acts as a gatekeeper, 
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="362"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="362"><figcaption></figcaption></figure>
 
 Modern security requires monitoring endpoints even when they are outside the corporate network. EDR provides the necessary telemetry to detect and respond to these remote threats.
 
@@ -39,13 +39,13 @@ Question: I am all set!
 
 ## Task 2: What is an EDR?
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 EDR solutions (like CrowdStrike, SentinelOne, or Microsoft Defender) rely on three main pillars:
 
 1. **Visibility:** Detailed logs of process trees, registry changes, and user actions.
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **Detection:** Uses signatures, behavioral analysis, and machine learning to flag anomalies (e.g., a Word doc spawning PowerShell).
 
@@ -53,7 +53,7 @@ EDR solutions (like CrowdStrike, SentinelOne, or Microsoft Defender) rely on thr
 
 3. **Response:** Allows analysts to isolate hosts, kill processes, or remotely access shells to remediate threats.
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: Which feature of EDR provides a complete context for all the detections?
 

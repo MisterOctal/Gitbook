@@ -40,7 +40,7 @@ A basic DoS attack relies on a single machine and internet connection. Its impac
 
 #### Distributed Denial-of-Service (DDoS)
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To scale up, attackers utilize botnets: armies of compromised devices (computers, IoT devices, servers) under their control. When instructed, the bots flood the target website, overwhelming its resources much more effectively than a single machine could.
 
@@ -65,7 +65,7 @@ Question: What do we call the network of compromised machines that attackers use
 
 ## Task 3: Attack Motives
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="251"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="251"><figcaption></figcaption></figure>
 
 While a short web service outage may seem minor, for organizations depending on constant availability, the consequences are severe.
 
@@ -120,7 +120,7 @@ Attackers focus on endpoints consuming the most server resources per request:
 
 #### Log Investigation (`access.log`)
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 By analyzing the provided access log, specific malicious patterns emerge from the noise of legitimate traffic.
 
@@ -140,7 +140,7 @@ Question: After the attack, what error code do legitimate users receive?
 
 ## Task 5: Leveraging SIEMs
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Security Information and Event Management (SIEM) platforms, such as Splunk, make log analysis significantly more efficient by combining multiple log sources and extracting queryable fields (e.g., `clientip`, `useragent`, `uri`). Visualizations like timecharts allow analysts to instantly identify massive request spikes.
 
@@ -185,12 +185,12 @@ Preventing and mitigating denial-of-service attacks requires a multi-layered app
 
 #### Network and Infrastructure Defenses
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt="" width="390"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt="" width="390"><figcaption></figcaption></figure>
 
 * **Content Delivery Network (CDN):** CDNs cache and serve content from edge servers globally. This reduces latency and absorbs massive traffic spikes before they hit the origin server. CDNs also provide load-balancing to distribute traffic across servers, ensuring no single server fails.
 * **Web Application Firewall (WAF):** Integrated within CDNs, WAFs inspect incoming traffic and enforce rules based on threat intelligence and rate-limiting. For example, a custom rule might block an IP if it requests `/login.php` more than five times per minute.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Bypassing Security Measures
 

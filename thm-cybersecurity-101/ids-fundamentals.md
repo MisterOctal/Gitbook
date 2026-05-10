@@ -40,7 +40,7 @@ IDS solutions are categorized based on where they are deployed and how they dete
 * **Host Intrusion Detection System (HIDS):** Installed on individual devices (hosts). Provides deep visibility into local system files and processes but is resource-intensive to manage at scale.
 * **Network Intrusion Detection System (NIDS):** Monitors traffic across the entire network. It provides a centralized view of all network-wide threats.
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Detection Modes
 

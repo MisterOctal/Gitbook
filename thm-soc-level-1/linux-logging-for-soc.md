@@ -91,7 +91,7 @@ Question: What is the kernel message from Yama in /var/log/syslog?
 
 The `/var/log/auth.log` file (or `/var/log/secure` on RHEL-based systems) is a critical resource for SOC analysts. It records authentication events, user management actions, and commands executed via `sudo`.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 **Local and Remote Logins** Successful logons and logoffs can be identified by filtering for specific keywords.
 
@@ -223,11 +223,11 @@ Question: What is the flag you see in one of the users' bash history?
 
 By default, Linux does not log process creation, file changes, or network-related events. These are collectively known as runtime events.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **System Calls:** To monitor runtime events, security tools must interface with the operating system at the kernel level via system calls. Whenever a program opens a file, spawns a process, or initiates a network connection, a specific system call is executed.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * There are over 300 system calls in Linux (e.g., `execve` is used to execute a program).
 * Modern EDRs and auditing tools function by hooking into and logging these system calls. Since it is nearly impossible for attackers to bypass system calls to interact with the OS, monitoring them is a highly reliable detection mechanism.
@@ -244,7 +244,7 @@ Question: Can a typical program open a file or create a process bypassing system
 
 ## Task 6: Using Auditd
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Audit Daemon (Auditd):** Auditd is a built-in Linux auditing solution utilized for runtime monitoring. It relies on rules defined in `/etc/audit/rules.d/` to specify which system calls to monitor and which filters to apply. SOC teams balance these rules to focus on high-risk events, as monitoring every system call generates an unmanageable volume of data.
 

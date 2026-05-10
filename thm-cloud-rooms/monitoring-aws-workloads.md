@@ -20,7 +20,7 @@ Running code in the cloud isn't just about virtual machines anymore. Modern envi
 
 ### Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 AWS workloads range from traditional virtual machines (EC2) to modern serverless architectures. While they all run code, the way we monitor them changes drastically depending on the underlying infrastructure. We will look at how tools like Falco and services like SSM affect our detection strategy.
 
@@ -34,7 +34,7 @@ Question: Let's begin!
 
 The most common attack surface in AWS is still the EC2 instance. Beyond standard SSH access, AWS provides management services like **Systems Manager (SSM)** and **Auto Scaling** that, while useful, can be abused by attackers as a built-in Command and Control (C2) framework.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Key Detection Points:
 
@@ -76,7 +76,7 @@ Question: Now switch to the high-level alerts coming from srv-prodgw. What rule 
 
 ### Task 4: Monitoring Containers
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="128"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="128"><figcaption></figcaption></figure>
 
 Containers like Docker add a layer of abstraction. Monitoring them means observing both the **Host** (EC2) and the **Sandboxed** environment. If you only look at the host via `ps`, the PIDs won't match the internal container PIDs, making correlation difficult without a container-aware tool.
 
@@ -124,7 +124,7 @@ Question: What command line allowed the attacker to open a reverse shell?
 
 ### Task 6: AWS Lambda Theory
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 AWS Lambda is "serverless" compute. There is no OS for us to install an agent on, so monitoring relies almost entirely on **CloudTrail** and function-level logging. Attackers target Lambda for credential theft, persistence via malicious layers, and privilege escalation.
 

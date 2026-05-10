@@ -32,7 +32,7 @@ Question: I'm ready to start!
 
 SSH (Secure Shell) is the most common remote access service for Linux environments. With millions of internet-facing SSH servers, it is a prime target for threat actors, tracked under the External Remote Services (T1133) MITRE technique.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Authentication Risks:**
 
@@ -62,7 +62,7 @@ Question: Did the ubuntu user use SSH keys instead of a password for the above f
 
 Detecting an SSH breach relies heavily on analyzing the `/var/log/auth.log` file. A classic attack pattern involves a high volume of failed authentication attempts (brute force) immediately followed by a successful login.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Distinguishing Legitimate vs. Malicious Logins:** When reviewing successful SSH logins (filtering for `Accepted`), several red flags indicate a potential compromise:
 
@@ -106,7 +106,7 @@ Question: Finally, which IP managed to breach the root user?
 
 Linux systems frequently host public-facing services (web servers, email servers, databases, Docker APIs). A vulnerability in any exposed application puts the entire underlying host at risk, categorized under the Exploit Public-Facing Application (T1190) MITRE technique.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Utilizing Application Logs:** While application logs will not explicitly state that an exploit is occurring, they capture the artifacts of the attack. For instance, in a vulnerable web application (e.g., "TryPingMe") that executes system commands based on user input, web server access logs (`/var/log/nginx/access.log`) will reveal the exploitation.
 
@@ -144,7 +144,7 @@ Question: Looking inside the opened file, what's the flag you see there?
 
 When application logs are unavailable or insufficient, process tree analysis serves as a universal approach for unwrapping Initial Access techniques.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Building a Process Tree with Auditd:** When a suspicious command (e.g., `whoami`) triggers an alert, it must be traced back to its parent process to determine if it originated from a legitimate administrator or a compromised service.
 
@@ -186,7 +186,7 @@ Question: Which program did the attacker use to open a reverse shell?
 
 While less common than exposed service exploitation, Linux systems are still vulnerable to human-led errors and supply chain compromises.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Human-Led Attacks:** System administrators or developers may inadvertently execute malicious code by:
 

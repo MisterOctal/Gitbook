@@ -22,7 +22,7 @@ A firewall acts as a security guard for a network or a single host. By sitting b
 
 The primary goal of a firewall is to create a barrier between a private network and the outside world. Much like a security guard at a building entrance, the firewall inspects every packet of data trying to enter or leave.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 If the data packet matches an "Allow" rule, it is permitted to pass. If it matches a "Deny" or "Block" rule, or if it does not match any rule at all (depending on the default policy), it is stopped. This mechanism prevents unauthorized access and protects sensitive internal resources from external threats.
 
@@ -34,7 +34,7 @@ Question: Which security solution inspects the incoming and outgoing traffic of 
 
 ## Task 2: Types of Firewalls
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Firewalls have evolved significantly over the years to keep up with sophisticated attack methods. They are generally categorized by how they inspect data:
 
@@ -59,7 +59,7 @@ Question: Which type of firewall inspects the traffic coming to an application?
 
 ## Task 3: Firewall Rules and Policies
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Firewalls operate based on a list of rules processed from top to bottom. Once a packet matches a rule, the firewall takes action and stops looking at the rest of the list.
 
@@ -81,7 +81,7 @@ Question: What is the direction of the rule that is created for the traffic leav
 
 Windows includes a built-in stateful firewall managed through the standard "Windows Defender Firewall" dashboard and its more granular interface, "Windows Defender Firewall with Advanced Security". Because it is deeply integrated into the OS, understanding its nuances is essential for hardening Windows workstations against lateral movement.
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Network Profiles:** Windows determines your current network using Network Location Awareness (NLA) and applies one of three distinct profiles:
 
@@ -89,7 +89,7 @@ Windows includes a built-in stateful firewall managed through the standard "Wind
 * **Private:** Applied for trusted home or work networks.
 * **Public:** Applied in untrusted locations like coffee shops or airports. Here, you might configure the firewall to block all incoming connections for maximum security while allowing essential outbound traffic.
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Advanced Settings and Custom Rules:** Clicking "Advanced Settings" opens a specialized console to create highly customized inbound and outbound rules. Creating a custom rule involves navigating a step-by-step wizard:
 

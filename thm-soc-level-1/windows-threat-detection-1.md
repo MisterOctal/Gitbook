@@ -34,14 +34,14 @@ Initial Access represents the first step of a breach. Methods are generally divi
 
 **Exposed Services** Placing a Windows server directly on the Internet introduces significant security risks. Automated bots actively scan for open ports, weak passwords, and unpatched vulnerabilities.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **T1133 / External Remote Services:** Threat actors look for exposed RDP/VNC/SSH with weak passwords to gain remote access.
 * **T1190 / Exploit Public-Facing Application:** Threat actors target misconfigured or vulnerable websites and applications.
 
 **User-Driven Methods** If a machine is not exposed to the Internet, infection typically requires human interaction, such as clicking malicious links, opening phishing attachments, or plugging in unknown USB devices.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **T1566 / Phishing:** Threat actors employ various phishing techniques to trick victims into launching malware.
 * **T1091 / Removable Media:** Threat actors infect a USB device, relying on victims to plug the hardware into multiple workstations.
@@ -62,7 +62,7 @@ Exposing Remote Desktop Protocol (RDP) with weak credentials often results in ra
 
 **Detecting an RDP Breach** An RDP breach can be reconstructed entirely through Security logs:
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. **RDP Brute Force:** Filter Security logs for failed logins (Event ID 4625), logon types 3 and 10 (remote logons), and external source IPs.
 2. **Initial Access:** Switch the filter to successful logins (Event ID 4624) and identify the compromised account.
@@ -88,11 +88,11 @@ Phishing remains a primary threat vector due to its high success rate in bypassi
 
 **Binary Attachments** Threat actors abuse executable extensions (.exe, .com, .scr, .cpl). Because Windows hides known file extensions by default, a file explicitly named "invoice.pdf.exe" appears simply as "invoice.pdf" in File Explorer, tricking the recipient.
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt="" width="501"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt="" width="501"><figcaption></figcaption></figure>
 
 **LNK Attachments** To evade antivirus detection, attackers hide scripts (PowerShell, Visual Basic, BAT) within LNK shortcut files. The LNK "Target" field contains the malicious command. For example, a shortcut masquerading as a website link may point to a hidden PowerShell command that downloads and executes malware like RemcosRAT.
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: Let's play the role of the untrained user and mindlessly open the COM file. Run the www.skype.com file from the Phishing Case 1 folder, which flag do you get?
 
@@ -114,7 +114,7 @@ Hunting for malicious downloads requires tracking the file's lifecycle from the 
 
 **Detecting Malicious Downloads with Sysmon:**
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Sysmon Event ID 1:** Web browser is launched (e.g., msedge.exe).
 * **Sysmon Event ID 11:** An archive file appears in the Downloads directory (.zip).
@@ -123,7 +123,7 @@ Hunting for malicious downloads requires tracking the file's lifecycle from the 
 
 **Notes on LNK Attachments:** LNK files leave minimal execution traces. When launched, Windows Explorer reads the Target field, making it appear as though `explorer.exe` launched the payload (e.g., PowerShell) directly. Identifying LNK phishing requires looking for preceding file creation events (Event ID 11) to confirm the LNK file appeared in the file system before execution.
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: Which file did the user download via the web browser?
 

@@ -30,13 +30,13 @@ Question: I understand the learning objectives and am ready to learn about detec
 
 ## Task 2: Client-Side Attacks
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Client-side attacks exploit user behavior or device vulnerabilities (browsers/plugins).
 
 * **Visibility Issue:** SOC analysts have limited visibility into browser-side execution without endpoint monitoring.
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Common Attacks:**
   * **XSS (Cross-Site Scripting):** Executing malicious scripts in a user's browser.

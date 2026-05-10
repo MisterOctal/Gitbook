@@ -30,7 +30,7 @@ Question: Let's begin!
 
 ## Task 2: Network Discovery
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Attackers scan to find "openings" like vulnerable service versions, while defenders scan to reduce the attack surface. To manage the noise, SOC teams often allowlist known internal scanners and use Threat Intelligence to prioritize alerts from suspicious external sources.
 
@@ -44,11 +44,11 @@ Question: What do attackers scan, other than, IP addresses, ports, and OS versio
 
 External scanning occurs when an outside IP targets public-facing assets. This is considered low-severity reconnaissance.&#x20;
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Internal-to-internal scanning, however, suggests an attacker has already gained a foothold and is moving toward lateral movement (the Discovery phase of MITRE ATT\&CK). This is always a high-severity event requiring incident response.
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 To identify these in the lab, we navigate to `/home/ubuntu/Downloads/logs` and use basic Linux utilities to parse the CSV exports.
 
@@ -78,7 +78,7 @@ Question: What is the external IP address that is performing external scanning a
 
 There are two primary patterns in port scanning:
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Horizontal Scanning:** Scanning multiple destination IPs for the same port (e.g., looking for port 445/SMB across a whole subnet).
 

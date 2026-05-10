@@ -36,7 +36,7 @@ Question: I am ready to learn!
 
 ## Task 2: The Human Element
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="150"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="150"><figcaption></figcaption></figure>
 
 Humans are targeted because of the **access** they hold. Whether it's an HR manager's database access or an IT administrator's VPN credentials, a single compromised account can lead to a full-scale breach.
 
@@ -68,7 +68,7 @@ Some common methods of social engineering are:
 
 * **Malware Downloads:** Using fake CAPTCHAs, QR codes, or SEO poisoning to trick users into installing malicious software.
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Deepfakes:** Using AI-generated audio or video to impersonate trusted figures (e.g., a boss requesting a wire transfer).
 * **Impersonation:** Pretending to be IT support or another department over a phone call to gain account control.

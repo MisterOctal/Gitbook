@@ -30,7 +30,7 @@ Question: I'm ready to go!
 
 ## Task 2: Data-Based Threats
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 LLMs are fundamentally data-driven; they learn from a corpus of training data and generate outputs based on it. However, they can inadvertently leak data by design because they memorise and regurgitate patterns from their training data.
 
@@ -38,7 +38,7 @@ LLMs are fundamentally data-driven; they learn from a corpus of training data an
 * **Membership Inference:** Determining if the model ever recorded a specific data sample. This assumes the attacker already possesses the candidate sample and is testing for high confidence/low loss indicators.
 * **Prompt Leakage (LLM07:2025):** Convincing the model to reveal its hidden "System Prompt" or developer instructions, which often contain proprietary business logic.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Mitigation Strategies:**
 
@@ -66,7 +66,7 @@ Question: Which data-based threat involves the model reproducing memorised snipp
 
 Model-based threats exploit the model itself as the attack surface, abusing how information is encoded within its parameters and representations.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Model Extraction (Model Theft):** The process of illicitly copying a model's functionality by querying its public API and storing input-output pairs to train a "surrogate" model.
 * **Model Inversion:** Reconstructing unknown training data that has been encoded into parameters. Unlike membership inference, this recreates the data from scratch by optimizing inputs until the output converges on realistic training samples.
@@ -92,7 +92,7 @@ LLMs process all input (system instructions, user prompts, etc.) as a single con
 * **Prompt Injection:** Context-window poisoning where untrusted user input overrides trusted system instructions.
 * **Context Overflow (LLM10:2025):** Abusing the FIFO (First In, First Out) nature of context windows. By flooding the context, an attacker can push earlier security instructions out of the model's "memory."
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Memory Poisoning:** Gradually injecting malicious info into stateful conversations over multiple turns so the model accepts false premises (e.g., "cat = dog").
 
@@ -110,13 +110,13 @@ Question: Which system component combines system instructions, retrieved data, a
 
 ## Task 5: User-Based Threats
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 LLMs turbocharge traditional social engineering by removing the "telltale signs" of phishing and exploiting the authoritative tone of AI.
 
 * **LLM Powered Social Engineering:** Creating highly convincing spear-phishing emails by using OSINT or leaked internal data to mimic colleagues.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Trust Exploitation (LLM09:2025):** Engineering "Package Hallucinations" where attackers register malicious software packages with names they know an LLM is likely to hallucinate when asked for coding advice.
 
@@ -136,6 +136,6 @@ Question: LLM-powered social engineering primarily amplifies which existing atta
 
 Throughout this room, we explored how Large Language Models fundamentally change the security landscape. By understanding the different areas to consider when assessing LLM security, we can now identify where new attack surfaces emerge and why traditional security assumptions often fail.
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="84.20001220703125"></th><th width="122.5999755859375"></th><th width="175"></th><th width="213.60009765625"></th><th></th></tr></thead><tbody><tr><td>Type</td><td>Threat</td><td>Target / Attack Surface</td><td>Input</td><td>Output</td></tr><tr><td><strong>Data</strong></td><td>Extraction</td><td>Training dataset</td><td>Crafted prompts</td><td>Verbatim training data</td></tr><tr><td><strong>Data</strong></td><td>Membership</td><td>Training metadata</td><td>Known candidate sample</td><td>Yes/No decision</td></tr><tr><td><strong>Data</strong></td><td>Prompt Leak</td><td>System Instructions</td><td>"Reveal rules" prompts</td><td>Hidden developer prompts</td></tr><tr><td><strong>Model</strong></td><td>Extraction</td><td>Model parameters</td><td>High API query volume</td><td>Surrogate model</td></tr><tr><td><strong>Model</strong></td><td>Inversion</td><td>Internal representation</td><td>Embeddings/outputs</td><td>Reconstructed training data</td></tr><tr><td><strong>System</strong></td><td>Injection</td><td>Context Window</td><td>Attacker-controlled text</td><td>Altered model behavior</td></tr><tr><td><strong>System</strong></td><td>Overflow</td><td>Resource/Window size</td><td>Excessively large prompts</td><td>Truncated safeguards</td></tr><tr><td><strong>System</strong></td><td>Poisoning</td><td>Persistent memory</td><td>Malicious statements</td><td>Corrupted future responses</td></tr><tr><td><strong>User</strong></td><td>Social Eng.</td><td>Human decision-making</td><td>Personal context</td><td>Phishing/Fraud success</td></tr><tr><td><strong>User</strong></td><td>Trust Exp.</td><td>User judgment</td><td>Authoritative misinformation</td><td>False/Harmful info acceptance</td></tr></tbody></table>
