@@ -32,7 +32,7 @@ Question: Read the official description of Snort.
 
 ## Task 2: Interactive Material and VM
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 The exercise environment includes a traffic generator script and a pre-configured Snort instance.
 
@@ -49,7 +49,7 @@ cd Desktop/Task-Exercises
 
 ## Task 3: Introduction to IDS/IPS
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Identifying the differences between detection (IDS) and prevention (IPS) systems.
 
@@ -119,7 +119,7 @@ snort -c /etc/snort/snortv2.conf -T
 
 ## Task 5: Operation Mode 1: Sniffer Mode
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * `-v`: Verbose (TCP/IP headers).
 * `-d`: Dump (Packet payload).
@@ -133,7 +133,7 @@ Question: Practice the parameter combinations.
 
 ## Task 6: Operation Mode 2: Packet Logger Mode
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Logging packets for later analysis.
 
@@ -186,7 +186,7 @@ snort -r snort.log.1640048004 'tcp port 80'
 
 ## Task 7: Operation Mode 3: IDS/IPS
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Active monitoring using rulesets.
 

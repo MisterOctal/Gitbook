@@ -19,7 +19,7 @@ In this walkthrough, we exploit the notorious MS17-010 (EternalBlue) vulnerabili
 
 While this lab uses a controlled environment, recent Shodan data shows over 200,000 Windows 7 devices are still active and exposed globally. This highlights the persistent danger of the EternalBlue exploit nearly a decade after its discovery.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 

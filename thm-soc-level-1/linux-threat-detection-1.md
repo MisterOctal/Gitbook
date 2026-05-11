@@ -32,7 +32,7 @@ Question: I'm ready to start!
 
 SSH (Secure Shell) is the most common remote access service for Linux environments. With millions of internet-facing SSH servers, it is a prime target for threat actors, tracked under the External Remote Services (T1133) MITRE technique.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Authentication Risks:**
 
@@ -62,7 +62,7 @@ Question: Did the ubuntu user use SSH keys instead of a password for the above f
 
 Detecting an SSH breach relies heavily on analyzing the `/var/log/auth.log` file. A classic attack pattern involves a high volume of failed authentication attempts (brute force) immediately followed by a successful login.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Distinguishing Legitimate vs. Malicious Logins:** When reviewing successful SSH logins (filtering for `Accepted`), several red flags indicate a potential compromise:
 
