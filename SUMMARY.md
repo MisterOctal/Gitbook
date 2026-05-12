@@ -101,6 +101,8 @@
 * [File and Hash Threat Intel](thm-soc-level-1/file-and-hash-threat-intel.md)
 * [IP and Domain Threat Intel](thm-soc-level-1/ip-and-domain-threat-intel.md)
 * [Invite Only](thm-soc-level-1/invite-only.md)
+* [Log Analysis with SIEM](thm-soc-level-1/log-analysis-with-siem.md)
+* [Alert Triage With Splunk](thm-soc-level-1/alert-triage-with-splunk.md)
 
 ## THM Standalone
 
