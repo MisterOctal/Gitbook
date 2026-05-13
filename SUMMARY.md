@@ -17,6 +17,7 @@
 ## THM For HND
 
 * [Elastic Stack: The Basics](thm-for-hnd/elastic-stack-the-basics.md)
+* [Elastic: Setting up a SOC Lab](thm-for-hnd/elastic-setting-up-a-soc-lab.md)
 
 ## THM AI Security
 
