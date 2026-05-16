@@ -9,15 +9,14 @@
 
 * [SOC Lab GitHub](https://github.com/MisterOctal/SOC-Homelab)
 * [Day 0 - Lab Planning](azure-soc-lab/day-0-lab-summary.md)
-
-## KC7 Security Analyst
-
-* [CloutHaus 1: Got Clout?](kc7-security-analyst/clouthaus-1-got-clout.md)
+* [Day 1 - Lab Setup](azure-soc-lab/day-0-lab-summary-1.md)
 
 ## THM For HND
 
 * [Elastic Stack: The Basics](thm-for-hnd/elastic-stack-the-basics.md)
 * [Elastic: Setting up a SOC Lab](thm-for-hnd/elastic-setting-up-a-soc-lab.md)
+* [Alert Triage With Elastic](thm-for-hnd/alert-triage-with-elastic.md)
+* [ItsyBitsy](thm-for-hnd/itsybitsy.md)
 
 ## THM AI Security
 
