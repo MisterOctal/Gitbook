@@ -30,7 +30,7 @@ Question: I'm ready to go!
 
 ## Task 2: Data-Based Threats
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 LLMs are fundamentally data-driven; they learn from a corpus of training data and generate outputs based on it. However, they can inadvertently leak data by design because they memorise and regurgitate patterns from their training data.
 
@@ -38,7 +38,7 @@ LLMs are fundamentally data-driven; they learn from a corpus of training data an
 * **Membership Inference:** Determining if the model ever recorded a specific data sample. This assumes the attacker already possesses the candidate sample and is testing for high confidence/low loss indicators.
 * **Prompt Leakage (LLM07:2025):** Convincing the model to reveal its hidden "System Prompt" or developer instructions, which often contain proprietary business logic.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Mitigation Strategies:**
 
@@ -66,7 +66,7 @@ Question: Which data-based threat involves the model reproducing memorised snipp
 
 Model-based threats exploit the model itself as the attack surface, abusing how information is encoded within its parameters and representations.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Model Extraction (Model Theft):** The process of illicitly copying a model's functionality by querying its public API and storing input-output pairs to train a "surrogate" model.
 * **Model Inversion:** Reconstructing unknown training data that has been encoded into parameters. Unlike membership inference, this recreates the data from scratch by optimizing inputs until the output converges on realistic training samples.
@@ -92,7 +92,7 @@ LLMs process all input (system instructions, user prompts, etc.) as a single con
 * **Prompt Injection:** Context-window poisoning where untrusted user input overrides trusted system instructions.
 * **Context Overflow (LLM10:2025):** Abusing the FIFO (First In, First Out) nature of context windows. By flooding the context, an attacker can push earlier security instructions out of the model's "memory."
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Memory Poisoning:** Gradually injecting malicious info into stateful conversations over multiple turns so the model accepts false premises (e.g., "cat = dog").
 
@@ -110,7 +110,7 @@ Question: Which system component combines system instructions, retrieved data, a
 
 ## Task 5: User-Based Threats
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 LLMs turbocharge traditional social engineering by removing the "telltale signs" of phishing and exploiting the authoritative tone of AI.
 

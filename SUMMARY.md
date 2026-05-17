@@ -10,6 +10,7 @@
 * [SOC Lab GitHub](https://github.com/MisterOctal/SOC-Homelab)
 * [Day 0 - Lab Planning](azure-soc-lab/day-0-lab-summary.md)
 * [Day 1 - Lab Setup](azure-soc-lab/day-0-lab-summary-1.md)
+* [Day 2 - VNet and Subnet Setup](azure-soc-lab/day-0-lab-summary-2.md)
 
 ## THM For HND
 
@@ -103,6 +104,7 @@
 * [Invite Only](thm-soc-level-1/invite-only.md)
 * [Log Analysis with SIEM](thm-soc-level-1/log-analysis-with-siem.md)
 * [Alert Triage With Splunk](thm-soc-level-1/alert-triage-with-splunk.md)
+* [Benign](thm-soc-level-1/benign.md)
 
 ## THM Standalone
 

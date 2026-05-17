@@ -22,7 +22,7 @@ While Security Operations runbooks often rely on the verification and enrichment
 
 This room outlines the process of triaging suspicious domains and IP addresses by applying threat intelligence context. The scenario involves investigating flagged domains (e.g., `advanced-ip-sccanner[.]com`) and IPs, enriching them, and formulating actionable, time-bound security recommendations.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: All set to begin.
 
@@ -34,7 +34,7 @@ Question: All set to begin.
 
 The Domain Name System (DNS) is a central mechanism for internet routing and a frequent target for adversarial abuse. For SOC analysts, DNS provides one of the richest early-warning datasets long before malware payloads are identified.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Core DNS Records for Triage:**
 

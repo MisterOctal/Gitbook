@@ -32,7 +32,7 @@ Question: Go to Shodan.io
 
 In this task, we learn about the usage of filters on Shodan. There is an extensive list of filters that we can use on Shodan, but some of the popular ones include product, country, port, and asn. Another powerful filter is the vuln filter, which we can use to find ip addresses that are vulnerable to certain vulnerabilities.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In this example, I used Shodan to find out how many IPs in the US, part of Digital Ocean's ASN are still vulnerable to Eternal blue. Fortunately, only 47 are vulnerable in a country with millions of devices on Shodan, so that's good.
 

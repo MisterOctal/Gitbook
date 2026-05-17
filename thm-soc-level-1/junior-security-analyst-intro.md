@@ -24,7 +24,7 @@ A Junior Security Analyst is the first line of defense in a company. They monito
 
 The journey begins with staying informed about the threat landscape (Cyber News) and understanding daily responsibilities.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Daily Duties include:**
 
@@ -41,7 +41,7 @@ Question: Which team do you work with as a Junior Security Analyst?
 
 ## Task 2: Security Operations Center (SOC)
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 A SOC is a team of professionals collaborating to protect an organization's digital assets. Key roles include:
 
@@ -59,7 +59,7 @@ Question: Continue to the next task!
 
 ## Task 3: A Day in the Life of a Security Analyst
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 In this practical exercise, we take on the role of an analyst triaging tickets in a mock SIEM (Security Information and Event Management) dashboard.
 

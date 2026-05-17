@@ -36,7 +36,7 @@ The System Configuration utility (`msconfig`) is primarily used to troubleshoot 
 
 From a defensive standpoint, checking the "Services" tab (and hiding Microsoft services) is a quick way to find third-party software that might be malicious or unnecessary.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="437"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="437"><figcaption></figcaption></figure>
 
 Additionally, the "Tools" tab provides a centralized list of administrative commands, which is useful for identifying the underlying executables for various Windows utilities.
 

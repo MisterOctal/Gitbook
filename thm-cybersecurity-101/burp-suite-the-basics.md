@@ -20,7 +20,7 @@ Burp Suite is a Java-based framework designed to be a comprehensive solution for
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 Welcome to the foundational room for Burp Suite. This module transitions from theoretical concepts to the practical application of the tool. I will cover the installation process, the various editions available (Community vs. Professional), and the core navigation required to move through the suite's complex interface.
 
@@ -34,7 +34,7 @@ Question: Let us start!
 
 Burp Suite is the industry-standard tool for hands-on security assessments. It captures and enables the manipulation of all HTTP/HTTPS traffic. While we focus on the **Community Edition** (free for non-commercial use), it is important to understand the Professional and Enterprise versions. The Professional edition adds automated scanning and removes rate limits on tools like Intruder, while the Enterprise edition is designed for continuous, server-side scanning of entire web estates.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Which edition of Burp Suite runs on a server and provides constant scanning for target web apps?
 
@@ -64,7 +64,7 @@ Question: Which Burp tool would we use to brute-force a login form?
 
 Burp Suite is a Java application, meaning it can run on Windows, macOS, and Linux as long as a Java Runtime Environment is present. On platforms like Kali Linux and the THM AttackBox, Burp comes pre-installed and ready to use. For personal machines, PortSwigger provides dedicated installers that include a bundled "private" browser, which simplifies the configuration process significantly by eliminating the need to manually install CA certificates in your standard browser.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: If you have chosen not to use the AttackBox, ensure that you have a copy of Burp Suite installed before proceeding.
 
@@ -76,7 +76,7 @@ Question: If you have chosen not to use the AttackBox, ensure that you have a co
 
 The Dashboard is your "Mission Control." It is divided into quadrants that help you monitor background activity. The **Tasks** quadrant shows what Burp is doing behind the scenes (like passive crawling), while the **Event Log** provides a running list of technical actions, such as starting the proxy listener or encountering connection errors.&#x20;
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 For Professional users, the **Issue Activity** and **Advisory** sections display live results from the automated vulnerability scanner.
 
@@ -90,7 +90,7 @@ Question: What menu provides information about the actions performed by Burp Sui
 
 Navigating Burp Suite requires getting used to its "tab-within-a-tab" structure. The top row of tabs switches between major modules (Proxy, Target, Repeater), while a second row of sub-tabs appears beneath them for module-specific views (e.g., Proxy Intercept vs. Proxy History). If the interface feels cramped, you can "detach" tabs into separate windows. Learning keyboard shortcuts like `Ctrl + Shift + R` for Repeater will significantly speed up your testing workflow.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: Which tab Ctrl + Shift + P will switch us to?
 
@@ -102,7 +102,7 @@ Question: Which tab Ctrl + Shift + P will switch us to?
 
 Settings in Burp are split into **Global (User) settings** and **Project settings**. User settings apply to the entire installation, such as your theme (Dark Mode!) or font sizes. Project settings are specific to the current engagement. Since the Community edition does not support saving project files, these settings must be reconfigured each time you start a new session. The "Search" feature in the settings menu is the fastest way to find specific toggles like the "Cookie Jar" or "Hotkeys."
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: In which category can you find a reference to a "Cookie jar"?
 

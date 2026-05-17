@@ -32,7 +32,7 @@ The investigation centers around two specific Indicators of Compromise (IOCs):
 * **Community Comments:** Provided crucial context and pivot points that helped identify the overarching malware family and the specific phishing techniques used.
 * **Google Intergration:** Used to search for the exact indicators and community keywords to locate the original, comprehensive threat intelligence report detailing the attack campaign.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Question: What is the name of the file identified with the flagged SHA256 hash?
 
@@ -42,25 +42,25 @@ Question: What is the file type associated with the flagged SHA256 hash?
 
 > **Answer:** Win32 EXE
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="512"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="512"><figcaption></figcaption></figure>
 
 Question: What are the execution parents of the flagged hash? List the names chronologically, using a comma as a separator. Note down the hashes for later use.
 
 > **Answer:** 361GJX7J,installer.exe
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: What is the name of the file being dropped? Note down the hash value for later use.
 
 > **Answer:** Aclient.exe
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Research the second hash in question 3 and list the four malicious dropped files in the order they appear (from up to down), separated by commas.
 
 > **Answer:** searchhost.exe,syshelpers.exe,nat.vbs,runsys.vbs
 
-<figure><img src="../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Analyse the files related to the flagged IP. What is the malware family that links these files?
 

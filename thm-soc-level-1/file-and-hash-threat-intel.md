@@ -32,7 +32,7 @@ Question: Dive into file threat intelligence.
 
 ## Task 2: Filenames and Paths
 
-<figure><img src="../.gitbook/assets/image (5).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Human-readable strings, such as file paths and names, are the earliest heuristics available. While they do not independently prove maliciousness, they reveal attacker tradecraft patterns.
 
@@ -86,7 +86,7 @@ sha256sum bl0gger.exe
 
 **Analysis With VirusTotal:** VirusTotal aggregates scan results from dozens of antivirus vendors. Key items to note:
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Detection score:** Crowdsourced security verdict (ratio).
 * **Threat labels and categories:** Vendor-specific classifications.
@@ -137,7 +137,7 @@ While static properties (hashes, strings) reveal identity, dynamic analysis in a
 
 **Sandboxing Tools:**
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Hybrid Analysis (HA):** Focuses on behavior trees and a clean MITRE ATT\&CK heatmap. Ideal for fast executive summaries.
 * **Joe Sandbox (JS):** Covers deep system calls, strings, and memory dumps. Ideal for reverse/detection engineers.
@@ -177,7 +177,7 @@ Question: How many extracted strings were identified from the sandbox analysis o
 
 ## Task 5: Threat Intelligence Challenge
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 This task requires applying the concepts to investigate a suspected file named `Challenge.bin.sample` using the offline TryDetectThis threat intelligence tool to extract its attributes, execution parameters, and MITRE mapping.
 

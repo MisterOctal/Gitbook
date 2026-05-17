@@ -20,7 +20,7 @@ Setting up a secure and comprehensive malware analysis environment from scratch 
 
 ## Task 1: Introduction
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="357"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="357"><figcaption></figcaption></figure>
 
 FlareVM is a carefully curated collection of specialized tools designed specifically to meet the needs of reverse engineers, incident responders, and forensic investigators. Because it contains live malware samples for practice, this environment operates in strict isolation. Attempting to install all of these tools manually on a standard Windows machine would take several hours and require significant configuration to avoid conflicts.
 

@@ -20,7 +20,7 @@ Digital forensics is the application of scientific investigation techniques to d
 
 ## Task 1: Introduction to Digital Forensics
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Digital forensics is essential in modern law enforcement. When devices like laptops or mobile phones are seized, they are analyzed in labs to find maps, documents, or chat records that can link a suspect to a crime.
 

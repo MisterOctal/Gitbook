@@ -36,7 +36,7 @@ Every phishing email investigation starts with the structure of the email addres
 
 An email address is composed of three elements:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. Username: The specific recipient mailbox on the server.
 2. @ symbol: The separator that tells the system where to route the email.
@@ -52,7 +52,7 @@ Question: Identify the domain used in the following email address: hatsalesman@t
 
 Several protocols work together to deliver messages from sender to recipient. Each protocol has a specific role in the delivery chain:
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. User sends an email: The sender’s email client sends the message to the mail server using SMTP
 2. Mail server queries DNS: The sending server asks DNS for the recipient domain’s mail server
@@ -89,7 +89,7 @@ An email consists of two main parts: the header and the body. The header contain
 
 Key header components found in the email1.eml file:
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
