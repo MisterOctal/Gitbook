@@ -105,6 +105,7 @@
 * [Log Analysis with SIEM](thm-soc-level-1/log-analysis-with-siem.md)
 * [Alert Triage With Splunk](thm-soc-level-1/alert-triage-with-splunk.md)
 * [Benign](thm-soc-level-1/benign.md)
+* [Boogeyman 1](thm-soc-level-1/boogeyman-1.md)
 
 ## THM Standalone
 
