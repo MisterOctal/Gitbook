@@ -32,7 +32,7 @@ Question: Read the task above.
 
 ## Task 2: NetworkMiner in Forensics
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The goal of network forensics is to detect anomalies and security breaches. NetworkMiner assists by providing immediate context on captured hosts, such as their IP/MAC addresses and OS information. It can also highlight potential attack indicators like traffic spikes or the use of scanning tools like Nmap.
 

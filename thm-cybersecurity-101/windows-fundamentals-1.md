@@ -140,7 +140,7 @@ Question: In the Control Panel, change the view to Small icons. What is the last
 
 Task Manager (Ctrl+Shift+Esc) is the go-to tool for real-time system monitoring. It provides visibility into processes, performance, startup applications, and active users. Checking the Startup tab is a primary location to check for malware persistence.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="496"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="496"><figcaption></figcaption></figure>
 
 Question: What is the keyboard shortcut to open Task Manager?
 

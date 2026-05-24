@@ -36,7 +36,7 @@ Threat actors require a method to send commands and maintain control over a vict
 
 **Attacks Without C2** In certain scenarios, such as an RDP breach, a dedicated C2 is unnecessary. Attackers can execute commands directly within the RDP session. However, this access is volatile and is lost as soon as the RDP session is closed or secured.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Implementing C2** For other Initial Access methods (like phishing), an active process must constantly communicate with the attacker's server.
 

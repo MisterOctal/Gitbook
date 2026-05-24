@@ -56,7 +56,7 @@ Question: Who is ultimately responsible for ensuring the security of users' data
 
 ## Task 3: Web Infrastructure
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Web services function via a request-response cycle using three main components:
 

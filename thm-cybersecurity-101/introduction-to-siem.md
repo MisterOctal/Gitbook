@@ -47,7 +47,7 @@ A robust SIEM solution goes beyond simple log storage. It offers several critica
 
 ## Task 3: Log Sources and Ingestion
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="367"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="367"><figcaption></figcaption></figure>
 
 For a SIEM to be effective, it must ingest data from various parts of the network. These sources are generally categorized into:
 

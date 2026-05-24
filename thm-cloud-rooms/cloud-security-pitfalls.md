@@ -38,7 +38,7 @@ The cloud is categorized into three primary service models based on how much of 
 
 * **PaaS (Platform as a Service):** This model is designed for developers. It provides a framework to build, test, and deploy applications without the burden of managing the underlying operating system or runtime environments. Examples include **Heroku** and **Google App Engine**.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **SaaS (Software as a Service):** This is a fully managed software suite delivered over the web. Users simply interact with the application, and the provider handles everything from the code to the hardware. Examples include **Gmail**, **Slack**, and **Dropbox**.
 

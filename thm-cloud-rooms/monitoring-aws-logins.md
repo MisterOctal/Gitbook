@@ -34,7 +34,7 @@ Question: Launch the VM and complete the task!
 
 IAM (Identity and Access Management) is the core of AWS security. There are three main ways to get into an account:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **AWS Management Console:** The web-based GUI. This is usually for human users and should always be protected by MFA.
 

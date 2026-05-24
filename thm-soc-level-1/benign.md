@@ -60,7 +60,7 @@ Setting the time range in the Splunk interface to span the entire month of March
 index="win_eventlogs"
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > **Answer:** 13959
 
@@ -130,7 +130,7 @@ Question: The suspicious file downloaded from the C2 server contained malicious 
 
 Navigating directly to the external URL discovered in the command-line logs reveals the hosted text file and the required pattern payload.
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="369"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="369"><figcaption></figcaption></figure>
 
 > **Answer:** THM{KJ&\*H^B0}
 

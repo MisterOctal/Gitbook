@@ -31,7 +31,7 @@ Question: Read the above.
 
 ## Task 2: Hash Values (Trivial)
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 At the base of the pyramid are **Hash Values**. These are unique identifiers for files (MD5, SHA-1, SHA-256). These are relatively easy to solve and analyze, thanks to various sites such as VirusTotal.
 

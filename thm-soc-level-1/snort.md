@@ -32,7 +32,7 @@ Question: Read the official description of Snort.
 
 ## Task 2: Interactive Material and VM
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 The exercise environment includes a traffic generator script and a pre-configured Snort instance.
 

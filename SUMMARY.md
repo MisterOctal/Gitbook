@@ -11,6 +11,7 @@
 * [Day 0 - Lab Planning](azure-soc-lab/day-0-lab-summary.md)
 * [Day 1 - Lab Setup](azure-soc-lab/day-0-lab-summary-1.md)
 * [Day 2 - VNet and Subnet Setup](azure-soc-lab/day-0-lab-summary-2.md)
+* [Day 3 - Initial Cowrie Setup](azure-soc-lab/day-0-lab-summary-3.md)
 
 ## THM For HND
 
@@ -107,12 +108,14 @@
 * [Benign](thm-soc-level-1/benign.md)
 * [Boogeyman 1](thm-soc-level-1/boogeyman-1.md)
 * [Boogeyman 2](thm-soc-level-1/boogeyman-2.md)
+* [Boogeyman 3](thm-soc-level-1/boogeyman-3.md)
 
 ## THM Standalone
 
 * [Shodan.io](thm-standalone/shodan.io.md)
 * [Python for Pentesters](thm-standalone/python-for-pentesters.md)
 * [Introduction to OT/ICS](thm-standalone/introduction-to-ot-ics.md)
+* [Python: Core Concepts](thm-standalone/python-core-concepts.md)
 
 ## THM CYBERSECURITY 101
 

@@ -30,7 +30,7 @@ Question: I'm ready to go!
 
 ## Task 2: Data-Based Threats
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 LLMs are fundamentally data-driven; they learn from a corpus of training data and generate outputs based on it. However, they can inadvertently leak data by design because they memorise and regurgitate patterns from their training data.
 

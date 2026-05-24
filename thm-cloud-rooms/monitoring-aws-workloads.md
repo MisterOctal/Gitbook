@@ -34,7 +34,7 @@ Question: Let's begin!
 
 The most common attack surface in AWS is still the EC2 instance. Beyond standard SSH access, AWS provides management services like **Systems Manager (SSM)** and **Auto Scaling** that, while useful, can be abused by attackers as a built-in Command and Control (C2) framework.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Key Detection Points:
 

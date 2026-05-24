@@ -36,7 +36,7 @@ Every phishing email investigation starts with the structure of the email addres
 
 An email address is composed of three elements:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. Username: The specific recipient mailbox on the server.
 2. @ symbol: The separator that tells the system where to route the email.

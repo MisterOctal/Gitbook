@@ -34,7 +34,7 @@ Question: Let us start!
 
 Burp Suite is the industry-standard tool for hands-on security assessments. It captures and enables the manipulation of all HTTP/HTTPS traffic. While we focus on the **Community Edition** (free for non-commercial use), it is important to understand the Professional and Enterprise versions. The Professional edition adds automated scanning and removes rate limits on tools like Intruder, while the Enterprise edition is designed for continuous, server-side scanning of entire web estates.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Question: Which edition of Burp Suite runs on a server and provides constant scanning for target web apps?
 

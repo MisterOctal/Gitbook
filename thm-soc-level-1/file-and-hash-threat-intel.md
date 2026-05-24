@@ -86,7 +86,7 @@ sha256sum bl0gger.exe
 
 **Analysis With VirusTotal:** VirusTotal aggregates scan results from dozens of antivirus vendors. Key items to note:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Detection score:** Crowdsourced security verdict (ratio).
 * **Threat labels and categories:** Vendor-specific classifications.
