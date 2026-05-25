@@ -12,6 +12,7 @@
 * [Day 1 - Lab Setup](azure-soc-lab/day-0-lab-summary-1.md)
 * [Day 2 - VNet and Subnet Setup](azure-soc-lab/day-0-lab-summary-2.md)
 * [Day 3 - Initial Cowrie Setup](azure-soc-lab/day-0-lab-summary-3.md)
+* [Day 4 - Cowrie Cloaking I](azure-soc-lab/day-0-lab-summary-4.md)
 
 ## THM For HND
 
@@ -116,6 +117,7 @@
 * [Python for Pentesters](thm-standalone/python-for-pentesters.md)
 * [Introduction to OT/ICS](thm-standalone/introduction-to-ot-ics.md)
 * [Python: Core Concepts](thm-standalone/python-core-concepts.md)
+* [Python: Building Scripts](thm-standalone/python-building-scripts.md)
 
 ## THM CYBERSECURITY 101
 

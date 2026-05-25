@@ -175,4 +175,6 @@ To demonstrate proper Operational Security (OPSEC) while sharing our configurati
 
 ## Conclusion
 
-Day 3 is complete. The Linux Honeypot is actively running on a free B2ats v2 tier, and our administration channel is securely separated from the honeypot software. By engineering custom boot and migration scripts, we ensured a clean, repeatable deployment while bypassing cloud-init and socket activation interference. Tomorrow, we move into Day 4: Installing Filebeat to ship these JSON logs to our Analysis Zone.
+Day 3 is complete. The Linux Honeypot is actively running on a free B2ats v2 tier, and our administration channel is securely separated from the honeypot software. By engineering custom boot and migration scripts, we ensured a clean, repeatable deployment while bypassing cloud-init and socket activation interference.&#x20;
+
+Tomorrow, we move into Day 4: cloaking cowrie to get better attacker data.

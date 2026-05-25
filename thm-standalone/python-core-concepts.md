@@ -33,14 +33,6 @@ This room and its companion, Python: Building Scripts, form a two-part series. I
 * Iterate over data using for loops, while loops, and range().
 * Control loop flow with break and continue.
 
-**Prerequisites**
-
-It is recommended to complete the Python: Simple Demo room prior to starting this module.
-
-**Machine Access**
-
-Users can follow along by clicking the Start Machine button to launch the Target VM. Visual Studio Code (VS Code) will open automatically with a modern Python installation. All example scripts discussed in this room are saved in the `/home/ubuntu/Core-Concepts/` directory.
-
 Question: Let's master Python's core concepts!
 
 > **Answer:** No answer needed
@@ -48,8 +40,6 @@ Question: Let's master Python's core concepts!
 ***
 
 ## Task 2: Quick Review: Hello World, Variables, and Conditionals
-
-The following subsections review foundational concepts. For those who completed the Python: Simple Demo room, this will be familiar ground.
 
 **Hello World**
 
