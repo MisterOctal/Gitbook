@@ -14,6 +14,7 @@
 * [Day 3 - Initial Cowrie Setup](azure-soc-lab/day-0-lab-summary-3.md)
 * [Day 4 - Cowrie Cloaking](azure-soc-lab/day-0-lab-summary-4.md)
 * [Day 5 - Honeypot Automation](azure-soc-lab/day-0-lab-summary-5.md)
+* [Day 6 - ELK Setup](azure-soc-lab/day-0-lab-summary-6.md)
 
 ## THM For HND
 
