@@ -16,6 +16,7 @@
 * [Day 5 - Honeypot Automation](azure-soc-lab/day-0-lab-summary-5.md)
 * [Day 6 - ELK Setup](azure-soc-lab/day-0-lab-summary-6.md)
 * [Day 7 - ELK Fixes & Deployment](azure-soc-lab/day-0-lab-summary-7.md)
+* [Day 8 - Windows Honeypot](azure-soc-lab/day-0-lab-summary-8.md)
 
 ## THM For HND
 
