@@ -18,6 +18,7 @@
 * [Day 7 - ELK Fixes & Deployment](azure-soc-lab/day-0-lab-summary-7.md)
 * [Day 8 - Windows Honeypot](azure-soc-lab/day-0-lab-summary-8.md)
 * [Day 9 - Public Exposure](azure-soc-lab/day-0-lab-summary-9.md)
+* [Day 10 - Checkup](azure-soc-lab/day-0-lab-summary-10.md)
 
 ## THM For HND
 
