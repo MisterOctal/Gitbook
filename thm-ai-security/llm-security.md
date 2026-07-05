@@ -30,7 +30,7 @@ Question: I'm ready to go!
 
 ## Task 2: Data-Based Threats
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 LLMs are fundamentally data-driven; they learn from a corpus of training data and generate outputs based on it. However, they can inadvertently leak data by design because they memorise and regurgitate patterns from their training data.
 
@@ -38,7 +38,7 @@ LLMs are fundamentally data-driven; they learn from a corpus of training data an
 * **Membership Inference:** Determining if the model ever recorded a specific data sample. This assumes the attacker already possesses the candidate sample and is testing for high confidence/low loss indicators.
 * **Prompt Leakage (LLM07:2025):** Convincing the model to reveal its hidden "System Prompt" or developer instructions, which often contain proprietary business logic.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Mitigation Strategies:**
 

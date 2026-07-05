@@ -57,7 +57,7 @@ safe_weights = load_file("model.safetensors")
 
 **Defence 2: PyTorch weights\_only=True**&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 When using `torch.load()`, PyTorch uses pickle internally. By setting `weights_only=True`, the unpickler is restricted to reconstructing tensor objects only. Instructions attempting to import modules (like `os`) or call system functions are blocked.
 
@@ -100,7 +100,7 @@ analyst@tryhackme-2204:~$ sha256sum /opt/supply-chain/models/product_recommender
 
 **The Model Acquisition Framework:**
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. **Quarantine:** Isolate the downloaded model.
 2. **Source verification:** Verify author, organization, and reputation.

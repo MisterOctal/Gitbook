@@ -40,7 +40,7 @@ A basic DoS attack relies on a single machine and internet connection. Its impac
 
 #### Distributed Denial-of-Service (DDoS)
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To scale up, attackers utilize botnets: armies of compromised devices (computers, IoT devices, servers) under their control. When instructed, the bots flood the target website, overwhelming its resources much more effectively than a single machine could.
 
@@ -65,7 +65,7 @@ Question: What do we call the network of compromised machines that attackers use
 
 ## Task 3: Attack Motives
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="251"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="251"><figcaption></figcaption></figure>
 
 While a short web service outage may seem minor, for organizations depending on constant availability, the consequences are severe.
 

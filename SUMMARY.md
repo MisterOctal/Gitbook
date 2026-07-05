@@ -19,6 +19,7 @@
 * [Day 8 - Windows Honeypot](azure-soc-lab/day-0-lab-summary-8.md)
 * [Day 9 - Public Exposure](azure-soc-lab/day-0-lab-summary-9.md)
 * [Day 10 - Checkup](azure-soc-lab/day-0-lab-summary-10.md)
+* [Day 11 - Cowrie Modifications](azure-soc-lab/day-0-lab-summary-11.md)
 
 ## THM For HND
 
@@ -46,6 +47,7 @@
 * [AI Supply Chain Security](thm-ai-security/ai-supply-chain-security.md)
 * [Supply Chain Attack Vectors](thm-ai-security/supply-chain-attack-vectors.md)
 * [Securing the AI Supply Chain](thm-ai-security/securing-the-ai-supply-chain.md)
+* [Checkpoint](thm-ai-security/checkpoint.md)
 * [RAG Security Fundamentals](thm-ai-security/rag-security-fundamentals.md)
 
 ## THM Cloud Rooms

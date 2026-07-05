@@ -31,7 +31,7 @@ Question: Read the above.
 
 ## Task 2: Hash Values (Trivial)
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 At the base of the pyramid are **Hash Values**. These are unique identifiers for files (MD5, SHA-1, SHA-256). These are relatively easy to solve and analyze, thanks to various sites such as VirusTotal.
 
@@ -46,7 +46,7 @@ Question: Analyse the report for hash `b8ef959a9176aef07fdca8705254a163b50b49a17
 
 ## Task 3: IP Address (Easy)
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **IP Addresses** are marked green. They identify devices on a network.
 

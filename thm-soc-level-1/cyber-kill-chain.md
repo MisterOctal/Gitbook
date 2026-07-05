@@ -50,7 +50,7 @@ Question: What is the definition for the email gathering process during the stag
 
 ## Task 3: Weaponization
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 Once the attacker has enough information, they package their exploit and malware into a deliverable payload. They might buy a payload off the Dark Web or craft a custom one to bypass specific AV signatures. A classic example is embedding malicious VBA scripts (macros) into a legitimate-looking Microsoft Office document tailored to the target.
 
@@ -62,7 +62,7 @@ Question: What is the term for automated scripts embedded in Microsoft Office do
 
 ## Task 4: Delivery
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 This is how the weaponized payload is transmitted to the target environment. The attacker has to pick the best medium based on their reconnaissance. Common methods include targeted spear-phishing emails, dropping infected USB drives in the company parking lot, or compromising a website the target employees frequently visit.
 

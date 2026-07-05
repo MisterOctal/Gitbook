@@ -34,7 +34,7 @@ Question: Let's begin!
 
 The most common attack surface in AWS is still the EC2 instance. Beyond standard SSH access, AWS provides management services like **Systems Manager (SSM)** and **Auto Scaling** that, while useful, can be abused by attackers as a built-in Command and Control (C2) framework.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Key Detection Points:
 
@@ -76,7 +76,7 @@ Question: Now switch to the high-level alerts coming from srv-prodgw. What rule 
 
 ### Task 4: Monitoring Containers
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="128"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="128"><figcaption></figcaption></figure>
 
 Containers like Docker add a layer of abstraction. Monitoring them means observing both the **Host** (EC2) and the **Sandboxed** environment. If you only look at the host via `ps`, the PIDs won't match the internal container PIDs, making correlation difficult without a container-aware tool.
 

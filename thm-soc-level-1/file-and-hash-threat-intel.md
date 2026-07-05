@@ -86,7 +86,7 @@ sha256sum bl0gger.exe
 
 **Analysis With VirusTotal:** VirusTotal aggregates scan results from dozens of antivirus vendors. Key items to note:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Detection score:** Crowdsourced security verdict (ratio).
 * **Threat labels and categories:** Vendor-specific classifications.
@@ -137,7 +137,7 @@ While static properties (hashes, strings) reveal identity, dynamic analysis in a
 
 **Sandboxing Tools:**
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Hybrid Analysis (HA):** Focuses on behavior trees and a clean MITRE ATT\&CK heatmap. Ideal for fast executive summaries.
 * **Joe Sandbox (JS):** Covers deep system calls, strings, and memory dumps. Ideal for reverse/detection engineers.

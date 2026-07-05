@@ -42,13 +42,13 @@ Question: What is the file type associated with the flagged SHA256 hash?
 
 > **Answer:** Win32 EXE
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="512"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="512"><figcaption></figcaption></figure>
 
 Question: What are the execution parents of the flagged hash? List the names chronologically, using a comma as a separator. Note down the hashes for later use.
 
 > **Answer:** 361GJX7J,installer.exe
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: What is the name of the file being dropped? Note down the hash value for later use.
 

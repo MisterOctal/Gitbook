@@ -223,11 +223,11 @@ Question: What is the flag you see in one of the users' bash history?
 
 By default, Linux does not log process creation, file changes, or network-related events. These are collectively known as runtime events.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **System Calls:** To monitor runtime events, security tools must interface with the operating system at the kernel level via system calls. Whenever a program opens a file, spawns a process, or initiates a network connection, a specific system call is executed.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * There are over 300 system calls in Linux (e.g., `execve` is used to execute a program).
 * Modern EDRs and auditing tools function by hooking into and logging these system calls. Since it is nearly impossible for attackers to bypass system calls to interact with the OS, monitoring them is a highly reliable detection mechanism.

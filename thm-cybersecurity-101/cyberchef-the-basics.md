@@ -52,7 +52,7 @@ The CyberChef interface is divided into four main functional areas, each serving
 * **Input Area:** This is where you provide the raw data. You can type, paste text, or even upload files and folders directly.
 * **Output Area:** Once the "Bake" button is pressed (or if Auto Bake is on), the results of your operations appear here. You can then copy the result or save it as a file.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Question: In which area can you find "From Base64"?
 
