@@ -1,5 +1,5 @@
 ---
-icon: wrench
+icon: building-magnifying-glass
 cover: >-
   https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/678ecc92c80aa206339f0f23-1767057510266
 coverY: 0

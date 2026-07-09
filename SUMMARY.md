@@ -21,6 +21,7 @@
 * [Day 10 - Checkup](azure-soc-lab/day-0-lab-summary-10.md)
 * [Day 11 - Cowrie Modifications](azure-soc-lab/day-0-lab-summary-11.md)
 * [Day 12 - Cowrie Analysis I](azure-soc-lab/day-0-lab-summary-12.md)
+* [Day 13 - Windows Analys I](azure-soc-lab/day-0-lab-summary-13.md)
 
 ## THM For HND
 
