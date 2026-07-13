@@ -22,7 +22,8 @@
 * [Day 11 - Cowrie Modifications](azure-soc-lab/day-0-lab-summary-11.md)
 * [Day 12 - Cowrie Analysis I](azure-soc-lab/day-0-lab-summary-12.md)
 * [Day 13 - Windows Analys I](azure-soc-lab/day-0-lab-summary-13.md)
-* [Uptime Kuma & Windows Fi](azure-soc-lab/day-0-lab-summary-14.md)
+* [Day 14 - Uptime Kuma](azure-soc-lab/day-0-lab-summary-14.md)
+* [Day 15 - Kibana](azure-soc-lab/day-0-lab-summary-15.md)
 
 ## THM For HND
 
