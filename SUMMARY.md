@@ -24,6 +24,7 @@
 * [Day 13 - Windows Analys I](azure-soc-lab/day-0-lab-summary-13.md)
 * [Day 14 - Uptime Kuma](azure-soc-lab/day-0-lab-summary-14.md)
 * [Day 15 - Kibana](azure-soc-lab/day-0-lab-summary-15.md)
+* [Day 16 - KQL 1](azure-soc-lab/day-0-lab-summary-16.md)
 
 ## THM For HND
 
