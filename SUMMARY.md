@@ -26,6 +26,10 @@
 * [Day 15 - Kibana](azure-soc-lab/day-0-lab-summary-15.md)
 * [Day 16 - KQL 1](azure-soc-lab/day-0-lab-summary-16.md)
 
+## DataCamp Projects
+
+* [DL for Cyber Threat Detection](datacamp-projects/dl-for-cyber-threat-detection.md)
+
 ## THM For HND
 
 * [Elastic Stack: The Basics](thm-for-hnd/elastic-stack-the-basics.md)
