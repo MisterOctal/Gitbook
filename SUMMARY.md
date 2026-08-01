@@ -25,6 +25,8 @@
 * [Day 14 - Uptime Kuma](azure-soc-lab/day-0-lab-summary-14.md)
 * [Day 15 - Kibana](azure-soc-lab/day-0-lab-summary-15.md)
 * [Day 16 - KQL 1](azure-soc-lab/day-0-lab-summary-16.md)
+* [Day 17 - Trimming/Reflection](azure-soc-lab/day-0-lab-summary-17.md)
+* [Day 18 - Cowrie + KQL2](azure-soc-lab/day-0-lab-summary-18.md)
 
 ## DataCamp Projects
 
