@@ -20,13 +20,14 @@
 * [Day 9 - Public Exposure](azure-soc-lab/day-0-lab-summary-9.md)
 * [Day 10 - Checkup](azure-soc-lab/day-0-lab-summary-10.md)
 * [Day 11 - Cowrie Modifications](azure-soc-lab/day-0-lab-summary-11.md)
-* [Day 12 - Cowrie Analysis I](azure-soc-lab/day-0-lab-summary-12.md)
-* [Day 13 - Windows Analys I](azure-soc-lab/day-0-lab-summary-13.md)
+* [Day 12 - Cowrie Analysis](azure-soc-lab/day-0-lab-summary-12.md)
+* [Day 13 - Windows Analys](azure-soc-lab/day-0-lab-summary-13.md)
 * [Day 14 - Uptime Kuma](azure-soc-lab/day-0-lab-summary-14.md)
 * [Day 15 - Kibana](azure-soc-lab/day-0-lab-summary-15.md)
 * [Day 16 - KQL 1](azure-soc-lab/day-0-lab-summary-16.md)
 * [Day 17 - Trimming/Reflection](azure-soc-lab/day-0-lab-summary-17.md)
 * [Day 18 - Cowrie + KQL2](azure-soc-lab/day-0-lab-summary-18.md)
+* [Day 19 - KQL 3](azure-soc-lab/day-0-lab-summary-19.md)
 
 ## DataCamp Projects
 
