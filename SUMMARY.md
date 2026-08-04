@@ -28,6 +28,7 @@
 * [Day 17 - Trimming/Reflection](azure-soc-lab/day-0-lab-summary-17.md)
 * [Day 18 - Cowrie + KQL2](azure-soc-lab/day-0-lab-summary-18.md)
 * [Day 19 - KQL 3](azure-soc-lab/day-0-lab-summary-19.md)
+* [Day 20 - Workbooks Analytics](azure-soc-lab/day-0-lab-summary-20.md)
 
 ## DataCamp Projects
 
