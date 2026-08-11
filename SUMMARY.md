@@ -29,6 +29,7 @@
 * [Day 18 - Cowrie + KQL2](azure-soc-lab/day-0-lab-summary-18.md)
 * [Day 19 - KQL 3](azure-soc-lab/day-0-lab-summary-19.md)
 * [Day 20 - Workbooks Analytics](azure-soc-lab/day-0-lab-summary-20.md)
+* [Day 21 - MITRE Mapping](azure-soc-lab/day-0-lab-summary-21.md)
 
 ## DataCamp Projects
 
